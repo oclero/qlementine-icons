@@ -1,4 +1,6 @@
 <RCC>
   <qresource prefix="/">
+    <file alias="edit-redo.svg">qlementine-icons/edit-redo.svg</file>
+    <file alias="edit-redo.svg">qlementine-icons/edit-redo.svg</file>
   </qresource>
 </RCC>
