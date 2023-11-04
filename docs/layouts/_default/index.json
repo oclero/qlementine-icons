@@ -1,0 +1,5 @@
+{{- define "response" -}}
+  {{- $icons := site.Data.icons.icons -}}
+  {{- $data := dict "icons" (sort $icons "name") -}}
+  {{- $data | jsonify -}}
+{{- end -}}

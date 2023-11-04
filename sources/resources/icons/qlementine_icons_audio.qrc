@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/qlementine/icons/">
+    <file alias="speaker-0.svg">audio/speaker-0.svg</file>
+    <file alias="speaker-1.svg">audio/speaker-1.svg</file>
+    <file alias="speaker-2.svg">audio/speaker-2.svg</file>
+    <file alias="speaker-mute.svg">audio/speaker-mute.svg</file>
+  </qresource>
+</RCC>

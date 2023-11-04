@@ -1,0 +1,13 @@
+.svg-icon {
+  display: inline-block;
+  line-height: 0;
+  width: 32px;
+  height: 32px;
+
+  svg,
+  svg path {
+    fill: currentColor;
+    height: 100%;
+    width: auto;
+  }
+}

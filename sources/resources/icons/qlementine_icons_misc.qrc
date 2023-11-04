@@ -1,0 +1,35 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/qlementine/icons/">
+    <file alias="airplane-mode.svg">misc/airplane-mode.svg</file>
+    <file alias="attachement.svg">misc/attachement.svg</file>
+    <file alias="book.svg">misc/book.svg</file>
+    <file alias="calendar.svg">misc/calendar.svg</file>
+    <file alias="clock.svg">misc/clock.svg</file>
+    <file alias="cloud-slash.svg">misc/cloud-slash.svg</file>
+    <file alias="cloud.svg">misc/cloud.svg</file>
+    <file alias="comment.svg">misc/comment.svg</file>
+    <file alias="faq.svg">misc/faq.svg</file>
+    <file alias="gift.svg">misc/gift.svg</file>
+    <file alias="globe.svg">misc/globe.svg</file>
+    <file alias="help.svg">misc/help.svg</file>
+    <file alias="id-card.svg">misc/id-card.svg</file>
+    <file alias="inbox.svg">misc/inbox.svg</file>
+    <file alias="info.svg">misc/info.svg</file>
+    <file alias="location.svg">misc/location.svg</file>
+    <file alias="mail.svg">misc/mail.svg</file>
+    <file alias="megaphone.svg">misc/megaphone.svg</file>
+    <file alias="modified.svg">misc/modified.svg</file>
+    <file alias="password.svg">misc/password.svg</file>
+    <file alias="resume.svg">misc/resume.svg</file>
+    <file alias="spam.svg">misc/spam.svg</file>
+    <file alias="success.svg">misc/success.svg</file>
+    <file alias="tag.svg">misc/tag.svg</file>
+    <file alias="task-past.svg">misc/task-past.svg</file>
+    <file alias="task-soon.svg">misc/task-soon.svg</file>
+    <file alias="task.svg">misc/task.svg</file>
+    <file alias="tool.svg">misc/tool.svg</file>
+    <file alias="unavailable.svg">misc/unavailable.svg</file>
+    <file alias="warning.svg">misc/warning.svg</file>
+  </qresource>
+</RCC>

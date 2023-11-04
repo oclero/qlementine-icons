@@ -1,0 +1,26 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/qlementine/icons/">
+    <file alias="amp.svg">instruments/amp.svg</file>
+    <file alias="bass.svg">instruments/bass.svg</file>
+    <file alias="bongos.svg">instruments/bongos.svg</file>
+    <file alias="clap.svg">instruments/clap.svg</file>
+    <file alias="cymbal.svg">instruments/cymbal.svg</file>
+    <file alias="drumkit.svg">instruments/drumkit.svg</file>
+    <file alias="fretboard.svg">instruments/fretboard.svg</file>
+    <file alias="guitar-machine-head.svg">instruments/guitar-machine-head.svg</file>
+    <file alias="guitar.svg">instruments/guitar.svg</file>
+    <file alias="hi-hat.svg">instruments/hi-hat.svg</file>
+    <file alias="keyboard.svg">instruments/keyboard.svg</file>
+    <file alias="kick.svg">instruments/kick.svg</file>
+    <file alias="mastering.svg">instruments/mastering.svg</file>
+    <file alias="pedal-outlines.svg">instruments/pedal-outlines.svg</file>
+    <file alias="pedal.svg">instruments/pedal.svg</file>
+    <file alias="pedalboard.svg">instruments/pedalboard.svg</file>
+    <file alias="shakers.svg">instruments/shakers.svg</file>
+    <file alias="snare.svg">instruments/snare.svg</file>
+    <file alias="tambourine.svg">instruments/tambourine.svg</file>
+    <file alias="tamtam.svg">instruments/tamtam.svg</file>
+    <file alias="tom.svg">instruments/tom.svg</file>
+  </qresource>
+</RCC>

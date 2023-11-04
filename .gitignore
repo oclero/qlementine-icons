@@ -5,6 +5,7 @@
 Thumbs.db
 ehthumbs.db
 desktop.ini
+$RECYCLE.BIN/
 *~
 *.swp
 ~`~*
@@ -53,3 +54,11 @@ temp/
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Javascript.
+node_modules
+
+# Hugo.
+docs/public
+docs/resources
+.hugo_build.lock

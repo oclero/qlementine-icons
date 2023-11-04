@@ -1,0 +1,100 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid $table-border-outside-color;
+
+  td:nth-child(1),
+  th:nth-child(1) {
+    text-align: center;
+    min-width: 70px;
+    width: max-content;
+  }
+
+  td:nth-child(2),
+  th:nth-child(2) {
+    text-align: left;
+    width: max-content;
+    min-width: 200px;
+  }
+
+  td:nth-child(3),
+  th:nth-child(3) {
+    text-align: left;
+    width: max-content;
+    min-width: 200px;
+  }
+
+  td:nth-child(4),
+  th:nth-child(4) {
+    text-align: left;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+
+  thead {
+    color: $table-header-foreground-color;
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: normal;
+    border: 1px solid $table-border-outside-color;
+
+    tr {
+      background-color: $table-header-background-color;
+
+      th {
+        font-weight: inherit;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid $table-border-inside-color;
+      transition-property: color, background-color;
+      transition-duration: $animation-duration;
+      transition-timing-function: ease-out;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &:nth-child(odd) {
+        background-color: $table-row-background-color;
+      }
+
+      &:nth-child(even) {
+        background-color: $table-row-background-color-alt;
+      }
+
+      &:hover {
+        background-color: $table-row-background-color-hover;
+        color: $table-row-foreground-color-hover;
+      }
+    }
+    td:first-child {
+      cursor: pointer;
+      transition-property: background-color;
+      transition-duration: $animation-duration;
+      transition-timing-function: ease-out;
+
+      &:hover {
+        background-color: $table-cell-background-color-hover;
+      }
+      &:active {
+        background-color: $table-cell-background-color-active;
+      }
+    }
+    td:nth-child(2) {
+      font-family: monospace;
+    }
+
+    td:nth-child(3) {
+      font-family: monospace;
+    }
+  }
+}

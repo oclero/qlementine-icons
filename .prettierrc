@@ -1,0 +1,23 @@
+{
+  "printWidth": 0,
+  "bracketSameLine": true,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "printWidth": 0,
+        "parser": "go-template",
+        "singleQuote": false,
+        "singleAttributePerLine": false
+      }
+    },
+    {
+      "files": ["*.js"],
+      "options": {
+        "printWidth": 100
+      }
+    }
+  ],
+  "goTemplateBracketSpacing": true
+}

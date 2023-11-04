@@ -1,0 +1,15 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/qlementine/icons/">
+    <file alias="adress-book.svg">software/adress-book.svg</file>
+    <file alias="calculator.svg">software/calculator.svg</file>
+    <file alias="character-map.svg">software/character-map.svg</file>
+    <file alias="command-line.svg">software/command-line.svg</file>
+    <file alias="desktop.svg">software/desktop.svg</file>
+    <file alias="dictionary.svg">software/dictionary.svg</file>
+    <file alias="file-manager.svg">software/file-manager.svg</file>
+    <file alias="spell-check.svg">software/spell-check.svg</file>
+    <file alias="system-monitor.svg">software/system-monitor.svg</file>
+    <file alias="text-editor.svg">software/text-editor.svg</file>
+  </qresource>
+</RCC>

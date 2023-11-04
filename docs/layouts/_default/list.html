@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <div
+    class="container content content-container"
+    role="main">
+    <article
+      role="main">
+      <div
+        class="list-header">
+        <h1>
+          {{ .Title | safeHTML }}
+        </h1>
+      </div>
+      {{ .Content }}
+    </article>
+    <ul
+      class="list-items">
+      {{ range .Pages }}
+        <li
+          class="list-item">
+          <a
+            class="list-item-content"
+            href="{{ .RelPermalink }}">
+            <div
+              class="list-item-title">
+              {{- .Title | safeHTML -}}
+            </div>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

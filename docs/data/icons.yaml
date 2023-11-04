@@ -1,0 +1,1249 @@
+icons:
+- name: add-to-cart
+  path: shopping/add-to-cart.svg
+  tags:
+  - shopping
+- name: address-book-add
+  path: action/address-book-add.svg
+  tags:
+  - action
+  - add
+  - address
+  - book
+  - contacts
+  freedesktop: address-book-add
+- name: address-book-remove
+  path: action/address-book-remove.svg
+  tags:
+  - action
+- name: adress-book
+  path: software/adress-book.svg
+  tags:
+  - software
+- name: airplane-mode
+  path: misc/airplane-mode.svg
+  tags:
+  - misc
+- name: align-left
+  path: text/align-left.svg
+  tags:
+  - text
+- name: align-right
+  path: text/align-right.svg
+  tags:
+  - text
+- name: alternate
+  path: action/alternate.svg
+  tags:
+  - action
+- name: amp
+  path: instruments/amp.svg
+  tags:
+  - instruments
+- name: android
+  path: brand/android.svg
+  tags:
+  - brand
+- name: android-fill
+  path: brand/android-fill.svg
+  tags:
+  - brand
+- name: archive
+  path: file/archive.svg
+  tags:
+  - file
+- name: arrow-down
+  path: navigation/arrow-down.svg
+  tags:
+  - arrow
+  - down
+  - move
+  - navigate
+  - navigation
+- name: arrow-left
+  path: navigation/arrow-left.svg
+  tags:
+  - navigation
+- name: arrow-right
+  path: navigation/arrow-right.svg
+  tags:
+  - navigation
+- name: arrow-up
+  path: navigation/arrow-up.svg
+  tags:
+  - navigation
+- name: attachement
+  path: misc/attachement.svg
+  tags:
+  - misc
+- name: audio-interface
+  path: hardware/audio-interface.svg
+  tags:
+  - hardware
+- name: bass
+  path: instruments/bass.svg
+  tags:
+  - instruments
+- name: battery-0
+  path: hardware/battery-0.svg
+  tags:
+  - hardware
+- name: battery-100
+  path: hardware/battery-100.svg
+  tags:
+  - hardware
+- name: battery-20
+  path: hardware/battery-20.svg
+  tags:
+  - hardware
+- name: battery-40
+  path: hardware/battery-40.svg
+  tags:
+  - hardware
+- name: battery-60
+  path: hardware/battery-60.svg
+  tags:
+  - hardware
+- name: battery-80
+  path: hardware/battery-80.svg
+  tags:
+  - hardware
+- name: bluetooth
+  path: hardware/bluetooth.svg
+  tags:
+  - hardware
+- name: bongos
+  path: instruments/bongos.svg
+  tags:
+  - instruments
+- name: book
+  path: misc/book.svg
+  tags:
+  - misc
+- name: bookmark
+  path: navigation/bookmark.svg
+  tags:
+  - navigation
+- name: calculator
+  path: software/calculator.svg
+  tags:
+  - software
+- name: calendar
+  path: misc/calendar.svg
+  tags:
+  - misc
+- name: camera
+  path: hardware/camera.svg
+  tags:
+  - hardware
+- name: cashier-ticket
+  path: shopping/cashier-ticket.svg
+  tags:
+  - shopping
+- name: center
+  path: text/center.svg
+  tags:
+  - text
+- name: certificate
+  path: file/certificate.svg
+  tags:
+  - file
+- name: character-map
+  path: software/character-map.svg
+  tags:
+  - software
+- name: check-tick
+  path: shape/check-tick.svg
+  tags:
+  - shape
+- name: chevron-left
+  path: navigation/chevron-left.svg
+  tags:
+  - navigation
+- name: chevron-left-double
+  path: navigation/chevron-left-double.svg
+  tags:
+  - navigation
+- name: chevron-right
+  path: navigation/chevron-right.svg
+  tags:
+  - navigation
+- name: chevron-right-double
+  path: navigation/chevron-right-double.svg
+  tags:
+  - navigation
+- name: circle
+  path: shape/circle.svg
+  tags:
+  - shape
+- name: circle-filled
+  path: shape/circle-filled.svg
+  tags:
+  - shape
+- name: clap
+  path: instruments/clap.svg
+  tags:
+  - instruments
+- name: clear
+  path: action/clear.svg
+  tags:
+  - action
+- name: clock
+  path: misc/clock.svg
+  tags:
+  - misc
+- name: close
+  path: action/close.svg
+  tags:
+  - action
+- name: close-small
+  path: action/close-small.svg
+  tags:
+  - action
+- name: cloud
+  path: misc/cloud.svg
+  tags:
+  - misc
+- name: cloud-slash
+  path: misc/cloud-slash.svg
+  tags:
+  - misc
+- name: combobox-indicator
+  path: navigation/combobox-indicator.svg
+  tags:
+  - navigation
+- name: command-line
+  path: software/command-line.svg
+  tags:
+  - software
+- name: comment
+  path: misc/comment.svg
+  tags:
+  - misc
+- name: computer
+  path: hardware/computer.svg
+  tags:
+  - hardware
+- name: copy
+  path: action/copy.svg
+  tags:
+  - action
+- name: cpu
+  path: hardware/cpu.svg
+  tags:
+  - hardware
+- name: credit_card
+  path: shopping/credit_card.svg
+  tags:
+  - shopping
+- name: cube
+  path: shape/cube.svg
+  tags:
+  - shape
+- name: cut
+  path: action/cut.svg
+  tags:
+  - action
+- name: cymbal
+  path: instruments/cymbal.svg
+  tags:
+  - instruments
+- name: desktop
+  path: software/desktop.svg
+  tags:
+  - software
+- name: dictionary
+  path: software/dictionary.svg
+  tags:
+  - software
+- name: disk
+  path: hardware/disk.svg
+  tags:
+  - hardware
+- name: disk-1
+  path: hardware/disk-1.svg
+  tags:
+  - hardware
+- name: down
+  path: action/down.svg
+  tags:
+  - action
+- name: download
+  path: action/download.svg
+  tags:
+  - action
+- name: drag
+  path: action/drag.svg
+  tags:
+  - action
+- name: drumkit
+  path: instruments/drumkit.svg
+  tags:
+  - instruments
+- name: eject
+  path: media/eject.svg
+  tags:
+  - media
+- name: erase
+  path: action/erase.svg
+  tags:
+  - action
+- name: eraser
+  path: action/eraser.svg
+  tags:
+  - action
+- name: ethernet
+  path: hardware/ethernet.svg
+  tags:
+  - hardware
+- name: executable
+  path: file/executable.svg
+  tags:
+  - file
+- name: export
+  path: action/export.svg
+  tags:
+  - action
+- name: external-link
+  path: action/external-link.svg
+  tags:
+  - action
+- name: eye
+  path: action/eye.svg
+  tags:
+  - action
+- name: facebook
+  path: brand/facebook.svg
+  tags:
+  - brand
+- name: facebook-fill
+  path: brand/facebook-fill.svg
+  tags:
+  - brand
+- name: faq
+  path: misc/faq.svg
+  tags:
+  - misc
+- name: file
+  path: file/file.svg
+  tags:
+  - file
+- name: file-html
+  path: file/file-html.svg
+  tags:
+  - file
+- name: file-manager
+  path: software/file-manager.svg
+  tags:
+  - software
+- name: file-script
+  path: file/file-script.svg
+  tags:
+  - file
+- name: file-text
+  path: file/file-text.svg
+  tags:
+  - file
+- name: fill
+  path: text/fill.svg
+  tags:
+  - text
+- name: filter
+  path: action/filter.svg
+  tags:
+  - action
+- name: flag
+  path: navigation/flag.svg
+  tags:
+  - navigation
+- name: folder
+  path: file/folder.svg
+  tags:
+  - file
+- name: folder-filled
+  path: file/folder-filled.svg
+  tags:
+  - file
+- name: folder-open
+  path: file/folder-open.svg
+  tags:
+  - file
+- name: font
+  path: file/font.svg
+  tags:
+  - file
+- name: format-bold
+  path: text/format-bold.svg
+  tags:
+  - text
+- name: format-italic
+  path: text/format-italic.svg
+  tags:
+  - text
+- name: format-strikethrough
+  path: text/format-strikethrough.svg
+  tags:
+  - text
+- name: format-underline
+  path: text/format-underline.svg
+  tags:
+  - text
+- name: forward
+  path: action/forward.svg
+  tags:
+  - action
+- name: fretboard
+  path: instruments/fretboard.svg
+  tags:
+  - instruments
+- name: fullscreen
+  path: action/fullscreen.svg
+  tags:
+  - action
+- name: fullscreen-exit
+  path: action/fullscreen-exit.svg
+  tags:
+  - action
+- name: gamepad
+  path: hardware/gamepad.svg
+  tags:
+  - hardware
+- name: gift
+  path: misc/gift.svg
+  tags:
+  - misc
+- name: globe
+  path: misc/globe.svg
+  tags:
+  - misc
+- name: go-bottom
+  path: navigation/go-bottom.svg
+  tags:
+  - navigation
+- name: go-first
+  path: navigation/go-first.svg
+  tags:
+  - navigation
+- name: go-last
+  path: navigation/go-last.svg
+  tags:
+  - navigation
+- name: go-top
+  path: navigation/go-top.svg
+  tags:
+  - navigation
+- name: gpu
+  path: hardware/gpu.svg
+  tags:
+  - hardware
+- name: guitar
+  path: instruments/guitar.svg
+  tags:
+  - instruments
+- name: guitar-machine-head
+  path: instruments/guitar-machine-head.svg
+  tags:
+  - instruments
+- name: hand
+  path: navigation/hand.svg
+  tags:
+  - navigation
+- name: hdd
+  path: hardware/hdd.svg
+  tags:
+  - hardware
+- name: headphones
+  path: hardware/headphones.svg
+  tags:
+  - hardware
+- name: headset
+  path: hardware/headset.svg
+  tags:
+  - hardware
+- name: heart
+  path: shape/heart.svg
+  tags:
+  - shape
+- name: heart-filled
+  path: shape/heart-filled.svg
+  tags:
+  - shape
+- name: help
+  path: misc/help.svg
+  tags:
+  - misc
+- name: hi-hat
+  path: instruments/hi-hat.svg
+  tags:
+  - instruments
+- name: home
+  path: navigation/home.svg
+  tags:
+  - navigation
+- name: id-card
+  path: misc/id-card.svg
+  tags:
+  - misc
+- name: inbox
+  path: misc/inbox.svg
+  tags:
+  - misc
+- name: indent-less
+  path: text/indent-less.svg
+  tags:
+  - text
+- name: indent-more
+  path: text/indent-more.svg
+  tags:
+  - text
+- name: info
+  path: misc/info.svg
+  tags:
+  - misc
+- name: instagram
+  path: brand/instagram.svg
+  tags:
+  - brand
+- name: instagram-fill
+  path: brand/instagram-fill.svg
+  tags:
+  - brand
+- name: jump
+  path: navigation/jump.svg
+  tags:
+  - navigation
+- name: jump-over
+  path: navigation/jump-over.svg
+  tags:
+  - navigation
+- name: justify-left
+  path: text/justify-left.svg
+  tags:
+  - text
+- name: justify-right
+  path: text/justify-right.svg
+  tags:
+  - text
+- name: key-cmd
+  path: navigation/key-cmd.svg
+  tags:
+  - navigation
+- name: key-ctrl
+  path: navigation/key-ctrl.svg
+  tags:
+  - navigation
+- name: key-opt
+  path: navigation/key-opt.svg
+  tags:
+  - navigation
+- name: key-return
+  path: navigation/key-return.svg
+  tags:
+  - navigation
+- name: key-shift
+  path: navigation/key-shift.svg
+  tags:
+  - navigation
+- name: keyboard
+  path: instruments/keyboard.svg
+  tags:
+  - instruments
+- name: kick
+  path: instruments/kick.svg
+  tags:
+  - instruments
+- name: layers
+  path: navigation/layers.svg
+  tags:
+  - navigation
+- name: layout-pages-horizontal
+  path: page/layout-pages-horizontal.svg
+  tags:
+  - page
+- name: layout-pages-vertical
+  path: page/layout-pages-vertical.svg
+  tags:
+  - page
+- name: layout-pages-wrap
+  path: page/layout-pages-wrap.svg
+  tags:
+  - page
+- name: layout-parchment
+  path: page/layout-parchment.svg
+  tags:
+  - page
+- name: layout-screen-horizontal
+  path: page/layout-screen-horizontal.svg
+  tags:
+  - page
+- name: layout-screen-vertical
+  path: page/layout-screen-vertical.svg
+  tags:
+  - page
+- name: left-to-right
+  path: text/left-to-right.svg
+  tags:
+  - text
+- name: location
+  path: misc/location.svg
+  tags:
+  - misc
+- name: lock
+  path: action/lock.svg
+  tags:
+  - action
+- name: lock-screen
+  path: action/lock-screen.svg
+  tags:
+  - action
+- name: log-in
+  path: action/log-in.svg
+  tags:
+  - action
+- name: log-out
+  path: action/log-out.svg
+  tags:
+  - action
+- name: loop
+  path: media/loop.svg
+  tags:
+  - media
+- name: mac
+  path: brand/mac.svg
+  tags:
+  - brand
+- name: mail
+  path: misc/mail.svg
+  tags:
+  - misc
+- name: map
+  path: navigation/map.svg
+  tags:
+  - navigation
+- name: mastering
+  path: instruments/mastering.svg
+  tags:
+  - instruments
+- name: media
+  path: file/media.svg
+  tags:
+  - file
+- name: megaphone
+  path: misc/megaphone.svg
+  tags:
+  - misc
+- name: memory
+  path: hardware/memory.svg
+  tags:
+  - hardware
+- name: menu-burger
+  path: navigation/menu-burger.svg
+  tags:
+  - navigation
+- name: menu-dots
+  path: navigation/menu-dots.svg
+  tags:
+  - navigation
+- name: menu-dots-circle
+  path: navigation/menu-dots-circle.svg
+  tags:
+  - navigation
+- name: microphone
+  path: hardware/microphone.svg
+  tags:
+  - hardware
+- name: midi
+  path: brand/midi.svg
+  tags:
+  - brand
+- name: minus
+  path: action/minus.svg
+  tags:
+  - action
+- name: minus-circle
+  path: action/minus-circle.svg
+  tags:
+  - action
+- name: modem
+  path: hardware/modem.svg
+  tags:
+  - hardware
+- name: modified
+  path: misc/modified.svg
+  tags:
+  - misc
+- name: mouse
+  path: hardware/mouse.svg
+  tags:
+  - hardware
+- name: mouse-cursor
+  path: navigation/mouse-cursor.svg
+  tags:
+  - navigation
+- name: mouse-left-button
+  path: navigation/mouse-left-button.svg
+  tags:
+  - navigation
+- name: mouse-middle-button
+  path: navigation/mouse-middle-button.svg
+  tags:
+  - navigation
+- name: mouse-right-button
+  path: navigation/mouse-right-button.svg
+  tags:
+  - navigation
+- name: mouse-selection
+  path: navigation/mouse-selection.svg
+  tags:
+  - navigation
+- name: move
+  path: action/move.svg
+  tags:
+  - action
+- name: movie
+  path: file/movie.svg
+  tags:
+  - file
+- name: network
+  path: hardware/network.svg
+  tags:
+  - hardware
+- name: new
+  path: document/new.svg
+  tags:
+  - action
+  - create
+  - document
+  freedesktop: document-new
+- name: note
+  path: file/note.svg
+  tags:
+  - file
+- name: notification-bell
+  path: navigation/notification-bell.svg
+  tags:
+  - navigation
+- name: on-off
+  path: action/on-off.svg
+  tags:
+  - action
+- name: open
+  path: document/open.svg
+  tags:
+  - document
+- name: open-recent
+  path: document/open-recent.svg
+  tags:
+  - document
+- name: page
+  path: page/page.svg
+  tags:
+  - page
+- name: page-landscape
+  path: page/page-landscape.svg
+  tags:
+  - page
+- name: page-portrait
+  path: page/page-portrait.svg
+  tags:
+  - page
+- name: page-setup
+  path: document/page-setup.svg
+  tags:
+  - document
+- name: page-text
+  path: page/page-text.svg
+  tags:
+  - page
+- name: password
+  path: misc/password.svg
+  tags:
+  - misc
+- name: paste
+  path: action/paste.svg
+  tags:
+  - action
+- name: pause
+  path: media/pause.svg
+  tags:
+  - media
+- name: pda
+  path: hardware/pda.svg
+  tags:
+  - hardware
+- name: pedal
+  path: instruments/pedal.svg
+  tags:
+  - instruments
+- name: pedal-outlines
+  path: instruments/pedal-outlines.svg
+  tags:
+  - instruments
+- name: pedalboard
+  path: instruments/pedalboard.svg
+  tags:
+  - instruments
+- name: pen
+  path: action/pen.svg
+  tags:
+  - action
+- name: phone
+  path: hardware/phone.svg
+  tags:
+  - hardware
+- name: photo-camera
+  path: hardware/photo-camera.svg
+  tags:
+  - hardware
+- name: picture
+  path: file/picture.svg
+  tags:
+  - file
+- name: pin
+  path: action/pin.svg
+  tags:
+  - action
+- name: play
+  path: media/play.svg
+  tags:
+  - media
+- name: play-stroke
+  path: media/play-stroke.svg
+  tags:
+  - media
+- name: plugin
+  path: file/plugin.svg
+  tags:
+  - file
+- name: plus
+  path: action/plus.svg
+  tags:
+  - action
+- name: plus-circle
+  path: action/plus-circle.svg
+  tags:
+  - action
+- name: preset
+  path: file/preset.svg
+  tags:
+  - file
+- name: print
+  path: action/print.svg
+  tags:
+  - action
+- name: print-preview
+  path: action/print-preview.svg
+  tags:
+  - action
+- name: properties
+  path: document/properties.svg
+  tags:
+  - document
+- name: record
+  path: media/record.svg
+  tags:
+  - media
+- name: redo
+  path: action/redo.svg
+  tags:
+  - action
+- name: refresh
+  path: action/refresh.svg
+  tags:
+  - action
+- name: replace
+  path: action/replace.svg
+  tags:
+  - action
+- name: reply
+  path: action/reply.svg
+  tags:
+  - action
+- name: reply-all
+  path: action/reply-all.svg
+  tags:
+  - action
+- name: reset
+  path: action/reset.svg
+  tags:
+  - action
+- name: resume
+  path: misc/resume.svg
+  tags:
+  - misc
+- name: right-to-left
+  path: text/right-to-left.svg
+  tags:
+  - text
+- name: rss
+  path: brand/rss.svg
+  tags:
+  - brand
+- name: run
+  path: action/run.svg
+  tags:
+  - action
+- name: save
+  path: action/save.svg
+  tags:
+  - action
+- name: save-to-disk
+  path: action/save-to-disk.svg
+  tags:
+  - action
+- name: scanner
+  path: hardware/scanner.svg
+  tags:
+  - hardware
+- name: screen
+  path: hardware/screen.svg
+  tags:
+  - hardware
+- name: screenshot
+  path: action/screenshot.svg
+  tags:
+  - action
+- name: search
+  path: navigation/search.svg
+  tags:
+  - navigation
+- name: seek-backward
+  path: media/seek-backward.svg
+  tags:
+  - media
+- name: seek-forward
+  path: media/seek-forward.svg
+  tags:
+  - media
+- name: select-all
+  path: action/select-all.svg
+  tags:
+  - action
+- name: send
+  path: action/send.svg
+  tags:
+  - action
+- name: send-receive
+  path: action/send-receive.svg
+  tags:
+  - action
+- name: settings
+  path: navigation/settings.svg
+  tags:
+  - navigation
+- name: shakers
+  path: instruments/shakers.svg
+  tags:
+  - instruments
+- name: share
+  path: action/share.svg
+  tags:
+  - action
+- name: shopping-bag
+  path: shopping/shopping-bag.svg
+  tags:
+  - shopping
+- name: shopping-cart
+  path: shopping/shopping-cart.svg
+  tags:
+  - shopping
+- name: shuffle
+  path: media/shuffle.svg
+  tags:
+  - media
+- name: skip-backward
+  path: media/skip-backward.svg
+  tags:
+  - media
+- name: skip-forward
+  path: media/skip-forward.svg
+  tags:
+  - media
+- name: sliders-horizontal
+  path: navigation/sliders-horizontal.svg
+  tags:
+  - navigation
+- name: sliders-vertical
+  path: navigation/sliders-vertical.svg
+  tags:
+  - navigation
+- name: smartphone
+  path: hardware/smartphone.svg
+  tags:
+  - hardware
+- name: snapshot
+  path: action/snapshot.svg
+  tags:
+  - action
+- name: snare
+  path: instruments/snare.svg
+  tags:
+  - instruments
+- name: sort-alpha-asc
+  path: action/sort-alpha-asc.svg
+  tags:
+  - action
+- name: sort-alpha-desc
+  path: action/sort-alpha-desc.svg
+  tags:
+  - action
+- name: sort-asc
+  path: action/sort-asc.svg
+  tags:
+  - action
+- name: sort-desc
+  path: action/sort-desc.svg
+  tags:
+  - action
+- name: sort-time-asc
+  path: action/sort-time-asc.svg
+  tags:
+  - action
+- name: sort-time-desc
+  path: action/sort-time-desc.svg
+  tags:
+  - action
+- name: spam
+  path: misc/spam.svg
+  tags:
+  - misc
+- name: speaker-0
+  path: audio/speaker-0.svg
+  tags:
+  - audio
+- name: speaker-1
+  path: audio/speaker-1.svg
+  tags:
+  - audio
+- name: speaker-2
+  path: audio/speaker-2.svg
+  tags:
+  - audio
+- name: speaker-mute
+  path: audio/speaker-mute.svg
+  tags:
+  - audio
+- name: spell-check
+  path: software/spell-check.svg
+  tags:
+  - software
+- name: square
+  path: shape/square.svg
+  tags:
+  - shape
+- name: square-filled
+  path: shape/square-filled.svg
+  tags:
+  - shape
+- name: star
+  path: shape/star.svg
+  tags:
+  - shape
+- name: star-filled
+  path: shape/star-filled.svg
+  tags:
+  - shape
+- name: step-into
+  path: navigation/step-into.svg
+  tags:
+  - navigation
+- name: step-out
+  path: navigation/step-out.svg
+  tags:
+  - navigation
+- name: stop
+  path: media/stop.svg
+  tags:
+  - media
+- name: success
+  path: misc/success.svg
+  tags:
+  - misc
+- name: swap
+  path: action/swap.svg
+  tags:
+  - action
+- name: system-monitor
+  path: software/system-monitor.svg
+  tags:
+  - software
+- name: tablet
+  path: hardware/tablet.svg
+  tags:
+  - hardware
+- name: tag
+  path: misc/tag.svg
+  tags:
+  - misc
+- name: tambourine
+  path: instruments/tambourine.svg
+  tags:
+  - instruments
+- name: tamtam
+  path: instruments/tamtam.svg
+  tags:
+  - instruments
+- name: tape
+  path: hardware/tape.svg
+  tags:
+  - hardware
+- name: task
+  path: misc/task.svg
+  tags:
+  - misc
+- name: task-past
+  path: misc/task-past.svg
+  tags:
+  - misc
+- name: task-soon
+  path: misc/task-soon.svg
+  tags:
+  - misc
+- name: text-editor
+  path: software/text-editor.svg
+  tags:
+  - software
+- name: tom
+  path: instruments/tom.svg
+  tags:
+  - instruments
+- name: tool
+  path: misc/tool.svg
+  tags:
+  - misc
+- name: trash
+  path: action/trash.svg
+  tags:
+  - action
+- name: trash-full
+  path: action/trash-full.svg
+  tags:
+  - action
+- name: triangle
+  path: shape/triangle.svg
+  tags:
+  - shape
+- name: triangle-filled
+  path: shape/triangle-filled.svg
+  tags:
+  - shape
+- name: twitter
+  path: brand/twitter.svg
+  tags:
+  - brand
+- name: twitter-fill
+  path: brand/twitter-fill.svg
+  tags:
+  - brand
+- name: ui-panel-bottom
+  path: navigation/ui-panel-bottom.svg
+  tags:
+  - navigation
+- name: ui-panel-left
+  path: navigation/ui-panel-left.svg
+  tags:
+  - navigation
+- name: ui-panel-right
+  path: navigation/ui-panel-right.svg
+  tags:
+  - navigation
+- name: ui-panel-top
+  path: navigation/ui-panel-top.svg
+  tags:
+  - navigation
+- name: unavailable
+  path: misc/unavailable.svg
+  tags:
+  - misc
+- name: undo
+  path: action/undo.svg
+  tags:
+  - action
+- name: up
+  path: navigation/up.svg
+  tags:
+  - navigation
+- name: update
+  path: action/update.svg
+  tags:
+  - action
+- name: usb-key
+  path: hardware/usb-key.svg
+  tags:
+  - hardware
+- name: user
+  path: navigation/user.svg
+  tags:
+  - navigation
+- name: view-page-all
+  path: page/view-page-all.svg
+  tags:
+  - page
+- name: view-page-facing
+  path: page/view-page-facing.svg
+  tags:
+  - page
+- name: view-page-single
+  path: page/view-page-single.svg
+  tags:
+  - page
+- name: vst3
+  path: brand/vst3.svg
+  tags:
+  - brand
+- name: warning
+  path: misc/warning.svg
+  tags:
+  - misc
+- name: webcam
+  path: hardware/webcam.svg
+  tags:
+  - hardware
+- name: windows
+  path: brand/windows.svg
+  tags:
+  - brand
+- name: youtube
+  path: brand/youtube.svg
+  tags:
+  - brand
+- name: youtube-fill
+  path: brand/youtube-fill.svg
+  tags:
+  - brand
+- name: zoom
+  path: navigation/zoom.svg
+  tags:
+  - navigation
+- name: zoom-fit
+  path: action/zoom-fit.svg
+  tags:
+  - action
+- name: zoom-fit-height
+  path: page/zoom-fit-height.svg
+  tags:
+  - page
+- name: zoom-fit-page
+  path: page/zoom-fit-page.svg
+  tags:
+  - page
+- name: zoom-fit-screen
+  path: page/zoom-fit-screen.svg
+  tags:
+  - page
+- name: zoom-fit-width
+  path: page/zoom-fit-width.svg
+  tags:
+  - page
+- name: zoom-in
+  path: action/zoom-in.svg
+  tags:
+  - action
+- name: zoom-original
+  path: action/zoom-original.svg
+  tags:
+  - action
+- name: zoom-out
+  path: action/zoom-out.svg
+  tags:
+  - action

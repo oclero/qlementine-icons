@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div
+    role="main"
+    class="home container content">
+    <h1>
+      Qlementine
+      Icons
+    </h1>
+    {{- partial "components/searchbox" "searchbox" -}}
+    {{- partial "components/icon-list" "list" -}}
+    {{- partial "components/no-results" "noresults" -}}
+  </div>
+{{ end }}

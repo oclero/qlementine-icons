@@ -1,0 +1,24 @@
+{{- define "main" -}}
+  <div
+    class="container single-header-container">
+    <div
+      class="article-header">
+      <div
+        class="container">
+        <h1>
+          {{ .Title | safeHTML }}
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div
+    class="container content content-container">
+    <main
+      class="article-grid">
+      <article
+        role="main">
+        {{- .Content -}}
+      </article>
+    </main>
+  </div>
+{{- end -}}
