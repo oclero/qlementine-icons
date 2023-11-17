@@ -32,19 +32,24 @@ function ensureIndexFetched() {
   if (fetchedList !== null) return;
 
   fetchJsonIndex(INDEX_URL, (data) => {
-    const normalizedList = data.icons.map((item) => {
-      return {
-        name: item.name,
-        normalizedName: normalizeString(item.name),
-        path: item.path,
-        freedesktop: item.freedesktop,
-        tags: item.tags,
-      };
-    });
-    fetchedList = normalizedList;
+    if (data && data.hasOwnProperty('icons')) {
+      const normalizedList = data.icons.map((item) => {
+        return {
+          name: item.name,
+          normalizedName: normalizeString(item.name),
+          path: item.path,
+          freedesktop: item.freedesktop,
+          tags: item.tags,
+        };
+      });
+      fetchedList = normalizedList;
 
-    if (searchText.length > MIN_SEARCH_TEXT_LENGTH) {
-      triggerSearch();
+      if (searchText.length > MIN_SEARCH_TEXT_LENGTH) {
+        triggerSearch();
+      }
+    } else {
+      fetchedList = null;
+      searchText = '';
     }
   });
 }
