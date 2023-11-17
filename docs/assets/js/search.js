@@ -4,7 +4,7 @@ const MIN_SEARCH_TEXT_LENGTH = 2;
 
 const IGNORED_WORDS = ['a', 'an', 'the'];
 
-const INDEX_URL = `${window.location.origin}/index.json`;
+const INDEX_URL = BASE_URL + 'index.json';
 
 let fetchedList = null;
 let searchText = '';

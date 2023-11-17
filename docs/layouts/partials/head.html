@@ -229,16 +229,20 @@
 
 
   <!-- JS -->
+  {{- $jsParams := resources.Get "js/params.js" | resources.ExecuteAsTemplate "js/params.js" . -}}
   {{- $jsSearch := resources.Get "js/search.js" -}}
+  {{- $allJsFiles := slice
+    $jsParams
+    $jsSearch
+  -}}
   {{- if .Site.IsServer -}}
-    <script
-      src="{{- $jsSearch.RelPermalink -}}"
-      defer></script>
+    {{- range $allJsFiles -}}
+      <script
+        src="{{- .RelPermalink -}}"
+        defer></script>
+    {{- end -}}
   {{- else -}}
     <!-- Bundle everything in only one file -->
-    {{- $allJsFiles := slice
-      $jsSearch
-    -}}
     {{- $jsResource := $allJsFiles | resources.Concat "js/main.js" | js.Build -}}
     {{- $jsFile := $jsResource | resources.Minify -}}
     {{ $secureJsResource := $jsFile | resources.Fingerprint "sha512" }}
