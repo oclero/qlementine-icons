@@ -1,5 +1,7 @@
 <div align="center">
+<a href="https://oclero.github.io/qlementine-icons">
 	<img style="margin-bottom: 2em;" src="docs/assets/img/thumbnail.png">
+</a>
 </div>
 
 # Qlementine Icons
