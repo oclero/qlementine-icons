@@ -170,7 +170,7 @@ function setupTableRows() {
     const iconCell = cells[0];
     iconCell.addEventListener('click', () => {
       const iconName = `${row.dataset.name}.svg`;
-      const iconUrl = `${window.location.origin}/${row.dataset.url}`;
+      const iconUrl = BASE_URL + row.dataset.url;
       triggerFileDownload(iconName, iconUrl);
     });
   }
