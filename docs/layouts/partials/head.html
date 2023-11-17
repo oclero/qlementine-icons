@@ -27,8 +27,8 @@
     {{- $pageTitle = print $title "&nbsp;—&nbsp;" $siteName -}}
   {{- end -}}
 
-  {{- $baseURL := .Site.Params.baseURL -}}
-  {{- $pageFullURL := print $baseURL .Permalink -}}
+  {{- $baseURL := .Site.BaseURL -}}
+  {{- $pageFullURL := .Permalink -}}
 
   {{- $themeColor := "#2e1b66" -}}
 
@@ -162,7 +162,7 @@
 
   <!-- Facebook OpenGraph -->
   {{- $facebookThumbnail := $thumbnailResource.Fit "1200x630 jpg q90 Lanczos Smart" -}}
-  {{- $facebookThumbnailUrl := print $baseURL $facebookThumbnail.RelPermalink -}}
+  {{- $facebookThumbnailUrl := print $facebookThumbnail.RelPermalink -}}
   <meta
     property="og:locale"
     content="en_US" />
@@ -199,7 +199,7 @@
 
   <!-- Twitter -->
   {{- $twitterThumbnail := $thumbnailResource.Fit "1200x600 jpg q90 Lanczos Smart" -}}
-  {{- $twitterThumbnailUrl := print $baseURL $twitterThumbnail.RelPermalink -}}
+  {{- $twitterThumbnailUrl := print $twitterThumbnail.RelPermalink -}}
   <meta
     name="twitter:card"
     content="summary_large_image" />
