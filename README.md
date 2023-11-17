@@ -10,7 +10,7 @@
 [![Qt5 version](https://img.shields.io/badge/Qt-5.15.2+-41CD52?logo=qt)](https://www.qt.io)
 [![Qt6 version](https://img.shields.io/badge/Qt-6.0.0+-41CD52?logo=qt)](https://www.qt.io)
 
-[![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml)
+[![Linux](<[![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml)>)
 
 Icon set for modern desktop Qt5/Qt6 applications.
 
