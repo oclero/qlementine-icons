@@ -27,7 +27,6 @@
     {{- $pageTitle = print $title "&nbsp;—&nbsp;" $siteName -}}
   {{- end -}}
 
-  {{- $baseURL := .Site.BaseURL -}}
   {{- $pageFullURL := .Permalink -}}
 
   {{- $themeColor := "#2e1b66" -}}
@@ -108,7 +107,7 @@
       rel="icon"
       type="image/png"
       sizes="{{ $iconSize }}"
-      href="{{ $resizedImage.RelPermalink }}" />
+      href="{{ $resizedImage.Permalink }}" />
   {{- end -}}
 
 
@@ -120,7 +119,7 @@
     <link
       rel="apple-touch-icon"
       sizes="{{ $iconSize }}"
-      ref="{{ $resizedImage.RelPermalink }}" />
+      ref="{{ $resizedImage.Permalink }}" />
   {{- end -}}
 
 
@@ -132,7 +131,7 @@
     <link
       rel="shortcut icon"
       sizes="{{ $iconSize }}"
-      href="{{ $resizedImage.RelPermalink }}" />
+      href="{{ $resizedImage.Permalink }}" />
   {{- end -}}
 
 
@@ -147,14 +146,14 @@
     {{- $resizedImage := $faviconResource.Fit (print $iconSize " png") -}}
     <meta
       name="{{ $iconName }}"
-      content="{{ $resizedImage.RelPermalink }}" />
+      content="{{ $resizedImage.Permalink }}" />
   {{- end -}}
   {{- range $size := (slice "270") -}}
     {{- $iconSize := (print $size "x" $size) -}}
     {{- $resizedImage := $faviconResource.Fit (print $iconSize " png") -}}
     <meta
       name="msapplication-TileImage"
-      content="{{ $resizedImage.RelPermalink }}" />
+      content="{{ $resizedImage.Permalink }}" />
   {{- end -}}
   <meta
     name="msapplication-config"
@@ -162,7 +161,7 @@
 
   <!-- Facebook OpenGraph -->
   {{- $facebookThumbnail := $thumbnailResource.Fit "1200x630 jpg q90 Lanczos Smart" -}}
-  {{- $facebookThumbnailUrl := print $facebookThumbnail.RelPermalink -}}
+  {{- $facebookThumbnailUrl := $facebookThumbnail.Permalink -}}
   <meta
     property="og:locale"
     content="en_US" />
@@ -199,7 +198,7 @@
 
   <!-- Twitter -->
   {{- $twitterThumbnail := $thumbnailResource.Fit "1200x600 jpg q90 Lanczos Smart" -}}
-  {{- $twitterThumbnailUrl := print $twitterThumbnail.RelPermalink -}}
+  {{- $twitterThumbnailUrl := $twitterThumbnail.Permalink -}}
   <meta
     name="twitter:card"
     content="summary_large_image" />
