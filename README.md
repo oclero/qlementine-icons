@@ -1,12 +1,12 @@
 <div align="center">
-	<img height="50" src="branding/logo.svg">
+	<img style="margin-bottom: 2em;" src="docs/assets/img/thumbnail.png">
 </div>
 
 # Qlementine Icons
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://mit-license.org/)
 
-Freedesktop icon set for modern desktop Qt5 applications.
+Icon set for modern desktop Qt5/Qt6 applications.
 
 ---
 
@@ -25,7 +25,7 @@ This repository is an icon set aimed to be used in conjunction with my Qt librar
 
 This icon set provides all the icons as requested by the [Freedesktop standard](http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html), and vastly expands it, in the following sizes:
 
-  - 16x16 pixels
+- 16x16 pixels
 
 > **Note:** Work in progress. Follow the progress [here](https://docs.google.com/spreadsheets/d/1lwPe_WPdQkgOCCKtCJghRR6EkeCQXrv96WzCUMdAfRE/edit?usp=sharing).
 >
