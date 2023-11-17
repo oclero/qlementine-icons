@@ -5,6 +5,12 @@
 # Qlementine Icons
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://mit-license.org/)
+[![CMake version](https://img.shields.io/badge/CMake-3.17+-064F8C?logo=cmake)](https://www.qt.io)
+[![C++ version](https://img.shields.io/badge/C++-17-00599C?logo=++)](https://www.qt.io)
+[![Qt5 version](https://img.shields.io/badge/Qt-5.15.2+-41CD52?logo=qt)](https://www.qt.io)
+[![Qt6 version](https://img.shields.io/badge/Qt-6.0.0+-41CD52?logo=qt)](https://www.qt.io)
+
+[![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml)
 
 Icon set for modern desktop Qt5/Qt6 applications.
 
