@@ -45,8 +45,8 @@ int main(int argc, char* argv[]) {
   const QPixmap pixmap2 = QIcon(":/qlementine/icons/redo.svg").pixmap(QSize(32, 32));
 
   // METHOD 3: Get the image from the icon theme. You can also get the size you want.
-  const auto freeDesktopName = oclero::qlementine::icons::fromFreeDesktop("edit-redo");
-  const QPixmap pixmap3 = QIcon::fromTheme(freeDesktopName).pixmap(QSize(64, 64));
+  const auto iconName = oclero::qlementine::icons::fromFreeDesktop("edit-redo");
+  const QPixmap pixmap3 = QIcon::fromTheme(iconName).pixmap(QSize(64, 64));
 
   // Display the images.
   for (const auto& pixmap : { &pixmap1, &pixmap2, &pixmap3 }) {

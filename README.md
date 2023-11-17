@@ -65,23 +65,41 @@ This icon set provides all the icons as requested by the [Freedesktop standard](
    oclero::qlementine::icons::initializeIconTheme();
    ```
 
-6. Define the `QIcon` theme on your `QApplication`.
+6. Define the **icon theme** on your `QApplication`.
 
    ```c++
    QIcon::setThemeName("qlementine");
    ```
 
-7. When you want to retrieve an icon, use the standard identifier as defined by the Freedesktop specification.
+7. When you want to retrieve an icon, you can use one of these methods:
 
-   ```c++
-   const auto icon = QIcon::fromTheme("edit-undo");
-   ```
+   1. With `QIcon::fromTheme()`, by using the icon name.
 
-8. You can also get the image by getting a `QPixmap` and choosing a size. Since the icons are SVG files, it won't be aliased.
+      ```c++
+      const auto icon = QIcon::fromTheme("redo");
+      const auto pixmap = icon.pixmap(QSize(16, 16));
+      ```
 
-   ```c++
-   const auto pixmap = QIcon::fromTheme("edit-redo").pixmap(QSize(64, 64));
-   ```
+   2. With `QIcon::fromTheme()`, by using the Freedesktop standard identifier, **if the icon has one**.
+
+      ```c++
+      const auto iconName = oclero::qlementine::icons::fromFreeDesktop("edit-redo");
+      const auto icon = QIcon::fromTheme(iconName);
+      const auto pixmap = icon.pixmap(QSize(16, 16));
+      ```
+
+   3. With `QPixmap`. Note that the resulting image will be `16`×`16` pixels.
+
+      ```c++
+      const auto pixmap = QPixmap(":/qlementine/icons/redo.svg");
+      ```
+
+   4. With `QIcon`, to get any size.
+
+      ```c++
+      const auto icon = QIcon(":/qlementine/icons/redo.svg");
+      const auto pixmap = icon.pixmap(QSize(64, 64));
+      ```
 
 ## Author
 
