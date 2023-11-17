@@ -46,7 +46,7 @@
 
   {{- $description := (cond (eq .Params.Excerpt nil) $defaultPage.Params.Excerpt .Params.Excerpt) -}}
   {{- if not $description -}}
-    {{- $description = i18n "siteDescription" | safeHTML -}}
+    {{- $description = .Site.Params.description -}}
   {{- end -}}
 
 
@@ -204,7 +204,7 @@
     content="summary_large_image" />
   <meta
     property="twitter:domain"
-    content="solarus-games.org" />
+    content="github.io" />
   <meta
     property="twitter:url"
     content="{{ $pageFullURL }}" />
