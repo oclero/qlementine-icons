@@ -12,7 +12,7 @@
 
 [![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml)
 
-Icon set for modern desktop Qt5/Qt6 applications.
+Vector icon set for modern desktop Qt5/Qt6 applications. Explore the icons on the [project's website](https://oclero.github.io/qlementine-icons).
 
 ---
 
@@ -27,15 +27,15 @@ Icon set for modern desktop Qt5/Qt6 applications.
 
 ## Features
 
-This repository is an icon set aimed to be used in conjunction with my Qt library named [Qlementine](https://github.com/oclero/qlementine).
+- This repository is an icon set aimed to be used in conjunction with my Qt library named [Qlementine](https://github.com/oclero/qlementine).
 
-This icon set provides all the icons as requested by the [Freedesktop standard](http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html), and vastly expands it, in the following sizes:
+- This icon set provides icons as requested by the [Freedesktop standard](http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html), and vastly expands it, in `16`×`16` pixels.
 
-- 16x16 pixels
+  > **Note:** Freedesktop coverage is a work in progress. Follow the progress [here](https://docs.google.com/spreadsheets/d/1lwPe_WPdQkgOCCKtCJghRR6EkeCQXrv96WzCUMdAfRE/edit?usp=sharing).
 
-> **Note:** Work in progress. Follow the progress [here](https://docs.google.com/spreadsheets/d/1lwPe_WPdQkgOCCKtCJghRR6EkeCQXrv96WzCUMdAfRE/edit?usp=sharing).
->
-> A release will be created when all the icons are made.
+- The icons are in SVG format, so can be scaled to any size without loosing any quality. However, they've been designed to be used in `16`×`16` pixels, to be pixel-perfect.
+
+- The icons are visible on the [project's website](https://oclero.github.io/qlementine-icons). Search among the library, and click on the icon to download the SVG file.
 
 ## Usage
 
