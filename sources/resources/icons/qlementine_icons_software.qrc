@@ -11,5 +11,6 @@
     <file alias="spell-check.svg">software/spell-check.svg</file>
     <file alias="system-monitor.svg">software/system-monitor.svg</file>
     <file alias="text-editor.svg">software/text-editor.svg</file>
+    <file alias="version-control.svg">software/version-control.svg</file>
   </qresource>
 </RCC>

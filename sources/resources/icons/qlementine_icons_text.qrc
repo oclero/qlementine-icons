@@ -14,6 +14,10 @@
     <file alias="justify-left.svg">text/justify-left.svg</file>
     <file alias="justify-right.svg">text/justify-right.svg</file>
     <file alias="left-to-right.svg">text/left-to-right.svg</file>
+    <file alias="match-case.svg">text/match-case.svg</file>
+    <file alias="match-regexp.svg">text/match-regexp.svg</file>
+    <file alias="match-whole-word.svg">text/match-whole-word.svg</file>
     <file alias="right-to-left.svg">text/right-to-left.svg</file>
+    <file alias="text.svg">text/text.svg</file>
   </qresource>
 </RCC>

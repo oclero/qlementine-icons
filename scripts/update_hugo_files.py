@@ -10,7 +10,7 @@ TMP_METADATA_FILE = 'docs/data/icons-tmp.yaml'
 yaml = YAML()
 
 
-def get_old_data(metadata_file: str):
+def get_old_data(metadata_file: str) -> dict:
   with open(metadata_file, 'r') as file:
     yaml_content = yaml.load(file)
   icon_list = yaml_content['icons']
@@ -35,8 +35,8 @@ def get_old_data(metadata_file: str):
   return icon_dict
 
 
-def get_new_data(icons_dir: str):
-  def is_hidden(file):
+def get_new_data(icons_dir: str) -> dict:
+  def is_hidden(file: str) -> bool:
     return file.startswith('.')
 
   icon_dict = {}
@@ -93,11 +93,11 @@ def get_yaml_content(merged_data: dict):
 
 
 def update():
-  print(f'Updating Hugo file(s)...')
+  print('Updating Hugo file(s)...')
   old_data = get_old_data(METADATA_FILE)
   new_data = get_new_data(ICONS_DIR)
   merged_data = get_merged_data(old_data, new_data)
   result = get_yaml_content(merged_data)
   write_yaml(result, METADATA_FILE)
   print(f'Updated {METADATA_FILE}')
-  print(f'Done updating Hugo file(s).\n')
+  print('Done updating Hugo file(s).\n')

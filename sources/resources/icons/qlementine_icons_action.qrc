@@ -1,9 +1,12 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/">
+    <file alias="add-file.svg">action/add-file.svg</file>
+    <file alias="add-folder.svg">action/add-folder.svg</file>
     <file alias="address-book-add.svg">action/address-book-add.svg</file>
     <file alias="address-book-remove.svg">action/address-book-remove.svg</file>
     <file alias="alternate.svg">action/alternate.svg</file>
+    <file alias="build.svg">action/build.svg</file>
     <file alias="clear.svg">action/clear.svg</file>
     <file alias="close-small.svg">action/close-small.svg</file>
     <file alias="close.svg">action/close.svg</file>
@@ -26,14 +29,16 @@
     <file alias="log-in.svg">action/log-in.svg</file>
     <file alias="log-out.svg">action/log-out.svg</file>
     <file alias="minus-circle.svg">action/minus-circle.svg</file>
+    <file alias="minus-small.svg">action/minus-small.svg</file>
     <file alias="minus.svg">action/minus.svg</file>
     <file alias="move.svg">action/move.svg</file>
     <file alias="on-off.svg">action/on-off.svg</file>
     <file alias="paste.svg">action/paste.svg</file>
-    <file alias="pen.svg">action/pen.svg</file>
     <file alias="pin.svg">action/pin.svg</file>
     <file alias="plus-circle.svg">action/plus-circle.svg</file>
+    <file alias="plus-small.svg">action/plus-small.svg</file>
     <file alias="plus.svg">action/plus.svg</file>
+    <file alias="preview.svg">action/preview.svg</file>
     <file alias="print-preview.svg">action/print-preview.svg</file>
     <file alias="print.svg">action/print.svg</file>
     <file alias="redo.svg">action/redo.svg</file>
@@ -55,6 +60,8 @@
     <file alias="sort-alpha-desc.svg">action/sort-alpha-desc.svg</file>
     <file alias="sort-asc.svg">action/sort-asc.svg</file>
     <file alias="sort-desc.svg">action/sort-desc.svg</file>
+    <file alias="sort-ranking-asc.svg">action/sort-ranking-asc.svg</file>
+    <file alias="sort-ranking-desc.svg">action/sort-ranking-desc.svg</file>
     <file alias="sort-time-asc.svg">action/sort-time-asc.svg</file>
     <file alias="sort-time-desc.svg">action/sort-time-desc.svg</file>
     <file alias="swap.svg">action/swap.svg</file>

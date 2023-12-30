@@ -25,7 +25,10 @@
     <file alias="key-opt.svg">navigation/key-opt.svg</file>
     <file alias="key-return.svg">navigation/key-return.svg</file>
     <file alias="key-shift.svg">navigation/key-shift.svg</file>
-    <file alias="layers.svg">navigation/layers.svg</file>
+    <file alias="layers-1.svg">navigation/layers-1.svg</file>
+    <file alias="layers-2.svg">navigation/layers-2.svg</file>
+    <file alias="layers-3.svg">navigation/layers-3.svg</file>
+    <file alias="layers-4.svg">navigation/layers-4.svg</file>
     <file alias="map.svg">navigation/map.svg</file>
     <file alias="menu-burger.svg">navigation/menu-burger.svg</file>
     <file alias="menu-dots-circle.svg">navigation/menu-dots-circle.svg</file>
@@ -35,7 +38,6 @@
     <file alias="mouse-middle-button.svg">navigation/mouse-middle-button.svg</file>
     <file alias="mouse-right-button.svg">navigation/mouse-right-button.svg</file>
     <file alias="mouse-selection.svg">navigation/mouse-selection.svg</file>
-    <file alias="notification-bell.svg">navigation/notification-bell.svg</file>
     <file alias="search.svg">navigation/search.svg</file>
     <file alias="settings.svg">navigation/settings.svg</file>
     <file alias="sliders-horizontal.svg">navigation/sliders-horizontal.svg</file>
@@ -47,7 +49,5 @@
     <file alias="ui-panel-right.svg">navigation/ui-panel-right.svg</file>
     <file alias="ui-panel-top.svg">navigation/ui-panel-top.svg</file>
     <file alias="up.svg">navigation/up.svg</file>
-    <file alias="user.svg">navigation/user.svg</file>
-    <file alias="zoom.svg">navigation/zoom.svg</file>
   </qresource>
 </RCC>

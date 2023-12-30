@@ -11,12 +11,12 @@
     <file alias="guitar-machine-head.svg">instruments/guitar-machine-head.svg</file>
     <file alias="guitar.svg">instruments/guitar.svg</file>
     <file alias="hi-hat.svg">instruments/hi-hat.svg</file>
-    <file alias="keyboard.svg">instruments/keyboard.svg</file>
     <file alias="kick.svg">instruments/kick.svg</file>
     <file alias="mastering.svg">instruments/mastering.svg</file>
     <file alias="pedal-outlines.svg">instruments/pedal-outlines.svg</file>
     <file alias="pedal.svg">instruments/pedal.svg</file>
     <file alias="pedalboard.svg">instruments/pedalboard.svg</file>
+    <file alias="piano.svg">instruments/piano.svg</file>
     <file alias="shakers.svg">instruments/shakers.svg</file>
     <file alias="snare.svg">instruments/snare.svg</file>
     <file alias="tambourine.svg">instruments/tambourine.svg</file>

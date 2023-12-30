@@ -1,18 +1,9 @@
 <head>
-  <meta
-    charset="utf-8" />
-  <meta
-    name="pinterest"
-    content="nopin" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" />
-  <meta
-    http-equiv="X-UA-Compatible"
-    content="IE=edge,chrome=1" />
-  <meta
-    name="HandheldFriendly"
-    content="true" />
+  <meta charset="utf-8" />
+  <meta name="pinterest" content="nopin" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="HandheldFriendly" content="true" />
 
   <!-- Get default language page for fallback values -->
   {{- $defaultPage := . -}}
@@ -51,27 +42,15 @@
 
 
   <!-- General information -->
-  <link
-    rel="canonical"
-    href="{{- $pageFullURL -}}" />
-  <meta
-    name="theme-color"
-    content="{{- $themeColor -}}" />
+  <link rel="canonical" href="{{- $pageFullURL -}}" />
+  <meta name="theme-color" content="{{- $themeColor -}}" />
   <title>
     {{- htmlUnescape $pageTitle -}}
   </title>
-  <meta
-    name="description"
-    content="{{- $description -}}" />
-  <meta
-    name="color-scheme"
-    content="dark" />
-  <meta
-    name="author"
-    content="{{- .Site.Params.author -}}" />
-  <meta
-    name="copyright"
-    content="{{- .Site.Params.author -}}" />
+  <meta name="description" content="{{- $description -}}" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="author" content="{{- .Site.Params.author -}}" />
+  <meta name="copyright" content="{{- .Site.Params.author -}}" />
   <meta
     name="language"
     content="{{- .Site.Language -}}
@@ -81,17 +60,10 @@
   {{- $cssResource := resources.Get "css/main.scss" -}}
   {{- $cssFile := $cssResource | resources.ToCSS -}}
   {{- if .Site.IsServer -}}
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="{{- $cssFile.RelPermalink -}}" />
+    <link rel="stylesheet" type="text/css" href="{{- $cssFile.RelPermalink -}}" />
   {{- else -}}
     {{- $miniCssFile := $cssFile | resources.Minify -}}
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="{{- $miniCssFile.RelPermalink -}}"
-      crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="{{- $miniCssFile.RelPermalink -}}" crossorigin="anonymous" />
   {{- end -}}
 
 
@@ -103,127 +75,68 @@
   {{- range $size := (slice "16" "32" "64" "128" "256") -}}
     {{- $iconSize := (print $size "x" $size) -}}
     {{- $resizedImage := $faviconResource.Fit (print $iconSize " png") -}}
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="{{ $iconSize }}"
-      href="{{ $resizedImage.Permalink }}" />
+    <link rel="icon" type="image/png" sizes="{{ $iconSize }}" href="{{ $resizedImage.Permalink }}" />
   {{- end -}}
-
 
 
   <!-- Favicon for Apple devies -->
   {{- range $size := (slice "120" "152" "167" "180") -}}
     {{- $iconSize := (print $size "x" $size) -}}
     {{- $resizedImage := $faviconResource.Fit (print $iconSize " png") -}}
-    <link
-      rel="apple-touch-icon"
-      sizes="{{ $iconSize }}"
-      ref="{{ $resizedImage.Permalink }}" />
+    <link rel="apple-touch-icon" sizes="{{ $iconSize }}" ref="{{ $resizedImage.Permalink }}" />
   {{- end -}}
-
 
 
   <!-- Android -->
   {{- range $size := (slice "196") -}}
     {{- $iconSize := (print $size "x" $size) -}}
     {{- $resizedImage := $faviconResource.Fit (print $iconSize " png") -}}
-    <link
-      rel="shortcut icon"
-      sizes="{{ $iconSize }}"
-      href="{{ $resizedImage.Permalink }}" />
+    <link rel="shortcut icon" sizes="{{ $iconSize }}" href="{{ $resizedImage.Permalink }}" />
   {{- end -}}
 
 
-
   <!-- Microsoft -->
-  <meta
-    name="msapplication-TileColor"
-    content="{{ $themeColor }}" />
+  <meta name="msapplication-TileColor" content="{{ $themeColor }}" />
   {{- range $size := (slice "70" "150") -}}
     {{- $iconSize := (print $size "x" $size) -}}
     {{- $iconName := (print "msapplication-square" $size "x" $size "logo") -}}
     {{- $resizedImage := $faviconResource.Fit (print $iconSize " png") -}}
-    <meta
-      name="{{ $iconName }}"
-      content="{{ $resizedImage.Permalink }}" />
+    <meta name="{{ $iconName }}" content="{{ $resizedImage.Permalink }}" />
   {{- end -}}
   {{- range $size := (slice "270") -}}
     {{- $iconSize := (print $size "x" $size) -}}
     {{- $resizedImage := $faviconResource.Fit (print $iconSize " png") -}}
-    <meta
-      name="msapplication-TileImage"
-      content="{{ $resizedImage.Permalink }}" />
+    <meta name="msapplication-TileImage" content="{{ $resizedImage.Permalink }}" />
   {{- end -}}
-  <meta
-    name="msapplication-config"
-    content="none" />
+  <meta name="msapplication-config" content="none" />
 
   <!-- Facebook OpenGraph -->
   {{- $facebookThumbnail := $thumbnailResource.Fit "1200x630 jpg q90 Lanczos Smart" -}}
   {{- $facebookThumbnailUrl := $facebookThumbnail.Permalink -}}
-  <meta
-    property="og:locale"
-    content="en_US" />
-  <meta
-    property="og:type"
-    content="website" />
-  <meta
-    property="og:title"
-    content="{{- $pageTitle | safeHTML -}}" />
-  <meta
-    property="og:description"
-    content="{{- $description | safeHTML -}}" />
-  <meta
-    property="og:url"
-    content="{{- $pageFullURL -}}" />
-  <meta
-    property="og:site_name"
-    content="{{- $siteName | safeHTML -}}" />
-  <meta
-    property="og:image"
-    content="{{- $facebookThumbnailUrl -}}" />
-  <meta
-    property="og:image:width"
-    content="{{- $facebookThumbnail.Width -}}" />
-  <meta
-    property="og:image:height"
-    content="{{- $facebookThumbnail.Height -}}" />
-  <meta
-    property="og:image:type"
-    content="image/jpeg" />
-  <meta
-    property="og:image:alt"
-    content="Page thumbnail" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{- $pageTitle | safeHTML -}}" />
+  <meta property="og:description" content="{{- $description | safeHTML -}}" />
+  <meta property="og:url" content="{{- $pageFullURL -}}" />
+  <meta property="og:site_name" content="{{- $siteName | safeHTML -}}" />
+  <meta property="og:image" content="{{- $facebookThumbnailUrl -}}" />
+  <meta property="og:image:width" content="{{- $facebookThumbnail.Width -}}" />
+  <meta property="og:image:height" content="{{- $facebookThumbnail.Height -}}" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:alt" content="Page thumbnail" />
 
   <!-- Twitter -->
   {{- $twitterThumbnail := $thumbnailResource.Fit "1200x600 jpg q90 Lanczos Smart" -}}
   {{- $twitterThumbnailUrl := $twitterThumbnail.Permalink -}}
-  <meta
-    name="twitter:card"
-    content="summary_large_image" />
-  <meta
-    property="twitter:domain"
-    content="github.io" />
-  <meta
-    property="twitter:url"
-    content="{{ $pageFullURL }}" />
-  <meta
-    name="twitter:title"
-    content="{{- $pageTitle | safeHTML -}}" />
-  <meta
-    name="twitter:description"
-    content="{{- $description | safeHTML -}}" />
-  <meta
-    name="twitter:image"
-    content="{{- $twitterThumbnailUrl -}}" />
-  <meta
-    name="twitter:image:alt"
-    content="Page thumbnail" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:domain" content="github.io" />
+  <meta property="twitter:url" content="{{ $pageFullURL }}" />
+  <meta name="twitter:title" content="{{- $pageTitle | safeHTML -}}" />
+  <meta name="twitter:description" content="{{- $description | safeHTML -}}" />
+  <meta name="twitter:image" content="{{- $twitterThumbnailUrl -}}" />
+  <meta name="twitter:image:alt" content="Page thumbnail" />
   {{ with .Site.Params.social.twitter -}}
-    <meta
-      name="twitter:site"
-      content="@{{ . }}" />
+    <meta name="twitter:site" content="@{{ . }}" />
   {{ end -}}
 
 
@@ -236,18 +149,13 @@
   -}}
   {{- if .Site.IsServer -}}
     {{- range $allJsFiles -}}
-      <script
-        src="{{- .RelPermalink -}}"
-        defer></script>
+      <script src="{{- .RelPermalink -}}" defer></script>
     {{- end -}}
   {{- else -}}
     <!-- Bundle everything in only one file -->
     {{- $jsResource := $allJsFiles | resources.Concat "js/main.js" | js.Build -}}
     {{- $jsFile := $jsResource | resources.Minify -}}
     {{ $secureJsResource := $jsFile | resources.Fingerprint "sha512" }}
-    <script
-      src="{{- $secureJsResource.RelPermalink -}}"
-      integrity="{{ $secureJsResource.Data.Integrity }}"
-      defer></script>
+    <script src="{{- $secureJsResource.RelPermalink -}}" integrity="{{ $secureJsResource.Data.Integrity }}" defer></script>
   {{- end -}}
 </head>

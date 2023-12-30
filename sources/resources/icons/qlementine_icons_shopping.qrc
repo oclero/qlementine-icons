@@ -4,6 +4,7 @@
     <file alias="add-to-cart.svg">shopping/add-to-cart.svg</file>
     <file alias="cashier-ticket.svg">shopping/cashier-ticket.svg</file>
     <file alias="credit_card.svg">shopping/credit_card.svg</file>
+    <file alias="money.svg">shopping/money.svg</file>
     <file alias="shopping-bag.svg">shopping/shopping-bag.svg</file>
     <file alias="shopping-cart.svg">shopping/shopping-cart.svg</file>
   </qresource>

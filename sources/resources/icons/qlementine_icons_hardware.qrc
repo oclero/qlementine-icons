@@ -12,12 +12,13 @@
     <file alias="camera.svg">hardware/camera.svg</file>
     <file alias="computer.svg">hardware/computer.svg</file>
     <file alias="cpu.svg">hardware/cpu.svg</file>
-    <file alias="disk-1.svg">hardware/disk-1.svg</file>
     <file alias="disk.svg">hardware/disk.svg</file>
+    <file alias="drive.svg">hardware/drive.svg</file>
     <file alias="ethernet.svg">hardware/ethernet.svg</file>
     <file alias="gamepad.svg">hardware/gamepad.svg</file>
     <file alias="gpu.svg">hardware/gpu.svg</file>
     <file alias="hdd.svg">hardware/hdd.svg</file>
+    <file alias="hdmi.svg">hardware/hdmi.svg</file>
     <file alias="headphones.svg">hardware/headphones.svg</file>
     <file alias="headset.svg">hardware/headset.svg</file>
     <file alias="keyboard.svg">hardware/keyboard.svg</file>

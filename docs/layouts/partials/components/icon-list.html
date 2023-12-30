@@ -1,33 +1,21 @@
 {{- $id := . -}}
-<table
-  class="icon-list">
+<table class="icon-list">
   <thead>
     <tr>
-      <th>
-        Icon
-      </th>
-      <th>
-        Name
-      </th>
-      <th>
-        Freedesktop
-      </th>
-      <th>
-        Tags
-      </th>
+      <th>Icon</th>
+      <th>Name</th>
+      <th>Freedesktop</th>
+      <th>Tags</th>
     </tr>
   </thead>
-  <tbody
-    id="{{ $id }}">
+  <tbody id="{{ $id }}">
     {{- $icons := site.Data.icons.icons -}}
     {{- range sort $icons "name" -}}
       {{- $name := .name -}}
       {{- $freedesktop := .freedesktop -}}
       {{- $path := print "static/img/icons/" .path -}}
       {{- $url := print "img/icons/" .path -}}
-      <tr
-        data-name="{{ $name }}"
-        data-url="{{ $url }}">
+      <tr data-name="{{ $name }}" data-url="{{ $url }}">
         <td>
           {{- partial "components/svg-icon" $path -}}
         </td>
@@ -38,11 +26,9 @@
           {{- $freedesktop -}}
         </td>
         <td>
-          <div
-            class="tag-list">
+          <div class="tag-list">
             {{- range sort .tags -}}
-              <div
-                class="tag-list-item">
+              <div class="tag-list-item">
                 {{ . }}
               </div>
             {{- end -}}
