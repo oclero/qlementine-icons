@@ -24,6 +24,7 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Explore the icons on th
 
 - [Features](#features)
 - [Usage](#usage)
+- [Scripts](#scripts)
 - [Author](#author)
 - [License](#license)
 
