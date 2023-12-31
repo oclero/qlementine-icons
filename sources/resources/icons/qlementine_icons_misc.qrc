@@ -3,6 +3,7 @@
   <qresource prefix="/qlementine/icons/">
     <file alias="airplane-mode.svg">misc/airplane-mode.svg</file>
     <file alias="attachement.svg">misc/attachement.svg</file>
+    <file alias="bell.svg">misc/bell.svg</file>
     <file alias="blocks.svg">misc/blocks.svg</file>
     <file alias="book.svg">misc/book.svg</file>
     <file alias="calendar.svg">misc/calendar.svg</file>
@@ -35,7 +36,6 @@
     <file alias="newspaper.svg">misc/newspaper.svg</file>
     <file alias="note-8th-simple.svg">misc/note-8th-simple.svg</file>
     <file alias="notes.svg">misc/notes.svg</file>
-    <file alias="notification-bell.svg">misc/notification-bell.svg</file>
     <file alias="paint-brush-large.svg">misc/paint-brush-large.svg</file>
     <file alias="paint-brush-thin.svg">misc/paint-brush-thin.svg</file>
     <file alias="paint-bucket-drop.svg">misc/paint-bucket-drop.svg</file>
@@ -61,6 +61,5 @@
     <file alias="user.svg">misc/user.svg</file>
     <file alias="users.svg">misc/users.svg</file>
     <file alias="warning.svg">misc/warning.svg</file>
-    <file alias="zoom.svg">misc/zoom.svg</file>
   </qresource>
 </RCC>

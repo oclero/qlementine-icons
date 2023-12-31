@@ -49,5 +49,6 @@
     <file alias="ui-panel-right.svg">navigation/ui-panel-right.svg</file>
     <file alias="ui-panel-top.svg">navigation/ui-panel-top.svg</file>
     <file alias="up.svg">navigation/up.svg</file>
+    <file alias="zoom.svg">navigation/zoom.svg</file>
   </qresource>
 </RCC>

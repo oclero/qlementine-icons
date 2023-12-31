@@ -1,7 +1,7 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/">
-    <file alias="adress-book.svg">software/adress-book.svg</file>
+    <file alias="address-book.svg">software/address-book.svg</file>
     <file alias="calculator.svg">software/calculator.svg</file>
     <file alias="character-map.svg">software/character-map.svg</file>
     <file alias="command-line.svg">software/command-line.svg</file>

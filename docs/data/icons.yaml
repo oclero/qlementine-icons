@@ -18,6 +18,11 @@ icons:
   tags:
   - buy
   - shopping
+- name: address-book
+  path: software/address-book.svg
+  tags:
+  - contacts
+  - software
 - name: address-book-add
   path: action/address-book-add.svg
   tags:
@@ -32,11 +37,6 @@ icons:
   tags:
   - action
   - contacts
-- name: adress-book
-  path: software/adress-book.svg
-  tags:
-  - contacts
-  - software
 - name: airplane-mode
   path: misc/airplane-mode.svg
   tags:
@@ -170,6 +170,13 @@ icons:
   tags:
   - energy
   - hardware
+- name: bell
+  path: misc/bell.svg
+  tags:
+  - alarm
+  - bell
+  - misc
+  - notification
 - name: blocks
   path: misc/blocks.svg
   tags:
@@ -1304,11 +1311,6 @@ icons:
   - misc
   - music
   - song
-- name: notification-bell
-  path: navigation/notification-bell.svg
-  tags:
-  - navigation
-  - notification
 - name: on-off
   path: action/on-off.svg
   tags:
@@ -1463,11 +1465,12 @@ icons:
   - instrument
   - sound
 - name: pen
-  path: action/pen.svg
+  path: misc/pen.svg
   tags:
   - action
   - change
   - edit
+  - misc
   - modify
   - pencil
   - write
@@ -2193,7 +2196,7 @@ icons:
   - storage
   - usb
 - name: user
-  path: navigation/user.svg
+  path: misc/user.svg
   tags:
   - log in
   - navigation
