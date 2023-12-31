@@ -51,7 +51,7 @@ def process_svg_file(input_path: str, output_path: str):
   with open(TMP_SVG_OUTPUT_FILE, 'r') as f:
     file_content = f.read()
 
-  file_content = re.sub(r'fill="#f+"', 'fill="#000"', file_content)
+  file_content = re.sub(r'="#f+"', '="#000"', file_content)
 
   with open(output_path, 'w') as f:
     f.write(file_content)
