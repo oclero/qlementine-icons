@@ -1,0 +1,21 @@
+footer {
+  background-color: $footer-background-color;
+  padding: ($content-padding / 2) $content-padding;
+  color: $footer-foreground-color;
+  font-size: $font-size-caption;
+
+  * {
+    font-size: inherit;
+  }
+
+  a {
+    color: $footer-foreground-color;
+    font-weight: bold;
+  }
+
+  .container {
+    color: $footer-foreground-color;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,33 @@
+header {
+  background-color: $header-background-color;
+  padding: ($content-padding / 4) $content-padding;
+  box-shadow:
+    0 0 0.2rem #0000000f,
+    0 0.2rem 0.4rem rgba(0, 0, 0, 0.14);
+  transition:
+    transform 0.25s cubic-bezier(0.1, 0.7, 0.1, 1),
+    box-shadow 0.25s;
+  left: 0;
+  position: sticky;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  color: #fff;
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-between;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .logo {
+    height: 40px;
+    min-width: 150px;
+  }
+}

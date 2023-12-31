@@ -7,7 +7,9 @@ disableKinds:
 buildFuture: true
 params:
   author: Olivier Cléro
+  email: oclero@pm.me
   description: Qlementine Icons is a modern and elegant vector icon set, aimed to be used for Qt applications.
+  github: https://github.com/oclero/qlementine-icons
 module:
   mounts:
     - source: ../sources/resources/icons

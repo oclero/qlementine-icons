@@ -1,0 +1,8 @@
+:root {
+  color-scheme: light;
+}
+
+::selection {
+  color: $table-row-foreground-color-hover;
+  background-color: transparentize($table-cell-background-color-active, 0.5);
+}

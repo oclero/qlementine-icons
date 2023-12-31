@@ -1,12 +1,38 @@
-.searchbox {
-  display: block;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-
+.searchbox-container {
   input[type='search'] {
+    margin-top: 40px;
+    margin-bottom: 40px;
     min-width: 300px;
-    border-radius: 8px;
-    background-color: #b92c2c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 8px 12px;
+    border: 1px solid $textfield-border-color;
+    font-size: $font-size-bigger;
+    font-weight: 300;
+    transition-property: color, background-color, border-color, outline-width,
+      outline-offset;
+    transition-duration: $animation-duration;
+    transition-timing-function: ease-out;
+    outline-width: 0px;
+    outline-color: transparentize($table-cell-background-color-active, 1);
+
+    &:hover {
+      border-color: $table-row-foreground-color-hover;
+    }
+
+    &::placeholder {
+      font-weight: 200;
+      color: $textfield-placeholder-color;
+    }
+
+    &:focus {
+      border-color: $table-row-foreground-color-hover;
+      outline-style: solid;
+      outline-color: $table-cell-background-color-active;
+      outline-width: 3px;
+      outline-offset: 0;
+    }
   }
 }

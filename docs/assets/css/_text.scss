@@ -1,4 +1,5 @@
 html * {
+  font-size: $font-size-default;
   font-family:
     Inter,
     system-ui,
@@ -12,4 +13,32 @@ html * {
     'Open Sans',
     'Helvetica Neue',
     sans-serif;
+}
+
+body {
+  color: $text-default-color;
+  line-height: 1.6;
+  font-weight: 300;
+
+  a {
+    color: $text-link-color;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: $animation-duration;
+    transition-timing-function: ease-out;
+
+    &:hover {
+      color: $text-link-color-hover;
+    }
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-weight: 100;
+  }
+
+  p {
+    margin-bottom: 12px;
+  }
 }

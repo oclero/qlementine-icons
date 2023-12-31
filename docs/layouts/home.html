@@ -1,6 +1,10 @@
 {{ define "main" }}
   <div role="main" class="home container content">
-    <h1>Qlementine Icons</h1>
+    <div class="text-content">
+      <h1>Qlementine Icons</h1>
+      <p>A modern, vector, elegant, <b>free and open-source icon library</b>, aimed to be used with <a target="_blank" rel="noopener noreferrer" href="https://oclero.github.io/qlementine/">Qlementine</a>, a C++ library that stylizes your QtWidgets application.</p>
+      <p>Commissions for new icons (free or commercial) are possible. <a href="mailto:{{ site.Params.email }}">Contact me</a>.</p>
+    </div>
     {{- partial "components/searchbox" "searchbox" -}}
     {{- partial "components/icon-list" "list" -}}
     {{- partial "components/no-results" "noresults" -}}

@@ -1,5 +1,11 @@
 <header>
   <div class="container">
-    <nav id="navbar" role="navigation"></nav>
+    <nav id="navbar" role="navigation">
+      {{- $logoResource := resources.Get "img/logo.svg" -}}
+      <a href="{{ .Site.Home.RelPermalink }}">
+        <img class="logo" alt="Qlementine logo" src="{{ $logoResource.RelPermalink }}" />
+      </a>
+      <a target="_blank" rel="noopener noreferrer" href="{{ site.Params.github }}"> GitHub </a>
+    </nav>
   </div>
 </header>

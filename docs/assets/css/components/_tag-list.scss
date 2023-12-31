@@ -3,10 +3,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 4px;
-  font-size: small;
+  font-size: $font-size-smaller;
   color: #000000a3;
 
   .tag-list-item {
+    font-size: inherit;
     display: block;
     padding: 2px 4px;
     background: #00000012;

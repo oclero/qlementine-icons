@@ -1,9 +1,12 @@
 /* Global imports */
 @import '_reset';
 @import '_variables';
+@import '_general';
 @import '_text';
 @import '_layout';
 @import '_table';
+@import '_header';
+@import '_footer';
 
 /* Custom components */
 @import 'components/svg-icon';

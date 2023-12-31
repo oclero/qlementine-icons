@@ -1,6 +1,19 @@
-:root {
-  color-scheme: light;
-}
+$font-size-bigger: 18px;
+$font-size-default: 16px;
+$font-size-caption: 14px;
+$font-size-smaller: 12px;
+
+$font-family-monospace: monospace;
+
+$content-padding: 40px;
+
+$header-background-color: #41cd52;
+
+$footer-background-color: #229867;
+$footer-foreground-color: #e1f3e3;
+
+$textfield-border-color: #c7c7c7;
+$textfield-placeholder-color: #9e9e9e;
 
 $table-header-foreground-color: #636363;
 $table-header-background-color: #ebebeb;
@@ -13,3 +26,16 @@ $table-row-foreground-color-hover: #007c0c;
 $table-row-background-color-hover: #e1f3e3;
 $table-cell-background-color-hover: #cceecf;
 $table-cell-background-color-active: #b5e5bb;
+
+$text-link-color: #41cd52;
+$text-link-color-hover: #5de76d;
+$text-default-color: #3e3e3e;
+
+/* Media query breakpoints */
+$breakpoint-desktop-small: 1280px;
+$breakpoint-tablet-landscape: 1080px;
+$breakpoint-navbar: 1040px;
+$breakpoint-tablet-portrait: 920px;
+$breakpoint-phone-portrait: 720px;
+$breakpoint-phone-portrait-medium: 540px;
+$breakpoint-phone-portrait-small: 280px;
