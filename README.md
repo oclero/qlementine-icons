@@ -12,11 +12,14 @@
 [![Qt5 version](https://img.shields.io/badge/Qt-5.15.2+-41CD52?logo=qt)](https://www.qt.io)
 [![Qt6 version](https://img.shields.io/badge/Qt-6.0.0+-41CD52?logo=qt)](https://www.qt.io)
 
-[![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml)
+| Branch   | Build                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `master` | [![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg?branch=master)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml) [![Windows](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml/badge.svg?branch=master)](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml) [![MacOS](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml/badge.svg?branch=master)](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml) |
+| `dev`    | [![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg?branch=dev)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml) [![Windows](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml/badge.svg?branch=dev)](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml) [![MacOS](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml/badge.svg?branch=dev)](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml)          |
 
-Vector icon set for modern desktop Qt5/Qt6 applications. Explore the icons on the [project's website](https://oclero.github.io/qlementine-icons).
+Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons on the [project's website](https://oclero.github.io/qlementine-icons).
 
-> Commissions for new icons (free or commercial) are possible. See below.
+> **Need more icons?** Commissions for new icons (free or commercial) are possible. See below.
 
 ---
 
