@@ -1,4 +1,4 @@
-name: Linux
+name: MacOS
 
 on:
   push:
@@ -13,12 +13,12 @@ on:
 env:
   # CMake build type (Release, Debug, RelWithDebInfo, etc.).
   BUILD_TYPE: Release
-  GENERATOR: Unix Makefiles
+  GENERATOR: Xcode
   QT_VERSION: '5.15.2'
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - name: Check Out
@@ -30,12 +30,12 @@ jobs:
         uses: jurplel/install-qt-action@v3
         with:
           version: ${{env.QT_VERSION}}
-          host: linux
+          host: mac
           target: desktop
 
       - name: Configure CMake
         # Configures CMake in a 'build' subdirectory.
-        run: cmake -B ${{github.workspace}}/build -G "${{env.GENERATOR}}" -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
+        run: cmake -B ${{github.workspace}}/build -G "${{env.GENERATOR}}" -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -DCMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED=OFF -DCMAKE_XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY=""
 
       - name: Builds the library.
         # Builds with the given configuration.

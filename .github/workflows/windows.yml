@@ -1,4 +1,4 @@
-name: Linux
+name: Windows
 
 on:
   push:
@@ -13,12 +13,12 @@ on:
 env:
   # CMake build type (Release, Debug, RelWithDebInfo, etc.).
   BUILD_TYPE: Release
-  GENERATOR: Unix Makefiles
+  GENERATOR: Visual Studio 17 2022
   QT_VERSION: '5.15.2'
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Check Out
@@ -30,7 +30,7 @@ jobs:
         uses: jurplel/install-qt-action@v3
         with:
           version: ${{env.QT_VERSION}}
-          host: linux
+          host: windows
           target: desktop
 
       - name: Configure CMake
