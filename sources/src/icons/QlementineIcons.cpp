@@ -23,6 +23,7 @@
 #include <oclero/qlementine/icons/QlementineIcons.hpp>
 
 #include <mutex>
+#include <unordered_map>
 
 #include <qglobal.h>
 #include <QIcon>
@@ -55,11 +56,11 @@ void qlementineIconThemeInitialization() {
 namespace oclero::qlementine::icons {
 std::once_flag qlementineOnceFlag;
 
-std::unordered_map<QString, QString> freeDesktopMapping {
-  // !!!
+std::unordered_map<QString, QString> freeDesktopMapping{
+  // clang-format off
   { "edit-undo", "undo" },
-  { "edit-redo", "redo" }
-  // !!!
+  { "edit-redo", "redo" },
+  // clang-format on
 };
 
 void initializeIconTheme() {
