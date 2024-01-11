@@ -8,25 +8,21 @@ table {
   td:nth-child(1),
   th:nth-child(1) {
     text-align: center;
-    min-width: 70px;
-    max-width: 70px;
-    width: max-content;
+    width: 70px;
   }
 
   // Name.
   td:nth-child(2),
   th:nth-child(2) {
     text-align: left;
-    width: max-content;
-    min-width: 220px;
+    width: 220px;
   }
 
   // Freedesktop name.
   td:nth-child(3),
   th:nth-child(3) {
     text-align: left;
-    width: max-content;
-    min-width: 160px;
+    width: 160px;
   }
 
   // Tags.
