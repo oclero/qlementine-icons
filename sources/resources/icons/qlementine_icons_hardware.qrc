@@ -23,6 +23,7 @@
     <file alias="headset.svg">hardware/headset.svg</file>
     <file alias="keyboard.svg">hardware/keyboard.svg</file>
     <file alias="memory.svg">hardware/memory.svg</file>
+    <file alias="microphone-old.svg">hardware/microphone-old.svg</file>
     <file alias="microphone.svg">hardware/microphone.svg</file>
     <file alias="modem.svg">hardware/modem.svg</file>
     <file alias="mouse.svg">hardware/mouse.svg</file>

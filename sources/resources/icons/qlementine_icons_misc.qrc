@@ -1,6 +1,7 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/">
+    <file alias="accessibility.svg">misc/accessibility.svg</file>
     <file alias="airplane-mode.svg">misc/airplane-mode.svg</file>
     <file alias="attachement.svg">misc/attachement.svg</file>
     <file alias="bell.svg">misc/bell.svg</file>
@@ -14,6 +15,8 @@
     <file alias="cloud.svg">misc/cloud.svg</file>
     <file alias="color-swatch.svg">misc/color-swatch.svg</file>
     <file alias="comment.svg">misc/comment.svg</file>
+    <file alias="crane-hook.svg">misc/crane-hook.svg</file>
+    <file alias="crane.svg">misc/crane.svg</file>
     <file alias="debug.svg">misc/debug.svg</file>
     <file alias="faq.svg">misc/faq.svg</file>
     <file alias="gift.svg">misc/gift.svg</file>
@@ -33,6 +36,7 @@
     <file alias="mail.svg">misc/mail.svg</file>
     <file alias="megaphone.svg">misc/megaphone.svg</file>
     <file alias="modified.svg">misc/modified.svg</file>
+    <file alias="moon.svg">misc/moon.svg</file>
     <file alias="newspaper.svg">misc/newspaper.svg</file>
     <file alias="note-8th-simple.svg">misc/note-8th-simple.svg</file>
     <file alias="notes.svg">misc/notes.svg</file>
@@ -50,6 +54,7 @@
     <file alias="run-debug.svg">misc/run-debug.svg</file>
     <file alias="spam.svg">misc/spam.svg</file>
     <file alias="success.svg">misc/success.svg</file>
+    <file alias="sun.svg">misc/sun.svg</file>
     <file alias="tag.svg">misc/tag.svg</file>
     <file alias="task-past.svg">misc/task-past.svg</file>
     <file alias="task-soon.svg">misc/task-soon.svg</file>
@@ -61,5 +66,6 @@
     <file alias="user.svg">misc/user.svg</file>
     <file alias="users.svg">misc/users.svg</file>
     <file alias="warning.svg">misc/warning.svg</file>
+    <file alias="zoom.svg">misc/zoom.svg</file>
   </qresource>
 </RCC>

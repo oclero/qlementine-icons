@@ -12,7 +12,6 @@
     <file alias="close.svg">action/close.svg</file>
     <file alias="copy.svg">action/copy.svg</file>
     <file alias="cut.svg">action/cut.svg</file>
-    <file alias="down.svg">action/down.svg</file>
     <file alias="download.svg">action/download.svg</file>
     <file alias="drag.svg">action/drag.svg</file>
     <file alias="erase.svg">action/erase.svg</file>
@@ -43,6 +42,7 @@
     <file alias="print.svg">action/print.svg</file>
     <file alias="redo.svg">action/redo.svg</file>
     <file alias="refresh.svg">action/refresh.svg</file>
+    <file alias="rename.svg">action/rename.svg</file>
     <file alias="replace.svg">action/replace.svg</file>
     <file alias="reply-all.svg">action/reply-all.svg</file>
     <file alias="reply.svg">action/reply.svg</file>
@@ -54,6 +54,7 @@
     <file alias="select-all.svg">action/select-all.svg</file>
     <file alias="send-receive.svg">action/send-receive.svg</file>
     <file alias="send.svg">action/send.svg</file>
+    <file alias="share-external.svg">action/share-external.svg</file>
     <file alias="share.svg">action/share.svg</file>
     <file alias="snapshot.svg">action/snapshot.svg</file>
     <file alias="sort-alpha-asc.svg">action/sort-alpha-asc.svg</file>

@@ -6,10 +6,12 @@
     <file alias="arrow-right.svg">navigation/arrow-right.svg</file>
     <file alias="arrow-up.svg">navigation/arrow-up.svg</file>
     <file alias="bookmark.svg">navigation/bookmark.svg</file>
-    <file alias="chevron-left-double.svg">navigation/chevron-left-double.svg</file>
+    <file alias="chevron-double-left.svg">navigation/chevron-double-left.svg</file>
+    <file alias="chevron-double-right.svg">navigation/chevron-double-right.svg</file>
+    <file alias="chevron-down.svg">navigation/chevron-down.svg</file>
     <file alias="chevron-left.svg">navigation/chevron-left.svg</file>
-    <file alias="chevron-right-double.svg">navigation/chevron-right-double.svg</file>
     <file alias="chevron-right.svg">navigation/chevron-right.svg</file>
+    <file alias="chevron-up.svg">navigation/chevron-up.svg</file>
     <file alias="combobox-indicator.svg">navigation/combobox-indicator.svg</file>
     <file alias="flag.svg">navigation/flag.svg</file>
     <file alias="go-bottom.svg">navigation/go-bottom.svg</file>
@@ -48,7 +50,5 @@
     <file alias="ui-panel-left.svg">navigation/ui-panel-left.svg</file>
     <file alias="ui-panel-right.svg">navigation/ui-panel-right.svg</file>
     <file alias="ui-panel-top.svg">navigation/ui-panel-top.svg</file>
-    <file alias="up.svg">navigation/up.svg</file>
-    <file alias="zoom.svg">navigation/zoom.svg</file>
   </qresource>
 </RCC>

@@ -79,6 +79,5 @@ def process_svg_folder(svg_dir_path: str, overwrite=True) -> int:
 
 if __name__ == '__main__':
   print('Optimizing SVG files...')
-  count = process_svg_folder(
-    '/Users/oclero/Downloads/figma 30 dec/_fix', overwrite=False)
+  count = process_svg_folder('tmp', overwrite=True)
   print(f'Done optimizing {count} SVG file(s).\n')
