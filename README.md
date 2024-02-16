@@ -28,6 +28,7 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons o
 - [Features](#features)
 - [Usage](#usage)
 - [Scripts](#scripts)
+- [Website](#website)
 - [Author](#author)
 - [License](#license)
 
@@ -152,6 +153,14 @@ optimize_svg_files.py
 This script will use the `scour` library to optimize SVG: stripping all unnecessary data and reducing the decimal count.
 
 Please do not run it on already optimized files, because the rounding will change the decimal count, and Git will see a modification.
+
+## Website
+
+The documentation/showcase website is made with `hugo`. You can see a local preview at <http://localhost:1313/qlementine-icons> by executing:
+
+```bash
+hugo server --source ./docs
+```
 
 ## Author
 
