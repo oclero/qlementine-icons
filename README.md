@@ -50,31 +50,21 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons o
 
 ## Usage
 
-1. Add the library's repository as a Git submodule.
+1. Add the library as a dependency with CMake FetchContent.
 
    ```bash
-   git submodule add git@github.com:oclero/qlementine-icons.git submodules/qlementine-icons
+   include(FetchContent)
+   FetchContent_Declare(qlementine_icons GIT_REPOSITORY "https://github.com/oclero/qlementine-icons.git")
+   FetchContent_MakeAvailable(qlementine_icons)
    ```
 
-2. Download submodules.
-
-   ```bash
-   git submodule update --init --recursive
-   ```
-
-3. Add the library to your CMake project.
-
-   ```cmake
-   add_subdirectory(submodules/qlementine-icons)
-   ```
-
-4. Link with the library in CMake.
+2. Link with the library in CMake.
 
    ```cmake
    target_link_libraries(your_project oclero::qlementine_icons)
    ```
 
-5. Initialize the library.
+3. Initialize the library.
 
    ```c++
    #include <oclero/qlementine/icons/QlementineIcons.hpp>
@@ -82,13 +72,13 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons o
    oclero::qlementine::icons::initializeIconTheme();
    ```
 
-6. Define the **icon theme** on your `QApplication`.
+4. Define the **icon theme** on your `QApplication`.
 
    ```c++
    QIcon::setThemeName("qlementine");
    ```
 
-7. When you want to retrieve an icon, you can use one of these methods:
+5. When you want to retrieve an icon, you can use one of these methods:
 
    1. With `QIcon::fromTheme()`, by using the icon name.
 
@@ -100,22 +90,30 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons o
    2. With `QIcon::fromTheme()`, by using the Freedesktop standard identifier, **if the icon has one**.
 
       ```c++
-      const auto iconName = oclero::qlementine::icons::fromFreeDesktop("edit-redo");
+      const auto iconName = fromFreeDesktop("edit-redo");
       const auto icon = QIcon::fromTheme(iconName);
       const auto pixmap = icon.pixmap(QSize(16, 16));
       ```
 
-   3. With `QPixmap`. Note that the resulting image will be `16`×`16` pixels.
+   3. With `QPixmap`. Note that the resulting image will be `16`×`16` _physical_ pixels, so not adapted to High-Resolution screens.
 
       ```c++
       const auto pixmap = QPixmap(":/qlementine/icons/redo.svg");
       ```
 
-   4. With `QIcon`, to get any size.
+   4. With `QIcon`, to get any size, and ensure it will have the correct pixel ratio to be displayed on the scree.
 
       ```c++
       const auto icon = QIcon(":/qlementine/icons/redo.svg");
       const auto pixmap = icon.pixmap(QSize(64, 64));
+      ```
+
+   5. You can also get the path from the icon identifier, in the enum `IconId`.
+      **This is the recommended way because it avoids making typo mistakes**.
+
+      ```c++
+      const auto icon = QIcon(iconPath(IconId::Action_Undo));
+      const auto pixmap = icon.pixmap(QSize(16, 16));
       ```
 
 ## Scripts
