@@ -7,6 +7,7 @@ file(GLOB QRC_FILES "resources/icons/*.qrc")
 target_sources(${PROJECT_NAME}
   PRIVATE
     include/oclero/qlementine/icons/QlementineIcons.hpp
+    include/oclero/qlementine/icons/IconId.hpp
     src/icons/QlementineIcons.cpp
     ${QRC_FILES}
 )

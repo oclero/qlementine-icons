@@ -54,6 +54,8 @@ temp/
 __pycache__/
 *.py[cod]
 *$py.class
+.venv
+venv
 
 # Javascript.
 node_modules

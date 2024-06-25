@@ -31,7 +31,7 @@ void qlementineIconThemeInitialization() {
   // ---
 
   // Registers the icon theme.
-  QIcon::setFallbackSearchPaths(QIcon::fallbackSearchPaths() << ":qlementine/icons");
+  QIcon::setFallbackSearchPaths(QIcon::fallbackSearchPaths() << ":/qlementine/icons");
 }
 
 namespace oclero::qlementine::icons {

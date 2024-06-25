@@ -7,6 +7,7 @@
 #include <memory>
 
 #include <oclero/qlementine/icons/QlementineIcons.hpp>
+#include <oclero/qlementine/icons/IconId.hpp>
 
 int main(int argc, char* argv[]) {
   // Must be set before creating a QApplication.
@@ -39,17 +40,24 @@ int main(int argc, char* argv[]) {
   layout->setAlignment(Qt::AlignCenter);
 
   // METHOD 1: Get the image with a QPixmap. Its size will be the image's size.
+  // Note: This won't get an image suited to the screen pixel ratio and might be blurry.
   const QPixmap pixmap1(":/qlementine/icons/redo.svg");
 
   // METHOD 2: Get the image from an icon. You can get the size you want.
-  const QPixmap pixmap2 = QIcon(":/qlementine/icons/redo.svg").pixmap(QSize(32, 32));
+  // Note: This will ensure an image with the correct pixel ratio (i.e. not blurry).
+  const auto pixmap2 = QIcon(":/qlementine/icons/redo.svg").pixmap(QSize(32, 32));
 
   // METHOD 3: Get the image from the icon theme. You can also get the size you want.
+  // Note: this will also get you an image with the correct pixel ratio.
   const auto iconName = oclero::qlementine::icons::fromFreeDesktop("edit-redo");
-  const QPixmap pixmap3 = QIcon::fromTheme(iconName).pixmap(QSize(64, 64));
+  const auto pixmap3 = QIcon::fromTheme(iconName).pixmap(QSize(64, 64));
+
+  // METHOD 4: [RECOMMENDED] Get the image from its ID.
+  const auto iconPath = oclero::qlementine::icons::iconPath(oclero::qlementine::icons::IconId::Action_Undo);
+  const auto pixmap4 = QIcon(iconPath).pixmap(QSize(16, 16));
 
   // Display the images.
-  for (const auto& pixmap : { &pixmap1, &pixmap2, &pixmap3 }) {
+  for (const auto& pixmap : { &pixmap1, &pixmap2, &pixmap3, &pixmap4 }) {
     auto* label = new QLabel(window.get());
     label->setFixedSize(pixmap->size());
     label->setPixmap(*pixmap);
