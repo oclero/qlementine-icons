@@ -72,18 +72,6 @@ def build_icon_lists(icons_dir: str) -> dict[str, list[str]]:
 
   return icon_lists
 
-  # for root, dir, files in os.walk(icons_dir):
-
-  #   files = [f for f in files if not is_hidden(f) and f.endswith('.svg')]
-  #   for file in files:
-  #     file_list: list[str] = icon_lists.setdefault(dir, [])
-  #     file_list.append(file)
-
-  # for category, items in icon_lists.items():
-  #   icon_lists[category] = sorted(items)
-
-  # return dict(sorted(icon_lists.items()))
-
 
 def write_qrc_file(icons_dir: str, category: str, items: list[str], qrc_prefix: str) -> str:
 
