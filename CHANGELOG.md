@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.0
+
+- Add support for more icon sizes, such as 32x32 pixels. **WARNING: paths have changed.**
+- Add icons `octogon` and `octogon-filled`.
+- Add CMake presets.
+- Replace long copyright notice by a shorter one.
+
 ## v1.1.0
 
 - Add icons `rename`, `share-external`, `microphone-old`, `accessibility`, `crane-hook`, `crane`, `moon`, `sun`, `address-book`.
