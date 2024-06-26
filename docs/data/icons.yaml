@@ -1361,6 +1361,14 @@ icons:
       - misc
       - music
       - song
+  - name: octogon
+  path: 16/shape/octogon.svg
+  tags:
+    - shape
+  - name: octogon-filled
+    path: 16/shape/octogon-filled.svg
+    tags:
+    - shape
   - name: on-off
     path: 16/action/on-off.svg
     tags:
