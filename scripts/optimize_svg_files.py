@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-import argparse
 import os
 import re
 from scour.scour import start as scour, parse_args as scour_args, getInOut as scour_io
-import sys
 import tempfile
+import pathlib
 
 # Scour can't do in-place modification so we use a buffer file.
 TMP_SVG_OUTPUT_FILE = os.path.join(tempfile.gettempdir(), 'tmp.svg')
@@ -59,10 +58,9 @@ def process_svg_file(input_path: str, output_path: str):
 
 def process_svg_folder(svg_dir_path: str, overwrite=True) -> int:
   count = 0
-  for root, dirs, files in os.walk(svg_dir_path):
-    def is_hidden(file):
-      return file.startswith('.')
-    files = [f for f in files if not is_hidden(f) and f.endswith('.svg')]
+  for root, _, files in os.walk(svg_dir_path):
+    files = [f for f in files if not f.startswith(
+      '.') and f.endswith('.svg')]
     for file in files:
       input_path = os.path.join(root, file)
       output_path = input_path if overwrite else os.path.join(
@@ -79,5 +77,7 @@ def process_svg_folder(svg_dir_path: str, overwrite=True) -> int:
 
 if __name__ == '__main__':
   print('Optimizing SVG files...')
-  count = process_svg_folder('tmp', overwrite=True)
+  root_dir = pathlib.Path(__file__).parent.parent.absolute().as_posix()
+  icons_dir = os.path.join(root_dir, 'sources/resources/icons')
+  count = process_svg_folder(icons_dir, overwrite=True)
   print(f'Done optimizing {count} SVG file(s).\n')
