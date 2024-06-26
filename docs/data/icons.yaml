@@ -1,6 +1,6 @@
 icons:
   - name: accessibility
-    path: misc/accessibility.svg
+    path: 16/misc/accessibility.svg
     tags:
       - misc
       - handicap
@@ -8,13 +8,13 @@ icons:
       - human
       - a11y
   - name: add-file
-    path: action/add-file.svg
+    path: 16/action/add-file.svg
     tags:
       - action
       - create
       - new
   - name: add-folder
-    path: action/add-folder.svg
+    path: 16/action/add-folder.svg
     tags:
       - action
       - create
@@ -22,17 +22,17 @@ icons:
       - group
       - new
   - name: add-to-cart
-    path: shopping/add-to-cart.svg
+    path: 16/shopping/add-to-cart.svg
     tags:
       - buy
       - shopping
   - name: address-book
-    path: software/address-book.svg
+    path: 16/software/address-book.svg
     tags:
       - contacts
       - software
   - name: address-book-add
-    path: action/address-book-add.svg
+    path: 16/action/address-book-add.svg
     tags:
       - action
       - add
@@ -41,12 +41,12 @@ icons:
       - contacts
     freedesktop: address-book-add
   - name: address-book-remove
-    path: action/address-book-remove.svg
+    path: 16/action/address-book-remove.svg
     tags:
       - action
       - contacts
   - name: airplane-mode
-    path: misc/airplane-mode.svg
+    path: 16/misc/airplane-mode.svg
     tags:
       - connection
       - misc
@@ -54,180 +54,180 @@ icons:
       - phone
       - plane
   - name: align-left
-    path: text/align-left.svg
+    path: 16/text/align-left.svg
     tags:
       - alignment
       - editor
       - text
   - name: align-right
-    path: text/align-right.svg
+    path: 16/text/align-right.svg
     tags:
       - alignment
       - editor
       - text
   - name: alternate
-    path: action/alternate.svg
+    path: 16/action/alternate.svg
     tags:
       - action
       - replace
       - switch
   - name: amp
-    path: instruments/amp.svg
+    path: 16/instruments/amp.svg
     tags:
       - amplifier
       - bass
       - guitar
       - instrument
   - name: android
-    path: brand/android.svg
+    path: 16/brand/android.svg
     tags:
       - brand
       - mobile
       - phone
   - name: android-fill
-    path: brand/android-fill.svg
+    path: 16/brand/android-fill.svg
     tags:
       - brand
       - mobile
       - phone
   - name: archive
-    path: file/archive.svg
+    path: 16/file/archive.svg
     tags:
       - box
       - file
       - rar
       - zip
   - name: arrow-down
-    path: navigation/arrow-down.svg
+    path: 16/navigation/arrow-down.svg
     tags:
       - move
       - navigate
       - navigation
       - next
   - name: arrow-left
-    path: navigation/arrow-left.svg
+    path: 16/navigation/arrow-left.svg
     tags:
       - move
       - navigate
       - navigation
       - previous
   - name: arrow-right
-    path: navigation/arrow-right.svg
+    path: 16/navigation/arrow-right.svg
     tags:
       - move
       - navigate
       - navigation
       - next
   - name: arrow-up
-    path: navigation/arrow-up.svg
+    path: 16/navigation/arrow-up.svg
     tags:
       - move
       - navigate
       - navigation
       - previous
   - name: asterisk
-    path: shape/asterisk.svg
+    path: 16/shape/asterisk.svg
     tags:
       - shape
       - star
   - name: attachement
-    path: misc/attachement.svg
+    path: 16/misc/attachement.svg
     tags:
       - email
       - letter
       - misc
       - safety pin
   - name: audio-interface
-    path: hardware/audio-interface.svg
+    path: 16/hardware/audio-interface.svg
     tags:
       - card
       - device
       - dsp
       - hardware
   - name: bass
-    path: instruments/bass.svg
+    path: 16/instruments/bass.svg
     tags:
       - instrument
   - name: battery-0
-    path: hardware/battery-0.svg
+    path: 16/hardware/battery-0.svg
     tags:
       - energy
       - hardware
   - name: battery-100
-    path: hardware/battery-100.svg
+    path: 16/hardware/battery-100.svg
     tags:
       - energy
       - hardware
   - name: battery-20
-    path: hardware/battery-20.svg
+    path: 16/hardware/battery-20.svg
     tags:
       - energy
       - hardware
   - name: battery-40
-    path: hardware/battery-40.svg
+    path: 16/hardware/battery-40.svg
     tags:
       - energy
       - hardware
   - name: battery-60
-    path: hardware/battery-60.svg
+    path: 16/hardware/battery-60.svg
     tags:
       - energy
       - hardware
   - name: battery-80
-    path: hardware/battery-80.svg
+    path: 16/hardware/battery-80.svg
     tags:
       - energy
       - hardware
   - name: bell
-    path: misc/bell.svg
+    path: 16/misc/bell.svg
     tags:
       - alarm
       - bell
       - misc
       - notification
   - name: blocks
-    path: misc/blocks.svg
+    path: 16/misc/blocks.svg
     tags:
       - misc
   - name: bluetooth
-    path: hardware/bluetooth.svg
+    path: 16/hardware/bluetooth.svg
     tags:
       - connection
       - hardware
       - wireless
   - name: bongos
-    path: instruments/bongos.svg
+    path: 16/instruments/bongos.svg
     tags:
       - instrument
       - percussion
   - name: book
-    path: misc/book.svg
+    path: 16/misc/book.svg
     tags:
       - library
       - misc
       - read
   - name: bookmark
-    path: navigation/bookmark.svg
+    path: 16/navigation/bookmark.svg
     tags:
       - book
       - navigation
       - pin
       - read
   - name: build
-    path: action/build.svg
+    path: 16/action/build.svg
     tags:
       - action
       - compile
       - hammer
   - name: calculator
-    path: software/calculator.svg
+    path: 16/software/calculator.svg
     tags:
       - compute
       - mathematics
       - maths
       - software
   - name: calendar
-    path: misc/calendar.svg
+    path: 16/misc/calendar.svg
     tags:
       - date
       - day
@@ -237,26 +237,26 @@ icons:
       - week
       - year
   - name: camera
-    path: hardware/camera.svg
+    path: 16/hardware/camera.svg
     tags:
       - film
       - hardware
       - movie
       - picture
   - name: cashier-ticket
-    path: shopping/cashier-ticket.svg
+    path: 16/shopping/cashier-ticket.svg
     tags:
       - buy
       - invoice
       - shopping
   - name: center
-    path: text/center.svg
+    path: 16/text/center.svg
     tags:
       - alignment
       - editor
       - text
   - name: certificate
-    path: file/certificate.svg
+    path: 16/file/certificate.svg
     tags:
       - authority
       - file
@@ -264,21 +264,21 @@ icons:
       - signature
       - trust
   - name: certified
-    path: misc/certified.svg
+    path: 16/misc/certified.svg
     tags:
       - authority
       - misc
       - official
       - trust
   - name: certified-filled
-    path: misc/certified-filled.svg
+    path: 16/misc/certified-filled.svg
     tags:
       - authority
       - misc
       - official
       - trust
   - name: character-map
-    path: software/character-map.svg
+    path: 16/software/character-map.svg
     tags:
       - keyboard
       - letters
@@ -286,28 +286,28 @@ icons:
       - symbols
       - typing
   - name: check-tick
-    path: shape/check-tick.svg
+    path: 16/shape/check-tick.svg
     tags:
       - correct
       - shape
       - success
       - valid
   - name: chevron-double-left
-    path: navigation/chevron-double-left.svg
+    path: 16/navigation/chevron-double-left.svg
     tags:
       - move
       - navigate
       - navigation
       - previous
   - name: chevron-double-right
-    path: navigation/chevron-double-right.svg
+    path: 16/navigation/chevron-double-right.svg
     tags:
       - move
       - navigate
       - navigation
       - next
   - name: chevron-down
-    path: navigation/chevron-down.svg
+    path: 16/navigation/chevron-down.svg
     tags:
       - action
       - direction
@@ -315,21 +315,21 @@ icons:
       - navigation
       - next
   - name: chevron-left
-    path: navigation/chevron-left.svg
+    path: 16/navigation/chevron-left.svg
     tags:
       - move
       - navigate
       - navigation
       - previous
   - name: chevron-right
-    path: navigation/chevron-right.svg
+    path: 16/navigation/chevron-right.svg
     tags:
       - move
       - navigate
       - navigation
       - next
   - name: chevron-up
-    path: navigation/chevron-up.svg
+    path: 16/navigation/chevron-up.svg
     tags:
       - arrow
       - chevron
@@ -338,30 +338,30 @@ icons:
       - navigation
       - previous
   - name: circle
-    path: shape/circle.svg
+    path: 16/shape/circle.svg
     tags:
       - ellipse
       - shape
   - name: circle-filled
-    path: shape/circle-filled.svg
+    path: 16/shape/circle-filled.svg
     tags:
       - ellipse
       - shape
   - name: clap
-    path: instruments/clap.svg
+    path: 16/instruments/clap.svg
     tags:
       - handclap
       - instrument
       - percussion
   - name: clear
-    path: action/clear.svg
+    path: 16/action/clear.svg
     tags:
       - action
       - delete
       - erase
       - remove
   - name: clock
-    path: misc/clock.svg
+    path: 16/misc/clock.svg
     tags:
       - duration
       - hour
@@ -371,7 +371,7 @@ icons:
       - second
       - time
   - name: close
-    path: action/close.svg
+    path: 16/action/close.svg
     tags:
       - action
       - cancel
@@ -380,7 +380,7 @@ icons:
       - erase
       - remove
   - name: close-small
-    path: action/close-small.svg
+    path: 16/action/close-small.svg
     tags:
       - action
       - cancel
@@ -389,65 +389,65 @@ icons:
       - erase
       - remove
   - name: cloud
-    path: misc/cloud.svg
+    path: 16/misc/cloud.svg
     tags:
       - data
       - misc
       - network
       - storage
   - name: cloud-crossed-out
-    path: misc/cloud-crossed-out.svg
+    path: 16/misc/cloud-crossed-out.svg
     tags:
       - data
       - misc
       - network
       - storage
   - name: color-swatch
-    path: misc/color-swatch.svg
+    path: 16/misc/color-swatch.svg
     tags:
       - example
       - misc
       - sample
   - name: combobox-indicator
-    path: navigation/combobox-indicator.svg
+    path: 16/navigation/combobox-indicator.svg
     tags:
       - interface
       - navigation
       - select
       - widget
   - name: command-line
-    path: software/command-line.svg
+    path: 16/software/command-line.svg
     tags:
       - cli
       - script
       - software
       - terminal
   - name: comment
-    path: misc/comment.svg
+    path: 16/misc/comment.svg
     tags:
       - balloon
       - bubble
       - misc
       - speech
   - name: computer
-    path: hardware/computer.svg
+    path: 16/hardware/computer.svg
     tags:
       - desktop
       - hardware
   - name: copy
-    path: action/copy.svg
+    path: 16/action/copy.svg
     tags:
       - action
       - editor
       - pasteboard
   - name: cpu
-    path: hardware/cpu.svg
+    path: 16/hardware/cpu.svg
     tags:
       - computer
       - hardware
       - performance
   - name: crane
-    path: misc/crane.svg
+    path: 16/misc/crane.svg
     tags:
       - misc
       - build
@@ -456,7 +456,7 @@ icons:
       - backhoe loader
       - excavator
   - name: crane-hook
-    path: misc/crane-hook.svg
+    path: 16/misc/crane-hook.svg
     tags:
       - misc
       - hook
@@ -464,7 +464,7 @@ icons:
       - building
       - construction
   - name: credit_card
-    path: shopping/credit_card.svg
+    path: 16/shopping/credit_card.svg
     tags:
       - bank
       - buy
@@ -472,41 +472,41 @@ icons:
       - purchase
       - shopping
   - name: cube
-    path: shape/cube.svg
+    path: 16/shape/cube.svg
     tags:
       - 3d
       - shape
   - name: cut
-    path: action/cut.svg
+    path: 16/action/cut.svg
     tags:
       - action
       - scissors
   - name: cymbal
-    path: instruments/cymbal.svg
+    path: 16/instruments/cymbal.svg
     tags:
       - drums
       - instrument
       - percussion
   - name: debug
-    path: misc/debug.svg
+    path: 16/misc/debug.svg
     tags:
       - bug
       - development
       - insect
       - misc
   - name: desktop
-    path: software/desktop.svg
+    path: 16/software/desktop.svg
     tags:
       - operating system
       - software
   - name: dictionary
-    path: software/dictionary.svg
+    path: 16/software/dictionary.svg
     tags:
       - language
       - software
       - words
   - name: disk
-    path: hardware/disk.svg
+    path: 16/hardware/disk.svg
     tags:
       - album
       - cd
@@ -515,57 +515,57 @@ icons:
       - hardware
       - lp
   - name: download
-    path: action/download.svg
+    path: 16/action/download.svg
     tags:
       - action
       - disk
       - save
   - name: drag
-    path: action/drag.svg
+    path: 16/action/drag.svg
     tags:
       - action
       - move
   - name: drive
-    path: hardware/drive.svg
+    path: 16/hardware/drive.svg
     tags:
       - disk
       - hardware
       - hdd
   - name: drumkit
-    path: instruments/drumkit.svg
+    path: 16/instruments/drumkit.svg
     tags:
       - drums
       - instrument
       - percussion
   - name: eject
-    path: media/eject.svg
+    path: 16/media/eject.svg
     tags:
       - disk
       - drive
       - media
   - name: erase
-    path: action/erase.svg
+    path: 16/action/erase.svg
     tags:
       - action
       - clear
       - delete
       - remove
   - name: eraser
-    path: action/eraser.svg
+    path: 16/action/eraser.svg
     tags:
       - action
       - clear
       - delete
       - remove
   - name: ethernet
-    path: hardware/ethernet.svg
+    path: 16/hardware/ethernet.svg
     tags:
       - cable
       - connection
       - hardware
       - network
   - name: executable
-    path: file/executable.svg
+    path: 16/file/executable.svg
     tags:
       - application
       - file
@@ -573,19 +573,19 @@ icons:
       - software
       - window
   - name: export
-    path: action/export.svg
+    path: 16/action/export.svg
     tags:
       - action
       - save
   - name: external-link
-    path: action/external-link.svg
+    path: 16/action/external-link.svg
     tags:
       - action
       - browser
       - open
       - url
   - name: eye
-    path: action/eye.svg
+    path: 16/action/eye.svg
     tags:
       - action
       - see
@@ -593,41 +593,41 @@ icons:
       - visible
       - vision
   - name: facebook
-    path: brand/facebook.svg
+    path: 16/brand/facebook.svg
     tags:
       - brand
       - social
   - name: facebook-fill
-    path: brand/facebook-fill.svg
+    path: 16/brand/facebook-fill.svg
     tags:
       - brand
       - social
   - name: faq
-    path: misc/faq.svg
+    path: 16/misc/faq.svg
     tags:
       - answer
       - misc
       - question
   - name: file
-    path: file/file.svg
+    path: 16/file/file.svg
     tags:
       - empty
       - file
       - page
   - name: file-html
-    path: file/file-html.svg
+    path: 16/file/file-html.svg
     tags:
       - browser
       - file
       - web
   - name: file-manager
-    path: software/file-manager.svg
+    path: 16/software/file-manager.svg
     tags:
       - explorer
       - finder
       - software
   - name: file-script
-    path: file/file-script.svg
+    path: 16/file/file-script.svg
     tags:
       - bash
       - code
@@ -636,46 +636,46 @@ icons:
       - script
       - terminal
   - name: file-text
-    path: file/file-text.svg
+    path: 16/file/file-text.svg
     tags:
       - file
       - plain text
   - name: fill
-    path: text/fill.svg
+    path: 16/text/fill.svg
     tags:
       - align
       - alignment
       - editor
       - text
   - name: filter
-    path: action/filter.svg
+    path: 16/action/filter.svg
     tags:
       - action
       - bottleneck
       - funnel
   - name: flag
-    path: navigation/flag.svg
+    path: 16/navigation/flag.svg
     tags:
       - country
       - language
       - nation
       - navigation
   - name: folder
-    path: file/folder.svg
+    path: 16/file/folder.svg
     tags:
       - explorer
       - file
       - finder
       - group
   - name: folder-filled
-    path: file/folder-filled.svg
+    path: 16/file/folder-filled.svg
     tags:
       - explorer
       - file
       - finder
       - group
   - name: folder-open
-    path: file/folder-open.svg
+    path: 16/file/folder-open.svg
     tags:
       - expanded
       - explorer
@@ -683,62 +683,62 @@ icons:
       - finder
       - group
   - name: font
-    path: file/font.svg
+    path: 16/file/font.svg
     tags:
       - file
       - text
       - typography
   - name: format-bold
-    path: text/format-bold.svg
+    path: 16/text/format-bold.svg
     tags:
       - editor
       - format
       - text
   - name: format-italic
-    path: text/format-italic.svg
+    path: 16/text/format-italic.svg
     tags:
       - editor
       - format
       - text
   - name: format-strikethrough
-    path: text/format-strikethrough.svg
+    path: 16/text/format-strikethrough.svg
     tags:
       - editor
       - format
       - text
   - name: format-underline
-    path: text/format-underline.svg
+    path: 16/text/format-underline.svg
     tags:
       - editor
       - format
       - text
   - name: forward
-    path: action/forward.svg
+    path: 16/action/forward.svg
     tags:
       - action
       - email
       - transfer
   - name: fretboard
-    path: instruments/fretboard.svg
+    path: 16/instruments/fretboard.svg
     tags:
       - bass
       - guitar
       - instrument
   - name: fullscreen
-    path: action/fullscreen.svg
+    path: 16/action/fullscreen.svg
     tags:
       - action
       - screen
       - view
       - window
   - name: fullscreen-exit
-    path: action/fullscreen-exit.svg
+    path: 16/action/fullscreen-exit.svg
     tags:
       - action
       - view
       - window
   - name: gamepad
-    path: hardware/gamepad.svg
+    path: 16/hardware/gamepad.svg
     tags:
       - game
       - gaming
@@ -746,7 +746,7 @@ icons:
       - play
       - video game
   - name: gift
-    path: misc/gift.svg
+    path: 16/misc/gift.svg
     tags:
       - birthday
       - christmas
@@ -754,7 +754,7 @@ icons:
       - misc
       - present
   - name: globe
-    path: misc/globe.svg
+    path: 16/misc/globe.svg
     tags:
       - browser
       - connection
@@ -763,453 +763,453 @@ icons:
       - network
       - web
   - name: go-bottom
-    path: navigation/go-bottom.svg
+    path: 16/navigation/go-bottom.svg
     tags:
       - direction
       - down
       - last
       - navigation
   - name: go-first
-    path: navigation/go-first.svg
+    path: 16/navigation/go-first.svg
     tags:
       - direction
       - left
       - navigation
   - name: go-last
-    path: navigation/go-last.svg
+    path: 16/navigation/go-last.svg
     tags:
       - direction
       - navigation
       - right
   - name: go-top
-    path: navigation/go-top.svg
+    path: 16/navigation/go-top.svg
     tags:
       - direction
       - first
       - navigation
       - up
   - name: gpu
-    path: hardware/gpu.svg
+    path: 16/hardware/gpu.svg
     tags:
       - graphics
       - hardware
       - render
   - name: guitar
-    path: instruments/guitar.svg
+    path: 16/instruments/guitar.svg
     tags:
       - instrument
   - name: guitar-machine-head
-    path: instruments/guitar-machine-head.svg
+    path: 16/instruments/guitar-machine-head.svg
     tags:
       - bass
       - guitar
       - instrument
   - name: hand
-    path: navigation/hand.svg
+    path: 16/navigation/hand.svg
     tags:
       - drag
       - move
       - navigation
   - name: hdd
-    path: hardware/hdd.svg
+    path: 16/hardware/hdd.svg
     tags:
       - disk
       - hard drive
       - hardware
       - storage
   - name: hdmi
-    path: hardware/hdmi.svg
+    path: 16/hardware/hdmi.svg
     tags:
       - cable
       - hardware
       - plug
       - video
   - name: headphones
-    path: hardware/headphones.svg
+    path: 16/hardware/headphones.svg
     tags:
       - hardware
       - listen
       - music
   - name: headset
-    path: hardware/headset.svg
+    path: 16/hardware/headset.svg
     tags:
       - hardware
       - listen
       - microphone
       - talk
   - name: heart
-    path: shape/heart.svg
+    path: 16/shape/heart.svg
     tags:
       - favorite
       - like
       - love
       - shape
   - name: heart-filled
-    path: shape/heart-filled.svg
+    path: 16/shape/heart-filled.svg
     tags:
       - favorite
       - like
       - love
       - shape
   - name: help
-    path: misc/help.svg
+    path: 16/misc/help.svg
     tags:
       - lifebelt
       - misc
       - rubber ring
       - support
   - name: hi-hat
-    path: instruments/hi-hat.svg
+    path: 16/instruments/hi-hat.svg
     tags:
       - cymbal
       - instrument
       - percussion
   - name: home
-    path: navigation/home.svg
+    path: 16/navigation/home.svg
     tags:
       - house
       - navigation
   - name: hourglass
-    path: misc/hourglass.svg
+    path: 16/misc/hourglass.svg
     tags:
       - countdown
       - misc
       - time
   - name: id-card
-    path: misc/id-card.svg
+    path: 16/misc/id-card.svg
     tags:
       - identity
       - misc
   - name: inbox
-    path: misc/inbox.svg
+    path: 16/misc/inbox.svg
     tags:
       - email
       - mail
       - misc
   - name: indent-less
-    path: text/indent-less.svg
+    path: 16/text/indent-less.svg
     tags:
       - paragraph
       - text
   - name: indent-more
-    path: text/indent-more.svg
+    path: 16/text/indent-more.svg
     tags:
       - paragraph
       - text
   - name: info
-    path: misc/info.svg
+    path: 16/misc/info.svg
     tags:
       - feedback
       - information
       - misc
       - remark
   - name: instagram
-    path: brand/instagram.svg
+    path: 16/brand/instagram.svg
     tags:
       - brand
       - social
   - name: instagram-fill
-    path: brand/instagram-fill.svg
+    path: 16/brand/instagram-fill.svg
     tags:
       - brand
       - social
   - name: items-grid
-    path: misc/items-grid.svg
+    path: 16/misc/items-grid.svg
     tags:
       - misc
       - organization
       - organize
       - view
   - name: items-grid-small
-    path: misc/items-grid-small.svg
+    path: 16/misc/items-grid-small.svg
     tags:
       - misc
       - organization
       - organize
       - view
   - name: items-list
-    path: misc/items-list.svg
+    path: 16/misc/items-list.svg
     tags:
       - misc
       - organization
       - organize
       - view
   - name: items-tree
-    path: misc/items-tree.svg
+    path: 16/misc/items-tree.svg
     tags:
       - misc
       - organization
       - organize
       - view
   - name: jump
-    path: navigation/jump.svg
+    path: 16/navigation/jump.svg
     tags:
       - debug
       - development
       - navigation
   - name: jump-over
-    path: navigation/jump-over.svg
+    path: 16/navigation/jump-over.svg
     tags:
       - debug
       - development
       - navigation
   - name: justify-left
-    path: text/justify-left.svg
+    path: 16/text/justify-left.svg
     tags:
       - alignment
       - paragraph
       - text
   - name: justify-right
-    path: text/justify-right.svg
+    path: 16/text/justify-right.svg
     tags:
       - alignment
       - paragraph
       - text
   - name: key-cmd
-    path: navigation/key-cmd.svg
+    path: 16/navigation/key-cmd.svg
     tags:
       - apple
       - keybinding
       - keyboard
       - navigation
   - name: key-ctrl
-    path: navigation/key-ctrl.svg
+    path: 16/navigation/key-ctrl.svg
     tags:
       - apple
       - keybinding
       - keyboard
       - navigation
   - name: key-opt
-    path: navigation/key-opt.svg
+    path: 16/navigation/key-opt.svg
     tags:
       - apple
       - keybinding
       - keyboard
       - navigation
   - name: key-return
-    path: navigation/key-return.svg
+    path: 16/navigation/key-return.svg
     tags:
       - enter
       - keybinding
       - keyboard
       - navigation
   - name: key-shift
-    path: navigation/key-shift.svg
+    path: 16/navigation/key-shift.svg
     tags:
       - keybinding
       - keyboard
       - navigation
       - uppercase
   - name: keyboard
-    path: hardware/keyboard.svg
+    path: 16/hardware/keyboard.svg
     tags:
       - hardware
   - name: kick
-    path: instruments/kick.svg
+    path: 16/instruments/kick.svg
     tags:
       - drumkit
       - drums
       - instrument
       - percussion
   - name: layers-1
-    path: navigation/layers-1.svg
+    path: 16/navigation/layers-1.svg
     tags:
       - layer
       - navigation
   - name: layers-2
-    path: navigation/layers-2.svg
+    path: 16/navigation/layers-2.svg
     tags:
       - layer
       - navigation
   - name: layers-3
-    path: navigation/layers-3.svg
+    path: 16/navigation/layers-3.svg
     tags:
       - layer
       - navigation
   - name: layers-4
-    path: navigation/layers-4.svg
+    path: 16/navigation/layers-4.svg
     tags:
       - layer
       - navigation
   - name: layout-pages-horizontal
-    path: page/layout-pages-horizontal.svg
+    path: 16/page/layout-pages-horizontal.svg
     tags:
       - page
       - view
   - name: layout-pages-vertical
-    path: page/layout-pages-vertical.svg
+    path: 16/page/layout-pages-vertical.svg
     tags:
       - page
       - view
   - name: layout-pages-wrap
-    path: page/layout-pages-wrap.svg
+    path: 16/page/layout-pages-wrap.svg
     tags:
       - page
       - view
   - name: layout-parchment
-    path: page/layout-parchment.svg
+    path: 16/page/layout-parchment.svg
     tags:
       - contiguous
       - page
       - view
   - name: layout-screen-horizontal
-    path: page/layout-screen-horizontal.svg
+    path: 16/page/layout-screen-horizontal.svg
     tags:
       - contiguous
       - page
   - name: layout-screen-vertical
-    path: page/layout-screen-vertical.svg
+    path: 16/page/layout-screen-vertical.svg
     tags:
       - contiguous
       - page
   - name: left-to-right
-    path: text/left-to-right.svg
+    path: 16/text/left-to-right.svg
     tags:
       - direction
       - ltr
       - text
   - name: location
-    path: misc/location.svg
+    path: 16/misc/location.svg
     tags:
       - map
       - misc
       - pin
   - name: lock
-    path: action/lock.svg
+    path: 16/action/lock.svg
     tags:
       - action
       - password
       - secure
       - security
   - name: lock-screen
-    path: action/lock-screen.svg
+    path: 16/action/lock-screen.svg
     tags:
       - action
       - password
       - secure
       - security
   - name: log-in
-    path: action/log-in.svg
+    path: 16/action/log-in.svg
     tags:
       - action
       - connect
       - user
   - name: log-out
-    path: action/log-out.svg
+    path: 16/action/log-out.svg
     tags:
       - action
       - disconnect
       - user
   - name: loop
-    path: media/loop.svg
+    path: 16/media/loop.svg
     tags:
       - feedback
       - media
   - name: losange
-    path: shape/losange.svg
+    path: 16/shape/losange.svg
     tags:
       - diamond
       - shape
   - name: losange-filled
-    path: shape/losange-filled.svg
+    path: 16/shape/losange-filled.svg
     tags:
       - diamond
       - shape
   - name: mac
-    path: brand/mac.svg
+    path: 16/brand/mac.svg
     tags:
       - apple
       - brand
   - name: macaron
-    path: shape/macaron.svg
+    path: 16/shape/macaron.svg
     tags:
       - certify
       - shape
   - name: macaron-filled
-    path: shape/macaron-filled.svg
+    path: 16/shape/macaron-filled.svg
     tags:
       - certify
       - shape
   - name: magnet
-    path: misc/magnet.svg
+    path: 16/misc/magnet.svg
     tags:
       - misc
       - snap
   - name: magnet-crossed-out
-    path: misc/magnet-crossed-out.svg
+    path: 16/misc/magnet-crossed-out.svg
     tags:
       - misc
       - snap
   - name: mail
-    path: misc/mail.svg
+    path: 16/misc/mail.svg
     tags:
       - enveloppe
       - misc
       - send
   - name: map
-    path: navigation/map.svg
+    path: 16/navigation/map.svg
     tags:
       - navigation
       - travel
   - name: mastering
-    path: instruments/mastering.svg
+    path: 16/instruments/mastering.svg
     tags:
       - instrument
       - mixing
       - recording
   - name: match-case
-    path: text/match-case.svg
+    path: 16/text/match-case.svg
     tags:
       - search
       - text
   - name: match-regexp
-    path: text/match-regexp.svg
+    path: 16/text/match-regexp.svg
     tags:
       - search
       - text
   - name: match-whole-word
-    path: text/match-whole-word.svg
+    path: 16/text/match-whole-word.svg
     tags:
       - search
       - text
   - name: media
-    path: file/media.svg
+    path: 16/file/media.svg
     tags:
       - audio
       - file
       - picture
       - video
   - name: megaphone
-    path: misc/megaphone.svg
+    path: 16/misc/megaphone.svg
     tags:
       - announcement
       - misc
       - news
   - name: memory
-    path: hardware/memory.svg
+    path: 16/hardware/memory.svg
     tags:
       - hardware
       - ram
   - name: menu-burger
-    path: navigation/menu-burger.svg
+    path: 16/navigation/menu-burger.svg
     tags:
       - more
       - navigation
       - options
   - name: menu-dots
-    path: navigation/menu-dots.svg
+    path: 16/navigation/menu-dots.svg
     tags:
       - more
       - navigation
       - options
   - name: menu-dots-circle
-    path: navigation/menu-dots-circle.svg
+    path: 16/navigation/menu-dots-circle.svg
     tags:
       - more
       - navigation
       - options
   - name: microphone
-    path: hardware/microphone.svg
+    path: 16/hardware/microphone.svg
     tags:
       - hardware
       - recording
@@ -1217,7 +1217,7 @@ icons:
       - talk
       - voice
   - name: microphone-old
-    path: hardware/microphone-old.svg
+    path: 16/hardware/microphone-old.svg
     tags:
       - hardware
       - recording
@@ -1227,66 +1227,66 @@ icons:
       - vintage
       - old
   - name: midi
-    path: brand/midi.svg
+    path: 16/brand/midi.svg
     tags:
       - brand
       - file
       - music
   - name: minus
-    path: action/minus.svg
+    path: 16/action/minus.svg
     tags:
       - action
       - delete
       - erase
       - remove
   - name: minus-circle
-    path: action/minus-circle.svg
+    path: 16/action/minus-circle.svg
     tags:
       - action
       - delete
       - erase
       - remove
   - name: minus-small
-    path: action/minus-small.svg
+    path: 16/action/minus-small.svg
     tags:
       - action
       - delete
       - erase
       - remove
   - name: modem
-    path: hardware/modem.svg
+    path: 16/hardware/modem.svg
     tags:
       - connection
       - hardware
       - internet
       - network
   - name: modified
-    path: misc/modified.svg
+    path: 16/misc/modified.svg
     tags:
       - document
       - edited
       - file
       - misc
   - name: money
-    path: shopping/money.svg
+    path: 16/shopping/money.svg
     tags:
       - coins
       - price
       - shopping
       - tokens
   - name: moon
-    path: misc/moon.svg
+    path: 16/misc/moon.svg
     tags:
       - misc
       - dark
       - night
   - name: mouse
-    path: hardware/mouse.svg
+    path: 16/hardware/mouse.svg
     tags:
       - computer
       - hardware
   - name: mouse-cursor
-    path: navigation/mouse-cursor.svg
+    path: 16/navigation/mouse-cursor.svg
     tags:
       - default
       - interface
@@ -1294,41 +1294,41 @@ icons:
       - navigation
       - select
   - name: mouse-left-button
-    path: navigation/mouse-left-button.svg
+    path: 16/navigation/mouse-left-button.svg
     tags:
       - navigation
   - name: mouse-middle-button
-    path: navigation/mouse-middle-button.svg
+    path: 16/navigation/mouse-middle-button.svg
     tags:
       - navigation
   - name: mouse-right-button
-    path: navigation/mouse-right-button.svg
+    path: 16/navigation/mouse-right-button.svg
     tags:
       - navigation
   - name: mouse-selection
-    path: navigation/mouse-selection.svg
+    path: 16/navigation/mouse-selection.svg
     tags:
       - cursor
       - navigation
       - select
   - name: move
-    path: action/move.svg
+    path: 16/action/move.svg
     tags:
       - action
       - cursor
   - name: movie
-    path: file/movie.svg
+    path: 16/file/movie.svg
     tags:
       - file
       - film
       - video
   - name: network
-    path: hardware/network.svg
+    path: 16/hardware/network.svg
     tags:
       - communicate
       - hardware
   - name: new
-    path: document/new.svg
+    path: 16/document/new.svg
     tags:
       - action
       - create
@@ -1336,71 +1336,71 @@ icons:
       - file
     freedesktop: document-new
   - name: newspaper
-    path: misc/newspaper.svg
+    path: 16/misc/newspaper.svg
     tags:
       - article
       - blog
       - misc
   - name: note
-    path: file/note.svg
+    path: 16/file/note.svg
     tags:
       - file
       - sticker
       - todo
   - name: note-8th-simple
-    path: misc/note-8th-simple.svg
+    path: 16/misc/note-8th-simple.svg
     tags:
       - melody
       - misc
       - music
       - song
   - name: notes
-    path: misc/notes.svg
+    path: 16/misc/notes.svg
     tags:
       - melody
       - misc
       - music
       - song
   - name: on-off
-    path: action/on-off.svg
+    path: 16/action/on-off.svg
     tags:
       - action
       - power
       - start
       - turn off
   - name: open
-    path: document/open.svg
+    path: 16/document/open.svg
     tags:
       - browse
       - document
       - file
   - name: open-recent
-    path: document/open-recent.svg
+    path: 16/document/open-recent.svg
     tags:
       - document
       - file
   - name: page
-    path: page/page.svg
+    path: 16/page/page.svg
     tags:
       - empty
       - file
       - page
   - name: page-landscape
-    path: page/page-landscape.svg
+    path: 16/page/page-landscape.svg
     tags:
       - horizontal
       - orientation
       - page
       - paper
   - name: page-portrait
-    path: page/page-portrait.svg
+    path: 16/page/page-portrait.svg
     tags:
       - orientation
       - page
       - paper
       - vertical
   - name: page-setup
-    path: document/page-setup.svg
+    path: 16/document/page-setup.svg
     tags:
       - document
       - format
@@ -1408,13 +1408,13 @@ icons:
       - ruler
       - size
   - name: page-text
-    path: page/page-text.svg
+    path: 16/page/page-text.svg
     tags:
       - file
       - page
       - paper
   - name: paint-brush-large
-    path: misc/paint-brush-large.svg
+    path: 16/misc/paint-brush-large.svg
     tags:
       - color
       - draw
@@ -1422,7 +1422,7 @@ icons:
       - stroke
       - style
   - name: paint-brush-thin
-    path: misc/paint-brush-thin.svg
+    path: 16/misc/paint-brush-thin.svg
     tags:
       - color
       - draw
@@ -1430,7 +1430,7 @@ icons:
       - stroke
       - style
   - name: paint-bucket
-    path: misc/paint-bucket.svg
+    path: 16/misc/paint-bucket.svg
     tags:
       - color
       - draw
@@ -1438,7 +1438,7 @@ icons:
       - misc
       - style
   - name: paint-bucket-drop
-    path: misc/paint-bucket-drop.svg
+    path: 16/misc/paint-bucket-drop.svg
     tags:
       - color
       - draw
@@ -1446,7 +1446,7 @@ icons:
       - misc
       - style
   - name: paint-drop
-    path: misc/paint-drop.svg
+    path: 16/misc/paint-drop.svg
     tags:
       - color
       - draw
@@ -1454,7 +1454,7 @@ icons:
       - misc
       - style
   - name: paint-palette
-    path: misc/paint-palette.svg
+    path: 16/misc/paint-palette.svg
     tags:
       - color
       - draw
@@ -1462,7 +1462,7 @@ icons:
       - style
       - theme
   - name: paint-roll-brush
-    path: misc/paint-roll-brush.svg
+    path: 16/misc/paint-roll-brush.svg
     tags:
       - color
       - draw
@@ -1470,27 +1470,27 @@ icons:
       - style
       - theme
   - name: password
-    path: misc/password.svg
+    path: 16/misc/password.svg
     tags:
       - door
       - key
       - lock
       - misc
   - name: paste
-    path: action/paste.svg
+    path: 16/action/paste.svg
     tags:
       - action
       - clipboard
   - name: pause
-    path: media/pause.svg
+    path: 16/media/pause.svg
     tags:
       - media
   - name: pda
-    path: hardware/pda.svg
+    path: 16/hardware/pda.svg
     tags:
       - hardware
   - name: pedal
-    path: instruments/pedal.svg
+    path: 16/instruments/pedal.svg
     tags:
       - dsp
       - effect
@@ -1498,7 +1498,7 @@ icons:
       - instrument
       - sound
   - name: pedal-outlines
-    path: instruments/pedal-outlines.svg
+    path: 16/instruments/pedal-outlines.svg
     tags:
       - dsp
       - effect
@@ -1506,7 +1506,7 @@ icons:
       - instrument
       - sound
   - name: pedalboard
-    path: instruments/pedalboard.svg
+    path: 16/instruments/pedalboard.svg
     tags:
       - chain
       - dsp
@@ -1515,7 +1515,7 @@ icons:
       - instrument
       - sound
   - name: pen
-    path: misc/pen.svg
+    path: 16/misc/pen.svg
     tags:
       - action
       - change
@@ -1525,7 +1525,7 @@ icons:
       - pencil
       - write
   - name: phone
-    path: hardware/phone.svg
+    path: 16/hardware/phone.svg
     tags:
       - android
       - hardware
@@ -1533,171 +1533,171 @@ icons:
       - mobile
       - smartphone
   - name: photo-camera
-    path: hardware/photo-camera.svg
+    path: 16/hardware/photo-camera.svg
     tags:
       - hardware
       - picture
       - snapshot
   - name: piano
-    path: instruments/piano.svg
+    path: 16/instruments/piano.svg
     tags:
       - instrument
       - keyboard
   - name: picture
-    path: file/picture.svg
+    path: 16/file/picture.svg
     tags:
       - file
       - gallery
       - media
       - photo
   - name: pin
-    path: action/pin.svg
+    path: 16/action/pin.svg
     tags:
       - action
       - favorite
   - name: play
-    path: media/play.svg
+    path: 16/media/play.svg
     tags:
       - media
       - playback
   - name: play-small
-    path: media/play-small.svg
+    path: 16/media/play-small.svg
     tags:
       - media
       - playback
   - name: play-stroke
-    path: media/play-stroke.svg
+    path: 16/media/play-stroke.svg
     tags:
       - media
       - playback
   - name: plugin
-    path: file/plugin.svg
+    path: 16/file/plugin.svg
     tags:
       - brick
       - expansion
       - file
   - name: plus
-    path: action/plus.svg
+    path: 16/action/plus.svg
     tags:
       - action
       - add
       - more
       - new
   - name: plus-circle
-    path: action/plus-circle.svg
+    path: 16/action/plus-circle.svg
     tags:
       - action
       - add
       - more
       - new
   - name: plus-small
-    path: action/plus-small.svg
+    path: 16/action/plus-small.svg
     tags:
       - action
       - add
       - more
       - new
   - name: preset
-    path: file/preset.svg
+    path: 16/file/preset.svg
     tags:
       - file
       - parchment
       - settings
       - user
   - name: preview
-    path: action/preview.svg
+    path: 16/action/preview.svg
     tags:
       - action
   - name: print
-    path: action/print.svg
+    path: 16/action/print.svg
     tags:
       - action
       - paper
       - printer
   - name: print-preview
-    path: action/print-preview.svg
+    path: 16/action/print-preview.svg
     tags:
       - action
       - paper
       - printer
   - name: properties
-    path: document/properties.svg
+    path: 16/document/properties.svg
     tags:
       - document
       - settings
   - name: question
-    path: misc/question.svg
+    path: 16/misc/question.svg
     tags:
       - help
       - misc
   - name: record
-    path: media/record.svg
+    path: 16/media/record.svg
     tags:
       - media
       - playback
   - name: redo
-    path: action/redo.svg
+    path: 16/action/redo.svg
     tags:
       - action
       - command
       - stack
   - name: refresh
-    path: action/refresh.svg
+    path: 16/action/refresh.svg
     tags:
       - action
       - reset
       - update
   - name: rename
-    path: action/rename.svg
+    path: 16/action/rename.svg
     tags:
       - action
       - name
       - edit
   - name: replace
-    path: action/replace.svg
+    path: 16/action/replace.svg
     tags:
       - action
       - exchange
       - swap
   - name: reply
-    path: action/reply.svg
+    path: 16/action/reply.svg
     tags:
       - action
       - answer
   - name: reply-all
-    path: action/reply-all.svg
+    path: 16/action/reply-all.svg
     tags:
       - action
       - answer
       - group
   - name: reset
-    path: action/reset.svg
+    path: 16/action/reset.svg
     tags:
       - action
       - restart
   - name: resume
-    path: misc/resume.svg
+    path: 16/misc/resume.svg
     tags:
       - curriculum vitae
       - cv
       - misc
       - profile
   - name: right-to-left
-    path: text/right-to-left.svg
+    path: 16/text/right-to-left.svg
     tags:
       - direction
       - read
       - rtl
       - text
   - name: rss
-    path: brand/rss.svg
+    path: 16/brand/rss.svg
     tags:
       - article
       - blog
       - brand
       - news
   - name: run
-    path: action/run.svg
+    path: 16/action/run.svg
     tags:
       - action
       - development
@@ -1706,7 +1706,7 @@ icons:
       - mechanism
       - program
   - name: run-debug
-    path: misc/run-debug.svg
+    path: 16/misc/run-debug.svg
     tags:
       - action
       - bug
@@ -1715,164 +1715,164 @@ icons:
       - misc
       - program
   - name: save
-    path: action/save.svg
+    path: 16/action/save.svg
     tags:
       - action
       - disk
       - floppy
   - name: save-to-disk
-    path: action/save-to-disk.svg
+    path: 16/action/save-to-disk.svg
     tags:
       - action
       - download
       - drive
   - name: scanner
-    path: hardware/scanner.svg
+    path: 16/hardware/scanner.svg
     tags:
       - device
       - hardware
       - picture
   - name: screen
-    path: hardware/screen.svg
+    path: 16/hardware/screen.svg
     tags:
       - device
       - hardware
       - monitor
   - name: screenshot
-    path: action/screenshot.svg
+    path: 16/action/screenshot.svg
     tags:
       - action
       - capture
       - screen
   - name: search
-    path: navigation/search.svg
+    path: 16/navigation/search.svg
     tags:
       - glass
       - magnify
       - navigation
   - name: seek-backward
-    path: media/seek-backward.svg
+    path: 16/media/seek-backward.svg
     tags:
       - media
       - playback
       - seek
   - name: seek-forward
-    path: media/seek-forward.svg
+    path: 16/media/seek-forward.svg
     tags:
       - media
       - playback
       - seek
   - name: select-all
-    path: action/select-all.svg
+    path: 16/action/select-all.svg
     tags:
       - action
       - checkbox
       - selection
   - name: send
-    path: action/send.svg
+    path: 16/action/send.svg
     tags:
       - action
       - email
       - message
   - name: send-receive
-    path: action/send-receive.svg
+    path: 16/action/send-receive.svg
     tags:
       - action
       - email
       - mailbox
   - name: settings
-    path: navigation/settings.svg
+    path: 16/navigation/settings.svg
     tags:
       - gear
       - navigation
       - parameters
       - preferences
   - name: shakers
-    path: instruments/shakers.svg
+    path: 16/instruments/shakers.svg
     tags:
       - instrument
       - percussion
   - name: share
-    path: action/share.svg
+    path: 16/action/share.svg
     tags:
       - action
       - export
       - send
   - name: share-external
-    path: action/share-external.svg
+    path: 16/action/share-external.svg
     tags:
       - action
       - export
       - share
   - name: shopping-bag
-    path: shopping/shopping-bag.svg
+    path: 16/shopping/shopping-bag.svg
     tags:
       - cart
       - purchase
       - shopping
   - name: shopping-cart
-    path: shopping/shopping-cart.svg
+    path: 16/shopping/shopping-cart.svg
     tags:
       - cart
       - purchase
       - shopping
   - name: shuffle
-    path: media/shuffle.svg
+    path: 16/media/shuffle.svg
     tags:
       - media
       - mix
       - playback
       - random
   - name: skip-backward
-    path: media/skip-backward.svg
+    path: 16/media/skip-backward.svg
     tags:
       - media
       - playback
       - previous
       - skip
   - name: skip-forward
-    path: media/skip-forward.svg
+    path: 16/media/skip-forward.svg
     tags:
       - media
       - next
       - playback
       - skip
   - name: sliders-horizontal
-    path: navigation/sliders-horizontal.svg
+    path: 16/navigation/sliders-horizontal.svg
     tags:
       - navigation
       - parameters
       - preferences
       - settings
   - name: sliders-vertical
-    path: navigation/sliders-vertical.svg
+    path: 16/navigation/sliders-vertical.svg
     tags:
       - navigation
       - parameters
       - preferences
       - settings
   - name: smartphone
-    path: hardware/smartphone.svg
+    path: 16/hardware/smartphone.svg
     tags:
       - hardware
       - mobile
       - phone
   - name: snapshot
-    path: action/snapshot.svg
+    path: 16/action/snapshot.svg
     tags:
       - action
       - camera
       - picture
       - still
   - name: snare
-    path: instruments/snare.svg
+    path: 16/instruments/snare.svg
     tags:
       - drumkit
       - drums
       - instrument
       - percussion
   - name: sort-alpha-asc
-    path: action/sort-alpha-asc.svg
+    path: 16/action/sort-alpha-asc.svg
     tags:
       - action
       - alphabetical
@@ -1881,7 +1881,7 @@ icons:
       - order
       - sort
   - name: sort-alpha-desc
-    path: action/sort-alpha-desc.svg
+    path: 16/action/sort-alpha-desc.svg
     tags:
       - action
       - alphabetical
@@ -1890,21 +1890,21 @@ icons:
       - order
       - sort
   - name: sort-asc
-    path: action/sort-asc.svg
+    path: 16/action/sort-asc.svg
     tags:
       - action
       - ascendent
       - order
       - sort
   - name: sort-desc
-    path: action/sort-desc.svg
+    path: 16/action/sort-desc.svg
     tags:
       - action
       - ascendent
       - order
       - sort
   - name: sort-ranking-asc
-    path: action/sort-ranking-asc.svg
+    path: 16/action/sort-ranking-asc.svg
     tags:
       - action
       - ascendent
@@ -1913,7 +1913,7 @@ icons:
       - sort
       - star
   - name: sort-ranking-desc
-    path: action/sort-ranking-desc.svg
+    path: 16/action/sort-ranking-desc.svg
     tags:
       - action
       - descendent
@@ -1922,7 +1922,7 @@ icons:
       - sort
       - star
   - name: sort-time-asc
-    path: action/sort-time-asc.svg
+    path: 16/action/sort-time-asc.svg
     tags:
       - action
       - ascendent
@@ -1930,7 +1930,7 @@ icons:
       - date
       - sort
   - name: sort-time-desc
-    path: action/sort-time-desc.svg
+    path: 16/action/sort-time-desc.svg
     tags:
       - action
       - clock
@@ -1938,91 +1938,91 @@ icons:
       - descendent
       - sort
   - name: spam
-    path: misc/spam.svg
+    path: 16/misc/spam.svg
     tags:
       - email
       - junk
       - mailbox
       - misc
   - name: speaker-0
-    path: audio/speaker-0.svg
+    path: 16/audio/speaker-0.svg
     tags:
       - audio
       - quiet
       - volume
   - name: speaker-1
-    path: audio/speaker-1.svg
+    path: 16/audio/speaker-1.svg
     tags:
       - audio
       - volume
   - name: speaker-2
-    path: audio/speaker-2.svg
+    path: 16/audio/speaker-2.svg
     tags:
       - audio
       - loud
       - volume
   - name: speaker-mute
-    path: audio/speaker-mute.svg
+    path: 16/audio/speaker-mute.svg
     tags:
       - audio
       - mute
       - volume
   - name: spell-check
-    path: software/spell-check.svg
+    path: 16/software/spell-check.svg
     tags:
       - grammar
       - software
       - spelling
       - text
   - name: square
-    path: shape/square.svg
+    path: 16/shape/square.svg
     tags:
       - box
       - rectangle
       - shape
   - name: square-filled
-    path: shape/square-filled.svg
+    path: 16/shape/square-filled.svg
     tags:
       - box
       - rectangle
       - shape
   - name: star
-    path: shape/star.svg
+    path: 16/shape/star.svg
     tags:
       - favorite
       - ranking
       - shape
   - name: star-filled
-    path: shape/star-filled.svg
+    path: 16/shape/star-filled.svg
     tags:
       - favorite
       - ranking
       - shape
   - name: star-half
-    path: shape/star-half.svg
+    path: 16/shape/star-half.svg
     tags:
       - favorite
       - ranking
       - shape
   - name: step-into
-    path: navigation/step-into.svg
+    path: 16/navigation/step-into.svg
     tags:
       - debug
       - development
       - navigation
   - name: step-out
-    path: navigation/step-out.svg
+    path: 16/navigation/step-out.svg
     tags:
       - debug
       - development
       - navigation
   - name: stop
-    path: media/stop.svg
+    path: 16/media/stop.svg
     tags:
       - media
       - playback
   - name: success
-    path: misc/success.svg
+    path: 16/misc/success.svg
     tags:
       - check
       - correct
@@ -2030,25 +2030,25 @@ icons:
       - ok
       - valid
   - name: sun
-    path: misc/sun.svg
+    path: 16/misc/sun.svg
     tags:
       - misc
       - light
       - day
   - name: swap
-    path: action/swap.svg
+    path: 16/action/swap.svg
     tags:
       - action
       - exchange
   - name: system-monitor
-    path: software/system-monitor.svg
+    path: 16/software/system-monitor.svg
     tags:
       - analysis
       - health
       - performance
       - software
   - name: tablet
-    path: hardware/tablet.svg
+    path: 16/hardware/tablet.svg
     tags:
       - android
       - device
@@ -2057,34 +2057,34 @@ icons:
       - ipad
       - mobile
   - name: tag
-    path: misc/tag.svg
+    path: 16/misc/tag.svg
     tags:
       - misc
       - price
   - name: tambourine
-    path: instruments/tambourine.svg
+    path: 16/instruments/tambourine.svg
     tags:
       - instrument
       - percussion
   - name: tamtam
-    path: instruments/tamtam.svg
+    path: 16/instruments/tamtam.svg
     tags:
       - instrument
       - percussion
   - name: tape
-    path: hardware/tape.svg
+    path: 16/hardware/tape.svg
     tags:
       - hardware
       - recording
   - name: task
-    path: misc/task.svg
+    path: 16/misc/task.svg
     tags:
       - check
       - clipboard
       - misc
       - todo
   - name: task-past
-    path: misc/task-past.svg
+    path: 16/misc/task-past.svg
     tags:
       - clipboard
       - expired
@@ -2092,7 +2092,7 @@ icons:
       - todo
       - warning
   - name: task-soon
-    path: misc/task-soon.svg
+    path: 16/misc/task-soon.svg
     tags:
       - clipboard
       - clock
@@ -2100,42 +2100,42 @@ icons:
       - schedule
       - todo
   - name: template
-    path: document/template.svg
+    path: 16/document/template.svg
     tags:
       - build
       - document
       - hammer
       - page
   - name: test
-    path: misc/test.svg
+    path: 16/misc/test.svg
     tags:
       - chemistry
       - experience
       - misc
       - vial
   - name: text
-    path: text/text.svg
+    path: 16/text/text.svg
     tags:
       - font
       - letter
       - text
       - typography
   - name: text-editor
-    path: software/text-editor.svg
+    path: 16/software/text-editor.svg
     tags:
       - notepad
       - software
       - text
       - write
   - name: tom
-    path: instruments/tom.svg
+    path: 16/instruments/tom.svg
     tags:
       - drumkit
       - drums
       - instrument
       - percussion
   - name: tool
-    path: misc/tool.svg
+    path: 16/misc/tool.svg
     tags:
       - allen
       - misc
@@ -2145,14 +2145,14 @@ icons:
       - tweak
       - wrench
   - name: tracklist
-    path: misc/tracklist.svg
+    path: 16/misc/tracklist.svg
     tags:
       - instrument
       - misc
       - playlist
       - track
   - name: trash
-    path: action/trash.svg
+    path: 16/action/trash.svg
     tags:
       - action
       - bin
@@ -2160,7 +2160,7 @@ icons:
       - erase
       - remove
   - name: trash-full
-    path: action/trash-full.svg
+    path: 16/action/trash-full.svg
     tags:
       - action
       - bin
@@ -2169,40 +2169,40 @@ icons:
       - erase
       - remove
   - name: triangle
-    path: shape/triangle.svg
+    path: 16/shape/triangle.svg
     tags:
       - shape
       - sign
       - warning
   - name: triangle-filled
-    path: shape/triangle-filled.svg
+    path: 16/shape/triangle-filled.svg
     tags:
       - shape
       - sign
       - warning
   - name: twitter
-    path: brand/twitter.svg
+    path: 16/brand/twitter.svg
     tags:
       - bird
       - brand
       - social
       - x
   - name: twitter-fill
-    path: brand/twitter-fill.svg
+    path: 16/brand/twitter-fill.svg
     tags:
       - bird
       - brand
       - social
       - x
   - name: ui-panel-bottom
-    path: navigation/ui-panel-bottom.svg
+    path: 16/navigation/ui-panel-bottom.svg
     tags:
       - bar
       - interface
       - navigation
       - window
   - name: ui-panel-left
-    path: navigation/ui-panel-left.svg
+    path: 16/navigation/ui-panel-left.svg
     tags:
       - bar
       - interface
@@ -2210,7 +2210,7 @@ icons:
       - status
       - window
   - name: ui-panel-right
-    path: navigation/ui-panel-right.svg
+    path: 16/navigation/ui-panel-right.svg
     tags:
       - bar
       - inspector
@@ -2218,7 +2218,7 @@ icons:
       - navigation
       - window
   - name: ui-panel-top
-    path: navigation/ui-panel-top.svg
+    path: 16/navigation/ui-panel-top.svg
     tags:
       - bar
       - interface
@@ -2226,24 +2226,24 @@ icons:
       - tool
       - window
   - name: unavailable
-    path: misc/unavailable.svg
+    path: 16/misc/unavailable.svg
     tags:
       - forbidden
       - interdiction
       - misc
   - name: undo
-    path: action/undo.svg
+    path: 16/action/undo.svg
     tags:
       - action
       - command
       - stack
   - name: update
-    path: action/update.svg
+    path: 16/action/update.svg
     tags:
       - action
       - refresh
   - name: usb-key
-    path: hardware/usb-key.svg
+    path: 16/hardware/usb-key.svg
     tags:
       - device
       - dongle
@@ -2251,14 +2251,14 @@ icons:
       - storage
       - usb
   - name: user
-    path: misc/user.svg
+    path: 16/misc/user.svg
     tags:
       - log in
       - navigation
       - person
       - profile
   - name: users
-    path: misc/users.svg
+    path: 16/misc/users.svg
     tags:
       - friends
       - group
@@ -2266,32 +2266,32 @@ icons:
       - people
       - share
   - name: version-control
-    path: software/version-control.svg
+    path: 16/software/version-control.svg
     tags:
       - branch
       - git
       - repository
       - software
   - name: view-page-all
-    path: page/view-page-all.svg
+    path: 16/page/view-page-all.svg
     tags:
       - overview
       - page
       - paper
       - view
   - name: view-page-facing
-    path: page/view-page-facing.svg
+    path: 16/page/view-page-facing.svg
     tags:
       - book
       - page
       - view
   - name: view-page-single
-    path: page/view-page-single.svg
+    path: 16/page/view-page-single.svg
     tags:
       - page
       - view
   - name: vst3
-    path: brand/vst3.svg
+    path: 16/brand/vst3.svg
     tags:
       - brand
       - daw
@@ -2301,7 +2301,7 @@ icons:
       - vst
       - vsti
   - name: warning
-    path: misc/warning.svg
+    path: 16/misc/warning.svg
     tags:
       - error
       - exclamation
@@ -2309,13 +2309,13 @@ icons:
       - sign
       - triangle
   - name: webcam
-    path: hardware/webcam.svg
+    path: 16/hardware/webcam.svg
     tags:
       - camera
       - device
       - hardware
   - name: windows
-    path: brand/windows.svg
+    path: 16/brand/windows.svg
     tags:
       - brand
       - desktop
@@ -2324,77 +2324,77 @@ icons:
       - os
       - system
   - name: youtube
-    path: brand/youtube.svg
+    path: 16/brand/youtube.svg
     tags:
       - brand
       - google
       - movie
       - video
   - name: youtube-fill
-    path: brand/youtube-fill.svg
+    path: 16/brand/youtube-fill.svg
     tags:
       - brand
       - google
       - movie
       - video
   - name: zoom
-    path: misc/zoom.svg
+    path: 16/misc/zoom.svg
     tags:
       - glass
       - magnify
       - navigation
       - view
   - name: zoom-fit
-    path: action/zoom-fit.svg
+    path: 16/action/zoom-fit.svg
     tags:
       - action
       - fit
       - full
       - view
   - name: zoom-fit-height
-    path: page/zoom-fit-height.svg
+    path: 16/page/zoom-fit-height.svg
     tags:
       - fit
       - height
       - page
       - view
   - name: zoom-fit-page
-    path: page/zoom-fit-page.svg
+    path: 16/page/zoom-fit-page.svg
     tags:
       - fit
       - page
       - page
       - view
   - name: zoom-fit-screen
-    path: page/zoom-fit-screen.svg
+    path: 16/page/zoom-fit-screen.svg
     tags:
       - fit
       - page
       - screen
       - view
   - name: zoom-fit-width
-    path: page/zoom-fit-width.svg
+    path: 16/page/zoom-fit-width.svg
     tags:
       - fit
       - page
       - view
       - width
   - name: zoom-in
-    path: action/zoom-in.svg
+    path: 16/action/zoom-in.svg
     tags:
       - action
       - bigger
       - magnify
       - view
   - name: zoom-original
-    path: action/zoom-original.svg
+    path: 16/action/zoom-original.svg
     tags:
       - action
       - magnify
       - reset
       - view
   - name: zoom-out
-    path: action/zoom-out.svg
+    path: 16/action/zoom-out.svg
     tags:
       - action
       - magnify

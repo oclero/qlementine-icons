@@ -1,3 +1,4 @@
+import glob
 import os
 import re
 import pathlib
@@ -10,26 +11,18 @@ def this_dir_path():
   return pathlib.Path(__file__).parent.absolute().as_posix()
 
 
-ICONS_DIR = 'sources/resources/icons/16'
+ICONS_DIR = 'sources/resources/icons'
 
 CPP_FILEPATH = 'sources/src/icons/QlementineIcons.cpp'
 CPP_REGEXP = r'(\/\/ ---.*)\s+((?:.*\n)*)\s+(\/\/ ---)'
-CPP_QRC_INIT_TEMPLATE = 'Q_INIT_RESOURCE({});'
 
-HPP_ENUM_NAME = 'Icons16'
-HPP_ENUM_FILEPATH = 'sources/include/oclero/qlementine/icons/' + HPP_ENUM_NAME + '.hpp'
+HPP_ENUM_DIR = 'sources/include/oclero/qlementine/icons/'
 HPP_ENUM_NAME_REGEX = r'(.*\/)(.*\.svg)'
 HPP_ENUM_TEMPLATE_FILEPATH = this_dir_path() + '/resources/Template.hpp'
 
-QRC_PREFIX = '/qlementine/icons/16'
 QRC_TEMPLATE_FILEPATH = this_dir_path() + '/resources/Template.qrc'
-QRC_ITEM_TEMPLATE = '<file alias="{}">{}</file>'
-QRC_NAME_TEMPLATE = 'qlementine_icons_16_{}'
-QRC_FILENAME_TEMPLATE = QRC_NAME_TEMPLATE + '.qrc'
 
-
-def is_hidden(file: str) -> bool:
-  return file.startswith('.')
+QRC_PREFIX = '/qlementine/icons'
 
 
 def to_pascal_case(s: str) -> str:
@@ -61,78 +54,73 @@ def get_template(file_path: str) -> Template:
   return Template(template_txt)
 
 
-class IconData:
-  enum_key: str = ''
-  qrc_alias: str = ''
-  qrc_filepath: str = ''
-
-  def __init__(self, enum_key: str, qrc_alias: str, qrc_filepath: str):
-    self.enum_key = enum_key
-    self.qrc_alias = qrc_alias
-    self.qrc_filepath = qrc_filepath
-
-  def __lt__(self, other) -> bool:
-    return self.enum_key < other.enum_key
-
-  def __str__(self):
-    return self.qrc_filepath
-
-
-def build_icon_lists(icons_dir: str) -> dict[str, list[IconData]]:
+def build_icon_lists(icons_dir: str) -> dict[str, list[str]]:
   icon_lists = {}
-  for root, _, files in os.walk(icons_dir):
 
-    files = [f for f in files if not is_hidden(f) and f.endswith('.svg')]
+  # Categories
+  categories = [f for f in os.scandir(icons_dir) if f.is_dir()]
+  categories.sort(key=lambda x: x.name)
+  for category in categories:
+    category_name = category.name
+    # SVG files
+    svg_files = [f for f in os.scandir(category.path) if f.is_file(
+    ) and f.name.endswith('.svg')]
+    svg_files.sort(key=lambda x: x.name.split('.')[0])
+    for svg_file in svg_files:
+      file_list: list[str] = icon_lists.setdefault(category_name, [])
+      file_list.append(svg_file.name)
 
-    for file in files:
-      full_path = os.path.join(root, file)
-      head, tail = os.path.split(full_path)
-      dir = os.path.split(head)[-1]
-      rel_path = os.path.join(dir, tail)
+  return icon_lists
 
-      file_list: list[IconData] = icon_lists.setdefault(dir, [])
+  # for root, dir, files in os.walk(icons_dir):
 
-      file_list.append(IconData(get_enum_key(rel_path), tail, rel_path))
+  #   files = [f for f in files if not is_hidden(f) and f.endswith('.svg')]
+  #   for file in files:
+  #     file_list: list[str] = icon_lists.setdefault(dir, [])
+  #     file_list.append(file)
 
-  for category, items in icon_lists.items():
-    icon_lists[category] = sorted(items)
+  # for category, items in icon_lists.items():
+  #   icon_lists[category] = sorted(items)
 
-  return dict(sorted(icon_lists.items()))
+  # return dict(sorted(icon_lists.items()))
 
 
-def write_qrc_file(category: str, items: list[IconData], icons_dir: str) -> str:
+def write_qrc_file(icons_dir: str, category: str, items: list[str], qrc_prefix: str) -> str:
 
-  qrc_items = map(lambda x: QRC_ITEM_TEMPLATE.format(
-    x.qrc_alias, x.qrc_filepath), items)
-  qrc_items = '\n    '.join(qrc_items)
+  qrc_items = map(lambda x: f'<file>{category}/{x}</file>', items)
+  qrc_items_str = '\n    '.join(qrc_items)
+
+  dir_name = pathlib.Path(icons_dir).name
+  qrc_prefix = qrc_prefix + '/' + dir_name
 
   # Write file using the template.
-  qrc_template = get_template(QRC_TEMPLATE_FILEPATH)
-  file_content = qrc_template.substitute(
-    qrc_prefix=QRC_PREFIX,
-    qrc_items=qrc_items,
+  file_content = get_template(QRC_TEMPLATE_FILEPATH).substitute(
+    qrc_prefix=qrc_prefix,
+    qrc_items=qrc_items_str,
   )
-  file_path = os.path.join(icons_dir, QRC_FILENAME_TEMPLATE.format(category))
+  file_name = qrc_prefix.replace(
+    '/', '_').lower()[1:] + '_' + category + '.qrc'
+  file_path = os.path.join(icons_dir, file_name)
+
   with open(file_path, 'w') as f:
     f.write(file_content)
 
   return file_path
 
 
-def write_enum_hpp_file(icon_lists: dict[str, list[IconData]], enum_name: str, output_filepath: str) -> None:
+def write_enum_hpp_file(icon_lists: dict[str, list[str]], enum_name: str, output_filepath: str, qrc_path_base: str) -> None:
   # Prepare data for the template.
-  enum_count = 1
+  enum_count = 1  # 'None' is already added in the template.
   enum_keys = []
   array_items = []
-  for qrc_list in icon_lists.values():
-    for qrc_list_item in qrc_list:
+  for category, items in icon_lists.items():
+    for item in items:
       enum_count += 1
-      enum_keys.append(qrc_list_item.enum_key)
-      array_items.append(f'":/qlementine/icons/{qrc_list_item.qrc_alias}"')
+      enum_keys.append(get_enum_key(f'{category}/{item}'))
+      array_items.append(f'":{qrc_path_base}/{category}/{item}"')
 
   # Write file using the template.
-  hpp_enum_template = get_template(HPP_ENUM_TEMPLATE_FILEPATH)
-  template_result = hpp_enum_template.substitute(
+  template_result = get_template(HPP_ENUM_TEMPLATE_FILEPATH).substitute(
      enum_name=enum_name,
      enum_keys=',\n'.join(enum_keys),
      enum_count=enum_count,
@@ -145,13 +133,11 @@ def write_enum_hpp_file(icon_lists: dict[str, list[IconData]], enum_name: str, o
   call(['clang-format', '-i', output_filepath])
 
 
-def modify_cpp_file(icon_lists: dict, cpp_filepath: str) -> None:
+def modify_cpp_file(lines: list[str], cpp_filepath: str) -> None:
   with open(cpp_filepath, 'r') as f:
     cpp_content = f.read()
 
-  qrc_inits = [CPP_QRC_INIT_TEMPLATE.format(
-    QRC_NAME_TEMPLATE.format(x)) for x in icon_lists]
-  replacement = r'\1\n  {}\n  \3'.format('\n  '.join(qrc_inits))
+  replacement = r'\1\n  {}\n  \3'.format('\n  '.join(lines))
   new_cpp_content = re.sub(CPP_REGEXP, replacement, cpp_content)
 
   with open(cpp_filepath, 'w') as f:
@@ -160,22 +146,37 @@ def modify_cpp_file(icon_lists: dict, cpp_filepath: str) -> None:
 
 def update():
   print(f'Updating Qt file(s)...')
-  # Get lists of files from disk.
-  icon_lists = build_icon_lists(ICONS_DIR)
 
-  # Modify QRC files.
-  for category, items in icon_lists.items():
-    file_path = write_qrc_file(category, items, ICONS_DIR)
-    print(f'Updated {file_path}')
+  qrc_init_lines: list[str] = []
+
+  dirs = [f for f in os.scandir(ICONS_DIR) if f.is_dir()]
+  dirs.sort(key=lambda d: d.path)
+  for dir in dirs:
+    dir_path = dir.path
+
+    # Get lists of files from disk.
+    icon_lists = build_icon_lists(dir_path)
+
+    # Modify QRC files.
+    for category, items in icon_lists.items():
+      file_path = write_qrc_file(dir_path, category, items, QRC_PREFIX)
+      print(f'Updated {file_path}')
+
+      # Line to be added to cpp file.
+      qrc_init_func_name = pathlib.Path(file_path).name.split('.')[0]
+      qrc_init_lines.append(f'Q_INIT_RESOURCE({qrc_init_func_name});')
+
+    # Modify HPP file that contains the C++ enum.
+    enum_name = 'Icons' + dir.name
+    hpp_filepath = HPP_ENUM_DIR + enum_name + '.hpp'
+    qrc_path_base = QRC_PREFIX + '/' + dir.name
+    write_enum_hpp_file(icon_lists, enum_name, hpp_filepath, qrc_path_base)
+    print(f'Updated {hpp_filepath}')
 
   # Modify CPP file.
   # NB: CMake file doesn't need modification as it globs all .qrc files.
-  modify_cpp_file(icon_lists, CPP_FILEPATH)
+  modify_cpp_file(qrc_init_lines, CPP_FILEPATH)
   print(f'Updated {CPP_FILEPATH}')
-
-  # Modify HPP file that contains the C++ enum.
-  write_enum_hpp_file(icon_lists, HPP_ENUM_NAME, HPP_ENUM_FILEPATH)
-  print(f'Updated {HPP_ENUM_FILEPATH}')
 
   print(f'Done updating Qt file(s).\n')
 

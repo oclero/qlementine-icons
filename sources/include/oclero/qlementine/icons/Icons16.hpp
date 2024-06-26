@@ -334,6 +334,8 @@ enum class Icons16 : size_t {
   Shape_LosangeFilled,
   Shape_Macaron,
   Shape_MacaronFilled,
+  Shape_Octogon,
+  Shape_OctogonFilled,
   Shape_Square,
   Shape_SquareFilled,
   Shape_Star,
@@ -379,7 +381,7 @@ enum class Icons16 : size_t {
 };
 
 inline const char* iconPath(Icons16 id) {
-  static constexpr std::array<const char*, 366> icons{
+  static constexpr std::array<const char*, 368> icons{
     "",
     ":/qlementine/icons/16/action/add-file.svg",
     ":/qlementine/icons/16/action/add-folder.svg",
@@ -704,6 +706,8 @@ inline const char* iconPath(Icons16 id) {
     ":/qlementine/icons/16/shape/losange-filled.svg",
     ":/qlementine/icons/16/shape/macaron.svg",
     ":/qlementine/icons/16/shape/macaron-filled.svg",
+    ":/qlementine/icons/16/shape/octogon.svg",
+    ":/qlementine/icons/16/shape/octogon-filled.svg",
     ":/qlementine/icons/16/shape/square.svg",
     ":/qlementine/icons/16/shape/square-filled.svg",
     ":/qlementine/icons/16/shape/star.svg",
