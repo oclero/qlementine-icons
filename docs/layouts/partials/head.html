@@ -59,7 +59,7 @@
   <!-- CSS -->
   {{- $cssResource := resources.Get "css/main.scss" -}}
   {{- $cssFile := $cssResource | resources.ToCSS -}}
-  {{- if .Site.IsServer -}}
+  {{- if hugo.IsServer -}}
     <link rel="stylesheet" type="text/css" href="{{- $cssFile.RelPermalink -}}" />
   {{- else -}}
     {{- $miniCssFile := $cssFile | resources.Minify -}}
@@ -147,7 +147,7 @@
     $jsParams
     $jsSearch
   -}}
-  {{- if .Site.IsServer -}}
+  {{- if hugo.IsServer -}}
     {{- range $allJsFiles -}}
       <script src="{{- .RelPermalink -}}" defer></script>
     {{- end -}}
