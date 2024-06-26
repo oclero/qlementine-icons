@@ -44,6 +44,7 @@
     <file>action/print-preview.svg</file>
     <file>action/redo.svg</file>
     <file>action/refresh.svg</file>
+    <file>action/rename.svg</file>
     <file>action/replace.svg</file>
     <file>action/reply.svg</file>
     <file>action/reply-all.svg</file>
@@ -56,6 +57,7 @@
     <file>action/send.svg</file>
     <file>action/send-receive.svg</file>
     <file>action/share.svg</file>
+    <file>action/share-external.svg</file>
     <file>action/snapshot.svg</file>
     <file>action/sort-alpha-asc.svg</file>
     <file>action/sort-alpha-desc.svg</file>

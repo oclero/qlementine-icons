@@ -2,6 +2,7 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
+    <file>misc/accessibility.svg</file>
     <file>misc/airplane-mode.svg</file>
     <file>misc/attachement.svg</file>
     <file>misc/bell.svg</file>
@@ -15,6 +16,8 @@
     <file>misc/cloud-crossed-out.svg</file>
     <file>misc/color-swatch.svg</file>
     <file>misc/comment.svg</file>
+    <file>misc/crane.svg</file>
+    <file>misc/crane-hook.svg</file>
     <file>misc/debug.svg</file>
     <file>misc/faq.svg</file>
     <file>misc/gift.svg</file>
@@ -34,6 +37,7 @@
     <file>misc/mail.svg</file>
     <file>misc/megaphone.svg</file>
     <file>misc/modified.svg</file>
+    <file>misc/moon.svg</file>
     <file>misc/newspaper.svg</file>
     <file>misc/note-8th-simple.svg</file>
     <file>misc/notes.svg</file>
@@ -51,6 +55,7 @@
     <file>misc/run-debug.svg</file>
     <file>misc/spam.svg</file>
     <file>misc/success.svg</file>
+    <file>misc/sun.svg</file>
     <file>misc/tag.svg</file>
     <file>misc/task.svg</file>
     <file>misc/task-past.svg</file>
@@ -62,5 +67,6 @@
     <file>misc/user.svg</file>
     <file>misc/users.svg</file>
     <file>misc/warning.svg</file>
+    <file>misc/zoom.svg</file>
   </qresource>
 </RCC>

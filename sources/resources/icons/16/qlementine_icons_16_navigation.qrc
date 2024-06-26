@@ -7,10 +7,14 @@
     <file>navigation/arrow-right.svg</file>
     <file>navigation/arrow-up.svg</file>
     <file>navigation/bookmark.svg</file>
+    <file>navigation/chevron-double-left.svg</file>
+    <file>navigation/chevron-double-right.svg</file>
+    <file>navigation/chevron-down.svg</file>
     <file>navigation/chevron-left.svg</file>
     <file>navigation/chevron-left-double.svg</file>
     <file>navigation/chevron-right.svg</file>
     <file>navigation/chevron-right-double.svg</file>
+    <file>navigation/chevron-up.svg</file>
     <file>navigation/combobox-indicator.svg</file>
     <file>navigation/flag.svg</file>
     <file>navigation/go-bottom.svg</file>
@@ -50,6 +54,5 @@
     <file>navigation/ui-panel-right.svg</file>
     <file>navigation/ui-panel-top.svg</file>
     <file>navigation/up.svg</file>
-    <file>navigation/zoom.svg</file>
   </qresource>
 </RCC>
