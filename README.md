@@ -83,7 +83,7 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons o
    1. With `QIcon::fromTheme()`, by using the icon name.
 
       ```c++
-      const auto icon = QIcon::fromTheme("redo");
+      const auto icon = QIcon::fromTheme("action/redo");
       const auto pixmap = icon.pixmap(QSize(16, 16));
       ```
 
@@ -98,13 +98,13 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons o
    3. With `QPixmap`. Note that the resulting image will be `16`×`16` _physical_ pixels, so not adapted to High-Resolution screens.
 
       ```c++
-      const auto pixmap = QPixmap(":/qlementine/icons/redo.svg");
+      const auto pixmap = QPixmap(":/qlementine/icons/16/action/redo.svg");
       ```
 
    4. With `QIcon`, to get any size, and ensure it will have the correct pixel ratio to be displayed on the scree.
 
       ```c++
-      const auto icon = QIcon(":/qlementine/icons/redo.svg");
+      const auto icon = QIcon(":/qlementine/icons/16/action/redo.svg");
       const auto pixmap = icon.pixmap(QSize(64, 64));
       ```
 
@@ -112,7 +112,7 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons o
       **This is the recommended way because it avoids making typo mistakes**.
 
       ```c++
-      const auto icon = QIcon(iconPath(IconId::Action_Undo));
+      const auto icon = QIcon(iconPath(Icons16::Action_Undo));
       const auto pixmap = icon.pixmap(QSize(16, 16));
       ```
 
