@@ -10,20 +10,21 @@ def this_dir_path():
   return pathlib.Path(__file__).parent.absolute().as_posix()
 
 
-ICONS_DIR = 'sources/resources/icons'
+ICONS_DIR = 'sources/resources/icons/16'
 
 CPP_FILEPATH = 'sources/src/icons/QlementineIcons.cpp'
 CPP_REGEXP = r'(\/\/ ---.*)\s+((?:.*\n)*)\s+(\/\/ ---)'
 CPP_QRC_INIT_TEMPLATE = 'Q_INIT_RESOURCE({});'
 
-HPP_ENUM_FILEPATH = 'sources/include/oclero/qlementine/icons/IconId.hpp'
+HPP_ENUM_NAME = 'Icons16'
+HPP_ENUM_FILEPATH = 'sources/include/oclero/qlementine/icons/' + HPP_ENUM_NAME + '.hpp'
 HPP_ENUM_NAME_REGEX = r'(.*\/)(.*\.svg)'
-HPP_ENUM_TEMPLATE_FILEPATH = this_dir_path() + '/resources/IconId.template.hpp'
+HPP_ENUM_TEMPLATE_FILEPATH = this_dir_path() + '/resources/Template.hpp'
 
-QRC_PREFIX = '/qlementine/icons/'
-QRC_TEMPLATE_FILEPATH = this_dir_path() + '/resources/IconId.template.qrc'
+QRC_PREFIX = '/qlementine/icons/16'
+QRC_TEMPLATE_FILEPATH = this_dir_path() + '/resources/Template.qrc'
 QRC_ITEM_TEMPLATE = '<file alias="{}">{}</file>'
-QRC_NAME_TEMPLATE = 'qlementine_icons_{}'
+QRC_NAME_TEMPLATE = 'qlementine_icons_16_{}'
 QRC_FILENAME_TEMPLATE = QRC_NAME_TEMPLATE + '.qrc'
 
 
@@ -173,7 +174,7 @@ def update():
   print(f'Updated {CPP_FILEPATH}')
 
   # Modify HPP file that contains the C++ enum.
-  write_enum_hpp_file(icon_lists, 'IconId', HPP_ENUM_FILEPATH)
+  write_enum_hpp_file(icon_lists, HPP_ENUM_NAME, HPP_ENUM_FILEPATH)
   print(f'Updated {HPP_ENUM_FILEPATH}')
 
   print(f'Done updating Qt file(s).\n')

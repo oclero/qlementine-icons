@@ -2,13 +2,14 @@
 add_library(${PROJECT_NAME} STATIC)
 add_library(oclero::${PROJECT_NAME} ALIAS ${PROJECT_NAME})
 
-file(GLOB QRC_FILES "resources/icons/*.qrc")
+file(GLOB_RECURSE QRC_FILES "resources/icons/*.qrc")
+file(GLOB_RECURSE HPP_FILES "include/oclero/qlementine/icons/*.hpp")
+file(GLOB_RECURSE CPP_FILES "src/icons/*.cpp")
 
 target_sources(${PROJECT_NAME}
   PRIVATE
-    include/oclero/qlementine/icons/QlementineIcons.hpp
-    include/oclero/qlementine/icons/IconId.hpp
-    src/icons/QlementineIcons.cpp
+    ${HPP_FILES}
+    ${CPP_FILES}
     ${QRC_FILES}
 )
 
