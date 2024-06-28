@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.3.0
+
+- Add icons `banjo`, `cello`, `guitar-12-strings`, `guitar-classical`, `guitar-folk`, `guitar-strat`, `guitar-tele`, `mandolin`, `pipe`, `pitched_idiophone`, `saxophone`, `shamisen`, `synthesizer`, `trumpet`, `ukulele`, `violin`, `woodwind`.
+- Update icons `guitar`, `bass`.
+- Removed icon `fretboard`.
+
 ## v1.2.0
 
 - Add support for more icon sizes, such as 32x32 pixels. **WARNING: paths have changed.**

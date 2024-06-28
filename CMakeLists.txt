@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.17.5)
 # Set project information.
 project("qlementine_icons"
   LANGUAGES CXX
-  VERSION 1.2.0.0
+  VERSION 1.3.0.0
 )
 
 # Global flags.
