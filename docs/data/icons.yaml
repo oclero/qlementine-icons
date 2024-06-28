@@ -78,6 +78,7 @@ icons:
   - bass
   - guitar
   - instrument
+  - electric
 - name: android
   path: 16/brand/android.svg
   tags:
@@ -144,6 +145,12 @@ icons:
   - device
   - dsp
   - hardware
+- name: banjo
+  path: 16/instruments/banjo.svg
+  tags:
+  - instruments
+  - country
+  - bluegrass
 - name: bass
   path: 16/instruments/bass.svg
   tags:
@@ -249,6 +256,10 @@ icons:
   - buy
   - invoice
   - shopping
+- name: cello
+  path: 16/instruments/cello.svg
+  tags:
+  - instruments, classical, orchestra, bowed, double bass, upright bass
 - name: center
   path: 16/text/center.svg
   tags:
@@ -730,12 +741,6 @@ icons:
   - action
   - email
   - transfer
-- name: fretboard
-  path: 16/instruments/fretboard.svg
-  tags:
-  - bass
-  - guitar
-  - instrument
 - name: fullscreen
   path: 16/action/fullscreen.svg
   tags:
@@ -810,12 +815,42 @@ icons:
   path: 16/instruments/guitar.svg
   tags:
   - instrument
+- name: guitar-12-strings
+  path: 16/instruments/guitar-12-strings.svg
+  tags:
+  - instruments, folk
+- name: guitar-classical
+  path: 16/instruments/guitar-classical.svg
+  tags:
+  - acoustic
+  - instruments
+  - orchestra
+- name: guitar-folk
+  path: 16/instruments/guitar-folk.svg
+  tags:
+  - acoustic
+  - instruments
+  - folk
 - name: guitar-machine-head
   path: 16/instruments/guitar-machine-head.svg
   tags:
   - bass
   - guitar
   - instrument
+- name: guitar-strat
+  path: 16/instruments/guitar-strat.svg
+  tags:
+  - electric
+  - fender
+  - instruments
+  - stratocaster
+- name: guitar-tele
+  path: 16/instruments/guitar-tele.svg
+  tags:
+  - electric
+  - fender
+  - instruments
+  - telecaster
 - name: hand
   path: 16/navigation/hand.svg
   tags:
@@ -1158,6 +1193,13 @@ icons:
   - enveloppe
   - misc
   - send
+- name: mandolin
+  path: 16/instruments/mandolin.svg
+  tags:
+  - bluegrass
+  - celtic
+  - country
+  - instruments
 - name: map
   path: 16/navigation/map.svg
   tags:
@@ -1575,6 +1617,16 @@ icons:
   tags:
   - action
   - favorite
+- name: pipe
+  path: 16/instruments/pipe.svg
+  tags:
+  - instruments
+  - orchestra
+- name: pitched_idiophone
+  path: 16/instruments/pitched_idiophone.svg
+  tags:
+  - instruments
+  - xylophone
 - name: play
   path: 16/media/play.svg
   tags:
@@ -1746,6 +1798,12 @@ icons:
   - action
   - download
   - drive
+- name: saxophone
+  path: 16/instruments/saxophone.svg
+  tags:
+  - blues
+  - instruments
+  - jazz
 - name: scanner
   path: 16/hardware/scanner.svg
   tags:
@@ -1812,6 +1870,12 @@ icons:
   tags:
   - instrument
   - percussion
+- name: shamisen
+  path: 16/instruments/shamisen.svg
+  tags:
+  - instruments
+  - traditional
+  - japanese
 - name: share
   path: 16/action/share.svg
   tags:
@@ -2060,6 +2124,13 @@ icons:
   tags:
   - action
   - exchange
+- name: synthesizer
+  path: 16/instruments/synthesizer.svg
+  tags:
+  - electronic
+  - instruments
+  - synth
+  - techno
 - name: system-monitor
   path: 16/software/system-monitor.svg
   tags:
@@ -2200,6 +2271,13 @@ icons:
   - shape
   - sign
   - warning
+- name: trumpet
+  path: 16/instruments/trumpet.svg
+  tags:
+  - blues
+  - brass
+  - instruments
+  - jazz
 - name: twitter
   path: 16/brand/twitter.svg
   tags:
@@ -2245,6 +2323,12 @@ icons:
   - navigation
   - tool
   - window
+- name: ukulele
+  path: 16/instruments/ukulele.svg
+  tags:
+  - acoustic
+  - instruments
+  - guitar
 - name: unavailable
   path: 16/misc/unavailable.svg
   tags:
@@ -2314,6 +2398,13 @@ icons:
   tags:
   - page
   - view
+- name: violin
+  path: 16/instruments/violin.svg
+  tags:
+  - fiddle
+  - instruments
+  - orchestra
+  - viola
 - name: vst3
   path: 16/brand/vst3.svg
   tags:
@@ -2347,6 +2438,11 @@ icons:
   - operating
   - os
   - system
+- name: woodwind
+  path: 16/instruments/woodwind.svg
+  tags:
+  - flute
+  - instruments
 - name: youtube
   path: 16/brand/youtube.svg
   tags:

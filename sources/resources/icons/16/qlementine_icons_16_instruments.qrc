@@ -3,25 +3,41 @@
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
     <file>instruments/amp.svg</file>
+    <file>instruments/banjo.svg</file>
     <file>instruments/bass.svg</file>
     <file>instruments/bongos.svg</file>
+    <file>instruments/cello.svg</file>
     <file>instruments/clap.svg</file>
     <file>instruments/cymbal.svg</file>
     <file>instruments/drumkit.svg</file>
-    <file>instruments/fretboard.svg</file>
     <file>instruments/guitar.svg</file>
+    <file>instruments/guitar-12-strings.svg</file>
+    <file>instruments/guitar-classical.svg</file>
+    <file>instruments/guitar-folk.svg</file>
     <file>instruments/guitar-machine-head.svg</file>
+    <file>instruments/guitar-strat.svg</file>
+    <file>instruments/guitar-tele.svg</file>
     <file>instruments/hi-hat.svg</file>
     <file>instruments/kick.svg</file>
+    <file>instruments/mandolin.svg</file>
     <file>instruments/mastering.svg</file>
     <file>instruments/pedal.svg</file>
     <file>instruments/pedal-outlines.svg</file>
     <file>instruments/pedalboard.svg</file>
     <file>instruments/piano.svg</file>
+    <file>instruments/pipe.svg</file>
+    <file>instruments/pitched_idiophone.svg</file>
+    <file>instruments/saxophone.svg</file>
     <file>instruments/shakers.svg</file>
+    <file>instruments/shamisen.svg</file>
     <file>instruments/snare.svg</file>
+    <file>instruments/synthesizer.svg</file>
     <file>instruments/tambourine.svg</file>
     <file>instruments/tamtam.svg</file>
     <file>instruments/tom.svg</file>
+    <file>instruments/trumpet.svg</file>
+    <file>instruments/ukulele.svg</file>
+    <file>instruments/violin.svg</file>
+    <file>instruments/woodwind.svg</file>
   </qresource>
 </RCC>
