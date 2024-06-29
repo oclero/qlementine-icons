@@ -2,8 +2,14 @@
 
 ## v1.3.0
 
-- Add icons `banjo`, `cello`, `guitar-12-strings`, `guitar-classical`, `guitar-folk`, `guitar-strat`, `guitar-tele`, `mandolin`, `pipe`, `pitched_idiophone`, `saxophone`, `shamisen`, `synthesizer`, `trumpet`, `ukulele`, `violin`, `woodwind`.
+- Add icons:
+  - Instruments: `banjo`, `cello`, `guitar-12-strings`, `guitar-classical`, `guitar-folk`, `guitar-strat`, `guitar-tele`, `mandolin`, `pipe`, `pitched_idiophone`, `saxophone`, `shamisen`, `synthesizer`, `trumpet`, `ukulele`, `violin`, `woodwind`.
+  - Action: `windows-close`, `windows-maximize`, `windows-minimize`, `windows-unmaximize`
+  - Hardware: `jack`
+  - Misc: `unknown`, `wave`
+  - Shape: `check-tick-small`, `radio-tick`
 - Update icons `guitar`, `bass`.
+- Rename icon `pitched_idiophone` to `idiophone`
 - Removed icon `fretboard`.
 
 ## v1.2.0
