@@ -4,6 +4,7 @@
   <qresource prefix="/qlementine/icons/16">
     <file>shape/asterisk.svg</file>
     <file>shape/check-tick.svg</file>
+    <file>shape/check-tick-small.svg</file>
     <file>shape/circle.svg</file>
     <file>shape/circle-filled.svg</file>
     <file>shape/cube.svg</file>
@@ -15,6 +16,7 @@
     <file>shape/macaron-filled.svg</file>
     <file>shape/octogon.svg</file>
     <file>shape/octogon-filled.svg</file>
+    <file>shape/radio-tick.svg</file>
     <file>shape/square.svg</file>
     <file>shape/square-filled.svg</file>
     <file>shape/star.svg</file>

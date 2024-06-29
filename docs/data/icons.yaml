@@ -76,9 +76,9 @@ icons:
   tags:
   - amplifier
   - bass
+  - electric
   - guitar
   - instrument
-  - electric
 - name: android
   path: 16/brand/android.svg
   tags:
@@ -148,9 +148,9 @@ icons:
 - name: banjo
   path: 16/instruments/banjo.svg
   tags:
-  - instruments
-  - country
   - bluegrass
+  - country
+  - instruments
 - name: bass
   path: 16/instruments/bass.svg
   tags:
@@ -303,6 +303,10 @@ icons:
   - shape
   - success
   - valid
+- name: check-tick-small
+  path: 16/shape/check-tick-small.svg
+  tags:
+  - shape
 - name: chevron-double-left
   path: 16/navigation/chevron-double-left.svg
   tags:
@@ -332,10 +336,6 @@ icons:
   - navigate
   - navigation
   - previous
-- name: chevron-left-double
-  path: 16/navigation/chevron-left-double.svg
-  tags:
-  - navigation
 - name: chevron-right
   path: 16/navigation/chevron-right.svg
   tags:
@@ -343,10 +343,6 @@ icons:
   - navigate
   - navigation
   - next
-- name: chevron-right-double
-  path: 16/navigation/chevron-right-double.svg
-  tags:
-  - navigation
 - name: chevron-up
   path: 16/navigation/chevron-up.svg
   tags:
@@ -533,10 +529,6 @@ icons:
   - ep
   - hardware
   - lp
-- name: down
-  path: 16/action/down.svg
-  tags:
-  - action
 - name: download
   path: 16/action/download.svg
   tags:
@@ -829,8 +821,8 @@ icons:
   path: 16/instruments/guitar-folk.svg
   tags:
   - acoustic
-  - instruments
   - folk
+  - instruments
 - name: guitar-machine-head
   path: 16/instruments/guitar-machine-head.svg
   tags:
@@ -927,6 +919,10 @@ icons:
   tags:
   - identity
   - misc
+- name: idiophone
+  path: 16/instruments/idiophone.svg
+  tags:
+  - instruments
 - name: inbox
   path: 16/misc/inbox.svg
   tags:
@@ -988,6 +984,10 @@ icons:
   - organization
   - organize
   - view
+- name: jack
+  path: 16/hardware/jack.svg
+  tags:
+  - hardware
 - name: jump
   path: 16/navigation/jump.svg
   tags:
@@ -1622,11 +1622,6 @@ icons:
   tags:
   - instruments
   - orchestra
-- name: pitched_idiophone
-  path: 16/instruments/pitched_idiophone.svg
-  tags:
-  - instruments
-  - xylophone
 - name: play
   path: 16/media/play.svg
   tags:
@@ -1702,6 +1697,10 @@ icons:
   tags:
   - help
   - misc
+- name: radio-tick
+  path: 16/shape/radio-tick.svg
+  tags:
+  - shape
 - name: record
   path: 16/media/record.svg
   tags:
@@ -1874,8 +1873,8 @@ icons:
   path: 16/instruments/shamisen.svg
   tags:
   - instruments
-  - traditional
   - japanese
+  - traditional
 - name: share
   path: 16/action/share.svg
   tags:
@@ -2327,8 +2326,8 @@ icons:
   path: 16/instruments/ukulele.svg
   tags:
   - acoustic
-  - instruments
   - guitar
+  - instruments
 - name: unavailable
   path: 16/misc/unavailable.svg
   tags:
@@ -2341,10 +2340,10 @@ icons:
   - action
   - command
   - stack
-- name: up
-  path: 16/navigation/up.svg
+- name: unknown
+  path: 16/misc/unknown.svg
   tags:
-  - navigation
+  - misc
 - name: update
   path: 16/action/update.svg
   tags:
@@ -2423,6 +2422,10 @@ icons:
   - misc
   - sign
   - triangle
+- name: wave
+  path: 16/misc/wave.svg
+  tags:
+  - misc
 - name: webcam
   path: 16/hardware/webcam.svg
   tags:
@@ -2438,6 +2441,22 @@ icons:
   - operating
   - os
   - system
+- name: windows-close
+  path: 16/action/windows-close.svg
+  tags:
+  - action
+- name: windows-maximize
+  path: 16/action/windows-maximize.svg
+  tags:
+  - action
+- name: windows-minimize
+  path: 16/action/windows-minimize.svg
+  tags:
+  - action
+- name: windows-unmaximize
+  path: 16/action/windows-unmaximize.svg
+  tags:
+  - action
 - name: woodwind
   path: 16/instruments/woodwind.svg
   tags:

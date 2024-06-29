@@ -18,6 +18,7 @@
     <file>instruments/guitar-strat.svg</file>
     <file>instruments/guitar-tele.svg</file>
     <file>instruments/hi-hat.svg</file>
+    <file>instruments/idiophone.svg</file>
     <file>instruments/kick.svg</file>
     <file>instruments/mandolin.svg</file>
     <file>instruments/mastering.svg</file>
@@ -26,7 +27,6 @@
     <file>instruments/pedalboard.svg</file>
     <file>instruments/piano.svg</file>
     <file>instruments/pipe.svg</file>
-    <file>instruments/pitched_idiophone.svg</file>
     <file>instruments/saxophone.svg</file>
     <file>instruments/shakers.svg</file>
     <file>instruments/shamisen.svg</file>

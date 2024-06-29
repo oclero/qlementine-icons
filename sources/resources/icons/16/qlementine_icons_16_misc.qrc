@@ -64,9 +64,11 @@
     <file>misc/tool.svg</file>
     <file>misc/tracklist.svg</file>
     <file>misc/unavailable.svg</file>
+    <file>misc/unknown.svg</file>
     <file>misc/user.svg</file>
     <file>misc/users.svg</file>
     <file>misc/warning.svg</file>
+    <file>misc/wave.svg</file>
     <file>misc/zoom.svg</file>
   </qresource>
 </RCC>
