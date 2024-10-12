@@ -14,6 +14,9 @@ enum class Icons12 : size_t {
   Action_Close,
   Action_Minus,
   Action_Plus,
+  Misc_Zoom,
+  Navigation_ArrowsLeftRight,
+  Navigation_ArrowsUpDown,
   Navigation_ChevronDown,
   Navigation_ChevronLeft,
   Navigation_ChevronRight,
@@ -21,11 +24,14 @@ enum class Icons12 : size_t {
 };
 
 inline const char* iconPath(Icons12 id) {
-  static constexpr std::array<const char*, 8> icons{
+  static constexpr std::array<const char*, 11> icons{
     "",
     ":/qlementine/icons/12/action/close.svg",
     ":/qlementine/icons/12/action/minus.svg",
     ":/qlementine/icons/12/action/plus.svg",
+    ":/qlementine/icons/12/misc/zoom.svg",
+    ":/qlementine/icons/12/navigation/arrows-left-right.svg",
+    ":/qlementine/icons/12/navigation/arrows-up-down.svg",
     ":/qlementine/icons/12/navigation/chevron-down.svg",
     ":/qlementine/icons/12/navigation/chevron-left.svg",
     ":/qlementine/icons/12/navigation/chevron-right.svg",
