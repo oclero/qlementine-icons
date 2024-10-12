@@ -14,11 +14,15 @@
     <file>misc/clock.svg</file>
     <file>misc/cloud.svg</file>
     <file>misc/cloud-crossed-out.svg</file>
+    <file>misc/cloud-down.svg</file>
+    <file>misc/cloud-up.svg</file>
+    <file>misc/cloud-up-down.svg</file>
     <file>misc/color-swatch.svg</file>
     <file>misc/comment.svg</file>
     <file>misc/crane.svg</file>
     <file>misc/crane-hook.svg</file>
     <file>misc/debug.svg</file>
+    <file>misc/empty-slot.svg</file>
     <file>misc/faq.svg</file>
     <file>misc/gift.svg</file>
     <file>misc/globe.svg</file>
@@ -54,6 +58,7 @@
     <file>misc/resume.svg</file>
     <file>misc/run-debug.svg</file>
     <file>misc/spam.svg</file>
+    <file>misc/stars.svg</file>
     <file>misc/success.svg</file>
     <file>misc/sun.svg</file>
     <file>misc/tag.svg</file>

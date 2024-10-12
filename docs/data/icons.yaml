@@ -126,6 +126,26 @@ icons:
   - navigate
   - navigation
   - previous
+- name: arrows-left-right
+  path: 12/navigation/arrows-left-right.svg
+  tags:
+  - arrow
+  - axis
+  - double
+  - horizontal
+  - move
+  - navigation
+  - resize
+- name: arrows-up-down
+  path: 12/navigation/arrows-up-down.svg
+  tags:
+  - arrow
+  - axis
+  - double
+  - move
+  - navigation
+  - resize
+  - vertical
 - name: asterisk
   path: 16/shape/asterisk.svg
   tags:
@@ -226,6 +246,16 @@ icons:
   - action
   - compile
   - hammer
+- name: burger
+  path: 16/food/burger.svg
+  tags:
+  - cheeseburger
+  - diner
+  - eat
+  - fastfood
+  - food
+  - hamburger
+  - lunch
 - name: calculator
   path: 16/software/calculator.svg
   tags:
@@ -417,6 +447,30 @@ icons:
   - misc
   - network
   - storage
+- name: cloud-down
+  path: 16/misc/cloud-down.svg
+  tags:
+  - cloud
+  - download
+  - misc
+  - remote
+- name: cloud-up
+  path: 16/misc/cloud-up.svg
+  tags:
+  - cloud
+  - misc
+  - remote
+  - upload
+- name: cloud-up-down
+  path: 16/misc/cloud-up-down.svg
+  tags:
+  - cloud
+  - download
+  - misc
+  - remote
+  - sync
+  - synchronize
+  - upload
 - name: color-swatch
   path: 16/misc/color-swatch.svg
   tags:
@@ -455,6 +509,13 @@ icons:
   - action
   - editor
   - pasteboard
+- name: cowbell
+  path: 16/instruments/cowbell.svg
+  tags:
+  - drumkit
+  - drums
+  - instruments
+  - percussion
 - name: cpu
   path: 16/hardware/cpu.svg
   tags:
@@ -552,12 +613,29 @@ icons:
   - drums
   - instrument
   - percussion
+- name: drumsticks
+  path: 16/instruments/drumsticks.svg
+  tags:
+  - drumkit
+  - drums
+  - instruments
+  - percussions
+  - stick
 - name: eject
   path: 16/media/eject.svg
   tags:
   - disk
   - drive
   - media
+- name: empty-slot
+  path: 16/misc/empty-slot.svg
+  tags:
+  - empty
+  - misc
+  - none
+  - slot
+  - space
+  - void
 - name: erase
   path: 16/action/erase.svg
   tags:
@@ -1637,6 +1715,14 @@ icons:
   tags:
   - media
   - playback
+- name: playlist
+  path: 16/media/playlist.svg
+  tags:
+  - collection
+  - media
+  - mixtape
+  - play
+  - song
 - name: plugin
   path: 16/file/plugin.svg
   tags:
@@ -2087,6 +2173,13 @@ icons:
   - favorite
   - ranking
   - shape
+- name: stars
+  path: 16/misc/stars.svg
+  tags:
+  - automatic
+  - magic
+  - misc
+  - shine
 - name: step-into
   path: 16/navigation/step-into.svg
   tags:

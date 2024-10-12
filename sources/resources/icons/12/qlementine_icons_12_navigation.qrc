@@ -2,6 +2,8 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/12">
+    <file>navigation/arrows-left-right.svg</file>
+    <file>navigation/arrows-up-down.svg</file>
     <file>navigation/chevron-down.svg</file>
     <file>navigation/chevron-left.svg</file>
     <file>navigation/chevron-right.svg</file>
