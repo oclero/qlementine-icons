@@ -1,5 +1,24 @@
 # Changelog
 
+## v1.4.0
+
+- Add icons:
+
+  - 12x12:
+    - Misc: `zoom`.
+    - Navigation: `arrows-left-right`, `arrows-up-down`.
+  - 16x16:
+    - Food: `burder`.
+    - Hardware: `midi`.
+    - Instruments: `cowbell`, `drumsticks`.
+    - Media: `playlist`.
+    - Misc: `cloud-down`, `cloud-up-down`, `cloud-up`, `empty-slot`, `stars`.
+
+- Modified icons:
+  - 16x16:
+    - Instruments: `saxophone`.
+    - Misc: `sun`.
+
 ## v1.3.0
 
 - Add icons:
