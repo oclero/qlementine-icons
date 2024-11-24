@@ -13,6 +13,7 @@
     <file>hardware/camera.svg</file>
     <file>hardware/computer.svg</file>
     <file>hardware/cpu.svg</file>
+    <file>hardware/database.svg</file>
     <file>hardware/disk.svg</file>
     <file>hardware/drive.svg</file>
     <file>hardware/ethernet.svg</file>
@@ -36,10 +37,16 @@
     <file>hardware/photo-camera.svg</file>
     <file>hardware/scanner.svg</file>
     <file>hardware/screen.svg</file>
+    <file>hardware/server.svg</file>
     <file>hardware/smartphone.svg</file>
     <file>hardware/tablet.svg</file>
     <file>hardware/tape.svg</file>
     <file>hardware/usb-key.svg</file>
     <file>hardware/webcam.svg</file>
+    <file>hardware/wireless-0.svg</file>
+    <file>hardware/wireless-1.svg</file>
+    <file>hardware/wireless-2.svg</file>
+    <file>hardware/wireless-disabled.svg</file>
+    <file>hardware/wireless-none.svg</file>
   </qresource>
 </RCC>

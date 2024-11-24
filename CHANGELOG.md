@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.5.0
+
+- Add icons:
+  - 16x16:
+    - Hardware: `database`, `server`, `wireless-0`, `wireless-1`, `wireless-2`, `wireless-disabled`, `wireless-none`.
+    - Text: `justify-center`, `justify-fill`.
+
 ## v1.4.0
 
 - Add icons:
