@@ -6,6 +6,8 @@
   - 16x16:
     - Hardware: `database`, `server`, `wireless-0`, `wireless-1`, `wireless-2`, `wireless-disabled`, `wireless-none`.
     - Text: `justify-center`, `justify-fill`.
+- `fromFreeDesktop` now returns the full path.
+- FreeDesktop mappings have been updated.
 
 ## v1.4.0
 
