@@ -8,6 +8,7 @@
     - Text: `justify-center`, `justify-fill`.
 - `fromFreeDesktop` now returns the full path.
 - FreeDesktop mappings have been updated.
+- Move to Qt6.
 
 ## v1.4.0
 
