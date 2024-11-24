@@ -96,6 +96,7 @@ icons:
   tags:
   - box
   - file
+  - package
   - rar
   - zip
 - name: arrow-down
@@ -563,6 +564,10 @@ icons:
   - drums
   - instrument
   - percussion
+- name: database
+  path: 16\hardware/database.svg
+  tags:
+  - hardware
 - name: debug
   path: 16/misc/debug.svg
   tags:
@@ -590,6 +595,7 @@ icons:
   - ep
   - hardware
   - lp
+  - optical
 - name: download
   path: 16/action/download.svg
   tags:
@@ -657,6 +663,7 @@ icons:
   - connection
   - hardware
   - network
+  - wired
 - name: executable
   path: 16/file/executable.svg
   tags:
@@ -1010,11 +1017,13 @@ icons:
 - name: indent-less
   path: 16/text/indent-less.svg
   tags:
+  - format
   - paragraph
   - text
 - name: indent-more
   path: 16/text/indent-more.svg
   tags:
+  - format
   - paragraph
   - text
 - name: info
@@ -1078,16 +1087,30 @@ icons:
   - debug
   - development
   - navigation
+- name: justify-center
+  path: 16\text/justify-center.svg
+  tags:
+  - format
+  - paragraph
+  - text
+- name: justify-fill
+  path: 16\text/justify-fill.svg
+  tags:
+  - format
+  - paragraph
+  - text
 - name: justify-left
   path: 16/text/justify-left.svg
   tags:
   - alignment
+  - format
   - paragraph
   - text
 - name: justify-right
   path: 16/text/justify-right.svg
   tags:
   - alignment
+  - format
   - paragraph
   - text
 - name: key-cmd
@@ -1230,6 +1253,7 @@ icons:
   tags:
   - feedback
   - media
+  - repeat
 - name: losange
   path: 16/shape/losange.svg
   tags:
@@ -1309,6 +1333,7 @@ icons:
   tags:
   - audio
   - file
+  - image
   - picture
   - video
 - name: megaphone
@@ -1506,6 +1531,7 @@ icons:
   tags:
   - action
   - power
+  - shutdown
   - start
   - turn off
 - name: open
@@ -1688,6 +1714,7 @@ icons:
   tags:
   - file
   - gallery
+  - image
   - media
   - photo
 - name: pin
@@ -1802,6 +1829,7 @@ icons:
   path: 16/action/refresh.svg
   tags:
   - action
+  - reboot
   - reset
   - update
 - name: rename
@@ -1821,17 +1849,21 @@ icons:
   tags:
   - action
   - answer
+  - email
 - name: reply-all
   path: 16/action/reply-all.svg
   tags:
   - action
   - answer
+  - email
   - group
 - name: reset
   path: 16/action/reset.svg
   tags:
   - action
   - restart
+  - restore
+  - revert
 - name: resume
   path: 16/misc/resume.svg
   tags:
@@ -1899,8 +1931,10 @@ icons:
   path: 16/hardware/screen.svg
   tags:
   - device
+  - display
   - hardware
   - monitor
+  - video
 - name: screenshot
   path: 16/action/screenshot.svg
   tags:
@@ -1943,6 +1977,10 @@ icons:
   - action
   - email
   - mailbox
+- name: server
+  path: 16\hardware/server.svg
+  tags:
+  - hardware
 - name: settings
   path: 16/navigation/settings.svg
   tags:
@@ -2279,6 +2317,7 @@ icons:
   tags:
   - clipboard
   - clock
+  - due
   - misc
   - schedule
   - todo
@@ -2447,6 +2486,7 @@ icons:
   tags:
   - device
   - dongle
+  - flash
   - hardware
   - storage
   - usb
@@ -2550,6 +2590,49 @@ icons:
   path: 16/action/windows-unmaximize.svg
   tags:
   - action
+- name: wireless-0
+  path: 16\hardware/wireless-0.svg
+  tags:
+  - connection
+  - hardware
+  - low
+  - network
+  - wi-fi
+  - wifi
+- name: wireless-1
+  path: 16\hardware/wireless-1.svg
+  tags:
+  - connection
+  - hardware
+  - medium
+  - network
+  - wi-fi
+  - wifi
+- name: wireless-2
+  path: 16\hardware/wireless-2.svg
+  tags:
+  - connection
+  - hardware
+  - high
+  - network
+  - wi-fi
+  - wifi
+- name: wireless-disabled
+  path: 16\hardware/wireless-disabled.svg
+  tags:
+  - connection
+  - hardware
+  - network
+  - wi-fi
+  - wifi
+- name: wireless-none
+  path: 16\hardware/wireless-none.svg
+  tags:
+  - connection
+  - hardware
+  - network
+  - wi-fi
+  - wifi
 - name: woodwind
   path: 16/instruments/woodwind.svg
   tags:

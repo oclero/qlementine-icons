@@ -5,7 +5,7 @@ import pathlib
 import sys
 from string import Template
 from subprocess import call
-
+import json
 
 def this_dir_path():
   return pathlib.Path(__file__).parent.absolute().as_posix()
@@ -14,7 +14,8 @@ def this_dir_path():
 ICONS_DIR = 'sources/resources/icons'
 
 CPP_FILEPATH = 'sources/src/icons/QlementineIcons.cpp'
-CPP_REGEXP = r'(\/\/ ---.*)\s+((?:.*\n)*)\s+(\/\/ ---)'
+CPP_REGEXP_QRC = r'(\/\/ ---QRC.*)\s+((?:.*\n)*)\s+(\/\/ ---QRC)'
+CPP_REGEXP_MAP = r'(\/\/ ---MAP.*)\s+((?:.*\n)*)\s+(\/\/ ---MAP)'
 
 HPP_ENUM_DIR = 'sources/include/oclero/qlementine/icons/'
 HPP_ENUM_NAME_REGEX = r'(.*\/)(.*\.svg)'
@@ -24,6 +25,7 @@ QRC_TEMPLATE_FILEPATH = this_dir_path() + '/resources/Template.qrc'
 
 QRC_PREFIX = '/qlementine/icons'
 
+FREEDESKTOP_MAPPING_PATH = 'sources/FreeDesktopMappings.json'
 
 def to_pascal_case(s: str) -> str:
   return re.sub(r'(_|-|\s)+', ' ', s).title().replace(' ', '')
@@ -121,12 +123,30 @@ def write_enum_hpp_file(icon_lists: dict[str, list[str]], enum_name: str, output
   call(['clang-format', '-i', output_filepath])
 
 
-def modify_cpp_file(lines: list[str], cpp_filepath: str) -> None:
+def get_freedesktop_map_lines(mapping_filepath: str) -> list[str]:
+  with open(mapping_filepath, 'r') as file:
+    data = json.load(file)
+
+  map_lines: list[str] = []
+
+  for key, value in data.items():
+    if value:
+      line = f'{{ "{key}", "{value}" }},'
+      map_lines.append(line)
+
+  return map_lines
+
+def modify_cpp_file(qrc_init_lines: list[str], map_lines: list[str], cpp_filepath: str) -> None:
   with open(cpp_filepath, 'r') as f:
     cpp_content = f.read()
 
-  replacement = r'\1\n  {}\n  \3'.format('\n  '.join(lines))
-  new_cpp_content = re.sub(CPP_REGEXP, replacement, cpp_content)
+  # qrc
+  replacement_qrc = r'\1\n  {}\n  \3'.format('\n  '.join(qrc_init_lines))
+  new_cpp_content = re.sub(CPP_REGEXP_QRC, replacement_qrc, cpp_content)
+
+  # map
+  replacement_map = r'\1\n  {}\n  \3'.format('\n  '.join(map_lines))
+  new_cpp_content = re.sub(CPP_REGEXP_MAP, replacement_map, new_cpp_content)
 
   with open(cpp_filepath, 'w') as f:
     f.write(new_cpp_content)
@@ -136,6 +156,7 @@ def update():
   print(f'Updating Qt file(s)...')
 
   qrc_init_lines: list[str] = []
+  map_lines = get_freedesktop_map_lines(FREEDESKTOP_MAPPING_PATH)
 
   dirs = [f for f in os.scandir(ICONS_DIR) if f.is_dir()]
   dirs.sort(key=lambda d: d.path)
@@ -163,7 +184,7 @@ def update():
 
   # Modify CPP file.
   # NB: CMake file doesn't need modification as it globs all .qrc files.
-  modify_cpp_file(qrc_init_lines, CPP_FILEPATH)
+  modify_cpp_file(qrc_init_lines, map_lines, CPP_FILEPATH)
   print(f'Updated {CPP_FILEPATH}')
 
   print(f'Done updating Qt file(s).\n')

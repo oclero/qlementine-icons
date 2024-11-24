@@ -12,6 +12,8 @@
     <file>text/format-underline.svg</file>
     <file>text/indent-less.svg</file>
     <file>text/indent-more.svg</file>
+    <file>text/justify-center.svg</file>
+    <file>text/justify-fill.svg</file>
     <file>text/justify-left.svg</file>
     <file>text/justify-right.svg</file>
     <file>text/left-to-right.svg</file>
