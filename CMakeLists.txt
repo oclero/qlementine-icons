@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.17.5)
 # Set project information.
 project("qlementine_icons"
   LANGUAGES CXX
+  VERSION 1.5.0.0
   DESCRIPTION "Modern icon theme for Qt applications."
 )
 
