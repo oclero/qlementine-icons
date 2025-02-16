@@ -9,8 +9,10 @@ import pathlib
 # Scour can't do in-place modification so we use a buffer file.
 TMP_SVG_OUTPUT_FILE = os.path.join(tempfile.gettempdir(), 'tmp.svg')
 
+DEFAULT_COLOR = "#000"
 
-def process_svg_file(input_path: str, output_path: str):
+
+def process_svg_file(input_path: str, output_path: str, change_color=True, new_color=DEFAULT_COLOR):
   # Ensure the destination dir exists.
   os.makedirs(os.path.dirname(output_path), exist_ok=True)
   # Create Scour options.
@@ -50,13 +52,14 @@ def process_svg_file(input_path: str, output_path: str):
   with open(TMP_SVG_OUTPUT_FILE, 'r') as f:
     file_content = f.read()
 
-  file_content = re.sub(r'="#f+"', '="#000"', file_content)
+  if change_color:
+    file_content = re.sub(r'="#f+"', f'="{new_color}"', file_content)
 
   with open(output_path, 'w') as f:
     f.write(file_content)
 
 
-def process_svg_folder(svg_dir_path: str, overwrite=True) -> int:
+def process_svg_folder(svg_dir_path: str, overwrite=True, change_color=True, new_color=DEFAULT_COLOR) -> int:
   count = 0
   for root, _, files in os.walk(svg_dir_path):
     files = [f for f in files if not f.startswith(
@@ -65,7 +68,7 @@ def process_svg_folder(svg_dir_path: str, overwrite=True) -> int:
       input_path = os.path.join(root, file)
       output_path = input_path if overwrite else os.path.join(
         svg_dir_path, 'compressed', file)
-      process_svg_file(input_path, output_path)
+      process_svg_file(input_path, output_path, change_color, new_color)
       count = count + 1
 
   # Remove temporary file.
@@ -75,9 +78,16 @@ def process_svg_folder(svg_dir_path: str, overwrite=True) -> int:
   return count
 
 
-if __name__ == '__main__':
-  print('Optimizing SVG files...')
+def get_icons_dir() -> str:
   root_dir = pathlib.Path(__file__).parent.parent.absolute().as_posix()
   icons_dir = os.path.join(root_dir, 'sources/resources/icons')
-  count = process_svg_folder(icons_dir, overwrite=True)
+  return icons_dir
+
+
+if __name__ == '__main__':
+  print('Optimizing SVG files...')
+  icons_dir = get_icons_dir()
+  new_color = DEFAULT_COLOR
+  count = process_svg_folder(
+    icons_dir, overwrite=True, change_color=True, new_color=new_color)
   print(f'Done optimizing {count} SVG file(s).\n')
