@@ -13,7 +13,7 @@
       "generator": "Xcode",
       "binaryDir": "${sourceDir}/_build",
       "cacheVariables": {
-        "QT_DIR": "/opt/homebrew/opt/qt/lib/cmake/Qt6"
+        "CMAKE_PREFIX_PATH": "/opt/homebrew/opt/qt/lib/cmake/Qt6"
       },
       "condition": {
         "type": "equals",
@@ -55,9 +55,7 @@
       "displayName": "macOS",
       "configurePreset": "macos",
       "description": "Release build with Xcode for macOS",
-      "targets": [
-        "qlementine_icons"
-      ],
+      "targets": ["qlementine_icons"],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -70,9 +68,7 @@
       "displayName": "Sandbox for macOS",
       "configurePreset": "macos",
       "description": "Sandbox - Release build with Xcode for macOS",
-      "targets": [
-        "sandbox"
-      ],
+      "targets": ["sandbox"],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -85,9 +81,7 @@
       "displayName": "Windows",
       "configurePreset": "windows",
       "description": "Release build with Visual Studio for Windows",
-      "targets": [
-        "qlementine_icons"
-      ],
+      "targets": ["qlementine_icons"],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -100,9 +94,7 @@
       "displayName": "Sandbox for Windows",
       "configurePreset": "windows",
       "description": "Sandbox - Release build with Visual Studio for Windows",
-      "targets": [
-        "sandbox"
-      ],
+      "targets": ["sandbox"],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -115,9 +107,7 @@
       "displayName": "Linux",
       "configurePreset": "linux",
       "description": "Release build for Linux",
-      "targets": [
-        "qlementine_icons"
-      ],
+      "targets": ["qlementine_icons"],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -130,9 +120,7 @@
       "displayName": "Sandbox for Linux",
       "configurePreset": "linux",
       "description": "Sandbox - Release build for Linux",
-      "targets": [
-        "sandbox"
-      ],
+      "targets": ["sandbox"],
       "configuration": "Release",
       "condition": {
         "type": "equals",
