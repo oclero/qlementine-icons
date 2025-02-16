@@ -8,6 +8,7 @@
     <file>misc/bell.svg</file>
     <file>misc/blocks.svg</file>
     <file>misc/book.svg</file>
+    <file>misc/book-open.svg</file>
     <file>misc/calendar.svg</file>
     <file>misc/certified.svg</file>
     <file>misc/certified-filled.svg</file>
@@ -22,8 +23,13 @@
     <file>misc/crane.svg</file>
     <file>misc/crane-hook.svg</file>
     <file>misc/debug.svg</file>
+    <file>misc/education.svg</file>
     <file>misc/empty-slot.svg</file>
     <file>misc/faq.svg</file>
+    <file>misc/function-angle.svg</file>
+    <file>misc/function-curve.svg</file>
+    <file>misc/function-linear.svg</file>
+    <file>misc/fx.svg</file>
     <file>misc/gift.svg</file>
     <file>misc/globe.svg</file>
     <file>misc/help.svg</file>
@@ -35,6 +41,7 @@
     <file>misc/items-grid-small.svg</file>
     <file>misc/items-list.svg</file>
     <file>misc/items-tree.svg</file>
+    <file>misc/library.svg</file>
     <file>misc/location.svg</file>
     <file>misc/magnet.svg</file>
     <file>misc/magnet-crossed-out.svg</file>
@@ -75,5 +82,7 @@
     <file>misc/warning.svg</file>
     <file>misc/wave.svg</file>
     <file>misc/zoom.svg</file>
+    <file>misc/zoom-horizontal.svg</file>
+    <file>misc/zoom-vertical.svg</file>
   </qresource>
 </RCC>

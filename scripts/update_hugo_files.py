@@ -43,7 +43,7 @@ def get_new_data(icons_dir: str) -> dict:
   for root, _, files in os.walk(icons_dir):
     files = [f for f in files if not is_hidden(f) and f.endswith('.svg')]
     for file in files:
-      full_path = os.path.join(root, file)
+      full_path = os.path.join(root, file).replace('\\', '/')
       head, _ = os.path.split(full_path)
       first_directory = os.path.basename(head)
       relative_path = os.path.relpath(head, icons_dir)
@@ -77,7 +77,7 @@ def get_yaml_content(merged_data: dict):
   for key, value in merged_data.items():
     list_item = {
       'name': key,
-      'path': value['path'],
+      'path': value['path'].replace('\\', '/'),
       'tags': sorted(value['tags'])
     }
     if 'freedesktop' in value:

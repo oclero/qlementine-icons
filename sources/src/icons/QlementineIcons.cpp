@@ -32,6 +32,16 @@ void qlementineIconThemeInitialization() {
   Q_INIT_RESOURCE(qlementine_icons_16_shopping);
   Q_INIT_RESOURCE(qlementine_icons_16_software);
   Q_INIT_RESOURCE(qlementine_icons_16_text);
+  Q_INIT_RESOURCE(qlementine_icons_24_action);
+  Q_INIT_RESOURCE(qlementine_icons_24_brand);
+  Q_INIT_RESOURCE(qlementine_icons_24_file);
+  Q_INIT_RESOURCE(qlementine_icons_24_hardware);
+  Q_INIT_RESOURCE(qlementine_icons_24_instrument);
+  Q_INIT_RESOURCE(qlementine_icons_24_media);
+  Q_INIT_RESOURCE(qlementine_icons_24_misc);
+  Q_INIT_RESOURCE(qlementine_icons_24_navigation);
+  Q_INIT_RESOURCE(qlementine_icons_24_shape);
+  Q_INIT_RESOURCE(qlementine_icons_24_shopping);
   Q_INIT_RESOURCE(qlementine_icons_32_file);
   Q_INIT_RESOURCE(qlementine_icons_32_misc);
   Q_INIT_RESOURCE(qlementine_icons_32_shape);

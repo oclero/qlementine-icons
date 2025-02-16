@@ -9,12 +9,17 @@
     <file>brand/instagram.svg</file>
     <file>brand/instagram-fill.svg</file>
     <file>brand/mac.svg</file>
+    <file>brand/mastodon.svg</file>
+    <file>brand/mastodon-fill.svg</file>
     <file>brand/midi.svg</file>
+    <file>brand/peertube.svg</file>
+    <file>brand/peertube-fill.svg</file>
     <file>brand/rss.svg</file>
     <file>brand/twitter.svg</file>
     <file>brand/twitter-fill.svg</file>
     <file>brand/vst3.svg</file>
     <file>brand/windows.svg</file>
+    <file>brand/x.svg</file>
     <file>brand/youtube.svg</file>
     <file>brand/youtube-fill.svg</file>
   </qresource>

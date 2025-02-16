@@ -106,6 +106,22 @@ icons:
   - navigate
   - navigation
   - next
+- name: arrow-down-left
+  path: 24/navigation/arrow-down-left.svg
+  tags:
+  - bottom
+  - direction
+  - navigation
+  - south
+  - west
+- name: arrow-down-right
+  path: 24/navigation/arrow-down-right.svg
+  tags:
+  - bottom
+  - direction
+  - east
+  - navigation
+  - south
 - name: arrow-left
   path: 16/navigation/arrow-left.svg
   tags:
@@ -127,6 +143,22 @@ icons:
   - navigate
   - navigation
   - previous
+- name: arrow-up-left
+  path: 24/navigation/arrow-up-left.svg
+  tags:
+  - direction
+  - navigation
+  - north
+  - top
+  - west
+- name: arrow-up-right
+  path: 24/navigation/arrow-up-right.svg
+  tags:
+  - direction
+  - east
+  - navigation
+  - north
+  - top
 - name: arrows-left-right
   path: 12/navigation/arrows-left-right.svg
   tags:
@@ -233,6 +265,14 @@ icons:
   tags:
   - library
   - misc
+  - read
+- name: book-open
+  path: 16/misc/book-open.svg
+  tags:
+  - bookstore
+  - library
+  - misc
+  - novel
   - read
 - name: bookmark
   path: 16/navigation/bookmark.svg
@@ -565,7 +605,7 @@ icons:
   - instrument
   - percussion
 - name: database
-  path: 16\hardware/database.svg
+  path: 16/hardware/database.svg
   tags:
   - hardware
 - name: debug
@@ -575,6 +615,12 @@ icons:
   - development
   - insect
   - misc
+- name: decrease
+  path: 24/action/decrease.svg
+  tags:
+  - action
+  - down
+  - less
 - name: desktop
   path: 16/software/desktop.svg
   tags:
@@ -627,6 +673,19 @@ icons:
   - instruments
   - percussions
   - stick
+- name: education
+  path: 24/misc/education.svg
+  tags:
+  - cap
+  - college
+  - course
+  - hat
+  - learn
+  - lesson
+  - misc
+  - school
+  - teach
+  - unversity
 - name: eject
   path: 16/media/eject.svg
   tags:
@@ -692,6 +751,14 @@ icons:
   - visibility
   - visible
   - vision
+- name: eye-crossed
+  path: 24/misc/eye-crossed.svg
+  tags:
+  - blind
+  - hidden
+  - hide
+  - invisible
+  - misc
 - name: facebook
   path: 16/brand/facebook.svg
   tags:
@@ -753,6 +820,12 @@ icons:
   - action
   - bottleneck
   - funnel
+- name: filter-crossed
+  path: 16/action/filter-crossed.svg
+  tags:
+  - action
+  - unfilter
+  - unfiltered
 - name: flag
   path: 16/navigation/flag.svg
   tags:
@@ -831,6 +904,41 @@ icons:
   - action
   - view
   - window
+- name: function-angle
+  path: 16/misc/function-angle.svg
+  tags:
+  - bezier
+  - curve
+  - exponential
+  - math
+  - misc
+- name: function-curve
+  path: 16/misc/function-curve.svg
+  tags:
+  - bezier
+  - cubic
+  - curve
+  - exponential
+  - math
+  - misc
+  - quadratic
+- name: function-linear
+  path: 16/misc/function-linear.svg
+  tags:
+  - affine
+  - bezier
+  - curve
+  - math
+  - misc
+- name: fx
+  path: 16/misc/fx.svg
+  tags:
+  - dsp
+  - effect
+  - function
+  - math
+  - misc
+  - signal processing
 - name: gamepad
   path: 16/hardware/gamepad.svg
   tags:
@@ -1014,6 +1122,12 @@ icons:
   - email
   - mail
   - misc
+- name: increase
+  path: 24/action/increase.svg
+  tags:
+  - action
+  - more
+  - up
 - name: indent-less
   path: 16/text/indent-less.svg
   tags:
@@ -1088,13 +1202,13 @@ icons:
   - development
   - navigation
 - name: justify-center
-  path: 16\text/justify-center.svg
+  path: 16/text/justify-center.svg
   tags:
   - format
   - paragraph
   - text
 - name: justify-fill
-  path: 16\text/justify-fill.svg
+  path: 16/text/justify-fill.svg
   tags:
   - format
   - paragraph
@@ -1141,6 +1255,13 @@ icons:
   - keybinding
   - keyboard
   - navigation
+- name: key-return-noframe
+  path: 16/navigation/key-return-noframe.svg
+  tags:
+  - enter
+  - keybinding
+  - keyboard
+  - navigation
 - name: key-shift
   path: 16/navigation/key-shift.svg
   tags:
@@ -1148,6 +1269,13 @@ icons:
   - keyboard
   - navigation
   - uppercase
+- name: key-tab
+  path: 16/navigation/key-tab.svg
+  tags:
+  - keybinding
+  - keyboard
+  - navigation
+  - navigation
 - name: keyboard
   path: 16/hardware/keyboard.svg
   tags:
@@ -1216,6 +1344,14 @@ icons:
   - direction
   - ltr
   - text
+- name: library
+  path: 16/misc/library.svg
+  tags:
+  - books
+  - bookshelf
+  - bookstore
+  - misc
+  - reading
 - name: location
   path: 16/misc/location.svg
   tags:
@@ -1313,6 +1449,20 @@ icons:
   - instrument
   - mixing
   - recording
+- name: mastodon
+  path: 16/brand/mastodon.svg
+  tags:
+  - brand
+  - foss
+  - open-source
+  - social media
+- name: mastodon-fill
+  path: 16/brand/mastodon-fill.svg
+  tags:
+  - brand
+  - foss
+  - open-source
+  - social media
 - name: match-case
   path: 16/text/match-case.svg
   tags:
@@ -1680,6 +1830,24 @@ icons:
   - guitar
   - instrument
   - sound
+- name: peertube
+  path: 16/brand/peertube.svg
+  tags:
+  - brand
+  - foss
+  - open-source
+  - social media
+  - video
+  - youtube
+- name: peertube-fill
+  path: 16/brand/peertube-fill.svg
+  tags:
+  - brand
+  - foss
+  - open-source
+  - social media
+  - video
+  - youtube
 - name: pen
   path: 16/misc/pen.svg
   tags:
@@ -1805,11 +1973,30 @@ icons:
   tags:
   - document
   - settings
+- name: purcentage
+  path: 24/shopping/purcentage.svg
+  tags:
+  - discount
+  - fraction
+  - math
+  - sale
+  - shopping
 - name: question
   path: 16/misc/question.svg
   tags:
   - help
   - misc
+- name: radio
+  path: 16/hardware/radio.svg
+  tags:
+  - AM
+  - FM
+  - brodcast
+  - frequency
+  - hardware
+  - podcast
+  - station
+  - tune
 - name: radio-tick
   path: 16/shape/radio-tick.svg
   tags:
@@ -1864,6 +2051,21 @@ icons:
   - restart
   - restore
   - revert
+- name: resize-bigger
+  path: 16/action/resize-bigger.svg
+  tags:
+  - action
+  - larger
+  - more
+  - resize
+  - size
+- name: resize-smaller
+  path: 16/action/resize-smaller.svg
+  tags:
+  - action
+  - less
+  - resize
+  - size
 - name: resume
   path: 16/misc/resume.svg
   tags:
@@ -1941,6 +2143,22 @@ icons:
   - action
   - capture
   - screen
+- name: scroll-lock
+  path: 16/action/scroll-lock.svg
+  tags:
+  - action
+  - cursor
+  - freeze
+  - scroll
+  - unlock
+- name: scroll-unlock
+  path: 16/action/scroll-unlock.svg
+  tags:
+  - action
+  - cursor
+  - scroll
+  - unfreeze
+  - unlock
 - name: search
   path: 16/navigation/search.svg
   tags:
@@ -1978,7 +2196,7 @@ icons:
   - email
   - mailbox
 - name: server
-  path: 16\hardware/server.svg
+  path: 16/hardware/server.svg
   tags:
   - hardware
 - name: settings
@@ -2144,6 +2362,22 @@ icons:
   - date
   - descendent
   - sort
+- name: sort-user-asc
+  path: 16/action/sort-user-asc.svg
+  tags:
+  - action
+  - ascendent
+  - author
+  - name
+  - sort
+- name: sort-user-desc
+  path: 16/action/sort-user-desc.svg
+  tags:
+  - action
+  - author
+  - descendent
+  - name
+  - sort
 - name: spam
   path: 16/misc/spam.svg
   tags:
@@ -2151,6 +2385,13 @@ icons:
   - junk
   - mailbox
   - misc
+- name: speaker
+  path: 16/hardware/speaker.svg
+  tags:
+  - audio
+  - hardware
+  - listen
+  - sound
 - name: speaker-0
   path: 16/audio/speaker-0.svg
   tags:
@@ -2476,6 +2717,14 @@ icons:
   path: 16/misc/unknown.svg
   tags:
   - misc
+- name: unlock
+  path: 16/action/unlock.svg
+  tags:
+  - action
+  - lock
+  - password
+  - secure
+  - security
 - name: update
   path: 16/action/update.svg
   tags:
@@ -2591,7 +2840,7 @@ icons:
   tags:
   - action
 - name: wireless-0
-  path: 16\hardware/wireless-0.svg
+  path: 16/hardware/wireless-0.svg
   tags:
   - connection
   - hardware
@@ -2600,7 +2849,7 @@ icons:
   - wi-fi
   - wifi
 - name: wireless-1
-  path: 16\hardware/wireless-1.svg
+  path: 16/hardware/wireless-1.svg
   tags:
   - connection
   - hardware
@@ -2609,7 +2858,7 @@ icons:
   - wi-fi
   - wifi
 - name: wireless-2
-  path: 16\hardware/wireless-2.svg
+  path: 16/hardware/wireless-2.svg
   tags:
   - connection
   - hardware
@@ -2618,7 +2867,7 @@ icons:
   - wi-fi
   - wifi
 - name: wireless-disabled
-  path: 16\hardware/wireless-disabled.svg
+  path: 16/hardware/wireless-disabled.svg
   tags:
   - connection
   - hardware
@@ -2626,7 +2875,7 @@ icons:
   - wi-fi
   - wifi
 - name: wireless-none
-  path: 16\hardware/wireless-none.svg
+  path: 16/hardware/wireless-none.svg
   tags:
   - connection
   - hardware
@@ -2638,6 +2887,13 @@ icons:
   tags:
   - flute
   - instruments
+- name: x
+  path: 16/brand/x.svg
+  tags:
+  - brand
+  - elon
+  - musk
+  - twitter
 - name: youtube
   path: 16/brand/youtube.svg
   tags:
@@ -2694,6 +2950,12 @@ icons:
   - page
   - view
   - width
+- name: zoom-horizontal
+  path: 16/misc/zoom-horizontal.svg
+  tags:
+  - magnify
+  - misc
+  - zoom
 - name: zoom-in
   path: 16/action/zoom-in.svg
   tags:
@@ -2715,3 +2977,9 @@ icons:
   - magnify
   - smaller
   - view
+- name: zoom-vertical
+  path: 16/misc/zoom-vertical.svg
+  tags:
+  - magnify
+  - misc
+  - zoom
