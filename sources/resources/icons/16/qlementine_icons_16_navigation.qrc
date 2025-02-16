@@ -3,9 +3,13 @@
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
     <file>navigation/arrow-down.svg</file>
+    <file>navigation/arrow-down-left.svg</file>
+    <file>navigation/arrow-down-right.svg</file>
     <file>navigation/arrow-left.svg</file>
     <file>navigation/arrow-right.svg</file>
     <file>navigation/arrow-up.svg</file>
+    <file>navigation/arrow-up-left.svg</file>
+    <file>navigation/arrow-up-right.svg</file>
     <file>navigation/bookmark.svg</file>
     <file>navigation/chevron-double-left.svg</file>
     <file>navigation/chevron-double-right.svg</file>
@@ -27,7 +31,9 @@
     <file>navigation/key-ctrl.svg</file>
     <file>navigation/key-opt.svg</file>
     <file>navigation/key-return.svg</file>
+    <file>navigation/key-return-noframe.svg</file>
     <file>navigation/key-shift.svg</file>
+    <file>navigation/key-tab.svg</file>
     <file>navigation/layers-1.svg</file>
     <file>navigation/layers-2.svg</file>
     <file>navigation/layers-3.svg</file>
