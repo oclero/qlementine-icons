@@ -58,7 +58,7 @@
 
   <!-- CSS -->
   {{- $cssResource := resources.Get "css/main.scss" -}}
-  {{- $cssFile := $cssResource | resources.ToCSS -}}
+  {{- $cssFile := $cssResource | css.Sass -}}
   {{- if hugo.IsServer -}}
     <link rel="stylesheet" type="text/css" href="{{- $cssFile.RelPermalink -}}" />
   {{- else -}}
