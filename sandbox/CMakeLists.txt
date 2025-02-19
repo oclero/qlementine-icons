@@ -7,7 +7,7 @@ qt_add_executable(${SANDBOX_NAME} WIN32 MACOSX_BUNDLE
 target_link_libraries(${SANDBOX_NAME}
   PRIVATE
     Qt::Widgets
-    oclero::qlementine_icons
+    qlementine_icons
 )
 
 install(
