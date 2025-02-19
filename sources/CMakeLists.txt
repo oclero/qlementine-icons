@@ -1,5 +1,6 @@
 # Create the library.
 add_library(${PROJECT_NAME} STATIC)
+include(CMakePackageConfigHelpers)
 
 file(GLOB_RECURSE QRC_FILES "resources/icons/*.qrc")
 file(GLOB_RECURSE HPP_FILES "include/oclero/qlementine/icons/*.hpp")
