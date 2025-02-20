@@ -22,6 +22,6 @@ qt_standard_project_setup()
 add_subdirectory(sources)
 
 # Sandbox.
-if(${CMAKE_PROJECT_NAME} STREQUAL ${PROJECT_NAME})
+if(QLEMENTINE_ICONS_SANDBOX)
   add_subdirectory(sandbox)
 endif()
