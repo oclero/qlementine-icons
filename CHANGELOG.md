@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.7.0
+
+- Add icons:
+
+  - 16x16:
+    - Brand: `github`, `github-fille`, `gitlab`, `gitlab-fill`.
+
 ## v1.6.0
 
 - Add icons:
