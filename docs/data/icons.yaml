@@ -955,6 +955,38 @@ icons:
   - free
   - misc
   - present
+- name: github
+  path: 16/brand/github.svg
+  tags:
+  - brand
+  - code
+  - commit
+  - git
+  - source
+- name: github-fill
+  path: 16/brand/github-fill.svg
+  tags:
+  - brand
+  - code
+  - commit
+  - git
+  - source
+- name: gitlab
+  path: 16/brand/gitlab.svg
+  tags:
+  - brand
+  - code
+  - commit
+  - git
+  - source
+- name: gitlab-fill
+  path: 16/brand/gitlab-fill.svg
+  tags:
+  - brand
+  - code
+  - commit
+  - git
+  - source
 - name: globe
   path: 16/misc/globe.svg
   tags:

@@ -107,6 +107,10 @@ enum class Icons16 : size_t {
   Brand_AndroidFill,
   Brand_Facebook,
   Brand_FacebookFill,
+  Brand_Github,
+  Brand_GithubFill,
+  Brand_Gitlab,
+  Brand_GitlabFill,
   Brand_Instagram,
   Brand_InstagramFill,
   Brand_Mac,
@@ -466,7 +470,7 @@ enum class Icons16 : size_t {
 };
 
 inline const char* iconPath(Icons16 id) {
-  static constexpr std::array<const char*, 453> icons{
+  static constexpr std::array<const char*, 457> icons{
     "",
     ":/qlementine/icons/16/action/add-file.svg",
     ":/qlementine/icons/16/action/add-folder.svg",
@@ -564,6 +568,10 @@ inline const char* iconPath(Icons16 id) {
     ":/qlementine/icons/16/brand/android-fill.svg",
     ":/qlementine/icons/16/brand/facebook.svg",
     ":/qlementine/icons/16/brand/facebook-fill.svg",
+    ":/qlementine/icons/16/brand/github.svg",
+    ":/qlementine/icons/16/brand/github-fill.svg",
+    ":/qlementine/icons/16/brand/gitlab.svg",
+    ":/qlementine/icons/16/brand/gitlab-fill.svg",
     ":/qlementine/icons/16/brand/instagram.svg",
     ":/qlementine/icons/16/brand/instagram-fill.svg",
     ":/qlementine/icons/16/brand/mac.svg",
