@@ -60,7 +60,7 @@
       "displayName": "macOS",
       "configurePreset": "macos",
       "description": "Release build with Xcode for macOS",
-      "targets": ["qlementine_icons"],
+      "targets": ["qlementine-icons"],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -86,7 +86,7 @@
       "displayName": "Windows",
       "configurePreset": "windows",
       "description": "Release build with Visual Studio for Windows",
-      "targets": ["qlementine_icons"],
+      "targets": ["qlementine-icons"],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -112,7 +112,7 @@
       "displayName": "Linux",
       "configurePreset": "linux",
       "description": "Release build for Linux",
-      "targets": ["qlementine_icons"],
+      "targets": ["qlementine-icons"],
       "configuration": "Release",
       "condition": {
         "type": "equals",
