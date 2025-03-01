@@ -54,14 +54,14 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons o
 
    ```bash
    include(FetchContent)
-   FetchContent_Declare(qlementine_icons GIT_REPOSITORY "https://github.com/oclero/qlementine-icons.git")
-   FetchContent_MakeAvailable(qlementine_icons)
+   FetchContent_Declare(qlementine-icons GIT_REPOSITORY "https://github.com/oclero/qlementine-icons.git")
+   FetchContent_MakeAvailable(qlementine-icons)
    ```
 
 2. Link with the library in CMake.
 
    ```cmake
-   target_link_libraries(your_project oclero::qlementine_icons)
+   target_link_libraries(your_project qlementine-icons)
    ```
 
 3. Initialize the library.
