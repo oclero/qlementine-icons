@@ -2,6 +2,8 @@
 
 ## v1.7.0
 
+- CMake install target.
+- Lib's alias removed, and target renamed `qlementine-icons`.
 - Add icons:
 
   - 16x16:
