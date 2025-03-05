@@ -29,7 +29,7 @@
       "generator": "Visual Studio 17 2022",
       "binaryDir": "${sourceDir}/_build",
       "cacheVariables": {
-        "CMAKE_PREFIX_PATH": "C:/Qt/6.8.0/msvc2022_64",
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.8.2/msvc2022_64",
         "QLEMENTINE_ICONS_SANDBOX": true
       },
       "condition": {
@@ -60,7 +60,9 @@
       "displayName": "macOS",
       "configurePreset": "macos",
       "description": "Release build with Xcode for macOS",
-      "targets": ["qlementine-icons"],
+      "targets": [
+        "qlementine-icons"
+      ],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -73,7 +75,9 @@
       "displayName": "Sandbox for macOS",
       "configurePreset": "macos",
       "description": "Sandbox - Release build with Xcode for macOS",
-      "targets": ["sandbox"],
+      "targets": [
+        "sandbox"
+      ],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -86,7 +90,9 @@
       "displayName": "Windows",
       "configurePreset": "windows",
       "description": "Release build with Visual Studio for Windows",
-      "targets": ["qlementine-icons"],
+      "targets": [
+        "qlementine-icons"
+      ],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -99,7 +105,9 @@
       "displayName": "Sandbox for Windows",
       "configurePreset": "windows",
       "description": "Sandbox - Release build with Visual Studio for Windows",
-      "targets": ["sandbox"],
+      "targets": [
+        "sandbox"
+      ],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -112,7 +120,9 @@
       "displayName": "Linux",
       "configurePreset": "linux",
       "description": "Release build for Linux",
-      "targets": ["qlementine-icons"],
+      "targets": [
+        "qlementine-icons"
+      ],
       "configuration": "Release",
       "condition": {
         "type": "equals",
@@ -125,7 +135,9 @@
       "displayName": "Sandbox for Linux",
       "configurePreset": "linux",
       "description": "Sandbox - Release build for Linux",
-      "targets": ["sandbox"],
+      "targets": [
+        "sandbox"
+      ],
       "configuration": "Release",
       "condition": {
         "type": "equals",
