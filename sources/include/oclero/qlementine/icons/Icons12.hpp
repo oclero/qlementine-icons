@@ -9,8 +9,8 @@
 
 namespace oclero::qlementine::icons {
 
-enum class Icons12 : size_t {
-  None = 0u,
+enum class Icons12 {
+  None = 0,
   Action_Close,
   Action_Minus,
   Action_Plus,

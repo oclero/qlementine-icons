@@ -1613,6 +1613,13 @@ icons:
   - price
   - shopping
   - tokens
+- name: mono
+  path: 16/media/mono.svg
+  tags:
+  - media
+  - pan
+  - panoramic
+  - stereo
 - name: moon
   path: 16/misc/moon.svg
   tags:
@@ -2503,6 +2510,31 @@ icons:
   - debug
   - development
   - navigation
+- name: stereo
+  path: 16/media/stereo.svg
+  tags:
+  - media
+  - mono
+  - pan
+  - panoramic
+- name: stereo-left
+  path: 16/media/stereo-left.svg
+  tags:
+  - media
+  - mono
+  - pan
+  - panoramic
+  - side
+  - stereo
+- name: stereo-right
+  path: 16/media/stereo-right.svg
+  tags:
+  - media
+  - mono
+  - pan
+  - panoramic
+  - side
+  - stereo
 - name: stop
   path: 16/media/stop.svg
   tags:

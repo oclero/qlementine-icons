@@ -9,8 +9,8 @@
 
 namespace oclero::qlementine::icons {
 
-enum class $enum_name : size_t {
-  None = 0u,
+enum class $enum_name {
+  None = 0,
   $enum_keys,
 };
 

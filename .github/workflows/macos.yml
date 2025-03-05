@@ -21,13 +21,14 @@ jobs:
       - name: Install Qt
         uses: jurplel/install-qt-action@v4
         with:
-          version: '6.8.0'
+          version: '6.8.2'
           host: mac
           target: desktop
           arch: clang_64
 
       - name: Build the library.
-        run: |
+        run:
+          |
           cmake --preset macos -DCMAKE_INSTALL_PREFIX=${{github.workspace}}/install
           cmake --build --preset macos --target install
 

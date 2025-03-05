@@ -3,6 +3,7 @@
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/24">
     <file>hardware/hdd.svg</file>
+    <file>hardware/speaker.svg</file>
     <file>hardware/tape.svg</file>
   </qresource>
 </RCC>

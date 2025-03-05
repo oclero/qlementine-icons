@@ -4,6 +4,7 @@
   <qresource prefix="/qlementine/icons/16">
     <file>media/eject.svg</file>
     <file>media/loop.svg</file>
+    <file>media/mono.svg</file>
     <file>media/pause.svg</file>
     <file>media/play.svg</file>
     <file>media/play-small.svg</file>
@@ -15,6 +16,9 @@
     <file>media/shuffle.svg</file>
     <file>media/skip-backward.svg</file>
     <file>media/skip-forward.svg</file>
+    <file>media/stereo.svg</file>
+    <file>media/stereo-left.svg</file>
+    <file>media/stereo-right.svg</file>
     <file>media/stop.svg</file>
   </qresource>
 </RCC>

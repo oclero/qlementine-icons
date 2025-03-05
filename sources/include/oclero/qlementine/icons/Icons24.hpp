@@ -9,8 +9,8 @@
 
 namespace oclero::qlementine::icons {
 
-enum class Icons24 : size_t {
-  None = 0u,
+enum class Icons24 {
+  None = 0,
   Action_Clear,
   Action_Copy,
   Action_Cut,
@@ -54,6 +54,7 @@ enum class Icons24 : size_t {
   File_FolderOpen,
   File_OpenRecent,
   Hardware_Hdd,
+  Hardware_Speaker,
   Hardware_Tape,
   Instrument_Amp,
   Instrument_Banjo,
@@ -150,7 +151,7 @@ enum class Icons24 : size_t {
 };
 
 inline const char* iconPath(Icons24 id) {
-  static constexpr std::array<const char*, 137> icons{
+  static constexpr std::array<const char*, 138> icons{
     "",
     ":/qlementine/icons/24/action/clear.svg",
     ":/qlementine/icons/24/action/copy.svg",
@@ -195,6 +196,7 @@ inline const char* iconPath(Icons24 id) {
     ":/qlementine/icons/24/file/folder-open.svg",
     ":/qlementine/icons/24/file/open-recent.svg",
     ":/qlementine/icons/24/hardware/hdd.svg",
+    ":/qlementine/icons/24/hardware/speaker.svg",
     ":/qlementine/icons/24/hardware/tape.svg",
     ":/qlementine/icons/24/instrument/amp.svg",
     ":/qlementine/icons/24/instrument/banjo.svg",
