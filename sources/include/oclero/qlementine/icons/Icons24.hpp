@@ -54,6 +54,7 @@ enum class Icons24 {
   File_FolderOpen,
   File_OpenRecent,
   Hardware_Hdd,
+  Hardware_Speaker,
   Hardware_Tape,
   Instrument_Amp,
   Instrument_Banjo,
@@ -150,7 +151,7 @@ enum class Icons24 {
 };
 
 inline const char* iconPath(Icons24 id) {
-  static constexpr std::array<const char*, 137> icons{
+  static constexpr std::array<const char*, 138> icons{
     "",
     ":/qlementine/icons/24/action/clear.svg",
     ":/qlementine/icons/24/action/copy.svg",
@@ -195,6 +196,7 @@ inline const char* iconPath(Icons24 id) {
     ":/qlementine/icons/24/file/folder-open.svg",
     ":/qlementine/icons/24/file/open-recent.svg",
     ":/qlementine/icons/24/hardware/hdd.svg",
+    ":/qlementine/icons/24/hardware/speaker.svg",
     ":/qlementine/icons/24/hardware/tape.svg",
     ":/qlementine/icons/24/instrument/amp.svg",
     ":/qlementine/icons/24/instrument/banjo.svg",
