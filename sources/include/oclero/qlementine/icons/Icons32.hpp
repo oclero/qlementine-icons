@@ -9,8 +9,8 @@
 
 namespace oclero::qlementine::icons {
 
-enum class Icons32 : size_t {
-  None = 0u,
+enum class Icons32 {
+  None = 0,
   File_FolderOpen,
   Misc_Info,
   Misc_Question,
