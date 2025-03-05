@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.7.1
+
+- Fix compilation on MSYS2.
+
 ## v1.7.0
 
 - CMake install target.
