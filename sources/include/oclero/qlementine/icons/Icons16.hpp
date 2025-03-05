@@ -240,6 +240,7 @@ enum class Icons16 {
   Instruments_Woodwind,
   Media_Eject,
   Media_Loop,
+  Media_Mono,
   Media_Pause,
   Media_Play,
   Media_PlaySmall,
@@ -251,6 +252,9 @@ enum class Icons16 {
   Media_Shuffle,
   Media_SkipBackward,
   Media_SkipForward,
+  Media_Stereo,
+  Media_StereoLeft,
+  Media_StereoRight,
   Media_Stop,
   Misc_Accessibility,
   Misc_AirplaneMode,
@@ -470,7 +474,7 @@ enum class Icons16 {
 };
 
 inline const char* iconPath(Icons16 id) {
-  static constexpr std::array<const char*, 457> icons{
+  static constexpr std::array<const char*, 461> icons{
     "",
     ":/qlementine/icons/16/action/add-file.svg",
     ":/qlementine/icons/16/action/add-folder.svg",
@@ -701,6 +705,7 @@ inline const char* iconPath(Icons16 id) {
     ":/qlementine/icons/16/instruments/woodwind.svg",
     ":/qlementine/icons/16/media/eject.svg",
     ":/qlementine/icons/16/media/loop.svg",
+    ":/qlementine/icons/16/media/mono.svg",
     ":/qlementine/icons/16/media/pause.svg",
     ":/qlementine/icons/16/media/play.svg",
     ":/qlementine/icons/16/media/play-small.svg",
@@ -712,6 +717,9 @@ inline const char* iconPath(Icons16 id) {
     ":/qlementine/icons/16/media/shuffle.svg",
     ":/qlementine/icons/16/media/skip-backward.svg",
     ":/qlementine/icons/16/media/skip-forward.svg",
+    ":/qlementine/icons/16/media/stereo.svg",
+    ":/qlementine/icons/16/media/stereo-left.svg",
+    ":/qlementine/icons/16/media/stereo-right.svg",
     ":/qlementine/icons/16/media/stop.svg",
     ":/qlementine/icons/16/misc/accessibility.svg",
     ":/qlementine/icons/16/misc/airplane-mode.svg",
