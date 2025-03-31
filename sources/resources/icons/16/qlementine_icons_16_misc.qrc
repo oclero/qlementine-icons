@@ -26,12 +26,15 @@
     <file>misc/education.svg</file>
     <file>misc/empty-slot.svg</file>
     <file>misc/faq.svg</file>
+    <file>misc/forbidden.svg</file>
     <file>misc/function-angle.svg</file>
     <file>misc/function-curve.svg</file>
     <file>misc/function-linear.svg</file>
     <file>misc/fx.svg</file>
     <file>misc/gift.svg</file>
+    <file>misc/glasses.svg</file>
     <file>misc/globe.svg</file>
+    <file>misc/grid.svg</file>
     <file>misc/help.svg</file>
     <file>misc/hourglass.svg</file>
     <file>misc/id-card.svg</file>
@@ -61,9 +64,12 @@
     <file>misc/paint-roll-brush.svg</file>
     <file>misc/password.svg</file>
     <file>misc/pen.svg</file>
+    <file>misc/puzzle-piece.svg</file>
     <file>misc/question.svg</file>
     <file>misc/resume.svg</file>
     <file>misc/run-debug.svg</file>
+    <file>misc/separation-horizontal.svg</file>
+    <file>misc/separation-vertical.svg</file>
     <file>misc/spam.svg</file>
     <file>misc/stars.svg</file>
     <file>misc/success.svg</file>
@@ -79,6 +85,7 @@
     <file>misc/unknown.svg</file>
     <file>misc/user.svg</file>
     <file>misc/users.svg</file>
+    <file>misc/wall.svg</file>
     <file>misc/warning.svg</file>
     <file>misc/wave.svg</file>
     <file>misc/zoom.svg</file>

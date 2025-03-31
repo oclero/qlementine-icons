@@ -7,9 +7,13 @@
     <file>action/address-book-add.svg</file>
     <file>action/address-book-remove.svg</file>
     <file>action/alternate.svg</file>
+    <file>action/bring-to-back.svg</file>
+    <file>action/bring-to-front.svg</file>
     <file>action/build.svg</file>
     <file>action/clear.svg</file>
     <file>action/close.svg</file>
+    <file>action/close-all.svg</file>
+    <file>action/close-single.svg</file>
     <file>action/close-small.svg</file>
     <file>action/copy.svg</file>
     <file>action/cut.svg</file>
@@ -27,6 +31,8 @@
     <file>action/forward.svg</file>
     <file>action/fullscreen.svg</file>
     <file>action/fullscreen-exit.svg</file>
+    <file>action/gather.svg</file>
+    <file>action/group.svg</file>
     <file>action/increase.svg</file>
     <file>action/lock.svg</file>
     <file>action/lock-screen.svg</file>
@@ -53,7 +59,9 @@
     <file>action/reply-all.svg</file>
     <file>action/reset.svg</file>
     <file>action/resize-bigger.svg</file>
+    <file>action/resize-horizontal.svg</file>
     <file>action/resize-smaller.svg</file>
+    <file>action/resize-vertical.svg</file>
     <file>action/run.svg</file>
     <file>action/save.svg</file>
     <file>action/save-to-disk.svg</file>
@@ -80,6 +88,7 @@
     <file>action/trash.svg</file>
     <file>action/trash-full.svg</file>
     <file>action/undo.svg</file>
+    <file>action/ungroup.svg</file>
     <file>action/unlock.svg</file>
     <file>action/update.svg</file>
     <file>action/windows-close.svg</file>

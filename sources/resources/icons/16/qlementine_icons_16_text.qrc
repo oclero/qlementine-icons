@@ -20,6 +20,8 @@
     <file>text/match-case.svg</file>
     <file>text/match-regexp.svg</file>
     <file>text/match-whole-word.svg</file>
+    <file>text/paragraph.svg</file>
+    <file>text/prevent-line-break.svg</file>
     <file>text/right-to-left.svg</file>
     <file>text/text.svg</file>
   </qresource>

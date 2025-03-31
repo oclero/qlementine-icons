@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.8.0
+
+- Add icons:
+
+  - 16x16:
+    - Action: `bring-to-back`,`bring-to-front`,`close-all`,`close-single`,`gather`,`group`,`resize-horizontal`,`resize-vertical`,`ungroup`
+    - Instruments: `accordion`,`harmonica`,`harp`,`sitar`,`trombone`,`tuba`.
+    - Media: `icon_pause_music`,`icon_start_music`,`icon_stop_music`,`repeat-one`,`repeat`.
+    - Misc: `forbidden`,`glasses`,`grid`,`puzzle-piece`,`separation-horizontal`,`separation-vertical`,`wall`.
+    - Navigation: `chevron-double-down`,`chevron-double-up`,`pass-through`.
+    - Shape: `borders`.
+    - Text: `paragraph`,`prevent-line-break`.
+
 ## v1.7.1
 
 - Fix compilation on MSYS2.
