@@ -7,6 +7,13 @@ icons:
   - handicap
   - human
   - misc
+- name: accordion
+  path: 16/instruments/accordion.svg
+  tags:
+  - instruments
+  - music
+  - diatonic
+  - chromatic
 - name: add-file
   path: 16/action/add-file.svg
   tags:
@@ -281,6 +288,34 @@ icons:
   - navigation
   - pin
   - read
+- name: borders
+  path: 16/shape/borders.svg
+  tags:
+  - shape
+  - stroke
+  - outline
+  - border
+- name: bring-to-back
+  path: 16/action/bring-to-back.svg
+  tags:
+  - action
+  - back
+  - bottom
+  - layer
+  - below
+  - beneath
+  - under
+  - high
+- name: bring-to-front
+  path: 16/action/bring-to-front.svg
+  tags:
+  - action
+  - font
+  - top
+  - layer
+  - above
+  - low
+  - over
 - name: build
   path: 16/action/build.svg
   tags:
@@ -378,6 +413,15 @@ icons:
   path: 16/shape/check-tick-small.svg
   tags:
   - shape
+- name: chevron-double-down
+  path: 16/navigation/chevron-double-down.svg
+  tags:
+  - navigation
+  - move
+  - navigate
+  - previous
+  - downwards
+  - bottom
 - name: chevron-double-left
   path: 16/navigation/chevron-double-left.svg
   tags:
@@ -392,6 +436,14 @@ icons:
   - navigate
   - navigation
   - next
+- name: chevron-double-up
+  path: 16/navigation/chevron-double-up.svg
+  tags:
+  - navigation
+  - navigate
+  - move
+  - upwards
+  - top
 - name: chevron-down
   path: 16/navigation/chevron-down.svg
   tags:
@@ -465,6 +517,24 @@ icons:
   - delete
   - erase
   - remove
+- name: close-all
+  path: 16/action/close-all.svg
+  tags:
+  - action
+  - close
+  - tab
+  - tabs
+  - window
+  - tabbar
+- name: close-single
+  path: 16/action/close-single.svg
+  tags:
+  - action
+  - close
+  - tab
+  - tabs
+  - window
+  - tabbar
 - name: close-small
   path: 16/action/close-small.svg
   tags:
@@ -861,6 +931,17 @@ icons:
   - file
   - text
   - typography
+- name: forbidden
+  path: 16/misc/forbidden.svg
+  tags:
+  - misc
+  - prohibited
+  - ban
+  - interdiction
+  - blocked
+  - block
+  - prohibit
+  - forbid
 - name: format-bold
   path: 16/text/format-bold.svg
   tags:
@@ -947,6 +1028,14 @@ icons:
   - hardware
   - play
   - video game
+- name: gather
+  path: 16/action/gather.svg
+  tags:
+  - action
+  - collect
+  - assemble
+  - rally
+  - inwards
 - name: gift
   path: 16/misc/gift.svg
   tags:
@@ -987,6 +1076,15 @@ icons:
   - commit
   - git
   - source
+- name: glasses
+  path: 16/misc/glasses.svg
+  tags:
+  - misc
+  - eyes
+  - vision
+  - watch
+  - look
+  - see
 - name: globe
   path: 16/misc/globe.svg
   tags:
@@ -1028,6 +1126,18 @@ icons:
   - graphics
   - hardware
   - render
+- name: grid
+  path: 16/misc/grid.svg
+  tags:
+  - misc
+- name: group
+  path: 16/action/group.svg
+  tags:
+  - action
+  - join
+  - together
+  - connect
+  - attach
 - name: guitar
   path: 16/instruments/guitar.svg
   tags:
@@ -1074,6 +1184,19 @@ icons:
   - drag
   - move
   - navigation
+- name: harmonica
+  path: 16/instruments/harmonica.svg
+  tags:
+  - instruments
+  - wind
+  - blues
+- name: harp
+  path: 16/instruments/harp.svg
+  tags:
+  - instruments
+  - strings
+  - celtic
+  - ireland
 - name: hdd
   path: 16/hardware/hdd.svg
   tags:
@@ -1139,6 +1262,30 @@ icons:
   - countdown
   - misc
   - time
+- name: icon_pause_music
+  path: 16/media/icon_pause_music.svg
+  tags:
+  - media
+  - pause
+  - sound
+  - song
+  - track
+- name: icon_start_music
+  path: 16/media/icon_start_music.svg
+  tags:
+  - media
+  - start
+  - sound
+  - song
+  - track
+- name: icon_stop_music
+  path: 16/media/icon_stop_music.svg
+  tags:
+  - media
+  - stop
+  - sound
+  - song
+  - track
 - name: id-card
   path: 16/misc/id-card.svg
   tags:
@@ -1824,6 +1971,18 @@ icons:
   - misc
   - style
   - theme
+- name: paragraph
+  path: 16/text/paragraph.svg
+  tags:
+  - text
+  - line
+- name: pass-through
+  path: 16/navigation/pass-through.svg
+  tags:
+  - navigation
+  - cross
+  - pass
+  - across
 - name: password
   path: 16/misc/password.svg
   tags:
@@ -1991,6 +2150,12 @@ icons:
   - parchment
   - settings
   - user
+- name: prevent-line-break
+  path: 16/text/prevent-line-break.svg
+  tags:
+  - text
+  - linebreak
+  - paragraph
 - name: preview
   path: 16/action/preview.svg
   tags:
@@ -2020,6 +2185,15 @@ icons:
   - math
   - sale
   - shopping
+- name: puzzle-piece
+  path: 16/misc/puzzle-piece.svg
+  tags:
+  - misc
+  - plugin
+  - add-on
+  - tile
+  - mystery
+  - clue
 - name: question
   path: 16/misc/question.svg
   tags:
@@ -2064,6 +2238,21 @@ icons:
   - action
   - edit
   - name
+- name: repeat
+  path: 16/media/repeat.svg
+  tags:
+  - media
+  - playback
+  - repetition
+  - autoplay
+- name: repeat-one
+  path: 16/media/repeat-one.svg
+  tags:
+  - media
+  - playback
+  - repetition
+  - autoplay
+  - same
 - name: replace
   path: 16/action/replace.svg
   tags:
@@ -2098,6 +2287,14 @@ icons:
   - more
   - resize
   - size
+- name: resize-horizontal
+  path: 16/action/resize-horizontal.svg
+  tags:
+  - action
+  - horizontal
+  - size
+  - width
+  - resize
 - name: resize-smaller
   path: 16/action/resize-smaller.svg
   tags:
@@ -2105,6 +2302,14 @@ icons:
   - less
   - resize
   - size
+- name: resize-vertical
+  path: 16/action/resize-vertical.svg
+  tags:
+  - action
+  - vertical
+  - size
+  - height
+  - resize
 - name: resume
   path: 16/misc/resume.svg
   tags:
@@ -2234,6 +2439,24 @@ icons:
   - action
   - email
   - mailbox
+- name: separation-horizontal
+  path: 16/misc/separation-horizontal.svg
+  tags:
+  - misc
+  - separate
+  - cell
+  - cells
+  - table
+  - horizontal
+- name: separation-vertical
+  path: 16/misc/separation-vertical.svg
+  tags:
+  - misc
+  - separate
+  - cell
+  - cells
+  - table
+  - vertical
 - name: server
   path: 16/hardware/server.svg
   tags:
@@ -2287,6 +2510,12 @@ icons:
   - mix
   - playback
   - random
+- name: sitar
+  path: 16/instruments/sitar.svg
+  tags:
+  - instruments
+  - strings
+  - india
 - name: skip-backward
   path: 16/media/skip-backward.svg
   tags:
@@ -2707,6 +2936,15 @@ icons:
   - shape
   - sign
   - warning
+- name: trombone
+  path: 16/instruments/trombone.svg
+  tags:
+  - instruments
+  - brass
+  - blues
+  - jazz
+  - instruments
+  - orchestra
 - name: trumpet
   path: 16/instruments/trumpet.svg
   tags:
@@ -2714,6 +2952,16 @@ icons:
   - brass
   - instruments
   - jazz
+  - orchestra
+- name: tuba
+  path: 16/instruments/tuba.svg
+  tags:
+  - instruments
+  - brass
+  - blues
+  - jazz
+  - instruments
+  - orchestra
 - name: twitter
   path: 16/brand/twitter.svg
   tags:
@@ -2777,6 +3025,14 @@ icons:
   - action
   - command
   - stack
+- name: ungroup
+  path: 16/action/ungroup.svg
+  tags:
+  - action
+  - detach
+  - split
+  - disjoin
+  - apart
 - name: unknown
   path: 16/misc/unknown.svg
   tags:
@@ -2860,6 +3116,13 @@ icons:
   - sdk
   - vst
   - vsti
+- name: wall
+  path: 16/misc/wall.svg
+  tags:
+  - misc
+  - firewall
+  - block
+  - brick
 - name: warning
   path: 16/misc/warning.svg
   tags:

@@ -11,8 +11,10 @@
     <file>navigation/arrow-up-left.svg</file>
     <file>navigation/arrow-up-right.svg</file>
     <file>navigation/bookmark.svg</file>
+    <file>navigation/chevron-double-down.svg</file>
     <file>navigation/chevron-double-left.svg</file>
     <file>navigation/chevron-double-right.svg</file>
+    <file>navigation/chevron-double-up.svg</file>
     <file>navigation/chevron-down.svg</file>
     <file>navigation/chevron-left.svg</file>
     <file>navigation/chevron-right.svg</file>
@@ -47,6 +49,7 @@
     <file>navigation/mouse-middle-button.svg</file>
     <file>navigation/mouse-right-button.svg</file>
     <file>navigation/mouse-selection.svg</file>
+    <file>navigation/pass-through.svg</file>
     <file>navigation/search.svg</file>
     <file>navigation/settings.svg</file>
     <file>navigation/sliders-horizontal.svg</file>

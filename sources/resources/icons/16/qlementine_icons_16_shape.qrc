@@ -3,6 +3,7 @@
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
     <file>shape/asterisk.svg</file>
+    <file>shape/borders.svg</file>
     <file>shape/check-tick.svg</file>
     <file>shape/check-tick-small.svg</file>
     <file>shape/circle.svg</file>
