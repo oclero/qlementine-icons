@@ -24,7 +24,7 @@ target_include_directories(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME}
   PUBLIC
     Qt::Core
-  PRIVATE 
+  PRIVATE
     Qt::Svg)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES
@@ -57,7 +57,7 @@ install(TARGETS ${PROJECT_NAME}
   INCLUDES DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
 
 install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/include/"
-  DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}/")
+  DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
 
 install(EXPORT "${PROJECT_NAME}Targets"
   FILE "${PROJECT_NAME}Targets.cmake"
