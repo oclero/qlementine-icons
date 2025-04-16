@@ -6,6 +6,7 @@
   - 16x16:
     - Brand: `mac`, `windows`.
     - File: `aiff`,`flac`,`markup`,`mp3`,`ogg`,`pdf`,`theme`,`vector`,`wav`.
+    - Misc: `dialog`, `film-roll`, `sms`, `sword`.
 
 - Add icons:
   - 16x16:
