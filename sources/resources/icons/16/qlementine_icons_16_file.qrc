@@ -2,6 +2,7 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
+    <file>file/aiff.svg</file>
     <file>file/archive.svg</file>
     <file>file/certificate.svg</file>
     <file>file/executable.svg</file>
@@ -9,15 +10,23 @@
     <file>file/file-html.svg</file>
     <file>file/file-script.svg</file>
     <file>file/file-text.svg</file>
+    <file>file/flac.svg</file>
     <file>file/folder.svg</file>
     <file>file/folder-filled.svg</file>
     <file>file/folder-open.svg</file>
     <file>file/font.svg</file>
+    <file>file/markup.svg</file>
     <file>file/media.svg</file>
     <file>file/movie.svg</file>
+    <file>file/mp3.svg</file>
     <file>file/note.svg</file>
+    <file>file/ogg.svg</file>
+    <file>file/pdf.svg</file>
     <file>file/picture.svg</file>
     <file>file/plugin.svg</file>
     <file>file/preset.svg</file>
+    <file>file/theme.svg</file>
+    <file>file/vector.svg</file>
+    <file>file/wav.svg</file>
   </qresource>
 </RCC>
