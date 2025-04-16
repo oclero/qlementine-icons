@@ -7,6 +7,7 @@
     - Brand: `mac`, `windows`.
     - File: `aiff`,`flac`,`markup`,`mp3`,`ogg`,`pdf`,`theme`,`vector`,`wav`.
     - Misc: `dialog`, `film-roll`, `sms`, `sword`.
+    - Navigation: `layer-1`, `layer-2`, `layer-3`, `layers-more`.
 
 - Add icons:
   - 16x16:
