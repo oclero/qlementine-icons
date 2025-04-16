@@ -5,13 +5,14 @@
 - Modified icons:
   - 16x16:
     - Brand: `mac`, `windows`.
-    - File: `aiff`,`flac`,`markup`,`mp3`,`ogg`,`pdf`,`theme`,`vector`,`wav`.
-    - Misc: `dialog`, `film-roll`, `sms`, `sword`.
-    - Navigation: `layer-1`, `layer-2`, `layer-3`, `layers-more`.
 
 - Add icons:
   - 16x16:
     - Brand: `discord-fill`, `discord`, `mac-fill`, `windows-fill`.
+    - File: `aiff`,`flac`,`markup`,`mp3`,`ogg`,`pdf`,`theme`,`vector`,`wav`.
+    - Misc: `dialog`, `film-roll`, `sms`, `sword`.
+    - Navigation: `layer-1`, `layer-2`, `layer-3`, `layers-more`.
+    - Page: `page-break`.
   - 24x24:
     - Brand: `discord-fill`, `discord`, `github-fill`, `github`, `gitlab-fill`, `gitlab`, `mastodon-fill`, `mastodon`, `peertube-fill`, `peertube`, `twitter-fill`, `twitter`, `x`.
 
