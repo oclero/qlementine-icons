@@ -9,8 +9,8 @@
     {
       "name": "macos",
       "displayName": "macOS",
-      "description": "Xcode project for macOS",
-      "generator": "Xcode",
+      "description": "Ninja project for macOS",
+      "generator": "Ninja",
       "binaryDir": "${sourceDir}/_build",
       "cacheVariables": {
         "CMAKE_PREFIX_PATH": "/opt/homebrew/opt/qt/lib/cmake/Qt6",
@@ -59,7 +59,7 @@
       "name": "macos",
       "displayName": "macOS",
       "configurePreset": "macos",
-      "description": "Release build with Xcode for macOS",
+      "description": "Release build with Ninja for macOS",
       "targets": [
         "qlementine-icons"
       ],
@@ -74,7 +74,7 @@
       "name": "macos-sandbox",
       "displayName": "Sandbox for macOS",
       "configurePreset": "macos",
-      "description": "Sandbox - Release build with Xcode for macOS",
+      "description": "Sandbox - Release build with Ninja for macOS",
       "targets": [
         "sandbox"
       ],

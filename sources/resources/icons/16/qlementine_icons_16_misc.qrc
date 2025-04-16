@@ -23,9 +23,11 @@
     <file>misc/crane.svg</file>
     <file>misc/crane-hook.svg</file>
     <file>misc/debug.svg</file>
+    <file>misc/dialog.svg</file>
     <file>misc/education.svg</file>
     <file>misc/empty-slot.svg</file>
     <file>misc/faq.svg</file>
+    <file>misc/film-roll.svg</file>
     <file>misc/forbidden.svg</file>
     <file>misc/function-angle.svg</file>
     <file>misc/function-curve.svg</file>
@@ -70,10 +72,12 @@
     <file>misc/run-debug.svg</file>
     <file>misc/separation-horizontal.svg</file>
     <file>misc/separation-vertical.svg</file>
+    <file>misc/sms.svg</file>
     <file>misc/spam.svg</file>
     <file>misc/stars.svg</file>
     <file>misc/success.svg</file>
     <file>misc/sun.svg</file>
+    <file>misc/sword.svg</file>
     <file>misc/tag.svg</file>
     <file>misc/task.svg</file>
     <file>misc/task-past.svg</file>

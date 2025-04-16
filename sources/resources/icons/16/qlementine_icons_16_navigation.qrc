@@ -36,10 +36,14 @@
     <file>navigation/key-return-noframe.svg</file>
     <file>navigation/key-shift.svg</file>
     <file>navigation/key-tab.svg</file>
+    <file>navigation/layer-1.svg</file>
+    <file>navigation/layer-2.svg</file>
+    <file>navigation/layer-3.svg</file>
     <file>navigation/layers-1.svg</file>
     <file>navigation/layers-2.svg</file>
     <file>navigation/layers-3.svg</file>
     <file>navigation/layers-4.svg</file>
+    <file>navigation/layers-more.svg</file>
     <file>navigation/map.svg</file>
     <file>navigation/menu-burger.svg</file>
     <file>navigation/menu-dots.svg</file>
