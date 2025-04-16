@@ -2,7 +2,13 @@
 
 ## v1.8.1
 
+- Modified icons:
+  - 16x16:
+    - Brand: `mac`, `windows`.
+
 - Add icons:
+  - 16x16:
+    - Brand: `discord-fill`, `discord`, `mac-fill`, `windows-fill`.
   - 24x24:
     - Brand: `discord-fill`, `discord`, `github-fill`, `github`, `gitlab-fill`, `gitlab`, `mastodon-fill`, `mastodon`, `peertube-fill`, `peertube`, `twitter-fill`, `twitter`, `x`.
 
