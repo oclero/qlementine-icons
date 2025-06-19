@@ -1,12 +1,16 @@
 # Changelog
 
+## v1.9.0
+
 ## v1.8.1
 
 - Modified icons:
+
   - 16x16:
     - Brand: `mac`, `windows`.
 
 - Add icons:
+
   - 16x16:
     - Brand: `discord-fill`, `discord`, `mac-fill`, `windows-fill`.
     - File: `aiff`,`flac`,`markup`,`mp3`,`ogg`,`pdf`,`theme`,`vector`,`wav`.
