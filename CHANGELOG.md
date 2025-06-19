@@ -14,6 +14,8 @@
     - Instrument: `guitar-jackson`.
     - Misc: `award`, `eyedropper`, `hammer`, `ink`, `medal-one`, `medal`, `target`, `trophy`.
     - Shape: `heart-crossed`.
+  - 24x24:
+    - File: `file-pdf`.
 
 ## v1.8.1
 
