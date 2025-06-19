@@ -66,16 +66,54 @@ icons:
   - network
   - phone
   - plane
+- name: align-bottom
+  path: 16/action/align-bottom.svg
+  tags:
+  - action
+  - alignment
+  - arrange
+  - editor
+  - text
+- name: align-center-horizontal
+  path: 16/action/align-center-horizontal.svg
+  tags:
+  - action
+  - alignment
+  - arrange
+  - editor
+  - middle
+  - text
+- name: align-center-vertical
+  path: 16/action/align-center-vertical.svg
+  tags:
+  - action
+  - alignment
+  - arrange
+  - editor
+  - middle
+  - text
 - name: align-left
   path: 16/text/align-left.svg
   tags:
+  - action
   - alignment
+  - arrange
   - editor
   - text
 - name: align-right
   path: 16/text/align-right.svg
   tags:
+  - action
   - alignment
+  - arrange
+  - editor
+  - text
+- name: align-top
+  path: 16/action/align-top.svg
+  tags:
+  - action
+  - alignment
+  - arrange
   - editor
   - text
 - name: alternate
@@ -92,6 +130,79 @@ icons:
   - electric
   - guitar
   - instrument
+- name: anchor-bottom-left
+  path: 16/action/anchor-bottom-left.svg
+  tags:
+  - action
+  - anchor
+  - bottom
+  - left
+  - position
+- name: anchor-bottom-middle
+  path: 16/action/anchor-bottom-middle.svg
+  tags:
+  - action
+  - anchor
+  - bottom
+  - center
+  - position
+- name: anchor-bottom-right
+  path: 16/action/anchor-bottom-right.svg
+  tags:
+  - action
+  - anchor
+  - bottom
+  - position
+  - right
+- name: anchor-center-left
+  path: 16/action/anchor-center-left.svg
+  tags:
+  - action
+  - anchor
+  - center
+  - left
+  - middle
+  - position
+- name: anchor-center-middle
+  path: 16/action/anchor-center-middle.svg
+  tags:
+  - action
+  - anchor
+  - center
+  - middle
+  - position
+- name: anchor-center-right
+  path: 16/action/anchor-center-right.svg
+  tags:
+  - action
+  - anchor
+  - center
+  - middle
+  - position
+  - right
+- name: anchor-top-left
+  path: 16/action/anchor-top-left.svg
+  tags:
+  - action
+  - anchor
+  - left
+  - position
+  - top
+- name: anchor-top-middle
+  path: 16/action/anchor-top-middle.svg
+  tags:
+  - action
+  - anchor
+  - middle
+  - position
+  - top
+- name: anchor-top-right
+  path: 16/action/anchor-top-right.svg
+  tags:
+  - action
+  - position
+  - right
+  - top
 - name: android
   path: 16/brand/android.svg
   tags:
@@ -211,6 +322,17 @@ icons:
   - device
   - dsp
   - hardware
+- name: award
+  path: 16/misc/award.svg
+  tags:
+  - bronze
+  - gold
+  - medal
+  - misc
+  - prize
+  - silver
+  - trophy
+  - winner
 - name: banjo
   path: 16/instruments/banjo.svg
   tags:
@@ -294,6 +416,53 @@ icons:
   - navigation
   - pin
   - read
+- name: boolean-exclude
+  path: 16/action/boolean-exclude.svg
+  tags:
+  - action
+  - boolean
+  - invert
+  - operation
+  - path
+  - pathfinder
+  - shape
+  - vector
+- name: boolean-intersect
+  path: 16/action/boolean-intersect.svg
+  tags:
+  - action
+  - boolean
+  - intersection
+  - operation
+  - path
+  - pathfinder
+  - shape
+  - vector
+- name: boolean-substract
+  path: 16/action/boolean-substract.svg
+  tags:
+  - action
+  - boolean
+  - minus
+  - operation
+  - path
+  - pathfinder
+  - remove
+  - shape
+  - vector
+- name: boolean-union
+  path: 16/action/boolean-union.svg
+  tags:
+  - action
+  - add
+  - boolean
+  - merge
+  - operation
+  - path
+  - pathfinder
+  - shape
+  - unite
+  - vector
 - name: borders
   path: 16/shape/borders.svg
   tags:
@@ -738,6 +907,18 @@ icons:
   - hardware
   - lp
   - optical
+- name: distribute-horizontal
+  path: 16/action/distribute-horizontal.svg
+  tags:
+  - action
+  - arrange
+  - position
+- name: distribute-vertical
+  path: 16/action/distribute-vertical.svg
+  tags:
+  - action
+  - arrange
+  - position
 - name: download
   path: 16/action/download.svg
   tags:
@@ -855,6 +1036,14 @@ icons:
   - hide
   - invisible
   - misc
+- name: eyedropper
+  path: 16/misc/eyedropper.svg
+  tags:
+  - color
+  - dropper
+  - misc
+  - picker
+  - pipette
 - name: facebook
   path: 16/brand/facebook.svg
   tags:
@@ -928,8 +1117,16 @@ icons:
   path: 16/action/filter-crossed.svg
   tags:
   - action
+  - cancel
   - unfilter
   - unfiltered
+- name: filter-inverted
+  path: 16/action/filter-inverted.svg
+  tags:
+  - action
+  - bottleneck
+  - funnel
+  - reverse
 - name: flac
   path: 16/file/flac.svg
   tags:
@@ -944,6 +1141,25 @@ icons:
   - language
   - nation
   - navigation
+- name: flatten
+  path: 16/action/flatten.svg
+  tags:
+  - action
+  - shape
+  - simplify
+  - vector
+- name: flip-horizontal
+  path: 16/action/flip-horizontal.svg
+  tags:
+  - action
+  - editor
+  - mirror
+- name: flip-vertical
+  path: 16/action/flip-vertical.svg
+  tags:
+  - action
+  - editor
+  - mirror
 - name: folder
   path: 16/file/folder.svg
   tags:
@@ -1052,6 +1268,18 @@ icons:
   - curve
   - math
   - misc
+- name: funnel
+  path: 16/action/funnel.svg
+  tags:
+  - action
+  - filter
+- name: funnel-crossed
+  path: 16/action/funnel-crossed.svg
+  tags:
+  - action
+  - cancel
+  - filter
+  - unfilter
 - name: fx
   path: 16/misc/fx.svg
   tags:
@@ -1199,6 +1427,14 @@ icons:
   - acoustic
   - folk
   - instruments
+- name: guitar-jackson
+  path: 16/instruments/guitar-jackson.svg
+  tags:
+  - guitar
+  - hard
+  - heavy
+  - instruments
+  - metal
 - name: guitar-machine-head
   path: 16/instruments/guitar-machine-head.svg
   tags:
@@ -1219,6 +1455,13 @@ icons:
   - fender
   - instruments
   - telecaster
+- name: hammer
+  path: 16/misc/hammer.svg
+  tags:
+  - build
+  - compile
+  - misc
+  - tool
 - name: hand
   path: 16/navigation/hand.svg
   tags:
@@ -1269,6 +1512,16 @@ icons:
   path: 16/shape/heart.svg
   tags:
   - favorite
+  - like
+  - love
+  - shape
+- name: heart-crossed
+  path: 16/shape/heart-crossed.svg
+  tags:
+  - cancel
+  - dislike
+  - favorite
+  - heartbreak
   - like
   - love
   - shape
@@ -1367,6 +1620,16 @@ icons:
   - information
   - misc
   - remark
+- name: ink
+  path: 16/misc/ink.svg
+  tags:
+  - line
+  - misc
+  - pen
+  - shape
+  - trace
+  - vector
+  - write
 - name: instagram
   path: 16/brand/instagram.svg
   tags:
@@ -1744,6 +2007,34 @@ icons:
   tags:
   - search
   - text
+- name: medal
+  path: 16/misc/medal.svg
+  tags:
+  - award
+  - bronze
+  - first
+  - gold
+  - misc
+  - podium
+  - prize
+  - silver
+  - trophy
+  - win
+  - winner
+- name: medal-one
+  path: 16/misc/medal-one.svg
+  tags:
+  - award
+  - bronze
+  - first
+  - gold
+  - misc
+  - podium
+  - prize
+  - silver
+  - trophy
+  - win
+  - winner
 - name: media
   path: 16/file/media.svg
   tags:
@@ -2256,6 +2547,15 @@ icons:
   - add
   - more
   - new
+- name: present
+  path: 16/action/present.svg
+  tags:
+  - action
+  - powerpoint
+  - presentation
+  - project
+  - projection
+  - slides
 - name: preset
   path: 16/file/preset.svg
   tags:
@@ -2437,6 +2737,18 @@ icons:
   - read
   - rtl
   - text
+- name: rotate-anticlockwise
+  path: 16/action/rotate-anticlockwise.svg
+  tags:
+  - action
+  - angle
+  - rotation
+- name: rotate-clockwise
+  path: 16/action/rotate-clockwise.svg
+  tags:
+  - action
+  - angle
+  - rotation
 - name: rss
   path: 16/brand/rss.svg
   tags:
@@ -2958,6 +3270,13 @@ icons:
   tags:
   - hardware
   - recording
+- name: target
+  path: 16/misc/target.svg
+  tags:
+  - aim
+  - goal
+  - misc
+  - objective
 - name: task
   path: 16/misc/task.svg
   tags:
@@ -3080,6 +3399,17 @@ icons:
   - instruments
   - jazz
   - orchestra
+- name: trophy
+  path: 16/misc/trophy.svg
+  tags:
+  - award
+  - cup
+  - first
+  - misc
+  - podium
+  - prize
+  - win
+  - winner
 - name: trumpet
   path: 16/instruments/trumpet.svg
   tags:

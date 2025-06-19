@@ -3,9 +3,15 @@
 ## v1.9.0
 
 - Add icons:
+
   - 12x12:
     - Misc: `info`, `pen`, `question`, `spam`, `success`, `warning`.
     - Shape: `check-tick`.
+  - 16x16:
+    - Action: `align-bottom`, `align-center-horizontal`, `align-center-vertical`, `align-left`, `align-right`, `align-top`, `anchor-bottom-left`, `anchor-bottom-middle`, `anchor-bottom-right`, `anchor-center-left`, `anchor-center-middle`, `anchor-center-right`, `anchor-top-left`, `anchor-top-middle`, `anchor-top-right`, `boolean-exclude`, `boolean-intersect`, `boolean-substract`, `boolean-union`, `distribute-horizontal`, `distribute-vertical`, `filter-inverted`, `flatten`, `flip-horizontal`, `flip-vertical`, `funnel-crossed`, `funnel`, `present`, `rotate-anticlockwise`, `rotate-clockwise`.
+    - Instruments: `guitar-jackson`.
+    - Misc: `award`, `eyedropper`, `hammer`, `ink`, `medal-one`, `medal`, `target`, `trophy`.
+    - Shape: `heart-crossed`.
 
 ## v1.8.1
 
