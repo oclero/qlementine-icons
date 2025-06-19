@@ -14,6 +14,12 @@ enum class Icons12 {
   Action_Close,
   Action_Minus,
   Action_Plus,
+  Misc_Info,
+  Misc_Pen,
+  Misc_Question,
+  Misc_Spam,
+  Misc_Success,
+  Misc_Warning,
   Misc_Zoom,
   Navigation_ArrowsLeftRight,
   Navigation_ArrowsUpDown,
@@ -21,14 +27,21 @@ enum class Icons12 {
   Navigation_ChevronLeft,
   Navigation_ChevronRight,
   Navigation_ChevronUp,
+  Shape_CheckTick,
 };
 
 inline const char* iconPath(Icons12 id) {
-  static constexpr std::array<const char*, 11> icons{
+  static constexpr std::array<const char*, 18> icons{
     "",
     ":/qlementine/icons/12/action/close.svg",
     ":/qlementine/icons/12/action/minus.svg",
     ":/qlementine/icons/12/action/plus.svg",
+    ":/qlementine/icons/12/misc/info.svg",
+    ":/qlementine/icons/12/misc/pen.svg",
+    ":/qlementine/icons/12/misc/question.svg",
+    ":/qlementine/icons/12/misc/spam.svg",
+    ":/qlementine/icons/12/misc/success.svg",
+    ":/qlementine/icons/12/misc/warning.svg",
     ":/qlementine/icons/12/misc/zoom.svg",
     ":/qlementine/icons/12/navigation/arrows-left-right.svg",
     ":/qlementine/icons/12/navigation/arrows-up-down.svg",
@@ -36,6 +49,7 @@ inline const char* iconPath(Icons12 id) {
     ":/qlementine/icons/12/navigation/chevron-left.svg",
     ":/qlementine/icons/12/navigation/chevron-right.svg",
     ":/qlementine/icons/12/navigation/chevron-up.svg",
+    ":/qlementine/icons/12/shape/check-tick.svg",
   };
 
   return icons[static_cast<typename std::underlying_type<Icons12>::type>(id)];

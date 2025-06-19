@@ -2,6 +2,7 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/24">
+    <file>file/file-pdf.svg</file>
     <file>file/folder.svg</file>
     <file>file/folder-filled.svg</file>
     <file>file/folder-open.svg</file>

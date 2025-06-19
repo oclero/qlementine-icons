@@ -6,7 +6,26 @@
     <file>action/add-folder.svg</file>
     <file>action/address-book-add.svg</file>
     <file>action/address-book-remove.svg</file>
+    <file>action/align-bottom.svg</file>
+    <file>action/align-center-horizontal.svg</file>
+    <file>action/align-center-vertical.svg</file>
+    <file>action/align-left.svg</file>
+    <file>action/align-right.svg</file>
+    <file>action/align-top.svg</file>
     <file>action/alternate.svg</file>
+    <file>action/anchor-bottom-left.svg</file>
+    <file>action/anchor-bottom-middle.svg</file>
+    <file>action/anchor-bottom-right.svg</file>
+    <file>action/anchor-center-left.svg</file>
+    <file>action/anchor-center-middle.svg</file>
+    <file>action/anchor-center-right.svg</file>
+    <file>action/anchor-top-left.svg</file>
+    <file>action/anchor-top-middle.svg</file>
+    <file>action/anchor-top-right.svg</file>
+    <file>action/boolean-exclude.svg</file>
+    <file>action/boolean-intersect.svg</file>
+    <file>action/boolean-substract.svg</file>
+    <file>action/boolean-union.svg</file>
     <file>action/bring-to-back.svg</file>
     <file>action/bring-to-front.svg</file>
     <file>action/build.svg</file>
@@ -18,6 +37,8 @@
     <file>action/copy.svg</file>
     <file>action/cut.svg</file>
     <file>action/decrease.svg</file>
+    <file>action/distribute-horizontal.svg</file>
+    <file>action/distribute-vertical.svg</file>
     <file>action/download.svg</file>
     <file>action/drag.svg</file>
     <file>action/erase.svg</file>
@@ -28,9 +49,15 @@
     <file>action/eye-crossed.svg</file>
     <file>action/filter.svg</file>
     <file>action/filter-crossed.svg</file>
+    <file>action/filter-inverted.svg</file>
+    <file>action/flatten.svg</file>
+    <file>action/flip-horizontal.svg</file>
+    <file>action/flip-vertical.svg</file>
     <file>action/forward.svg</file>
     <file>action/fullscreen.svg</file>
     <file>action/fullscreen-exit.svg</file>
+    <file>action/funnel.svg</file>
+    <file>action/funnel-crossed.svg</file>
     <file>action/gather.svg</file>
     <file>action/group.svg</file>
     <file>action/increase.svg</file>
@@ -48,6 +75,7 @@
     <file>action/plus.svg</file>
     <file>action/plus-circle.svg</file>
     <file>action/plus-small.svg</file>
+    <file>action/present.svg</file>
     <file>action/preview.svg</file>
     <file>action/print.svg</file>
     <file>action/print-preview.svg</file>
@@ -62,6 +90,8 @@
     <file>action/resize-horizontal.svg</file>
     <file>action/resize-smaller.svg</file>
     <file>action/resize-vertical.svg</file>
+    <file>action/rotate-anticlockwise.svg</file>
+    <file>action/rotate-clockwise.svg</file>
     <file>action/run.svg</file>
     <file>action/save.svg</file>
     <file>action/save-to-disk.svg</file>

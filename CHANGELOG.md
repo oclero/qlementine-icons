@@ -1,12 +1,31 @@
 # Changelog
 
+## v1.9.0
+
+- Rename category "Instruments" into "Instrument".
+
+- Add icons:
+
+  - 12x12:
+    - Misc: `info`, `pen`, `question`, `spam`, `success`, `warning`.
+    - Shape: `check-tick`.
+  - 16x16:
+    - Action: `align-bottom`, `align-center-horizontal`, `align-center-vertical`, `align-left`, `align-right`, `align-top`, `anchor-bottom-left`, `anchor-bottom-middle`, `anchor-bottom-right`, `anchor-center-left`, `anchor-center-middle`, `anchor-center-right`, `anchor-top-left`, `anchor-top-middle`, `anchor-top-right`, `boolean-exclude`, `boolean-intersect`, `boolean-substract`, `boolean-union`, `distribute-horizontal`, `distribute-vertical`, `filter-inverted`, `flatten`, `flip-horizontal`, `flip-vertical`, `funnel-crossed`, `funnel`, `present`, `rotate-anticlockwise`, `rotate-clockwise`.
+    - Instrument: `guitar-jackson`.
+    - Misc: `award`, `eyedropper`, `hammer`, `ink`, `medal-one`, `medal`, `target`, `trophy`.
+    - Shape: `heart-crossed`.
+  - 24x24:
+    - File: `file-pdf`.
+
 ## v1.8.1
 
 - Modified icons:
+
   - 16x16:
     - Brand: `mac`, `windows`.
 
 - Add icons:
+
   - 16x16:
     - Brand: `discord-fill`, `discord`, `mac-fill`, `windows-fill`.
     - File: `aiff`,`flac`,`markup`,`mp3`,`ogg`,`pdf`,`theme`,`vector`,`wav`.
@@ -54,16 +73,16 @@
     - Navigation: `arrow-down-left`, `arrow-down-right`, `arrow-up-left`, `arrow-up-right`, `key-return-noframe`, `key-tab`.
     - Shopping: `purcentage`.
   - 24x24:
-    - Action: `clear.svg`, `copy.svg`, `cut.svg`, `decrease.svg`, `erase.svg`, `export.svg`, `increase.svg`, `lock.svg`, `minus-circle.svg`, `paste.svg`, `plus-circle.svg`, `redo.svg`, `save.svg`, `select-all.svg`, `sort-alpha-asc.svg`, `sort-alpha-desc.svg`, `sort-asc.svg`, `sort-desc.svg`, `sort-ranking-asc.svg`, `sort-ranking-desc.svg`, `sort-time-asc.svg`, `sort-time-desc.svg`, `trash.svg`, `undo.svg`, `update.svg`.
-    - Brand: `android-fill.svg`, `android.svg`, `facebook-fill.svg`, `facebook.svg`, `instagram-fill.svg`, `instagram.svg`, `mac.svg`, `midi.svg`, `rss.svg`, `vst3.svg`, `windows.svg`, `youtube-fill.svg`, `youtube.svg`.
-    - File: `folder-filled.svg`, `folder-open.svg`, `folder.svg`, `open-recent.svg`.
-    - Hardware: `hdd.svg`, `tape.svg`.
-    - Instrument: `amp.svg`, `banjo.svg`, `bass.svg`, `bongos.svg`, `cello.svg`, `clap.svg`, `cowbell.svg`, `cymbal.svg`, `drumkit.svg`, `drumsticks.svg`, `guitar-12-strings.svg`, `guitar-classical.svg`, `guitar-folk.svg`, `guitar-machine-head.svg`, `guitar-strat.svg`, `guitar-tele.svg`, `guitar.svg`, `hi-hat.svg`, `idiophone.svg`, `kick.svg`, `mandolin.svg`, `mastering.svg`, `microphone.svg`, `pedal-outlines.svg`, `pedal.svg`, `pedalboard.svg`, `piano.svg`, `pipe.svg`, `saxophone.svg`, `shakers.svg`, `shamisen.svg`, `snare.svg`, `synthesizer.svg`, `tambourine.svg`, `tamtam.svg`, `tom.svg`, `trumpet.svg`, `ukulele.svg`, `violin.svg`, `woodwind.svg`.
-    - Media: `loop.svg`, `pause.svg`, `play.svg`, `record.svg`, `seek-backward.svg`, `seek-forward.svg`, `skip-backward.svg`, `skip-forward.svg`, `stop.svg`.
-    - Misc: `color-swatch.svg`,`education.svg`,`empty-slot.svg`,`eye-crossed.svg`,`eye.svg`,`gift.svg`,`hourglass.svg`,`info.svg`,`items-grid-small.svg`,`items-grid.svg`,`items-list.svg`,`items-tree.svg`,`pen.svg`,`question.svg`,`spam.svg`,`tool.svg`,`user.svg`,`warning.svg`,`wave.svg`.
-    - Navigation: `arrow-down-left.svg`,`arrow-down-right.svg`,`arrow-down.svg`,`arrow-left.svg`,`arrow-right.svg`,`arrow-up-left.svg`,`arrow-up-right.svg`,`arrow-up.svg`,`chevron-down.svg`,`chevron-left.svg`,`chevron-right.svg`,`chevron-up.svg`,`home.svg`,`menu-dots-circle.svg`,`menu-dots.svg`,`search.svg`,`settings.svg`,`sliders-horizontal.svg`,`sliders-vertical.svg`.
-    - Shape: `check-tick-small.svg`, `check-tick.svg`, `heart-filled.svg`, `heart.svg`.
-    - Shopping: `purcentage.svg`.
+    - Action: `clear`, `copy`, `cut`, `decrease`, `erase`, `export`, `increase`, `lock`, `minus-circle`, `paste`, `plus-circle`, `redo`, `save`, `select-all`, `sort-alpha-asc`, `sort-alpha-desc`, `sort-asc`, `sort-desc`, `sort-ranking-asc`, `sort-ranking-desc`, `sort-time-asc`, `sort-time-desc`, `trash`, `undo`, `update`.
+    - Brand: `android-fill`, `android`, `facebook-fill`, `facebook`, `instagram-fill`, `instagram`, `mac`, `midi`, `rss`, `vst3`, `windows`, `youtube-fill`, `youtube`.
+    - File: `folder-filled`, `folder-open`, `folder`, `open-recent`.
+    - Hardware: `hdd`, `tape`.
+    - Instrument: `amp`, `banjo`, `bass`, `bongos`, `cello`, `clap`, `cowbell`, `cymbal`, `drumkit`, `drumsticks`, `guitar-12-strings`, `guitar-classical`, `guitar-folk`, `guitar-machine-head`, `guitar-strat`, `guitar-tele`, `guitar`, `hi-hat`, `idiophone`, `kick`, `mandolin`, `mastering`, `microphone`, `pedal-outlines`, `pedal`, `pedalboard`, `piano`, `pipe`, `saxophone`, `shakers`, `shamisen`, `snare`, `synthesizer`, `tambourine`, `tamtam`, `tom`, `trumpet`, `ukulele`, `violin`, `woodwind`.
+    - Media: `loop`, `pause`, `play`, `record`, `seek-backward`, `seek-forward`, `skip-backward`, `skip-forward`, `stop`.
+    - Misc: `color-swatch`,`education`,`empty-slot`,`eye-crossed`,`eye`,`gift`,`hourglass`,`info`,`items-grid-small`,`items-grid`,`items-list`,`items-tree`,`pen`,`question`,`spam`,`tool`,`user`,`warning`,`wave`.
+    - Navigation: `arrow-down-left`,`arrow-down-right`,`arrow-down`,`arrow-left`,`arrow-right`,`arrow-up-left`,`arrow-up-right`,`arrow-up`,`chevron-down`,`chevron-left`,`chevron-right`,`chevron-up`,`home`,`menu-dots-circle`,`menu-dots`,`search`,`settings`,`sliders-horizontal`,`sliders-vertical`.
+    - Shape: `check-tick-small`, `check-tick`, `heart-filled`, `heart`.
+    - Shopping: `purcentage`.
 
 ## v1.5.0
 
@@ -116,7 +135,7 @@
 ## v1.1.0
 
 - Add icons `rename`, `share-external`, `microphone-old`, `accessibility`, `crane-hook`, `crane`, `moon`, `sun`, `address-book`.
-- Fix icon paths for `build`, `close-small`, `close`, `move`, `preview`, `refresh`, `send`, `undo`, `youtube`, `youtube-fill`, `bell.svg`, `notes`, `paint-bucket`, `combobox-indicator`, `sliders-horizontal`.
+- Fix icon paths for `build`, `close-small`, `close`, `move`, `preview`, `refresh`, `send`, `undo`, `youtube`, `youtube-fill`, `bell`, `notes`, `paint-bucket`, `combobox-indicator`, `sliders-horizontal`.
 - Rename icon `chevron-left-double` into `chevron-double-left`, and `chevron-right-double` into `chevron-double-right`.
 - Rename icon `up` into `chevron-up`, and `down` into `chevron-down`.
 - Removed icon `rse`.

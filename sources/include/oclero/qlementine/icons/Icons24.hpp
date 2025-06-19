@@ -62,6 +62,7 @@ enum class Icons24 {
   Brand_X,
   Brand_Youtube,
   Brand_YoutubeFill,
+  File_FilePdf,
   File_Folder,
   File_FolderFilled,
   File_FolderOpen,
@@ -164,7 +165,7 @@ enum class Icons24 {
 };
 
 inline const char* iconPath(Icons24 id) {
-  static constexpr std::array<const char*, 151> icons{
+  static constexpr std::array<const char*, 152> icons{
     "",
     ":/qlementine/icons/24/action/clear.svg",
     ":/qlementine/icons/24/action/copy.svg",
@@ -217,6 +218,7 @@ inline const char* iconPath(Icons24 id) {
     ":/qlementine/icons/24/brand/x.svg",
     ":/qlementine/icons/24/brand/youtube.svg",
     ":/qlementine/icons/24/brand/youtube-fill.svg",
+    ":/qlementine/icons/24/file/file-pdf.svg",
     ":/qlementine/icons/24/file/folder.svg",
     ":/qlementine/icons/24/file/folder-filled.svg",
     ":/qlementine/icons/24/file/folder-open.svg",

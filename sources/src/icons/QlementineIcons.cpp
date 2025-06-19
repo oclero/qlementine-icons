@@ -16,6 +16,7 @@ void qlementineIconThemeInitialization() {
   Q_INIT_RESOURCE(qlementine_icons_12_action);
   Q_INIT_RESOURCE(qlementine_icons_12_misc);
   Q_INIT_RESOURCE(qlementine_icons_12_navigation);
+  Q_INIT_RESOURCE(qlementine_icons_12_shape);
   Q_INIT_RESOURCE(qlementine_icons_16_action);
   Q_INIT_RESOURCE(qlementine_icons_16_audio);
   Q_INIT_RESOURCE(qlementine_icons_16_brand);
@@ -23,7 +24,7 @@ void qlementineIconThemeInitialization() {
   Q_INIT_RESOURCE(qlementine_icons_16_file);
   Q_INIT_RESOURCE(qlementine_icons_16_food);
   Q_INIT_RESOURCE(qlementine_icons_16_hardware);
-  Q_INIT_RESOURCE(qlementine_icons_16_instruments);
+  Q_INIT_RESOURCE(qlementine_icons_16_instrument);
   Q_INIT_RESOURCE(qlementine_icons_16_media);
   Q_INIT_RESOURCE(qlementine_icons_16_misc);
   Q_INIT_RESOURCE(qlementine_icons_16_navigation);
