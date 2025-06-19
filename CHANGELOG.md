@@ -2,6 +2,11 @@
 
 ## v1.9.0
 
+- Add icons:
+  - 12x12:
+    - Misc: `info`, `pen`, `question`, `spam`, `success`, `warning`.
+    - Shape: `check-tick`.
+
 ## v1.8.1
 
 - Modified icons:
