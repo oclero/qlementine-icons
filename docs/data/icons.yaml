@@ -8,7 +8,7 @@ icons:
   - human
   - misc
 - name: accordion
-  path: 16/instruments/accordion.svg
+  path: 16/instrument/accordion.svg
   tags:
   - chromatic
   - diatonic
@@ -123,7 +123,7 @@ icons:
   - replace
   - switch
 - name: amp
-  path: 16/instruments/amp.svg
+  path: 16/instrument/amp.svg
   tags:
   - amplifier
   - bass
@@ -334,13 +334,13 @@ icons:
   - trophy
   - winner
 - name: banjo
-  path: 16/instruments/banjo.svg
+  path: 16/instrument/banjo.svg
   tags:
   - bluegrass
   - country
   - instruments
 - name: bass
-  path: 16/instruments/bass.svg
+  path: 16/instrument/bass.svg
   tags:
   - instrument
 - name: battery-0
@@ -391,7 +391,7 @@ icons:
   - hardware
   - wireless
 - name: bongos
-  path: 16/instruments/bongos.svg
+  path: 16/instrument/bongos.svg
   tags:
   - instrument
   - percussion
@@ -538,7 +538,7 @@ icons:
   - invoice
   - shopping
 - name: cello
-  path: 16/instruments/cello.svg
+  path: 16/instrument/cello.svg
   tags:
   - instruments, classical, orchestra, bowed, double bass, upright bass
 - name: center
@@ -661,7 +661,7 @@ icons:
   - ellipse
   - shape
 - name: clap
-  path: 16/instruments/clap.svg
+  path: 16/instrument/clap.svg
   tags:
   - handclap
   - instrument
@@ -796,7 +796,7 @@ icons:
   - editor
   - pasteboard
 - name: cowbell
-  path: 16/instruments/cowbell.svg
+  path: 16/instrument/cowbell.svg
   tags:
   - drumkit
   - drums
@@ -844,7 +844,7 @@ icons:
   - action
   - scissors
 - name: cymbal
-  path: 16/instruments/cymbal.svg
+  path: 16/instrument/cymbal.svg
   tags:
   - drums
   - instrument
@@ -937,13 +937,13 @@ icons:
   - hardware
   - hdd
 - name: drumkit
-  path: 16/instruments/drumkit.svg
+  path: 16/instrument/drumkit.svg
   tags:
   - drums
   - instrument
   - percussion
 - name: drumsticks
-  path: 16/instruments/drumsticks.svg
+  path: 16/instrument/drumsticks.svg
   tags:
   - drumkit
   - drums
@@ -1078,6 +1078,10 @@ icons:
   - explorer
   - finder
   - software
+- name: file-pdf
+  path: 24/file/file-pdf.svg
+  tags:
+  - file
 - name: file-script
   path: 16/file/file-script.svg
   tags:
@@ -1408,27 +1412,27 @@ icons:
   - join
   - together
 - name: guitar
-  path: 16/instruments/guitar.svg
+  path: 16/instrument/guitar.svg
   tags:
   - instrument
 - name: guitar-12-strings
-  path: 16/instruments/guitar-12-strings.svg
+  path: 16/instrument/guitar-12-strings.svg
   tags:
   - instruments, folk
 - name: guitar-classical
-  path: 16/instruments/guitar-classical.svg
+  path: 16/instrument/guitar-classical.svg
   tags:
   - acoustic
   - instruments
   - orchestra
 - name: guitar-folk
-  path: 16/instruments/guitar-folk.svg
+  path: 16/instrument/guitar-folk.svg
   tags:
   - acoustic
   - folk
   - instruments
 - name: guitar-jackson
-  path: 16/instruments/guitar-jackson.svg
+  path: 16/instrument/guitar-jackson.svg
   tags:
   - guitar
   - hard
@@ -1436,20 +1440,20 @@ icons:
   - instruments
   - metal
 - name: guitar-machine-head
-  path: 16/instruments/guitar-machine-head.svg
+  path: 16/instrument/guitar-machine-head.svg
   tags:
   - bass
   - guitar
   - instrument
 - name: guitar-strat
-  path: 16/instruments/guitar-strat.svg
+  path: 16/instrument/guitar-strat.svg
   tags:
   - electric
   - fender
   - instruments
   - stratocaster
 - name: guitar-tele
-  path: 16/instruments/guitar-tele.svg
+  path: 16/instrument/guitar-tele.svg
   tags:
   - electric
   - fender
@@ -1469,13 +1473,13 @@ icons:
   - move
   - navigation
 - name: harmonica
-  path: 16/instruments/harmonica.svg
+  path: 16/instrument/harmonica.svg
   tags:
   - blues
   - instruments
   - wind
 - name: harp
-  path: 16/instruments/harp.svg
+  path: 16/instrument/harp.svg
   tags:
   - celtic
   - instruments
@@ -1540,7 +1544,7 @@ icons:
   - rubber ring
   - support
 - name: hi-hat
-  path: 16/instruments/hi-hat.svg
+  path: 16/instrument/hi-hat.svg
   tags:
   - cymbal
   - instrument
@@ -1586,7 +1590,7 @@ icons:
   - identity
   - misc
 - name: idiophone
-  path: 16/instruments/idiophone.svg
+  path: 16/instrument/idiophone.svg
   tags:
   - instruments
 - name: inbox
@@ -1764,7 +1768,7 @@ icons:
   tags:
   - hardware
 - name: kick
-  path: 16/instruments/kick.svg
+  path: 16/instrument/kick.svg
   tags:
   - drumkit
   - drums
@@ -1955,7 +1959,7 @@ icons:
   - misc
   - send
 - name: mandolin
-  path: 16/instruments/mandolin.svg
+  path: 16/instrument/mandolin.svg
   tags:
   - bluegrass
   - celtic
@@ -1973,7 +1977,7 @@ icons:
   - html
   - xml
 - name: mastering
-  path: 16/instruments/mastering.svg
+  path: 16/instrument/mastering.svg
   tags:
   - instrument
   - mixing
@@ -2408,7 +2412,7 @@ icons:
   - file
   - vector
 - name: pedal
-  path: 16/instruments/pedal.svg
+  path: 16/instrument/pedal.svg
   tags:
   - dsp
   - effect
@@ -2416,7 +2420,7 @@ icons:
   - instrument
   - sound
 - name: pedal-outlines
-  path: 16/instruments/pedal-outlines.svg
+  path: 16/instrument/pedal-outlines.svg
   tags:
   - dsp
   - effect
@@ -2424,7 +2428,7 @@ icons:
   - instrument
   - sound
 - name: pedalboard
-  path: 16/instruments/pedalboard.svg
+  path: 16/instrument/pedalboard.svg
   tags:
   - chain
   - dsp
@@ -2475,7 +2479,7 @@ icons:
   - picture
   - snapshot
 - name: piano
-  path: 16/instruments/piano.svg
+  path: 16/instrument/piano.svg
   tags:
   - instrument
   - keyboard
@@ -2493,7 +2497,7 @@ icons:
   - action
   - favorite
 - name: pipe
-  path: 16/instruments/pipe.svg
+  path: 16/instrument/pipe.svg
   tags:
   - instruments
   - orchestra
@@ -2787,7 +2791,7 @@ icons:
   - download
   - drive
 - name: saxophone
-  path: 16/instruments/saxophone.svg
+  path: 16/instrument/saxophone.svg
   tags:
   - blues
   - instruments
@@ -2894,12 +2898,12 @@ icons:
   - parameters
   - preferences
 - name: shakers
-  path: 16/instruments/shakers.svg
+  path: 16/instrument/shakers.svg
   tags:
   - instrument
   - percussion
 - name: shamisen
-  path: 16/instruments/shamisen.svg
+  path: 16/instrument/shamisen.svg
   tags:
   - instruments
   - japanese
@@ -2936,7 +2940,7 @@ icons:
   - playback
   - random
 - name: sitar
-  path: 16/instruments/sitar.svg
+  path: 16/instrument/sitar.svg
   tags:
   - india
   - instruments
@@ -2990,7 +2994,7 @@ icons:
   - picture
   - still
 - name: snare
-  path: 16/instruments/snare.svg
+  path: 16/instrument/snare.svg
   tags:
   - drumkit
   - drums
@@ -3228,7 +3232,7 @@ icons:
   - soldier
   - weapon
 - name: synthesizer
-  path: 16/instruments/synthesizer.svg
+  path: 16/instrument/synthesizer.svg
   tags:
   - electronic
   - instruments
@@ -3256,12 +3260,12 @@ icons:
   - misc
   - price
 - name: tambourine
-  path: 16/instruments/tambourine.svg
+  path: 16/instrument/tambourine.svg
   tags:
   - instrument
   - percussion
 - name: tamtam
-  path: 16/instruments/tamtam.svg
+  path: 16/instrument/tamtam.svg
   tags:
   - instrument
   - percussion
@@ -3338,7 +3342,7 @@ icons:
   - paintbrush
   - shader
 - name: tom
-  path: 16/instruments/tom.svg
+  path: 16/instrument/tom.svg
   tags:
   - drumkit
   - drums
@@ -3391,7 +3395,7 @@ icons:
   - sign
   - warning
 - name: trombone
-  path: 16/instruments/trombone.svg
+  path: 16/instrument/trombone.svg
   tags:
   - blues
   - brass
@@ -3411,7 +3415,7 @@ icons:
   - win
   - winner
 - name: trumpet
-  path: 16/instruments/trumpet.svg
+  path: 16/instrument/trumpet.svg
   tags:
   - blues
   - brass
@@ -3419,7 +3423,7 @@ icons:
   - jazz
   - orchestra
 - name: tuba
-  path: 16/instruments/tuba.svg
+  path: 16/instrument/tuba.svg
   tags:
   - blues
   - brass
@@ -3473,7 +3477,7 @@ icons:
   - tool
   - window
 - name: ukulele
-  path: 16/instruments/ukulele.svg
+  path: 16/instrument/ukulele.svg
   tags:
   - acoustic
   - guitar
@@ -3573,7 +3577,7 @@ icons:
   - page
   - view
 - name: violin
-  path: 16/instruments/violin.svg
+  path: 16/instrument/violin.svg
   tags:
   - fiddle
   - instruments
@@ -3699,7 +3703,7 @@ icons:
   - wi-fi
   - wifi
 - name: woodwind
-  path: 16/instruments/woodwind.svg
+  path: 16/instrument/woodwind.svg
   tags:
   - flute
   - instruments

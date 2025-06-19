@@ -24,7 +24,7 @@ void qlementineIconThemeInitialization() {
   Q_INIT_RESOURCE(qlementine_icons_16_file);
   Q_INIT_RESOURCE(qlementine_icons_16_food);
   Q_INIT_RESOURCE(qlementine_icons_16_hardware);
-  Q_INIT_RESOURCE(qlementine_icons_16_instruments);
+  Q_INIT_RESOURCE(qlementine_icons_16_instrument);
   Q_INIT_RESOURCE(qlementine_icons_16_media);
   Q_INIT_RESOURCE(qlementine_icons_16_misc);
   Q_INIT_RESOURCE(qlementine_icons_16_navigation);
