@@ -1309,6 +1309,33 @@ icons:
   - collect
   - inwards
   - rally
+- name: gauge-high
+  path: 16/misc/gauge-high.svg
+  tags:
+  - dashboard
+  - gauge
+  - maximum
+  - meter
+  - misc
+  - speed
+- name: gauge-low
+  path: 16/misc/gauge-low.svg
+  tags:
+  - dashboard
+  - gauge
+  - meter
+  - minimum
+  - misc
+  - speed
+- name: gauge-middle
+  path: 16/misc/gauge-middle.svg
+  tags:
+  - center
+  - dashboard
+  - gauge
+  - meter
+  - misc
+  - speed
 - name: gift
   path: 16/misc/gift.svg
   tags:
@@ -2076,6 +2103,33 @@ icons:
   - more
   - navigation
   - options
+- name: meter-high
+  path: 16/misc/meter-high.svg
+  tags:
+  - dashboard
+  - gauge
+  - maximum
+  - meter
+  - misc
+  - speed
+- name: meter-low
+  path: 16/misc/meter-low.svg
+  tags:
+  - dashboard
+  - gauge
+  - meter
+  - minimum
+  - misc
+  - speed
+- name: meter-middle
+  path: 16/misc/meter-middle.svg
+  tags:
+  - center
+  - dashboard
+  - gauge
+  - meter
+  - misc
+  - speed
 - name: microphone
   path: 16/hardware/microphone.svg
   tags:

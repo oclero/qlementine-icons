@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.10.0
+
+- Add icons:
+  - 16x16:
+    - Misc: `gauge-high`, `gauge-low`, `gauge-middle`, `meter-high`, `meter-low`, `meter-middle`.
+
 ## v1.9.0
 
 - Rename category "Instruments" into "Instrument".

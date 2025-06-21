@@ -35,6 +35,9 @@
     <file>misc/function-curve.svg</file>
     <file>misc/function-linear.svg</file>
     <file>misc/fx.svg</file>
+    <file>misc/gauge-high.svg</file>
+    <file>misc/gauge-low.svg</file>
+    <file>misc/gauge-middle.svg</file>
     <file>misc/gift.svg</file>
     <file>misc/glasses.svg</file>
     <file>misc/globe.svg</file>
@@ -58,6 +61,9 @@
     <file>misc/medal.svg</file>
     <file>misc/medal-one.svg</file>
     <file>misc/megaphone.svg</file>
+    <file>misc/meter-high.svg</file>
+    <file>misc/meter-low.svg</file>
+    <file>misc/meter-middle.svg</file>
     <file>misc/modified.svg</file>
     <file>misc/moon.svg</file>
     <file>misc/newspaper.svg</file>
