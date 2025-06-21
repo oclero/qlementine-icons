@@ -353,6 +353,9 @@ enum class Icons16 {
   Misc_FunctionCurve,
   Misc_FunctionLinear,
   Misc_Fx,
+  Misc_GaugeHigh,
+  Misc_GaugeLow,
+  Misc_GaugeMiddle,
   Misc_Gift,
   Misc_Glasses,
   Misc_Globe,
@@ -376,6 +379,9 @@ enum class Icons16 {
   Misc_Medal,
   Misc_MedalOne,
   Misc_Megaphone,
+  Misc_MeterHigh,
+  Misc_MeterLow,
+  Misc_MeterMiddle,
   Misc_Modified,
   Misc_Moon,
   Misc_Newspaper,
@@ -569,7 +575,7 @@ enum class Icons16 {
 };
 
 inline const char* iconPath(Icons16 id) {
-  static constexpr std::array<const char*, 556> icons{
+  static constexpr std::array<const char*, 562> icons{
     "",
     ":/qlementine/icons/16/action/add-file.svg",
     ":/qlementine/icons/16/action/add-folder.svg",
@@ -913,6 +919,9 @@ inline const char* iconPath(Icons16 id) {
     ":/qlementine/icons/16/misc/function-curve.svg",
     ":/qlementine/icons/16/misc/function-linear.svg",
     ":/qlementine/icons/16/misc/fx.svg",
+    ":/qlementine/icons/16/misc/gauge-high.svg",
+    ":/qlementine/icons/16/misc/gauge-low.svg",
+    ":/qlementine/icons/16/misc/gauge-middle.svg",
     ":/qlementine/icons/16/misc/gift.svg",
     ":/qlementine/icons/16/misc/glasses.svg",
     ":/qlementine/icons/16/misc/globe.svg",
@@ -936,6 +945,9 @@ inline const char* iconPath(Icons16 id) {
     ":/qlementine/icons/16/misc/medal.svg",
     ":/qlementine/icons/16/misc/medal-one.svg",
     ":/qlementine/icons/16/misc/megaphone.svg",
+    ":/qlementine/icons/16/misc/meter-high.svg",
+    ":/qlementine/icons/16/misc/meter-low.svg",
+    ":/qlementine/icons/16/misc/meter-middle.svg",
     ":/qlementine/icons/16/misc/modified.svg",
     ":/qlementine/icons/16/misc/moon.svg",
     ":/qlementine/icons/16/misc/newspaper.svg",
