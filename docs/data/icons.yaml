@@ -2364,6 +2364,11 @@ icons:
   path: 16/file/music-score.svg
   tags:
   - file
+  - finale
+  - guitar pro
+  - musescore
+  - sheet
+  - song
 - name: network
   path: 16/hardware/network.svg
   tags:
