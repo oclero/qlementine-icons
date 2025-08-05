@@ -594,7 +594,7 @@ enum class Icons16 {
 };
 
 inline const char* iconPath(Icons16 id) {
-  static constexpr std::array<const char*, 562> icons{
+  static constexpr std::array<const char*, 581> icons{
     "",
     ":/qlementine/icons/16/action/add-file.svg",
     ":/qlementine/icons/16/action/add-folder.svg",
