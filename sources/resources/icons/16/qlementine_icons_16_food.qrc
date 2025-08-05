@@ -3,5 +3,6 @@
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
     <file>food/burger.svg</file>
+    <file>food/french-fries.svg</file>
   </qresource>
 </RCC>

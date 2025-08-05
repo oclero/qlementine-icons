@@ -18,9 +18,22 @@
     <file>navigation/chevron-down.svg</file>
     <file>navigation/chevron-left.svg</file>
     <file>navigation/chevron-right.svg</file>
+    <file>navigation/chevron-smooth-left.svg</file>
+    <file>navigation/chevron-smooth-right.svg</file>
     <file>navigation/chevron-up.svg</file>
     <file>navigation/combobox-indicator.svg</file>
     <file>navigation/flag.svg</file>
+    <file>navigation/gamepad-button-bottom.svg</file>
+    <file>navigation/gamepad-button-left.svg</file>
+    <file>navigation/gamepad-button-right.svg</file>
+    <file>navigation/gamepad-button-top.svg</file>
+    <file>navigation/gamepad-buttons.svg</file>
+    <file>navigation/gamepad-dpad.svg</file>
+    <file>navigation/gamepad-joystick-left.svg</file>
+    <file>navigation/gamepad-joystick-right.svg</file>
+    <file>navigation/gamepad-shoulder-left.svg</file>
+    <file>navigation/gamepad-shoulder-right.svg</file>
+    <file>navigation/gamepad-start.svg</file>
     <file>navigation/go-bottom.svg</file>
     <file>navigation/go-first.svg</file>
     <file>navigation/go-last.svg</file>

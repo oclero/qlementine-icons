@@ -303,6 +303,13 @@ icons:
   - navigation
   - resize
   - vertical
+- name: asio
+  path: 16/brand/asio.svg
+  tags:
+  - audio
+  - brand
+  - driver
+  - stream
 - name: asterisk
   path: 16/shape/asterisk.svg
   tags:
@@ -641,6 +648,22 @@ icons:
   - navigate
   - navigation
   - next
+- name: chevron-smooth-left
+  path: 16/navigation/chevron-smooth-left.svg
+  tags:
+  - move
+  - navigate
+  - navigation
+  - previous
+  - slide
+- name: chevron-smooth-right
+  path: 16/navigation/chevron-smooth-right.svg
+  tags:
+  - move
+  - navigate
+  - navigation
+  - next
+  - slide
 - name: chevron-up
   path: 16/navigation/chevron-up.svg
   tags:
@@ -825,13 +848,19 @@ icons:
   - construction
   - hook
   - misc
-- name: credit_card
-  path: 16/shopping/credit_card.svg
+- name: credit-card
+  path: 16/shopping/credit-card.svg
   tags:
-  - bank
-  - buy
+  - debit
   - pay
-  - purchase
+  - payment
+  - shopping
+- name: credit-card-crossed
+  path: 16/shopping/credit-card-crossed.svg
+  tags:
+  - debit
+  - pay
+  - payment
   - shopping
 - name: cube
   path: 16/shape/cube.svg
@@ -1078,6 +1107,12 @@ icons:
   - explorer
   - finder
   - software
+- name: file-markdown
+  path: 16/file/file-markdown.svg
+  tags:
+  - commonmark
+  - file
+  - md
 - name: file-pdf
   path: 24/file/file-pdf.svg
   tags:
@@ -1233,6 +1268,13 @@ icons:
   - action
   - email
   - transfer
+- name: french-fries
+  path: 16/food/french-fries.svg
+  tags:
+  - belgium
+  - fastfood
+  - food
+  - side
 - name: fullscreen
   path: 16/action/fullscreen.svg
   tags:
@@ -1300,6 +1342,92 @@ icons:
   - gaming
   - hardware
   - play
+  - video game
+- name: gamepad-button-bottom
+  path: 16/navigation/gamepad-button-bottom.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-button-left
+  path: 16/navigation/gamepad-button-left.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-button-right
+  path: 16/navigation/gamepad-button-right.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-button-top
+  path: 16/navigation/gamepad-button-top.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-buttons
+  path: 16/navigation/gamepad-buttons.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-dpad
+  path: 16/navigation/gamepad-dpad.svg
+  tags:
+  - controller
+  - joypad
+  - move
+  - navigation
+  - video game
+- name: gamepad-joystick-left
+  path: 16/navigation/gamepad-joystick-left.svg
+  tags:
+  - controller
+  - joypad
+  - move
+  - navigation
+  - stick
+  - video game
+- name: gamepad-joystick-right
+  path: 16/navigation/gamepad-joystick-right.svg
+  tags:
+  - controller
+  - joypad
+  - move
+  - navigation
+  - stick
+  - video game
+- name: gamepad-shoulder-left
+  path: 16/navigation/gamepad-shoulder-left.svg
+  tags:
+  - button
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-shoulder-right
+  path: 16/navigation/gamepad-shoulder-right.svg
+  tags:
+  - button
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-start
+  path: 16/navigation/gamepad-start.svg
+  tags:
+  - button
+  - controller
+  - joypad
+  - navigation
+  - select
   - video game
 - name: gather
   path: 16/action/gather.svg
@@ -1587,30 +1715,6 @@ icons:
   - countdown
   - misc
   - time
-- name: icon_pause_music
-  path: 16/media/icon_pause_music.svg
-  tags:
-  - media
-  - pause
-  - song
-  - sound
-  - track
-- name: icon_start_music
-  path: 16/media/icon_start_music.svg
-  tags:
-  - media
-  - song
-  - sound
-  - start
-  - track
-- name: icon_stop_music
-  path: 16/media/icon_stop_music.svg
-  tags:
-  - media
-  - song
-  - sound
-  - stop
-  - track
 - name: id-card
   path: 16/misc/id-card.svg
   tags:
@@ -2192,7 +2296,20 @@ icons:
 - name: money
   path: 16/shopping/money.svg
   tags:
+  - cash
   - coins
+  - pay
+  - payment
+  - price
+  - shopping
+  - tokens
+- name: money-crossed
+  path: 16/shopping/money-crossed.svg
+  tags:
+  - cash
+  - coins
+  - pay
+  - payment
   - price
   - shopping
   - tokens
@@ -2258,6 +2375,15 @@ icons:
   - file
   - lossy
   - music
+- name: music-score
+  path: 16/file/music-score.svg
+  tags:
+  - file
+  - finale
+  - guitar pro
+  - musescore
+  - sheet
+  - song
 - name: network
   path: 16/hardware/network.svg
   tags:
@@ -2454,6 +2580,12 @@ icons:
   path: 16/media/pause.svg
   tags:
   - media
+- name: pause-music
+  path: 16/media/pause-music.svg
+  tags:
+  - media
+  - pause
+  - playback
 - name: pda
   path: 16/hardware/pda.svg
   tags:
@@ -3217,6 +3349,13 @@ icons:
   - magic
   - misc
   - shine
+- name: start-music
+  path: 16/media/start-music.svg
+  tags:
+  - media
+  - play
+  - playback
+  - start
 - name: step-into
   path: 16/navigation/step-into.svg
   tags:
@@ -3259,6 +3398,12 @@ icons:
   tags:
   - media
   - playback
+- name: stop-music
+  path: 16/media/stop-music.svg
+  tags:
+  - media
+  - playback
+  - stop
 - name: success
   path: 16/misc/success.svg
   tags:
