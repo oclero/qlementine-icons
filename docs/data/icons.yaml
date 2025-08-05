@@ -1240,6 +1240,13 @@ icons:
   - action
   - email
   - transfer
+- name: french-fries
+  path: 16/food/french-fries.svg
+  tags:
+  - belgium
+  - fastfood
+  - food
+  - side
 - name: fullscreen
   path: 16/action/fullscreen.svg
   tags:
