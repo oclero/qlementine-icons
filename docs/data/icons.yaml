@@ -1315,6 +1315,92 @@ icons:
   - hardware
   - play
   - video game
+- name: gamepad-button-bottom
+  path: 16/navigation/gamepad-button-bottom.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-button-left
+  path: 16/navigation/gamepad-button-left.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-button-right
+  path: 16/navigation/gamepad-button-right.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-button-top
+  path: 16/navigation/gamepad-button-top.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-buttons
+  path: 16/navigation/gamepad-buttons.svg
+  tags:
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-dpad
+  path: 16/navigation/gamepad-dpad.svg
+  tags:
+  - controller
+  - joypad
+  - move
+  - navigation
+  - video game
+- name: gamepad-joystick-left
+  path: 16/navigation/gamepad-joystick-left.svg
+  tags:
+  - controller
+  - joypad
+  - move
+  - navigation
+  - stick
+  - video game
+- name: gamepad-joystick-right
+  path: 16/navigation/gamepad-joystick-right.svg
+  tags:
+  - controller
+  - joypad
+  - move
+  - navigation
+  - stick
+  - video game
+- name: gamepad-shoulder-left
+  path: 16/navigation/gamepad-shoulder-left.svg
+  tags:
+  - button
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-shoulder-right
+  path: 16/navigation/gamepad-shoulder-right.svg
+  tags:
+  - button
+  - controller
+  - joypad
+  - navigation
+  - video game
+- name: gamepad-start
+  path: 16/navigation/gamepad-start.svg
+  tags:
+  - button
+  - controller
+  - joypad
+  - navigation
+  - select
+  - video game
 - name: gather
   path: 16/action/gather.svg
   tags:
