@@ -4,8 +4,10 @@
   <qresource prefix="/qlementine/icons/16">
     <file>shopping/add-to-cart.svg</file>
     <file>shopping/cashier-ticket.svg</file>
-    <file>shopping/credit_card.svg</file>
+    <file>shopping/credit-card.svg</file>
+    <file>shopping/credit-card-crossed.svg</file>
     <file>shopping/money.svg</file>
+    <file>shopping/money-crossed.svg</file>
     <file>shopping/purcentage.svg</file>
     <file>shopping/shopping-bag.svg</file>
     <file>shopping/shopping-cart.svg</file>

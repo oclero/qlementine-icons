@@ -851,10 +851,16 @@ icons:
 - name: credit-card
   path: 16/shopping/credit-card.svg
   tags:
+  - debit
+  - pay
+  - payment
   - shopping
 - name: credit-card-crossed
   path: 16/shopping/credit-card-crossed.svg
   tags:
+  - debit
+  - pay
+  - payment
   - shopping
 - name: cube
   path: 16/shape/cube.svg
@@ -2290,14 +2296,23 @@ icons:
 - name: money
   path: 16/shopping/money.svg
   tags:
+  - cash
   - coins
+  - pay
+  - payment
   - price
   - shopping
   - tokens
 - name: money-crossed
   path: 16/shopping/money-crossed.svg
   tags:
+  - cash
+  - coins
+  - pay
+  - payment
+  - price
   - shopping
+  - tokens
 - name: mono
   path: 16/media/mono.svg
   tags:
