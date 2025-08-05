@@ -1587,30 +1587,6 @@ icons:
   - countdown
   - misc
   - time
-- name: icon_pause_music
-  path: 16/media/icon_pause_music.svg
-  tags:
-  - media
-  - pause
-  - song
-  - sound
-  - track
-- name: icon_start_music
-  path: 16/media/icon_start_music.svg
-  tags:
-  - media
-  - song
-  - sound
-  - start
-  - track
-- name: icon_stop_music
-  path: 16/media/icon_stop_music.svg
-  tags:
-  - media
-  - song
-  - sound
-  - stop
-  - track
 - name: id-card
   path: 16/misc/id-card.svg
   tags:
@@ -2454,6 +2430,12 @@ icons:
   path: 16/media/pause.svg
   tags:
   - media
+- name: pause-music
+  path: 16/media/pause-music.svg
+  tags:
+  - media
+  - pause
+  - playback
 - name: pda
   path: 16/hardware/pda.svg
   tags:
@@ -3217,6 +3199,13 @@ icons:
   - magic
   - misc
   - shine
+- name: start-music
+  path: 16/media/start-music.svg
+  tags:
+  - media
+  - play
+  - playback
+  - start
 - name: step-into
   path: 16/navigation/step-into.svg
   tags:
@@ -3259,6 +3248,12 @@ icons:
   tags:
   - media
   - playback
+- name: stop-music
+  path: 16/media/stop-music.svg
+  tags:
+  - media
+  - playback
+  - stop
 - name: success
   path: 16/misc/success.svg
   tags:
