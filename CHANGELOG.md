@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.11.0
+
+- Rename:
+
+  - `icon_pause_music`, `icon_start_music` and `icon_stop_music` to `pause-music`, `start-music`, `stop-music`.
+  - `credit_card` to `credit-card`.
+
+- Add icons:
+
+  - 16x16:
+    - Brand: `asio`.
+    - File: `markdown`, `music-score`.
+    - Food: `french-fries`.
+    - Navigation: `chevron-smooth-left`, `chevron-smooth-right`, `gamepad-button-bottom`, `gamepad-button-left`, `gamepad-button-right`, `gamepad-button-top`, `gamepad-buttons`, `gamepad-dpad`, `gamepad-joystick-left`, `gamepad-joystick-right`, `gamepad-shoulder-left`, `gamepad-shoulder-right`, `gamepad-start`.
+    - Shopping: `credit-card-crossed`, `money-crossed`.
+
 ## v1.10.0
 
 - Add icons:
