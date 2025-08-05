@@ -648,6 +648,22 @@ icons:
   - navigate
   - navigation
   - next
+- name: chevron-smooth-left
+  path: 16/navigation/chevron-smooth-left.svg
+  tags:
+  - move
+  - navigate
+  - navigation
+  - previous
+  - slide
+- name: chevron-smooth-right
+  path: 16/navigation/chevron-smooth-right.svg
+  tags:
+  - move
+  - navigate
+  - navigation
+  - next
+  - slide
 - name: chevron-up
   path: 16/navigation/chevron-up.svg
   tags:
@@ -832,13 +848,13 @@ icons:
   - construction
   - hook
   - misc
-- name: credit_card
-  path: 16/shopping/credit_card.svg
+- name: credit-card
+  path: 16/shopping/credit-card.svg
   tags:
-  - bank
-  - buy
-  - pay
-  - purchase
+  - shopping
+- name: credit-card-crossed
+  path: 16/shopping/credit-card-crossed.svg
+  tags:
   - shopping
 - name: cube
   path: 16/shape/cube.svg
@@ -1085,6 +1101,12 @@ icons:
   - explorer
   - finder
   - software
+- name: file-markdown
+  path: 16/file/file-markdown.svg
+  tags:
+  - commonmark
+  - file
+  - md
 - name: file-pdf
   path: 24/file/file-pdf.svg
   tags:
@@ -2272,6 +2294,10 @@ icons:
   - price
   - shopping
   - tokens
+- name: money-crossed
+  path: 16/shopping/money-crossed.svg
+  tags:
+  - shopping
 - name: mono
   path: 16/media/mono.svg
   tags:
@@ -2334,6 +2360,10 @@ icons:
   - file
   - lossy
   - music
+- name: music-score
+  path: 16/file/music-score.svg
+  tags:
+  - file
 - name: network
   path: 16/hardware/network.svg
   tags:
