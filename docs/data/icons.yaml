@@ -303,6 +303,13 @@ icons:
   - navigation
   - resize
   - vertical
+- name: asio
+  path: 16/brand/asio.svg
+  tags:
+  - audio
+  - brand
+  - driver
+  - stream
 - name: asterisk
   path: 16/shape/asterisk.svg
   tags:

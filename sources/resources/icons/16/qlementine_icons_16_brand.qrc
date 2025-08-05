@@ -4,6 +4,7 @@
   <qresource prefix="/qlementine/icons/16">
     <file>brand/android.svg</file>
     <file>brand/android-fill.svg</file>
+    <file>brand/asio.svg</file>
     <file>brand/discord.svg</file>
     <file>brand/discord-fill.svg</file>
     <file>brand/facebook.svg</file>
