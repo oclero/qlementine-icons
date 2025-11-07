@@ -1,4 +1,3 @@
-import glob
 import os
 import re
 import pathlib
@@ -6,6 +5,7 @@ import sys
 from string import Template
 from subprocess import call
 import json
+
 
 def this_dir_path():
   return pathlib.Path(__file__).parent.absolute().as_posix()
@@ -26,6 +26,7 @@ QRC_TEMPLATE_FILEPATH = this_dir_path() + '/resources/Template.qrc'
 QRC_PREFIX = '/qlementine/icons'
 
 FREEDESKTOP_MAPPING_PATH = 'sources/FreeDesktopMappings.json'
+
 
 def to_pascal_case(s: str) -> str:
   return re.sub(r'(_|-|\s)+', ' ', s).title().replace(' ', '')
@@ -135,6 +136,7 @@ def get_freedesktop_map_lines(mapping_filepath: str) -> list[str]:
       map_lines.append(line)
 
   return map_lines
+
 
 def modify_cpp_file(qrc_init_lines: list[str], map_lines: list[str], cpp_filepath: str) -> None:
   with open(cpp_filepath, 'r') as f:
