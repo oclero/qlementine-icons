@@ -2,6 +2,7 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
+    <file>page/layout-pages-grid.svg</file>
     <file>page/layout-pages-horizontal.svg</file>
     <file>page/layout-pages-vertical.svg</file>
     <file>page/layout-pages-wrap.svg</file>
@@ -14,6 +15,8 @@
     <file>page/page-portrait.svg</file>
     <file>page/page-setup.svg</file>
     <file>page/page-text.svg</file>
+    <file>page/pages-first.svg</file>
+    <file>page/pages-last.svg</file>
     <file>page/view-page-all.svg</file>
     <file>page/view-page-facing.svg</file>
     <file>page/view-page-single.svg</file>

@@ -12,6 +12,10 @@ namespace oclero::qlementine::icons {
 enum class Icons32 {
   None = 0,
   File_FolderOpen,
+  Hardware_Drive,
+  Hardware_Hdd,
+  Hardware_PhotoCamera,
+  Hardware_PhotoCameraCrossed,
   Misc_Info,
   Misc_Question,
   Misc_Spam,
@@ -23,9 +27,13 @@ enum class Icons32 {
 };
 
 inline const char* iconPath(Icons32 id) {
-  static constexpr std::array<const char*, 10> icons{
+  static constexpr std::array<const char*, 14> icons{
     "",
     ":/qlementine/icons/32/file/folder-open.svg",
+    ":/qlementine/icons/32/hardware/drive.svg",
+    ":/qlementine/icons/32/hardware/hdd.svg",
+    ":/qlementine/icons/32/hardware/photo-camera.svg",
+    ":/qlementine/icons/32/hardware/photo-camera-crossed.svg",
     ":/qlementine/icons/32/misc/info.svg",
     ":/qlementine/icons/32/misc/question.svg",
     ":/qlementine/icons/32/misc/spam.svg",

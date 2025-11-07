@@ -39,9 +39,12 @@
     <file>navigation/go-last.svg</file>
     <file>navigation/go-top.svg</file>
     <file>navigation/hand.svg</file>
+    <file>navigation/hand-left.svg</file>
     <file>navigation/home.svg</file>
     <file>navigation/jump.svg</file>
+    <file>navigation/jump-backwards.svg</file>
     <file>navigation/jump-over.svg</file>
+    <file>navigation/jump-over-backwards.svg</file>
     <file>navigation/key-cmd.svg</file>
     <file>navigation/key-ctrl.svg</file>
     <file>navigation/key-opt.svg</file>
@@ -71,11 +74,21 @@
     <file>navigation/settings.svg</file>
     <file>navigation/sliders-horizontal.svg</file>
     <file>navigation/sliders-vertical.svg</file>
+    <file>navigation/step-back.svg</file>
+    <file>navigation/step-front.svg</file>
     <file>navigation/step-into.svg</file>
     <file>navigation/step-out.svg</file>
     <file>navigation/ui-panel-bottom.svg</file>
     <file>navigation/ui-panel-left.svg</file>
     <file>navigation/ui-panel-right.svg</file>
     <file>navigation/ui-panel-top.svg</file>
+    <file>navigation/ui-panels-all.svg</file>
+    <file>navigation/ui-panels-bottom.svg</file>
+    <file>navigation/ui-panels-left.svg</file>
+    <file>navigation/ui-panels-left-bottom.svg</file>
+    <file>navigation/ui-panels-left-right.svg</file>
+    <file>navigation/ui-panels-none.svg</file>
+    <file>navigation/ui-panels-right.svg</file>
+    <file>navigation/ui-panels-right-bottom.svg</file>
   </qresource>
 </RCC>

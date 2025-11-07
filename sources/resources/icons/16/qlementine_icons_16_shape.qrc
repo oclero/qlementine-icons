@@ -3,11 +3,19 @@
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
     <file>shape/asterisk.svg</file>
+    <file>shape/bookmark.svg</file>
+    <file>shape/bookmark-filled.svg</file>
     <file>shape/borders.svg</file>
     <file>shape/check-tick.svg</file>
     <file>shape/check-tick-small.svg</file>
     <file>shape/circle.svg</file>
     <file>shape/circle-filled.svg</file>
+    <file>shape/concave.svg</file>
+    <file>shape/concave-double.svg</file>
+    <file>shape/convex.svg</file>
+    <file>shape/convex-double.svg</file>
+    <file>shape/cross.svg</file>
+    <file>shape/cross-filled.svg</file>
     <file>shape/cube.svg</file>
     <file>shape/heart.svg</file>
     <file>shape/heart-crossed.svg</file>

@@ -6,6 +6,5 @@
     <file>file/folder.svg</file>
     <file>file/folder-filled.svg</file>
     <file>file/folder-open.svg</file>
-    <file>file/open-recent.svg</file>
   </qresource>
 </RCC>

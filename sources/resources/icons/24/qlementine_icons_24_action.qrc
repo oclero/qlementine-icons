@@ -10,12 +10,15 @@
     <file>action/export.svg</file>
     <file>action/increase.svg</file>
     <file>action/lock.svg</file>
+    <file>action/minus.svg</file>
     <file>action/minus-circle.svg</file>
     <file>action/paste.svg</file>
+    <file>action/plus.svg</file>
     <file>action/plus-circle.svg</file>
     <file>action/redo.svg</file>
     <file>action/save.svg</file>
     <file>action/select-all.svg</file>
+    <file>action/share.svg</file>
     <file>action/sort-alpha-asc.svg</file>
     <file>action/sort-alpha-desc.svg</file>
     <file>action/sort-asc.svg</file>
