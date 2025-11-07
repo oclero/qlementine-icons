@@ -3,8 +3,10 @@
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/12">
     <file>misc/info.svg</file>
+    <file>misc/notes.svg</file>
     <file>misc/pen.svg</file>
     <file>misc/question.svg</file>
+    <file>misc/question-mark.svg</file>
     <file>misc/spam.svg</file>
     <file>misc/success.svg</file>
     <file>misc/warning.svg</file>

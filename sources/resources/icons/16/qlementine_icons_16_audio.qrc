@@ -2,6 +2,13 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
+    <file>audio/eq-flat.svg</file>
+    <file>audio/eq-high-boost.svg</file>
+    <file>audio/eq-high-cut.svg</file>
+    <file>audio/eq-low-boost.svg</file>
+    <file>audio/eq-low-cut.svg</file>
+    <file>audio/eq-medium-boost.svg</file>
+    <file>audio/eq-medium-cut.svg</file>
     <file>audio/speaker-0.svg</file>
     <file>audio/speaker-1.svg</file>
     <file>audio/speaker-2.svg</file>

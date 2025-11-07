@@ -35,17 +35,20 @@
     <file>action/close-single.svg</file>
     <file>action/close-small.svg</file>
     <file>action/copy.svg</file>
+    <file>action/crop.svg</file>
     <file>action/cut.svg</file>
     <file>action/decrease.svg</file>
     <file>action/distribute-horizontal.svg</file>
     <file>action/distribute-vertical.svg</file>
     <file>action/download.svg</file>
     <file>action/drag.svg</file>
+    <file>action/duplicate.svg</file>
     <file>action/erase.svg</file>
     <file>action/eraser.svg</file>
     <file>action/export.svg</file>
     <file>action/external-link.svg</file>
     <file>action/eye.svg</file>
+    <file>action/eye-closed.svg</file>
     <file>action/eye-crossed.svg</file>
     <file>action/filter.svg</file>
     <file>action/filter-crossed.svg</file>
@@ -72,6 +75,8 @@
     <file>action/on-off.svg</file>
     <file>action/paste.svg</file>
     <file>action/pin.svg</file>
+    <file>action/pin-crossed.svg</file>
+    <file>action/pin-fill.svg</file>
     <file>action/plus.svg</file>
     <file>action/plus-circle.svg</file>
     <file>action/plus-small.svg</file>
@@ -101,6 +106,8 @@
     <file>action/select-all.svg</file>
     <file>action/send.svg</file>
     <file>action/send-receive.svg</file>
+    <file>action/separate-horizontal.svg</file>
+    <file>action/separate-vertical.svg</file>
     <file>action/share.svg</file>
     <file>action/share-external.svg</file>
     <file>action/snapshot.svg</file>
@@ -108,18 +115,24 @@
     <file>action/sort-alpha-desc.svg</file>
     <file>action/sort-asc.svg</file>
     <file>action/sort-desc.svg</file>
+    <file>action/sort-file-type-asc.svg</file>
+    <file>action/sort-file-type-desc.svg</file>
     <file>action/sort-ranking-asc.svg</file>
     <file>action/sort-ranking-desc.svg</file>
     <file>action/sort-time-asc.svg</file>
     <file>action/sort-time-desc.svg</file>
     <file>action/sort-user-asc.svg</file>
     <file>action/sort-user-desc.svg</file>
+    <file>action/spacing-horizontal.svg</file>
+    <file>action/spacing-vertical.svg</file>
     <file>action/swap.svg</file>
     <file>action/trash.svg</file>
     <file>action/trash-full.svg</file>
     <file>action/undo.svg</file>
     <file>action/ungroup.svg</file>
     <file>action/unlock.svg</file>
+    <file>action/unroll-horizontal.svg</file>
+    <file>action/unroll-vertical.svg</file>
     <file>action/update.svg</file>
     <file>action/windows-close.svg</file>
     <file>action/windows-maximize.svg</file>

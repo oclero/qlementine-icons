@@ -423,6 +423,14 @@ icons:
   - navigation
   - pin
   - read
+- name: bookmark-filled
+  path: 16/shape/bookmark-filled.svg
+  tags:
+  - book
+  - mark
+  - pin
+  - read
+  - shape
 - name: boolean-exclude
   path: 16/action/boolean-exclude.svg
   tags:
@@ -538,6 +546,56 @@ icons:
   - hardware
   - movie
   - picture
+- name: case-default
+  path: 16/text/case-default.svg
+  tags:
+  - casing
+  - font
+  - lettercase
+  - text
+  - typeface
+  - typography
+- name: case-lowercase
+  path: 16/text/case-lowercase.svg
+  tags:
+  - casing
+  - font
+  - lettercase
+  - lower
+  - text
+  - typeface
+  - typography
+- name: case-small-caps
+  path: 16/text/case-small-caps.svg
+  tags:
+  - casing
+  - font
+  - lettercase
+  - small
+  - text
+  - typeface
+  - typography
+- name: case-title
+  path: 16/text/case-title.svg
+  tags:
+  - capitalize
+  - casing
+  - font
+  - lettercase
+  - text
+  - title
+  - typeface
+  - typography
+- name: case-uppercase
+  path: 16/text/case-uppercase.svg
+  tags:
+  - casing
+  - font
+  - lettercase
+  - text
+  - typeface
+  - typography
+  - upper
 - name: cashier-ticket
   path: 16/shopping/cashier-ticket.svg
   tags:
@@ -780,6 +838,17 @@ icons:
   - sync
   - synchronize
   - upload
+- name: code-markup
+  path: 12/software/code-markup.svg
+  tags:
+  - code
+  - development
+  - html
+  - markup
+  - php
+  - software
+  - web
+  - xml
 - name: color-swatch
   path: 16/misc/color-swatch.svg
   tags:
@@ -812,6 +881,30 @@ icons:
   tags:
   - desktop
   - hardware
+- name: concave
+  path: 16/shape/concave.svg
+  tags:
+  - concave
+  - inward
+  - shape
+- name: concave-double
+  path: 16/shape/concave-double.svg
+  tags:
+  - concave
+  - inward
+  - shape
+- name: convex
+  path: 16/shape/convex.svg
+  tags:
+  - convex
+  - outward
+  - shape
+- name: convex-double
+  path: 16/shape/convex-double.svg
+  tags:
+  - convex
+  - outward
+  - shape
 - name: copy
   path: 16/action/copy.svg
   tags:
@@ -862,6 +955,24 @@ icons:
   - pay
   - payment
   - shopping
+- name: crop
+  path: 16/action/crop.svg
+  tags:
+  - action
+  - clip
+  - cut
+  - shave
+  - trim
+- name: cross
+  path: 16/shape/cross.svg
+  tags:
+  - shape
+  - sign
+- name: cross-filled
+  path: 16/shape/cross-filled.svg
+  tags:
+  - shape
+  - sign
 - name: cube
   path: 16/shape/cube.svg
   tags:
@@ -872,6 +983,15 @@ icons:
   tags:
   - action
   - scissors
+- name: cutter
+  path: 16/misc/cutter.svg
+  tags:
+  - blade
+  - cut
+  - knife
+  - misc
+  - tool
+  - utility
 - name: cymbal
   path: 16/instrument/cymbal.svg
   tags:
@@ -965,6 +1085,14 @@ icons:
   - disk
   - hardware
   - hdd
+- name: drum-brushes
+  path: 16/instrument/drum-brushes.svg
+  tags:
+  - brushes
+  - drumkit
+  - instrument
+  - percussion
+  - sticks
 - name: drumkit
   path: 16/instrument/drumkit.svg
   tags:
@@ -979,6 +1107,14 @@ icons:
   - instruments
   - percussions
   - stick
+- name: duplicate
+  path: 16/action/duplicate.svg
+  tags:
+  - action
+  - copy
+  - edit
+  - repeat
+  - replicate
 - name: education
   path: 24/misc/education.svg
   tags:
@@ -1007,6 +1143,92 @@ icons:
   - slot
   - space
   - void
+- name: eq-flat
+  path: 16/audio/eq-flat.svg
+  tags:
+  - adjust
+  - audio
+  - balance
+  - default
+  - equalizer
+  - frequency
+  - music
+  - sound
+  - tone
+- name: eq-high-boost
+  path: 16/audio/eq-high-boost.svg
+  tags:
+  - adjust
+  - audio
+  - balance
+  - equalizer
+  - frequency
+  - music
+  - sound
+  - tone
+  - treble
+- name: eq-high-cut
+  path: 16/audio/eq-high-cut.svg
+  tags:
+  - adjust
+  - audio
+  - balance
+  - equalizer
+  - frequency
+  - music
+  - sound
+  - tone
+  - treble
+- name: eq-low-boost
+  path: 16/audio/eq-low-boost.svg
+  tags:
+  - adjust
+  - audio
+  - balance
+  - bass
+  - equalizer
+  - frequency
+  - music
+  - sound
+  - tone
+- name: eq-low-cut
+  path: 16/audio/eq-low-cut.svg
+  tags:
+  - adjust
+  - audio
+  - balance
+  - bass
+  - equalizer
+  - frequency
+  - music
+  - sound
+  - tone
+- name: eq-medium-boost
+  path: 16/audio/eq-medium-boost.svg
+  tags:
+  - adjust
+  - audio
+  - balance
+  - equalizer
+  - frequency
+  - medium
+  - middle
+  - music
+  - sound
+  - tone
+- name: eq-medium-cut
+  path: 16/audio/eq-medium-cut.svg
+  tags:
+  - adjust
+  - audio
+  - balance
+  - equalizer
+  - frequency
+  - medium
+  - middle
+  - music
+  - sound
+  - tone
 - name: erase
   path: 16/action/erase.svg
   tags:
@@ -1056,6 +1278,16 @@ icons:
   - see
   - visibility
   - visible
+  - vision
+- name: eye-closed
+  path: 16/action/eye-closed.svg
+  tags:
+  - action
+  - hide
+  - invisible
+  - see
+  - unsee
+  - visibility
   - vision
 - name: eye-crossed
   path: 24/misc/eye-crossed.svg
@@ -1627,6 +1859,13 @@ icons:
   - drag
   - move
   - navigation
+- name: hand-left
+  path: 16/navigation/hand-left.svg
+  tags:
+  - drag
+  - left
+  - move
+  - navigation
 - name: harmonica
   path: 16/instrument/harmonica.svg
   tags:
@@ -1654,6 +1893,12 @@ icons:
   - hardware
   - plug
   - video
+- name: header
+  path: 16/text/header.svg
+  tags:
+  - heading
+  - text
+  - title
 - name: headphones
   path: 16/hardware/headphones.svg
   tags:
@@ -1806,19 +2051,64 @@ icons:
 - name: jack
   path: 16/hardware/jack.svg
   tags:
+  - audio
+  - cable
   - hardware
+  - music
+  - plug
+  - sound
+  - stage
+  - studio
+- name: jack-locked
+  path: 16/hardware/jack-locked.svg
+  tags:
+  - audio
+  - cable
+  - hardware
+  - music
+  - plug
+  - sound
+  - stage
+  - studio
 - name: jump
   path: 16/navigation/jump.svg
   tags:
   - debug
   - development
   - navigation
+- name: jump-backwards
+  path: 16/navigation/jump-backwards.svg
+  tags:
+  - back
+  - debug
+  - development
+  - direction
+  - jump
+  - left
+  - navigation
+  - previous
+  - reverse
+  - rewind
 - name: jump-over
   path: 16/navigation/jump-over.svg
   tags:
   - debug
   - development
   - navigation
+- name: jump-over-backwards
+  path: 16/navigation/jump-over-backwards.svg
+  tags:
+  - back
+  - debug
+  - development
+  - direction
+  - jump
+  - left
+  - navigation
+  - previous
+  - reverse
+  - rewind
+  - skip
 - name: justify-center
   path: 16/text/justify-center.svg
   tags:
@@ -1956,6 +2246,11 @@ icons:
   - layer
   - navigation
   - stack
+- name: layout-pages-grid
+  path: 16/page/layout-pages-grid.svg
+  tags:
+  - page
+  - view
 - name: layout-pages-horizontal
   path: 16/page/layout-pages-horizontal.svg
   tags:
@@ -2001,6 +2296,43 @@ icons:
   - bookstore
   - misc
   - reading
+- name: light-bulb-off
+  path: 16/misc/light-bulb-off.svg
+  tags:
+  - idea
+  - light
+  - misc
+  - thought
+- name: light-bulb-on
+  path: 16/misc/light-bulb-on.svg
+  tags:
+  - idea
+  - light
+  - misc
+  - thought
+- name: link
+  path: 16/misc/link.svg
+  tags:
+  - chain
+  - connect
+  - connected
+  - connection
+  - hyperlink
+  - misc
+  - url
+  - web
+- name: link-break
+  path: 16/misc/link-break.svg
+  tags:
+  - broken
+  - chain
+  - connection
+  - disconnect
+  - disconnected
+  - hyperlink
+  - misc
+  - url
+  - web
 - name: location
   path: 16/misc/location.svg
   tags:
@@ -2039,6 +2371,12 @@ icons:
   - feedback
   - media
   - repeat
+- name: loop-locked
+  path: 16/media/loop-locked.svg
+  tags:
+  - feedback
+  - media
+  - repeat
 - name: losange
   path: 16/shape/losange.svg
   tags:
@@ -2049,6 +2387,15 @@ icons:
   tags:
   - diamond
   - shape
+- name: m4a
+  path: 16/file/m4a.svg
+  tags:
+  - apple
+  - audio
+  - file
+  - ios
+  - macos
+  - music
 - name: mac
   path: 16/brand/mac.svg
   tags:
@@ -2423,6 +2770,13 @@ icons:
   - misc
   - music
   - song
+- name: notes-fill
+  path: 16/misc/notes-fill.svg
+  tags:
+  - melody
+  - misc
+  - music
+  - song
 - name: octogon
   path: 16/shape/octogon.svg
   tags:
@@ -2496,6 +2850,21 @@ icons:
   - file
   - page
   - paper
+- name: pages-first
+  path: 16/page/pages-first.svg
+  tags:
+  - beginning
+  - cover
+  - front
+  - page
+  - start
+- name: pages-last
+  path: 16/page/pages-last.svg
+  tags:
+  - back
+  - backcover
+  - end
+  - page
 - name: paint-brush-large
   path: 16/misc/paint-brush-large.svg
   tags:
@@ -2664,6 +3033,12 @@ icons:
   - hardware
   - picture
   - snapshot
+- name: photo-camera-crossed
+  path: 32/hardware/photo-camera-crossed.svg
+  tags:
+  - hardware
+  - picture
+  - snapshot
 - name: piano
   path: 16/instrument/piano.svg
   tags:
@@ -2679,6 +3054,18 @@ icons:
   - photo
 - name: pin
   path: 16/action/pin.svg
+  tags:
+  - action
+  - favorite
+- name: pin-crossed
+  path: 16/action/pin-crossed.svg
+  tags:
+  - action
+  - favorite
+  - unfavorite
+  - unpin
+- name: pin-fill
+  path: 16/action/pin-fill.svg
   tags:
   - action
   - favorite
@@ -2797,11 +3184,56 @@ icons:
   - mystery
   - plugin
   - tile
+- name: quality-0
+  path: 16/misc/quality-0.svg
+  tags:
+  - misc
+  - network
+  - none
+  - signal
+  - worst
+- name: quality-1
+  path: 16/misc/quality-1.svg
+  tags:
+  - bad
+  - misc
+  - network
+  - signal
+- name: quality-2
+  path: 16/misc/quality-2.svg
+  tags:
+  - average
+  - medium
+  - misc
+  - network
+  - signal
+- name: quality-3
+  path: 16/misc/quality-3.svg
+  tags:
+  - good
+  - high
+  - misc
+  - network
+  - signal
+- name: quality-4
+  path: 16/misc/quality-4.svg
+  tags:
+  - best
+  - excellent
+  - misc
+  - network
+  - signal
 - name: question
   path: 16/misc/question.svg
   tags:
   - help
   - misc
+- name: question-mark
+  path: 12/misc/question-mark.svg
+  tags:
+  - help
+  - misc
+  - symbol
 - name: radio
   path: 16/hardware/radio.svg
   tags:
@@ -2843,6 +3275,13 @@ icons:
   - name
 - name: repeat
   path: 16/media/repeat.svg
+  tags:
+  - autoplay
+  - media
+  - playback
+  - repetition
+- name: repeat-locked
+  path: 16/media/repeat-locked.svg
   tags:
   - autoplay
   - media
@@ -3054,6 +3493,26 @@ icons:
   - action
   - email
   - mailbox
+- name: separate-horizontal
+  path: 16/action/separate-horizontal.svg
+  tags:
+  - action
+  - divide
+  - horizontal
+  - partition
+  - section
+  - seperation
+  - split
+- name: separate-vertical
+  path: 16/action/separate-vertical.svg
+  tags:
+  - action
+  - divide
+  - partition
+  - section
+  - seperation
+  - split
+  - vertical
 - name: separation-horizontal
   path: 16/misc/separation-horizontal.svg
   tags:
@@ -3218,6 +3677,22 @@ icons:
   - ascendent
   - order
   - sort
+- name: sort-file-type-asc
+  path: 16/action/sort-file-type-asc.svg
+  tags:
+  - action
+  - ascendent
+  - kind
+  - order
+  - sort
+- name: sort-file-type-desc
+  path: 16/action/sort-file-type-desc.svg
+  tags:
+  - action
+  - descendent
+  - kind
+  - order
+  - sort
 - name: sort-ranking-asc
   path: 16/action/sort-ranking-asc.svg
   tags:
@@ -3268,6 +3743,20 @@ icons:
   - descendent
   - name
   - sort
+- name: spacing-horizontal
+  path: 16/action/spacing-horizontal.svg
+  tags:
+  - action
+  - distance
+  - horizontal
+  - space
+- name: spacing-vertical
+  path: 16/action/spacing-vertical.svg
+  tags:
+  - action
+  - distance
+  - space
+  - vertical
 - name: spam
   path: 16/misc/spam.svg
   tags:
@@ -3356,6 +3845,22 @@ icons:
   - play
   - playback
   - start
+- name: step-back
+  path: 16/navigation/step-back.svg
+  tags:
+  - back
+  - navigation
+  - previous
+  - section
+  - step
+- name: step-front
+  path: 16/navigation/step-front.svg
+  tags:
+  - forward
+  - navigation
+  - next
+  - section
+  - step
 - name: step-into
   path: 16/navigation/step-into.svg
   tags:
@@ -3404,6 +3909,11 @@ icons:
   - media
   - playback
   - stop
+- name: stop-small
+  path: 16/media/stop-small.svg
+  tags:
+  - media
+  - playback
 - name: success
   path: 16/misc/success.svg
   tags:
@@ -3423,6 +3933,15 @@ icons:
   tags:
   - action
   - exchange
+- name: swiss-knife
+  path: 16/misc/swiss-knife.svg
+  tags:
+  - misc
+  - multi
+  - tool
+  - toolbox
+  - utility
+  - wrench
 - name: sword
   path: 16/misc/sword.svg
   tags:
@@ -3655,8 +4174,10 @@ icons:
   path: 16/navigation/ui-panel-left.svg
   tags:
   - bar
+  - inspector
   - interface
   - navigation
+  - outline
   - status
   - window
 - name: ui-panel-right
@@ -3666,6 +4187,7 @@ icons:
   - inspector
   - interface
   - navigation
+  - outline
   - window
 - name: ui-panel-top
   path: 16/navigation/ui-panel-top.svg
@@ -3674,6 +4196,73 @@ icons:
   - interface
   - navigation
   - tool
+  - window
+- name: ui-panels-all
+  path: 16/navigation/ui-panels-all.svg
+  tags:
+  - bar
+  - interface
+  - navigation
+  - window
+- name: ui-panels-bottom
+  path: 16/navigation/ui-panels-bottom.svg
+  tags:
+  - bar
+  - interface
+  - navigation
+  - status
+  - window
+- name: ui-panels-left
+  path: 16/navigation/ui-panels-left.svg
+  tags:
+  - bar
+  - inspector
+  - interface
+  - navigation
+  - outline
+  - window
+- name: ui-panels-left-bottom
+  path: 16/navigation/ui-panels-left-bottom.svg
+  tags:
+  - bar
+  - inspector
+  - interface
+  - navigation
+  - outline
+  - window
+- name: ui-panels-left-right
+  path: 16/navigation/ui-panels-left-right.svg
+  tags:
+  - bar
+  - inspector
+  - interface
+  - navigation
+  - outline
+  - window
+- name: ui-panels-none
+  path: 16/navigation/ui-panels-none.svg
+  tags:
+  - hide
+  - interface
+  - navigation
+  - window
+- name: ui-panels-right
+  path: 16/navigation/ui-panels-right.svg
+  tags:
+  - bar
+  - inspector
+  - interface
+  - navigation
+  - outline
+  - window
+- name: ui-panels-right-bottom
+  path: 16/navigation/ui-panels-right-bottom.svg
+  tags:
+  - bar
+  - inspector
+  - interface
+  - navigation
+  - status
   - window
 - name: ukulele
   path: 16/instrument/ukulele.svg
@@ -3713,6 +4302,20 @@ icons:
   - password
   - secure
   - security
+- name: unroll-horizontal
+  path: 16/action/unroll-horizontal.svg
+  tags:
+  - action
+  - horizontal
+  - parchment
+  - scroll
+- name: unroll-vertical
+  path: 16/action/unroll-vertical.svg
+  tags:
+  - action
+  - parchment
+  - scroll
+  - vertical
 - name: update
   path: 16/action/update.svg
   tags:
@@ -3824,6 +4427,15 @@ icons:
   - camera
   - device
   - hardware
+- name: whistle
+  path: 16/misc/whistle.svg
+  tags:
+  - misc
+  - police
+  - policeman
+  - referee
+  - sound
+  - sports
 - name: windows
   path: 16/brand/windows.svg
   tags:

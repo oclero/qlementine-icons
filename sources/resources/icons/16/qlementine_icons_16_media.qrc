@@ -4,6 +4,7 @@
   <qresource prefix="/qlementine/icons/16">
     <file>media/eject.svg</file>
     <file>media/loop.svg</file>
+    <file>media/loop-locked.svg</file>
     <file>media/mono.svg</file>
     <file>media/pause.svg</file>
     <file>media/pause-music.svg</file>
@@ -13,6 +14,7 @@
     <file>media/playlist.svg</file>
     <file>media/record.svg</file>
     <file>media/repeat.svg</file>
+    <file>media/repeat-locked.svg</file>
     <file>media/repeat-one.svg</file>
     <file>media/seek-backward.svg</file>
     <file>media/seek-forward.svg</file>
@@ -25,5 +27,6 @@
     <file>media/stereo-right.svg</file>
     <file>media/stop.svg</file>
     <file>media/stop-music.svg</file>
+    <file>media/stop-small.svg</file>
   </qresource>
 </RCC>

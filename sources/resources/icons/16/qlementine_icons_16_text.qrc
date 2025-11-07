@@ -4,12 +4,18 @@
   <qresource prefix="/qlementine/icons/16">
     <file>text/align-left.svg</file>
     <file>text/align-right.svg</file>
+    <file>text/case-default.svg</file>
+    <file>text/case-lowercase.svg</file>
+    <file>text/case-small-caps.svg</file>
+    <file>text/case-title.svg</file>
+    <file>text/case-uppercase.svg</file>
     <file>text/center.svg</file>
     <file>text/fill.svg</file>
     <file>text/format-bold.svg</file>
     <file>text/format-italic.svg</file>
     <file>text/format-strikethrough.svg</file>
     <file>text/format-underline.svg</file>
+    <file>text/header.svg</file>
     <file>text/indent-less.svg</file>
     <file>text/indent-more.svg</file>
     <file>text/justify-center.svg</file>

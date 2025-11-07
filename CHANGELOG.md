@@ -1,5 +1,58 @@
 # Changelog
 
+## v1.12.0
+
+86 new icons!
+
+- Add icons:
+
+  - 12x12:
+    - Brand: `midi`.
+    - Misc: `notes`, `question-mark`.
+    - Software: `code-markup`.
+  - 16x16:
+    - Action: `crop`, `duplicate`, `eye-closed`, `pin-crossed`, `pin-fill`, `separate-horizontal`, `separate-vertical`, `sort-file-type-asc`, `sort-file-type-desc`, `spacing-horizontal`, `spacing-vertical`, `unroll-horizontal`, `unroll-vertical`.
+    - Audio: `eq-flat`, `eq-high-boost`, `eq-high-cut`, `eq-low-boost`, `eq-low-cut`, `eq-medium-boost`, `eq-medium-cut`.
+    - File: `m4a`.
+    - Hardware: `jack-locked`.
+    - Instrument: `drum-brushes`.
+    - Media: `loop-locked`, `repeat-locked`, `stop-small`.
+    - Misc: `cutter`, `light-bulb-off`, `light-bulb-on`, `link-break`, `link`, `notes-fill`, `quality-0`, `quality-1`, `quality-2`, `quality-3`, `quality-4`, `question-mark`, `swiss-knife`, `whistle`.
+    - Navigation: `hand-left`, `jump-backwards`, `jump-over-backwards`, `step-back`, `step-front`, `ui-panels-all`, `ui-panels-bottom`, `ui-panels-left-bottom`, `ui-panels-left-right`, `ui-panels-left`, `ui-panels-none`, `ui-panels-right-bottom`, `ui-panels-right`.
+    - Page: `layout-pages-grid`, `pages-first`, `pages-last`.
+    - Shape: `bookmark-filled`, `bookmark`, `concave-double`, `concave`, `convex-double`, `convex`, `cross-filled`, `cross`.
+    - Software: `code-markup`.
+    - Text: `case-default`, `case-lowercase`, `case-small-caps`, `case-title`, `case-uppercase`, `header`.
+  - 24x24:
+    - Action: `minus`, `plus`, `share`.
+    - Document: `new`, `open`.
+  - 32x32:
+    - Hardware: `drive`, `hdd`, `photo-camera-crossed`, `photo-camera`.
+
+- Modified icons:
+
+  - 16x16:
+    - Action: `eraser`, `forward`, `gather`, `move`, `pin`, `present`, `redo`, `refresh`, `reply`, `share-external`, `trash-full`, `undo`.
+    - Audio: `speaker-1`.
+    - Brand: `android-fill`, `android`, `gitlab`, `twitter`, `youtube-fill`, `youtube`.
+    - File: `aiff`, `mp3`.
+    - Food: `burger`.
+    - Hardware: `jack`, `microphone-old`, `modem`, `phone`, `radio`.
+    - Instrument: `banjo`, `guitar-12-strings`, `guitar-jackson`, `guitar-tele`, `shakers`, `woodwind`.
+    - Media: `repeat-one`, `repeat`, `stop`.
+    - Misc: `function-angle`, `function-curve`, `function-linear`, `fx`, `gift`, `items-grid-small`, `medal-one`, `notes`, `paint-bucket`, `sun`, `trophy`.
+    - Navigation: `gamepad-shoulder-left`, `gamepad-shoulder-right`, `jump-over`, `jump`, `key-tab`, `layer-1`, `layers-2`, `layers-3`, `layers-4`, `layers-more`, `ui-panel-bottom`, `ui-panel-left`, `ui-panel-right`, `ui-panel-top`.
+    - Page: `zoom-fit-screen`.
+    - Shape: `heart-crossed`.
+    - Software: `spell-check`.
+    - Text: `prevent-line-break`.
+  - 24x24:
+    - Brand: `android`, `twitter`, `youtube-fill`.
+    - File: `folder`.
+    - Misc: `pen`.
+  - 32x32:
+    - Misc: `spam`.
+
 ## v1.11.0
 
 - Rename:

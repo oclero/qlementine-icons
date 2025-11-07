@@ -23,6 +23,7 @@
     <file>misc/comment.svg</file>
     <file>misc/crane.svg</file>
     <file>misc/crane-hook.svg</file>
+    <file>misc/cutter.svg</file>
     <file>misc/debug.svg</file>
     <file>misc/dialog.svg</file>
     <file>misc/education.svg</file>
@@ -54,6 +55,10 @@
     <file>misc/items-list.svg</file>
     <file>misc/items-tree.svg</file>
     <file>misc/library.svg</file>
+    <file>misc/light-bulb-off.svg</file>
+    <file>misc/light-bulb-on.svg</file>
+    <file>misc/link.svg</file>
+    <file>misc/link-break.svg</file>
     <file>misc/location.svg</file>
     <file>misc/magnet.svg</file>
     <file>misc/magnet-crossed-out.svg</file>
@@ -69,6 +74,7 @@
     <file>misc/newspaper.svg</file>
     <file>misc/note-8th-simple.svg</file>
     <file>misc/notes.svg</file>
+    <file>misc/notes-fill.svg</file>
     <file>misc/paint-brush-large.svg</file>
     <file>misc/paint-brush-thin.svg</file>
     <file>misc/paint-bucket.svg</file>
@@ -79,7 +85,13 @@
     <file>misc/password.svg</file>
     <file>misc/pen.svg</file>
     <file>misc/puzzle-piece.svg</file>
+    <file>misc/quality-0.svg</file>
+    <file>misc/quality-1.svg</file>
+    <file>misc/quality-2.svg</file>
+    <file>misc/quality-3.svg</file>
+    <file>misc/quality-4.svg</file>
     <file>misc/question.svg</file>
+    <file>misc/question-mark.svg</file>
     <file>misc/resume.svg</file>
     <file>misc/run-debug.svg</file>
     <file>misc/separation-horizontal.svg</file>
@@ -89,6 +101,7 @@
     <file>misc/stars.svg</file>
     <file>misc/success.svg</file>
     <file>misc/sun.svg</file>
+    <file>misc/swiss-knife.svg</file>
     <file>misc/sword.svg</file>
     <file>misc/tag.svg</file>
     <file>misc/target.svg</file>
@@ -106,6 +119,7 @@
     <file>misc/wall.svg</file>
     <file>misc/warning.svg</file>
     <file>misc/wave.svg</file>
+    <file>misc/whistle.svg</file>
     <file>misc/zoom.svg</file>
     <file>misc/zoom-horizontal.svg</file>
     <file>misc/zoom-vertical.svg</file>
