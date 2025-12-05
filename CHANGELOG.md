@@ -1,5 +1,7 @@
 # Changelog
 
+## v1.14.0
+
 ## v1.13.0
 
 8 new icons!
