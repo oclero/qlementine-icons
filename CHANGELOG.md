@@ -11,6 +11,8 @@
     - Action: `save-all`.
     - Misc: `plier`, `ruler`, `rulers`, `screwdriver`, `compass`, `square`.
     - Navigation: `navigation-compass`.
+  - 24x24:
+    - Shape: `bookmark-filled`, `bookmark`.
 
 ## v1.12.0
 

@@ -2,6 +2,8 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/24">
+    <file>shape/bookmark.svg</file>
+    <file>shape/bookmark-filled.svg</file>
     <file>shape/check-tick.svg</file>
     <file>shape/check-tick-small.svg</file>
     <file>shape/heart.svg</file>
