@@ -99,6 +99,7 @@
     <file>action/rotate-clockwise.svg</file>
     <file>action/run.svg</file>
     <file>action/save.svg</file>
+    <file>action/save-all.svg</file>
     <file>action/save-to-disk.svg</file>
     <file>action/screenshot.svg</file>
     <file>action/scroll-lock.svg</file>

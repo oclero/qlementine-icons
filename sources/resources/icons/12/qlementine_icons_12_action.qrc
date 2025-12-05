@@ -5,5 +5,6 @@
     <file>action/close.svg</file>
     <file>action/minus.svg</file>
     <file>action/plus.svg</file>
+    <file>action/save.svg</file>
   </qresource>
 </RCC>

@@ -3409,6 +3409,14 @@ icons:
   - action
   - disk
   - floppy
+- name: save-all
+  path: 16/action/save-all.svg
+  tags:
+  - action
+  - disk
+  - floppy
+  - multiple
+  - save
 - name: save-to-disk
   path: 16/action/save-to-disk.svg
   tags:

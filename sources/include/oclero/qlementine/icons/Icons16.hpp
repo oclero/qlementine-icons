@@ -108,6 +108,7 @@ enum class Icons16 {
   Action_RotateClockwise,
   Action_Run,
   Action_Save,
+  Action_SaveAll,
   Action_SaveToDisk,
   Action_Screenshot,
   Action_ScrollLock,
@@ -665,7 +666,7 @@ enum class Icons16 {
 };
 
 inline const char* iconPath(Icons16 id) {
-  static constexpr std::array<const char*, 652> icons{
+  static constexpr std::array<const char*, 653> icons{
     "",
     ":/qlementine/icons/16/action/add-file.svg",
     ":/qlementine/icons/16/action/add-folder.svg",
@@ -764,6 +765,7 @@ inline const char* iconPath(Icons16 id) {
     ":/qlementine/icons/16/action/rotate-clockwise.svg",
     ":/qlementine/icons/16/action/run.svg",
     ":/qlementine/icons/16/action/save.svg",
+    ":/qlementine/icons/16/action/save-all.svg",
     ":/qlementine/icons/16/action/save-to-disk.svg",
     ":/qlementine/icons/16/action/screenshot.svg",
     ":/qlementine/icons/16/action/scroll-lock.svg",
