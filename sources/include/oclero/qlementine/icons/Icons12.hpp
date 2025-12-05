@@ -14,6 +14,7 @@ enum class Icons12 {
   Action_Close,
   Action_Minus,
   Action_Plus,
+  Action_Save,
   Brand_Midi,
   Misc_Info,
   Misc_Notes,
@@ -35,11 +36,12 @@ enum class Icons12 {
 };
 
 inline const char* iconPath(Icons12 id) {
-  static constexpr std::array<const char*, 22> icons{
+  static constexpr std::array<const char*, 23> icons{
     "",
     ":/qlementine/icons/12/action/close.svg",
     ":/qlementine/icons/12/action/minus.svg",
     ":/qlementine/icons/12/action/plus.svg",
+    ":/qlementine/icons/12/action/save.svg",
     ":/qlementine/icons/12/brand/midi.svg",
     ":/qlementine/icons/12/misc/info.svg",
     ":/qlementine/icons/12/misc/notes.svg",

@@ -162,6 +162,8 @@ enum class Icons24 {
   Navigation_Settings,
   Navigation_SlidersHorizontal,
   Navigation_SlidersVertical,
+  Shape_Bookmark,
+  Shape_BookmarkFilled,
   Shape_CheckTick,
   Shape_CheckTickSmall,
   Shape_Heart,
@@ -170,7 +172,7 @@ enum class Icons24 {
 };
 
 inline const char* iconPath(Icons24 id) {
-  static constexpr std::array<const char*, 157> icons{
+  static constexpr std::array<const char*, 159> icons{
     "",
     ":/qlementine/icons/24/action/clear.svg",
     ":/qlementine/icons/24/action/copy.svg",
@@ -323,6 +325,8 @@ inline const char* iconPath(Icons24 id) {
     ":/qlementine/icons/24/navigation/settings.svg",
     ":/qlementine/icons/24/navigation/sliders-horizontal.svg",
     ":/qlementine/icons/24/navigation/sliders-vertical.svg",
+    ":/qlementine/icons/24/shape/bookmark.svg",
+    ":/qlementine/icons/24/shape/bookmark-filled.svg",
     ":/qlementine/icons/24/shape/check-tick.svg",
     ":/qlementine/icons/24/shape/check-tick-small.svg",
     ":/qlementine/icons/24/shape/heart.svg",

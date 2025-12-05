@@ -1,11 +1,24 @@
 # Changelog
 
+## v1.13.0
+
+8 new icons!
+
+- Add icons:
+  - 12x12:
+    - Action: `save`.
+  - 16x16:
+    - Action: `save-all`.
+    - Misc: `plier`, `ruler`, `rulers`, `screwdriver`, `compass`, `square`.
+    - Navigation: `navigation-compass`.
+  - 24x24:
+    - Shape: `bookmark-filled`, `bookmark`.
+
 ## v1.12.0
 
 86 new icons!
 
 - Add icons:
-
   - 12x12:
     - Brand: `midi`.
     - Misc: `notes`, `question-mark`.
@@ -30,7 +43,6 @@
     - Hardware: `drive`, `hdd`, `photo-camera-crossed`, `photo-camera`.
 
 - Modified icons:
-
   - 16x16:
     - Action: `eraser`, `forward`, `gather`, `move`, `pin`, `present`, `redo`, `refresh`, `reply`, `share-external`, `trash-full`, `undo`.
     - Audio: `speaker-1`.
@@ -56,12 +68,10 @@
 ## v1.11.0
 
 - Rename:
-
   - `icon_pause_music`, `icon_start_music` and `icon_stop_music` to `pause-music`, `start-music`, `stop-music`.
   - `credit_card` to `credit-card`.
 
 - Add icons:
-
   - 16x16:
     - Brand: `asio`.
     - File: `markdown`, `music-score`.
@@ -80,7 +90,6 @@
 - Rename category "Instruments" into "Instrument".
 
 - Add icons:
-
   - 12x12:
     - Misc: `info`, `pen`, `question`, `spam`, `success`, `warning`.
     - Shape: `check-tick`.
@@ -95,12 +104,10 @@
 ## v1.8.1
 
 - Modified icons:
-
   - 16x16:
     - Brand: `mac`, `windows`.
 
 - Add icons:
-
   - 16x16:
     - Brand: `discord-fill`, `discord`, `mac-fill`, `windows-fill`.
     - File: `aiff`,`flac`,`markup`,`mp3`,`ogg`,`pdf`,`theme`,`vector`,`wav`.
@@ -113,7 +120,6 @@
 ## v1.8.0
 
 - Add icons:
-
   - 16x16:
     - Action: `bring-to-back`,`bring-to-front`,`close-all`,`close-single`,`gather`,`group`,`resize-horizontal`,`resize-vertical`,`ungroup`
     - Instruments: `accordion`,`harmonica`,`harp`,`sitar`,`trombone`,`tuba`.
@@ -132,14 +138,12 @@
 - CMake install target.
 - Lib's alias removed, and target renamed `qlementine-icons`.
 - Add icons:
-
   - 16x16:
     - Brand: `github`, `github-fille`, `gitlab`, `gitlab-fill`.
 
 ## v1.6.0
 
 - Add icons:
-
   - 16x16:
     - Action: `decrease`, `eye-crossed`, `filter-crossed`, `increase`, `resize-bigger`, `resize-smaller`, `scroll-lock`, `scroll-unlock`, `sort-user-asc`, `sort-user-desc`, `unlock`.
     - Brand: `mastodon`, `mastodon-fill`, `peertube`, `peertube-fill`, `x`.
@@ -172,7 +176,6 @@
 ## v1.4.0
 
 - Add icons:
-
   - 12x12:
     - Misc: `zoom`.
     - Navigation: `arrows-left-right`, `arrows-up-down`.

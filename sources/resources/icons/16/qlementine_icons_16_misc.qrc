@@ -21,6 +21,7 @@
     <file>misc/cloud-up-down.svg</file>
     <file>misc/color-swatch.svg</file>
     <file>misc/comment.svg</file>
+    <file>misc/compass.svg</file>
     <file>misc/crane.svg</file>
     <file>misc/crane-hook.svg</file>
     <file>misc/cutter.svg</file>
@@ -84,6 +85,7 @@
     <file>misc/paint-roll-brush.svg</file>
     <file>misc/password.svg</file>
     <file>misc/pen.svg</file>
+    <file>misc/plier.svg</file>
     <file>misc/puzzle-piece.svg</file>
     <file>misc/quality-0.svg</file>
     <file>misc/quality-1.svg</file>
@@ -93,11 +95,15 @@
     <file>misc/question.svg</file>
     <file>misc/question-mark.svg</file>
     <file>misc/resume.svg</file>
+    <file>misc/ruler.svg</file>
+    <file>misc/rulers.svg</file>
     <file>misc/run-debug.svg</file>
+    <file>misc/screwdriver.svg</file>
     <file>misc/separation-horizontal.svg</file>
     <file>misc/separation-vertical.svg</file>
     <file>misc/sms.svg</file>
     <file>misc/spam.svg</file>
+    <file>misc/square.svg</file>
     <file>misc/stars.svg</file>
     <file>misc/success.svg</file>
     <file>misc/sun.svg</file>
