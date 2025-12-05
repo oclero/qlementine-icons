@@ -876,6 +876,15 @@ icons:
   - bubble
   - misc
   - speech
+- name: compass
+  path: 16/misc/compass.svg
+  tags:
+  - architecture
+  - circle
+  - drawing
+  - geometry
+  - misc
+  - tool
 - name: computer
   path: 16/hardware/computer.svg
   tags:
@@ -2731,6 +2740,18 @@ icons:
   - musescore
   - sheet
   - song
+- name: navigation-compass
+  path: 16/navigation/navigation-compass.svg
+  tags:
+  - compass
+  - direction
+  - gps
+  - navigation
+  - north
+  - orientation
+  - pathfinding
+  - travel
+  - wayfinding
 - name: network
   path: 16/hardware/network.svg
   tags:
@@ -3097,6 +3118,12 @@ icons:
   - mixtape
   - play
   - song
+- name: plier
+  path: 16/misc/plier.svg
+  tags:
+  - misc
+  - tool
+  - workshop
 - name: plugin
   path: 16/file/plugin.svg
   tags:
@@ -3385,6 +3412,26 @@ icons:
   - blog
   - brand
   - news
+- name: ruler
+  path: 16/misc/ruler.svg
+  tags:
+  - measure
+  - misc
+  - scale
+  - size
+  - straightedge
+  - tool
+  - workshop
+- name: rulers
+  path: 16/misc/rulers.svg
+  tags:
+  - measure
+  - misc
+  - scale
+  - size
+  - straightedge
+  - tool
+  - workshop
 - name: run
   path: 16/action/run.svg
   tags:
@@ -3449,6 +3496,15 @@ icons:
   - action
   - capture
   - screen
+- name: screwdriver
+  path: 16/misc/screwdriver.svg
+  tags:
+  - fix
+  - misc
+  - repair
+  - screw
+  - tool
+  - workshop
 - name: scroll-lock
   path: 16/action/scroll-lock.svg
   tags:

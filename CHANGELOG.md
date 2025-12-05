@@ -9,6 +9,8 @@
     - Action: `save`.
   - 16x16:
     - Action: `save-all`.
+    - Misc: `plier`, `ruler`, `rulers`, `screwdriver`, `compass`, `square`.
+    - Navigation: `navigation-compass`.
 
 ## v1.12.0
 
