@@ -2,6 +2,7 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
+    <file>navigation/anchor.svg</file>
     <file>navigation/arrow-down.svg</file>
     <file>navigation/arrow-down-left.svg</file>
     <file>navigation/arrow-down-right.svg</file>

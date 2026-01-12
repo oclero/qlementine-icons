@@ -2,6 +2,27 @@
 
 ## v1.14.0
 
+- Rename icons:
+  - `losange`and `losange-filled` to `square-rotated` and `square-rotated-filled`.
+
+- Modified icons:
+  - 16x16:
+    - Misc: `tag`.
+    - Navigation: `navigation-compass`.
+    - Shopping: `shopping-bag`.
+
+- Add icons:
+  - 12x12:
+    - Shape: `diamond`, `diamond-filled`.
+  - 16x16:
+    - Document: `new-multiple`.
+    - Food: `birthday-cake`, `coffee-cup`, `glass-soda`.
+    - Misc: `infinity`.
+    - Navigation: `anchor`.
+    - Navigation: `anchor`.
+    - Shape: `diamond`, `diamond-filled`
+    - Shopping: `wallet`.
+
 ## v1.13.0
 
 8 new icons!

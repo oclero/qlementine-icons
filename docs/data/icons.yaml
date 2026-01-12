@@ -130,6 +130,15 @@ icons:
   - electric
   - guitar
   - instrument
+- name: anchor
+  path: 16/navigation/anchor.svg
+  tags:
+  - boat
+  - navigation
+  - position
+  - ship
+  - stable
+  - stationary
 - name: anchor-bottom-left
   path: 16/action/anchor-bottom-left.svg
   tags:
@@ -387,6 +396,14 @@ icons:
   - bell
   - misc
   - notification
+- name: birthday-cake
+  path: 16/food/birthday-cake.svg
+  tags:
+  - anniversary
+  - candle
+  - food
+  - party
+  - sweet
 - name: blocks
   path: 16/misc/blocks.svg
   tags:
@@ -849,6 +866,16 @@ icons:
   - software
   - web
   - xml
+- name: coffee-cup
+  path: 16/food/coffee-cup.svg
+  tags:
+  - beverage
+  - breakfast
+  - drink
+  - food
+  - hot
+  - morning
+  - tea
 - name: color-swatch
   path: 16/misc/color-swatch.svg
   tags:
@@ -1037,6 +1064,18 @@ icons:
   - misc
   - speak
   - talk
+- name: diamond
+  path: 12/shape/diamond.svg
+  tags:
+  - geometry
+  - quadrilateral
+  - shape
+- name: diamond-filled
+  path: 12/shape/diamond-filled.svg
+  tags:
+  - geometry
+  - quadrilateral
+  - shape
 - name: dictionary
   path: 16/software/dictionary.svg
   tags:
@@ -1745,6 +1784,18 @@ icons:
   - commit
   - git
   - source
+- name: glass-soda
+  path: 16/food/glass-soda.svg
+  tags:
+  - beverage
+  - cola
+  - cold
+  - cup
+  - drink
+  - food
+  - glass
+  - refreshment
+  - soda
 - name: glasses
   path: 16/misc/glasses.svg
   tags:
@@ -2002,6 +2053,13 @@ icons:
   - format
   - paragraph
   - text
+- name: infinity
+  path: 16/misc/infinity.svg
+  tags:
+  - math
+  - misc
+  - symbol
+  - unlimited
 - name: info
   path: 16/misc/info.svg
   tags:
@@ -2386,16 +2444,6 @@ icons:
   - feedback
   - media
   - repeat
-- name: losange
-  path: 16/shape/losange.svg
-  tags:
-  - diamond
-  - shape
-- name: losange-filled
-  path: 16/shape/losange-filled.svg
-  tags:
-  - diamond
-  - shape
 - name: m4a
   path: 16/file/m4a.svg
   tags:
@@ -2765,6 +2813,15 @@ icons:
   - document
   - file
   freedesktop: document-new
+- name: new-multiple
+  path: 16/document/new-multiple.svg
+  tags:
+  - action
+  - batch
+  - create
+  - document
+  - file
+  - multiple
 - name: newspaper
   path: 16/misc/newspaper.svg
   tags:
@@ -3877,6 +3934,20 @@ icons:
   - box
   - rectangle
   - shape
+- name: square-rotated
+  path: 16/shape/square-rotated.svg
+  tags:
+  - diamond
+  - shape
+  - square
+  - tilted
+- name: square-rotated-filled
+  path: 16/shape/square-rotated-filled.svg
+  tags:
+  - diamond
+  - shape
+  - square
+  - tilted
 - name: star
   path: 16/shape/star.svg
   tags:
@@ -4466,6 +4537,19 @@ icons:
   - brick
   - firewall
   - misc
+- name: wallet
+  path: 16/shopping/wallet.svg
+  tags:
+  - billfold
+  - cash
+  - credit
+  - debit
+  - finance
+  - money
+  - payment
+  - purse
+  - shopping
+  - wealth
 - name: warning
   path: 16/misc/warning.svg
   tags:
