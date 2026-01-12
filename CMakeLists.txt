@@ -14,6 +14,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 
+include(GNUInstallDirs)
+
 # Find Qt.
 find_package(Qt6 REQUIRED COMPONENTS Core Widgets Svg)
 qt_standard_project_setup()
