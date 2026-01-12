@@ -17,7 +17,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 include(GNUInstallDirs)
 
 # Find Qt.
-find_package(Qt6 REQUIRED COMPONENTS Core Widgets Svg)
+find_package(Qt6 REQUIRED COMPONENTS Core Svg)
 qt_standard_project_setup()
 
 # Library.
@@ -25,5 +25,6 @@ add_subdirectory(sources)
 
 # Sandbox.
 if(QLEMENTINE_ICONS_SANDBOX)
+  find_package(Qt6 REQUIRED COMPONENTS Widgets)
   add_subdirectory(sandbox)
 endif()
