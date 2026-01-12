@@ -3,6 +3,7 @@
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
     <file>document/new.svg</file>
+    <file>document/new-multiple.svg</file>
     <file>document/open.svg</file>
     <file>document/open-recent.svg</file>
     <file>document/page-setup.svg</file>

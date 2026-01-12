@@ -17,11 +17,11 @@
     <file>shape/cross.svg</file>
     <file>shape/cross-filled.svg</file>
     <file>shape/cube.svg</file>
+    <file>shape/diamond.svg</file>
+    <file>shape/diamond-filled.svg</file>
     <file>shape/heart.svg</file>
     <file>shape/heart-crossed.svg</file>
     <file>shape/heart-filled.svg</file>
-    <file>shape/losange.svg</file>
-    <file>shape/losange-filled.svg</file>
     <file>shape/macaron.svg</file>
     <file>shape/macaron-filled.svg</file>
     <file>shape/octogon.svg</file>
@@ -29,6 +29,8 @@
     <file>shape/radio-tick.svg</file>
     <file>shape/square.svg</file>
     <file>shape/square-filled.svg</file>
+    <file>shape/square-rotated.svg</file>
+    <file>shape/square-rotated-filled.svg</file>
     <file>shape/star.svg</file>
     <file>shape/star-filled.svg</file>
     <file>shape/star-half.svg</file>

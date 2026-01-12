@@ -32,11 +32,13 @@ enum class Icons12 {
   Navigation_ChevronRight,
   Navigation_ChevronUp,
   Shape_CheckTick,
+  Shape_Diamond,
+  Shape_DiamondFilled,
   Software_CodeMarkup,
 };
 
 inline const char* iconPath(Icons12 id) {
-  static constexpr std::array<const char*, 23> icons{
+  static constexpr std::array<const char*, 25> icons{
     "",
     ":/qlementine/icons/12/action/close.svg",
     ":/qlementine/icons/12/action/minus.svg",
@@ -59,6 +61,8 @@ inline const char* iconPath(Icons12 id) {
     ":/qlementine/icons/12/navigation/chevron-right.svg",
     ":/qlementine/icons/12/navigation/chevron-up.svg",
     ":/qlementine/icons/12/shape/check-tick.svg",
+    ":/qlementine/icons/12/shape/diamond.svg",
+    ":/qlementine/icons/12/shape/diamond-filled.svg",
     ":/qlementine/icons/12/software/code-markup.svg",
   };
 

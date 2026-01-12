@@ -3,5 +3,7 @@
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/12">
     <file>shape/check-tick.svg</file>
+    <file>shape/diamond.svg</file>
+    <file>shape/diamond-filled.svg</file>
   </qresource>
 </RCC>

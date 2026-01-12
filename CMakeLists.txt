@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.17.5)
 # Set project information.
 project("qlementine-icons"
   LANGUAGES CXX
-  VERSION 1.13.0.0
+  VERSION 1.14.0.0
   DESCRIPTION "Modern icon theme for Qt applications."
 )
 
@@ -14,8 +14,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 
+include(GNUInstallDirs)
+
 # Find Qt.
-find_package(Qt6 REQUIRED COMPONENTS Core Widgets Svg)
+find_package(Qt6 REQUIRED COMPONENTS Core Svg)
 qt_standard_project_setup()
 
 # Library.
@@ -23,5 +25,6 @@ add_subdirectory(sources)
 
 # Sandbox.
 if(QLEMENTINE_ICONS_SANDBOX)
+  find_package(Qt6 REQUIRED COMPONENTS Widgets)
   add_subdirectory(sandbox)
 endif()

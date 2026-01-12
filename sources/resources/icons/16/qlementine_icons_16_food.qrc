@@ -2,7 +2,10 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/qlementine/icons/16">
+    <file>food/birthday-cake.svg</file>
     <file>food/burger.svg</file>
+    <file>food/coffee-cup.svg</file>
     <file>food/french-fries.svg</file>
+    <file>food/glass-soda.svg</file>
   </qresource>
 </RCC>
