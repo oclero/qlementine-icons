@@ -440,6 +440,17 @@ icons:
   - navigation
   - pin
   - read
+- name: bookmark-crossed
+  path: 16/navigation/bookmark-crossed.svg
+  tags:
+  - book
+  - navigation
+  - pin
+  - read
+  - remove
+  - unbookmark
+  - unpin
+  - unread
 - name: bookmark-filled
   path: 16/shape/bookmark-filled.svg
   tags:
@@ -523,6 +534,15 @@ icons:
   - low
   - over
   - top
+- name: buffer
+  path: 16/audio/buffer.svg
+  tags:
+  - audio
+  - buffer
+  - cache
+  - delay
+  - latency
+  - memory
 - name: build
   path: 16/action/build.svg
   tags:
@@ -659,6 +679,15 @@ icons:
   - software
   - symbols
   - typing
+- name: check-multiple
+  path: 16/shape/check-multiple.svg
+  tags:
+  - correct
+  - multiple
+  - shape`
+  - success
+  - tick
+  - valid
 - name: check-tick
   path: 16/shape/check-tick.svg
   tags:
@@ -876,6 +905,28 @@ icons:
   - hot
   - morning
   - tea
+- name: coin
+  path: 16/shopping/coin.svg
+  tags:
+  - cash
+  - coin
+  - currency
+  - finance
+  - money
+  - payment
+  - shopping
+  - token
+- name: coin-shine
+  path: 16/shopping/coin-shine.svg
+  tags:
+  - cash
+  - coin
+  - currency
+  - finance
+  - money
+  - payment
+  - shopping
+  - token
 - name: color-swatch
   path: 16/misc/color-swatch.svg
   tags:
@@ -1009,6 +1060,14 @@ icons:
   tags:
   - shape
   - sign
+- name: crosshair
+  path: 16/navigation/crosshair.svg
+  tags:
+  - aim
+  - focus
+  - navigation
+  - target
+  - weapon
 - name: cube
   path: 16/shape/cube.svg
   tags:
@@ -1191,6 +1250,16 @@ icons:
   - slot
   - space
   - void
+- name: enlarge
+  path: 16/action/enlarge.svg
+  tags:
+  - action
+  - bigger
+  - expand
+  - grow
+  - increase
+  - larger
+  - maximize
 - name: eq-flat
   path: 16/audio/eq-flat.svg
   tags:
@@ -1479,6 +1548,14 @@ icons:
   - action
   - editor
   - mirror
+- name: focus
+  path: 16/action/focus.svg
+  tags:
+  - action
+  - photography
+  - picture
+  - target
+  - zoom
 - name: folder
   path: 16/file/folder.svg
   tags:
@@ -1840,6 +1917,15 @@ icons:
   - first
   - navigation
   - up
+- name: gps-compass
+  path: 16/navigation/gps-compass.svg
+  tags:
+  - location
+  - navigation
+  - position
+  - satellite
+  - tracking
+  - wayfinding
 - name: gpu
   path: 16/hardware/gpu.svg
   tags:
@@ -1926,6 +2012,15 @@ icons:
   - left
   - move
   - navigation
+- name: hand-rock
+  path: 16/misc/hand-rock.svg
+  tags:
+  - horns
+  - metal
+  - misc
+  - rock
+  - rock n roll
+  - sign
 - name: harmonica
   path: 16/instrument/harmonica.svg
   tags:
@@ -2262,6 +2357,20 @@ icons:
   - drums
   - instrument
   - percussion
+- name: laptop
+  path: 16/hardware/laptop.svg
+  tags:
+  - computer
+  - hardware
+  - portable
+- name: laptop-macbook
+  path: 16/hardware/laptop-macbook.svg
+  tags:
+  - apple
+  - computer
+  - hardware
+  - macos
+  - portable
 - name: layer-1
   path: 16/navigation/layer-1.svg
   tags:
@@ -2611,6 +2720,14 @@ icons:
   - more
   - navigation
   - options
+  - settings
+- name: menu-dots-circle-horizontal
+  path: 16/navigation/menu-dots-circle-horizontal.svg
+  tags:
+  - more
+  - navigation
+  - options
+  - settings
 - name: meter-high
   path: 16/misc/meter-high.svg
   tags:
@@ -3344,6 +3461,14 @@ icons:
   - action
   - command
   - stack
+- name: reduce
+  path: 16/action/reduce.svg
+  tags:
+  - action
+  - decrease
+  - minimize
+  - shrink
+  - smaller
 - name: refresh
   path: 16/action/refresh.svg
   tags:
@@ -3915,6 +4040,18 @@ icons:
   - audio
   - mute
   - volume
+- name: speed
+  path: 16/misc/speed.svg
+  tags:
+  - engine
+  - meter
+  - misc
+- name: speed-progressive
+  path: 16/misc/speed-progressive.svg
+  tags:
+  - engine
+  - meter
+  - misc
 - name: spell-check
   path: 16/software/spell-check.svg
   tags:
@@ -4194,6 +4331,12 @@ icons:
   - paint
   - paintbrush
   - shader
+- name: tiktok
+  path: 16/brand/tiktok.svg
+  tags:
+  - brand
+  - network
+  - social
 - name: tom
   path: 16/instrument/tom.svg
   tags:
