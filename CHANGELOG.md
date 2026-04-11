@@ -1,9 +1,33 @@
 # Changelog
 
+## v1.15.0
+
+17 new icons!
+
+- Rename icons:
+  - `speed-meter` to `speed`.
+
+- Modified icons:
+  - 16x16:
+    - Action: `boolean-exclude`, `boolean-intersect`, `boolean-substract`, `boolean-union`, `eye`, `eye-closed`, `eye-crossed`.
+    - Hardware: `mouse`.
+    - Shopping: `shopping-bag`.
+
+- Add icons:
+  - 16x16:
+    - Action: `enlarge`, `focus`, `reduce`.
+    - Audio: `buffer`.
+    - Brand: `tiktok`.
+    - Hardware: `laptop`, `laptop-macbook`.
+    - Misc: `hand-rock`, `speed`, `speed-progressive`.
+    - Navigation: `bookmark-crossed`,`crosshair`,`gps-compass`,`menu-dots-circle-horizontal`.
+    - Shape: `check-multiple`.
+    - Shopping: `coin-shine`, `coin`.
+
 ## v1.14.0
 
 - Rename icons:
-  - `losange`and `losange-filled` to `square-rotated` and `square-rotated-filled`.
+  - `losange` and `losange-filled` to `square-rotated` and `square-rotated-filled`.
 
 - Modified icons:
   - 16x16:

@@ -43,6 +43,7 @@
     <file>action/download.svg</file>
     <file>action/drag.svg</file>
     <file>action/duplicate.svg</file>
+    <file>action/enlarge.svg</file>
     <file>action/erase.svg</file>
     <file>action/eraser.svg</file>
     <file>action/export.svg</file>
@@ -56,6 +57,7 @@
     <file>action/flatten.svg</file>
     <file>action/flip-horizontal.svg</file>
     <file>action/flip-vertical.svg</file>
+    <file>action/focus.svg</file>
     <file>action/forward.svg</file>
     <file>action/fullscreen.svg</file>
     <file>action/fullscreen-exit.svg</file>
@@ -85,6 +87,7 @@
     <file>action/print.svg</file>
     <file>action/print-preview.svg</file>
     <file>action/redo.svg</file>
+    <file>action/reduce.svg</file>
     <file>action/refresh.svg</file>
     <file>action/rename.svg</file>
     <file>action/replace.svg</file>

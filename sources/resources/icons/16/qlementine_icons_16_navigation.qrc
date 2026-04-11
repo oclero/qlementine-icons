@@ -12,6 +12,7 @@
     <file>navigation/arrow-up-left.svg</file>
     <file>navigation/arrow-up-right.svg</file>
     <file>navigation/bookmark.svg</file>
+    <file>navigation/bookmark-crossed.svg</file>
     <file>navigation/chevron-double-down.svg</file>
     <file>navigation/chevron-double-left.svg</file>
     <file>navigation/chevron-double-right.svg</file>
@@ -23,6 +24,7 @@
     <file>navigation/chevron-smooth-right.svg</file>
     <file>navigation/chevron-up.svg</file>
     <file>navigation/combobox-indicator.svg</file>
+    <file>navigation/crosshair.svg</file>
     <file>navigation/flag.svg</file>
     <file>navigation/gamepad-button-bottom.svg</file>
     <file>navigation/gamepad-button-left.svg</file>
@@ -39,6 +41,7 @@
     <file>navigation/go-first.svg</file>
     <file>navigation/go-last.svg</file>
     <file>navigation/go-top.svg</file>
+    <file>navigation/gps-compass.svg</file>
     <file>navigation/hand.svg</file>
     <file>navigation/hand-left.svg</file>
     <file>navigation/home.svg</file>
@@ -65,6 +68,7 @@
     <file>navigation/menu-burger.svg</file>
     <file>navigation/menu-dots.svg</file>
     <file>navigation/menu-dots-circle.svg</file>
+    <file>navigation/menu-dots-circle-horizontal.svg</file>
     <file>navigation/mouse-cursor.svg</file>
     <file>navigation/mouse-left-button.svg</file>
     <file>navigation/mouse-middle-button.svg</file>

@@ -189,6 +189,12 @@ function setupSearchField() {
   });
 }
 
+function focusSearchField() {
+  if (searchboxNode) {
+    searchboxNode.focus();
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   searchboxNode = document.getElementById('searchbox');
   if (!searchboxNode) return;
@@ -201,4 +207,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
   setupSearchField();
   setupTableRows();
+  focusSearchField();
 });
