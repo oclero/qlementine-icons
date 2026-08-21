@@ -14,5 +14,8 @@
     <file>audio/speaker-1.svg</file>
     <file>audio/speaker-2.svg</file>
     <file>audio/speaker-mute.svg</file>
+    <file>audio/wave-sine.svg</file>
+    <file>audio/wave-square.svg</file>
+    <file>audio/wave-triangle.svg</file>
   </qresource>
 </RCC>

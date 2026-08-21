@@ -36,6 +36,7 @@
     <file>misc/function-angle.svg</file>
     <file>misc/function-curve.svg</file>
     <file>misc/function-linear.svg</file>
+    <file>misc/function-random.svg</file>
     <file>misc/fx.svg</file>
     <file>misc/gauge-high.svg</file>
     <file>misc/gauge-low.svg</file>
@@ -75,6 +76,7 @@
     <file>misc/modified.svg</file>
     <file>misc/moon.svg</file>
     <file>misc/newspaper.svg</file>
+    <file>misc/none.svg</file>
     <file>misc/note-8th-simple.svg</file>
     <file>misc/notes.svg</file>
     <file>misc/notes-fill.svg</file>
@@ -89,6 +91,7 @@
     <file>misc/pen.svg</file>
     <file>misc/plier.svg</file>
     <file>misc/puzzle-piece.svg</file>
+    <file>misc/qr-code.svg</file>
     <file>misc/quality-0.svg</file>
     <file>misc/quality-1.svg</file>
     <file>misc/quality-2.svg</file>

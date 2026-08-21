@@ -1595,6 +1595,15 @@ icons:
   - misc
   - prohibit
   - prohibited
+- name: fork
+  path: 16/action/fork.svg
+  tags:
+  - action
+  - branch
+  - commit
+  - git
+  - repository
+  - version control
 - name: format-bold
   path: 16/text/format-bold.svg
   tags:
@@ -1653,6 +1662,7 @@ icons:
   - exponential
   - math
   - misc
+  - path
 - name: function-curve
   path: 16/misc/function-curve.svg
   tags:
@@ -1662,6 +1672,7 @@ icons:
   - exponential
   - math
   - misc
+  - path
   - quadratic
 - name: function-linear
   path: 16/misc/function-linear.svg
@@ -1671,6 +1682,16 @@ icons:
   - curve
   - math
   - misc
+  - path
+- name: function-random
+  path: 16/misc/function-random.svg
+  tags:
+  - bezier
+  - curve
+  - math
+  - misc
+  - path
+  - random
 - name: funnel
   path: 16/action/funnel.svg
   tags:
@@ -2124,6 +2145,12 @@ icons:
   path: 16/instrument/idiophone.svg
   tags:
   - instruments
+- name: import
+  path: 16/action/import.svg
+  tags:
+  - action
+  - download
+  - load
 - name: inbox
   path: 16/misc/inbox.svg
   tags:
@@ -2728,6 +2755,19 @@ icons:
   - navigation
   - options
   - settings
+- name: merge
+  path: 16/action/merge.svg
+  tags:
+  - action
+  - branch
+  - combine
+  - commit
+  - git
+  - join
+  - merge
+  - pull request
+  - repository
+  - version control
 - name: meter-high
   path: 16/misc/meter-high.svg
   tags:
@@ -2945,6 +2985,16 @@ icons:
   - article
   - blog
   - misc
+- name: none
+  path: 16/misc/none.svg
+  tags:
+  - blank
+  - default
+  - empty
+  - misc
+  - nothing
+  - void
+  - zero
 - name: note
   path: 16/file/note.svg
   tags:
@@ -3137,6 +3187,11 @@ icons:
   - misc
 - name: paste
   path: 16/action/paste.svg
+  tags:
+  - action
+  - clipboard
+- name: paste-special
+  path: 16/action/paste-special.svg
   tags:
   - action
   - clipboard
@@ -3385,6 +3440,15 @@ icons:
   - mystery
   - plugin
   - tile
+- name: qr-code
+  path: 16/misc/qr-code.svg
+  tags:
+  - code
+  - misc
+  - qr
+  - quick
+  - response
+  - scan
 - name: quality-0
   path: 16/misc/quality-0.svg
   tags:
@@ -4712,6 +4776,18 @@ icons:
   path: 16/misc/wave.svg
   tags:
   - misc
+- name: wave-sine
+  path: 16/audio/wave-sine.svg
+  tags:
+  - audio
+- name: wave-square
+  path: 16/audio/wave-square.svg
+  tags:
+  - audio
+- name: wave-triangle
+  path: 16/audio/wave-triangle.svg
+  tags:
+  - audio
 - name: webcam
   path: 16/hardware/webcam.svg
   tags:
@@ -4727,6 +4803,20 @@ icons:
   - referee
   - sound
   - sports
+- name: window
+  path: 16/navigation/window.svg
+  tags:
+  - application
+  - desktop
+  - navigation
+  - system
+- name: window-lock
+  path: 16/navigation/window-lock.svg
+  tags:
+  - application
+  - desktop
+  - navigation
+  - system
 - name: windows
   path: 16/brand/windows.svg
   tags:

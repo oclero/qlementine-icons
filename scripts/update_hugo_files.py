@@ -26,7 +26,7 @@ def get_old_data(metadata_file: str) -> dict:
       'path': element['path'],
     }
     if element['tags'] != []:
-      value['tags'] = sorted(element['tags'])
+      value['tags'] = sorted(tag for tag in element['tags'] if tag is not None)
     if 'freedesktop' in element and element['freedesktop'] != '':
       value['freedesktop'] = element['freedesktop']
 

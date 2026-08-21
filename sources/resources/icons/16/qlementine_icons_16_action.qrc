@@ -58,6 +58,7 @@
     <file>action/flip-horizontal.svg</file>
     <file>action/flip-vertical.svg</file>
     <file>action/focus.svg</file>
+    <file>action/fork.svg</file>
     <file>action/forward.svg</file>
     <file>action/fullscreen.svg</file>
     <file>action/fullscreen-exit.svg</file>
@@ -65,17 +66,20 @@
     <file>action/funnel-crossed.svg</file>
     <file>action/gather.svg</file>
     <file>action/group.svg</file>
+    <file>action/import.svg</file>
     <file>action/increase.svg</file>
     <file>action/lock.svg</file>
     <file>action/lock-screen.svg</file>
     <file>action/log-in.svg</file>
     <file>action/log-out.svg</file>
+    <file>action/merge.svg</file>
     <file>action/minus.svg</file>
     <file>action/minus-circle.svg</file>
     <file>action/minus-small.svg</file>
     <file>action/move.svg</file>
     <file>action/on-off.svg</file>
     <file>action/paste.svg</file>
+    <file>action/paste-special.svg</file>
     <file>action/pin.svg</file>
     <file>action/pin-crossed.svg</file>
     <file>action/pin-fill.svg</file>

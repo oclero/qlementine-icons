@@ -96,5 +96,7 @@
     <file>navigation/ui-panels-none.svg</file>
     <file>navigation/ui-panels-right.svg</file>
     <file>navigation/ui-panels-right-bottom.svg</file>
+    <file>navigation/window.svg</file>
+    <file>navigation/window-lock.svg</file>
   </qresource>
 </RCC>
