@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.16.0
+
+- Modified icons:
+  - 16x16:
+    - Action: `eye-closed`, `pin`, `refresh`, `run`, `separate-horizontal`.
+    - Misc: `light-bulb-on`, `link`, `medal-one`, `puzzle-piece`, `sms`, `speed-progressive`.
+    - Navigation: `jump-over-backwards`, `layers-4`.
+
+- Add icons:
+  - 16x16:
+    - Action: `fork`, `import`, `merge`, `paste-special`.
+    - Audio: `wave-sine`, `wave-square`, `wave-triangle`.
+    - Misc: `function-random`, `none`, `qr-code`.
+    - Navigation: `window-lock`, `window`.
+
 ## v1.15.0
 
 17 new icons!
