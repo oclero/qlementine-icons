@@ -26,10 +26,26 @@
       "name": "windows",
       "displayName": "Windows",
       "description": "Visual Studio project for Windows",
-      "generator": "Visual Studio 17 2022",
+      "generator": "Visual Studio 18 2026",
       "binaryDir": "${sourceDir}/_build",
       "cacheVariables": {
-        "CMAKE_PREFIX_PATH": "C:/Qt/6.8.2/msvc2022_64",
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.10.3/msvc2022_64",
+        "QLEMENTINE_ICONS_SANDBOX": true
+      },
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "windows-ci",
+      "displayName": "Windows CI",
+      "description": "Ninja project for Windows CI",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/_build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
         "QLEMENTINE_ICONS_SANDBOX": true
       },
       "condition": {
@@ -105,6 +121,36 @@
       "displayName": "Sandbox for Windows",
       "configurePreset": "windows",
       "description": "Sandbox - Release build with Visual Studio for Windows",
+      "targets": [
+        "sandbox"
+      ],
+      "configuration": "Release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "windows-ci",
+      "displayName": "Windows CI",
+      "configurePreset": "windows-ci",
+      "description": "Release build with Ninja for Windows CI",
+      "targets": [
+        "qlementine-icons"
+      ],
+      "configuration": "Release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "windows-ci-sandbox",
+      "displayName": "Sandbox for Windows CI",
+      "configurePreset": "windows-ci",
+      "description": "Sandbox - Release build with Ninja for Windows CI",
       "targets": [
         "sandbox"
       ],

@@ -22,7 +22,6 @@ set_target_properties(${SANDBOX_NAME}
     EXCLUDE_FROM_ALL OFF
     FOLDER "tools"
     CMAKE_AUTOMOC ON
-    CMAKE_AUTORCC ON
     CMAKE_AUTOUIC ON
     MACOSX_BUNDLE_GUI_IDENTIFIER "oclero.qlementine-icons.sandbox"
 )

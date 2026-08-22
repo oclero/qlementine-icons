@@ -355,6 +355,16 @@ icons:
   - bluegrass
   - country
   - instruments
+- name: bar-code
+  path: 16/misc/bar-code.svg
+  tags:
+  - misc
+  - product
+  - scan
+  - scanner
+  - shopping
+  - universal product code
+  - upc
 - name: bass
   path: 16/instrument/bass.svg
   tags:
@@ -576,6 +586,141 @@ icons:
   - office
   - week
   - year
+- name: call
+  path: 16/phone/call.svg
+  tags:
+  - communicate
+  - communication
+  - phone
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-crossed-out
+  path: 16/phone/call-crossed-out.svg
+  tags:
+  - cancel
+  - communicate
+  - communication
+  - none
+  - phone
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-end
+  path: 16/phone/call-end.svg
+  tags:
+  - communicate
+  - communication
+  - end
+  - hangup
+  - phone
+  - stop
+  - talk
+  - telephone
+  - terminate
+  - voice
+  - voip
+- name: call-hangup
+  path: 16/phone/call-hangup.svg
+  tags:
+  - communicate
+  - communication
+  - end
+  - hangup
+  - phone
+  - stop
+  - talk
+  - telephone
+  - terminate
+  - voice
+  - voip
+- name: call-hold
+  path: 16/phone/call-hold.svg
+  tags:
+  - break
+  - communicate
+  - communication
+  - hold
+  - intermission
+  - pause
+  - phone
+  - suspend
+  - talk
+  - telephone
+  - voice
+  - voip
+  - wait
+- name: call-in
+  path: 16/phone/call-in.svg
+  tags:
+  - accept
+  - answer
+  - communicate
+  - communication
+  - incoming
+  - phone
+  - receive
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-missed
+  path: 16/phone/call-missed.svg
+  tags:
+  - cancel
+  - communicate
+  - communication
+  - decline
+  - ignore
+  - missed
+  - phone
+  - reject
+  - talk
+  - telephone
+  - unanswer
+  - voice
+  - voip
+- name: call-muted
+  path: 16/phone/call-muted.svg
+  tags:
+  - communicate
+  - communication
+  - mute
+  - phone
+  - quiet
+  - silence
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-out
+  path: 16/phone/call-out.svg
+  tags:
+  - communicate
+  - communication
+  - dial
+  - make
+  - outgoing
+  - phone
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-ringing
+  path: 16/phone/call-ringing.svg
+  tags:
+  - calling
+  - communicate
+  - communication
+  - incoming
+  - phone
+  - ringing
+  - talk
+  - telephone
+  - voice
+  - voip
 - name: camera
   path: 16/hardware/camera.svg
   tags:
@@ -1115,6 +1260,13 @@ icons:
   tags:
   - operating system
   - software
+- name: dial
+  path: 16/phone/dial.svg
+  tags:
+  - keyboard
+  - number
+  - phone
+  - telephone
 - name: dialog
   path: 16/misc/dialog.svg
   tags:
@@ -1595,6 +1747,15 @@ icons:
   - misc
   - prohibit
   - prohibited
+- name: fork
+  path: 16/action/fork.svg
+  tags:
+  - action
+  - branch
+  - commit
+  - git
+  - repository
+  - version control
 - name: format-bold
   path: 16/text/format-bold.svg
   tags:
@@ -1653,6 +1814,7 @@ icons:
   - exponential
   - math
   - misc
+  - path
 - name: function-curve
   path: 16/misc/function-curve.svg
   tags:
@@ -1662,6 +1824,7 @@ icons:
   - exponential
   - math
   - misc
+  - path
   - quadratic
 - name: function-linear
   path: 16/misc/function-linear.svg
@@ -1671,6 +1834,16 @@ icons:
   - curve
   - math
   - misc
+  - path
+- name: function-random
+  path: 16/misc/function-random.svg
+  tags:
+  - bezier
+  - curve
+  - math
+  - misc
+  - path
+  - random
 - name: funnel
   path: 16/action/funnel.svg
   tags:
@@ -2124,6 +2297,12 @@ icons:
   path: 16/instrument/idiophone.svg
   tags:
   - instruments
+- name: import
+  path: 16/action/import.svg
+  tags:
+  - action
+  - download
+  - load
 - name: inbox
   path: 16/misc/inbox.svg
   tags:
@@ -2728,6 +2907,19 @@ icons:
   - navigation
   - options
   - settings
+- name: merge
+  path: 16/action/merge.svg
+  tags:
+  - action
+  - branch
+  - combine
+  - commit
+  - git
+  - join
+  - merge
+  - pull request
+  - repository
+  - version control
 - name: meter-high
   path: 16/misc/meter-high.svg
   tags:
@@ -2945,6 +3137,16 @@ icons:
   - article
   - blog
   - misc
+- name: none
+  path: 16/misc/none.svg
+  tags:
+  - blank
+  - default
+  - empty
+  - misc
+  - nothing
+  - void
+  - zero
 - name: note
   path: 16/file/note.svg
   tags:
@@ -3137,6 +3339,11 @@ icons:
   - misc
 - name: paste
   path: 16/action/paste.svg
+  tags:
+  - action
+  - clipboard
+- name: paste-special
+  path: 16/action/paste-special.svg
   tags:
   - action
   - clipboard
@@ -3385,6 +3592,15 @@ icons:
   - mystery
   - plugin
   - tile
+- name: qr-code
+  path: 16/misc/qr-code.svg
+  tags:
+  - code
+  - misc
+  - qr
+  - quick
+  - response
+  - scan
 - name: quality-0
   path: 16/misc/quality-0.svg
   tags:
@@ -4663,6 +4879,12 @@ icons:
   - instruments
   - orchestra
   - viola
+- name: voicemail
+  path: 16/phone/voicemail.svg
+  tags:
+  - message
+  - phone
+  - telephone
 - name: vst3
   path: 16/brand/vst3.svg
   tags:
@@ -4712,6 +4934,18 @@ icons:
   path: 16/misc/wave.svg
   tags:
   - misc
+- name: wave-sine
+  path: 16/audio/wave-sine.svg
+  tags:
+  - audio
+- name: wave-square
+  path: 16/audio/wave-square.svg
+  tags:
+  - audio
+- name: wave-triangle
+  path: 16/audio/wave-triangle.svg
+  tags:
+  - audio
 - name: webcam
   path: 16/hardware/webcam.svg
   tags:
@@ -4727,6 +4961,20 @@ icons:
   - referee
   - sound
   - sports
+- name: window
+  path: 16/navigation/window.svg
+  tags:
+  - application
+  - desktop
+  - navigation
+  - system
+- name: window-lock
+  path: 16/navigation/window-lock.svg
+  tags:
+  - application
+  - desktop
+  - navigation
+  - system
 - name: windows
   path: 16/brand/windows.svg
   tags:

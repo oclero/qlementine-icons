@@ -1,5 +1,25 @@
 # Changelog
 
+## v1.16.0
+
+- Modified icons:
+  - 16x16:
+    - Action: `eye-closed`, `pin`, `refresh`, `run`, `separate-horizontal`.
+    - Misc: `light-bulb-on`, `link`, `medal-one`, `puzzle-piece`, `sms`, `speed-progressive`.
+    - Navigation: `jump-over-backwards`, `layers-4`.
+
+- Add icons:
+  - 16x16:
+    - Action: `fork`, `import`, `merge`, `paste-special`.
+    - Audio: `wave-sine`, `wave-square`, `wave-triangle`.
+    - Misc: `bar-code`, `function-random`, `none`, `qr-code`.
+    - Navigation: `window-lock`, `window`.
+    - Phone: `call-crossed-out`, `call-end`, `call-hangup`, `call-hold`, `call-in`, `call-missed`, `call-muted`, `call-out`, `call-ringing`, `call`, `dial`, `voicemail`.
+
+- Update the CMake code to use Qt6's CMake functions, instead of using homemade functions.
+
+- Update FreeDesktop mapping.
+
 ## v1.15.0
 
 17 new icons!
