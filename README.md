@@ -16,7 +16,7 @@
 | `master` | [![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg?branch=master)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml) [![Windows](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml/badge.svg?branch=master)](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml) [![MacOS](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml/badge.svg?branch=master)](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml) |
 |  `dev`   | [![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg?branch=dev)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml) [![Windows](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml/badge.svg?branch=dev)](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml) [![MacOS](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml/badge.svg?branch=dev)](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml)          |
 
-Vector icon set for modern desktop Qt6 applications. Browse the 350+ icons on the [project's website](https://oclero.github.io/qlementine-icons).
+Vector icon set for modern desktop Qt6 applications. Browse the 900+ icons on the [project's website](https://oclero.github.io/qlementine-icons).
 
 > **Need more icons?** Commissions for new icons (free or commercial) are possible. See below.
 
