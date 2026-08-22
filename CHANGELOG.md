@@ -12,8 +12,10 @@
   - 16x16:
     - Action: `fork`, `import`, `merge`, `paste-special`.
     - Audio: `wave-sine`, `wave-square`, `wave-triangle`.
-    - Misc: `function-random`, `none`, `qr-code`.
+    - Misc: `bar-code`, `function-random`, `none`, `qr-code`.
     - Navigation: `window-lock`, `window`.
+
+- Update the Cmake code to use Qt6's CMake functions, instead of using homemade functions.
 
 ## v1.15.0
 
