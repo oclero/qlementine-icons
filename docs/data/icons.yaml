@@ -586,6 +586,142 @@ icons:
   - office
   - week
   - year
+- name: call
+  path: 16/phone/call.svg
+  tags:
+  - communicate
+  - communication
+  - phone
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-crossed-out
+  path: 16/phone/call-crossed-out.svg
+  tags:
+  - cancel
+  - communicate
+  - communication
+  - none
+  - phone
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-end
+  path: 16/phone/call-end.svg
+  tags:
+  - communicate
+  - communication
+  - end
+  - hangup
+  - phone
+  - stop
+  - talk
+  - telephone
+  - terminate
+  - voice
+  - voip
+- name: call-hangup
+  path: 16/phone/call-hangup.svg
+  tags:
+  - communicate
+  - communication
+  - end
+  - hangup
+  - hangup
+  - phone
+  - stop
+  - talk
+  - telephone
+  - terminate
+  - voice
+  - voip
+- name: call-hold
+  path: 16/phone/call-hold.svg
+  tags:
+  - break
+  - communicate
+  - communication
+  - hold
+  - intermission
+  - pause
+  - phone
+  - suspend
+  - talk
+  - telephone
+  - voice
+  - voip
+  - wait
+- name: call-in
+  path: 16/phone/call-in.svg
+  tags:
+  - accept
+  - answer
+  - communicate
+  - communication
+  - incoming
+  - phone
+  - receive
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-missed
+  path: 16/phone/call-missed.svg
+  tags:
+  - cancel
+  - communicate
+  - communication
+  - decline
+  - ignore
+  - missed
+  - phone
+  - reject
+  - talk
+  - telephone
+  - unanswer
+  - voice
+  - voip
+- name: call-muted
+  path: 16/phone/call-muted.svg
+  tags:
+  - communicate
+  - communication
+  - mute
+  - phone
+  - quiet
+  - silence
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-out
+  path: 16/phone/call-out.svg
+  tags:
+  - communicate
+  - communication
+  - dial
+  - make
+  - outgoing
+  - phone
+  - talk
+  - telephone
+  - voice
+  - voip
+- name: call-ringing
+  path: 16/phone/call-ringing.svg
+  tags:
+  - calling
+  - communicate
+  - communication
+  - incoming
+  - phone
+  - ringing
+  - talk
+  - telephone
+  - voice
+  - voip
 - name: camera
   path: 16/hardware/camera.svg
   tags:
@@ -1125,6 +1261,13 @@ icons:
   tags:
   - operating system
   - software
+- name: dial
+  path: 16/phone/dial.svg
+  tags:
+  - keyboard
+  - number
+  - phone
+  - telephone
 - name: dialog
   path: 16/misc/dialog.svg
   tags:
@@ -4737,6 +4880,12 @@ icons:
   - instruments
   - orchestra
   - viola
+- name: voicemail
+  path: 16/phone/voicemail.svg
+  tags:
+  - message
+  - phone
+  - telephone
 - name: vst3
   path: 16/brand/vst3.svg
   tags:

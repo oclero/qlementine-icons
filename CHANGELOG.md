@@ -14,6 +14,7 @@
     - Audio: `wave-sine`, `wave-square`, `wave-triangle`.
     - Misc: `bar-code`, `function-random`, `none`, `qr-code`.
     - Navigation: `window-lock`, `window`.
+    - Phone: `call-crossed-out`, `call-end`, `call-hangup`, `call-hold`, `call-in`, `call-missed`, `call-muted`, `call-out`, `call-ringing`, `call`, `dial`, `voicemail`.
 
 - Update the Cmake code to use Qt6's CMake functions, instead of using homemade functions.
 
