@@ -1,5 +1,5 @@
 baseURL: https://oclero.github.io/qlementine-icons/
-languageCode: en-us
+defaultContentLanguage: en
 title: Qlementine Icons
 disableKinds:
   - taxonomy
@@ -12,9 +12,16 @@ params:
   github: https://github.com/oclero/qlementine-icons
 module:
   mounts:
+    - source: assets
+      target: assets
     - source: ../sources/resources/icons
       target: static/img/icons
-      includeFiles: "/**/**.svg"
+      files:
+        - "**/*.svg"
+    - source: ../sources/resources/icons
+      target: assets/img/icons
+      files:
+        - "**/*.svg"
 outputs:
   home:
     - html
@@ -26,7 +33,7 @@ minify:
       keepVarNames: false
     html:
       keepComments: false
-      keepConditionalComments: false
+      keepSpecialComments: false
       keepDefaultAttrVals: true
       keepDocumentTags: true
       keepEndTags: true

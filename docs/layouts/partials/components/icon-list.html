@@ -9,11 +9,11 @@
     </tr>
   </thead>
   <tbody id="{{ $id }}">
-    {{- $icons := site.Data.icons.icons -}}
+    {{- $icons := hugo.Data.icons.icons -}}
     {{- range sort $icons "name" -}}
       {{- $name := .name -}}
       {{- $freedesktop := .freedesktop -}}
-      {{- $path := print "static/img/icons/" .path -}}
+      {{- $path := print "img/icons/" .path -}}
       {{- $url := print "img/icons/" .path -}}
       <tr data-name="{{ $name }}" data-url="{{ $url }}">
         <td>
