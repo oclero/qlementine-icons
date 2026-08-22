@@ -373,6 +373,7 @@ enum class Icons16 {
   Misc_AirplaneMode,
   Misc_Attachement,
   Misc_Award,
+  Misc_BarCode,
   Misc_Bell,
   Misc_Blocks,
   Misc_Book,
@@ -711,7 +712,7 @@ enum class Icons16 {
 };
 
 inline const char* iconPath(Icons16 id) {
-  static constexpr std::array<const char*, 698> icons{
+  static constexpr std::array<const char*, 699> icons{
     "",
     ":/qlementine/icons/16/action/add-file.svg",
     ":/qlementine/icons/16/action/add-folder.svg",
@@ -1075,6 +1076,7 @@ inline const char* iconPath(Icons16 id) {
     ":/qlementine/icons/16/misc/airplane-mode.svg",
     ":/qlementine/icons/16/misc/attachement.svg",
     ":/qlementine/icons/16/misc/award.svg",
+    ":/qlementine/icons/16/misc/bar-code.svg",
     ":/qlementine/icons/16/misc/bell.svg",
     ":/qlementine/icons/16/misc/blocks.svg",
     ":/qlementine/icons/16/misc/book.svg",

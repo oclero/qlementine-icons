@@ -355,6 +355,16 @@ icons:
   - bluegrass
   - country
   - instruments
+- name: bar-code
+  path: 16/misc/bar-code.svg
+  tags:
+  - misc
+  - product
+  - scan
+  - scanner
+  - shopping
+  - universal product code
+  - upc
 - name: bass
   path: 16/instrument/bass.svg
   tags:
