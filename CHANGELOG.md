@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.16.1
+
+- Fix `ui-panels` icons, which were not displayed correctly in the previous version.
+- Remove `fill="none"` from all the icons.
+- Fix Hugo docs.
+
 ## v1.16.0
 
 - Modified icons:

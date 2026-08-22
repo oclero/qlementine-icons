@@ -1,5 +1,8 @@
 {{- $path := . -}}
-{{- $svgContent := readFile $path | safeHTML -}}
+{{- $svg := resources.Get $path -}}
+{{- if not $svg -}}
+  {{- errorf "SVG file not found: %s" $path -}}
+{{- end -}}
 <div class="svg-icon">
-  {{- $svgContent -}}
+  {{- $svg.Content | safeHTML -}}
 </div>
