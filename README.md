@@ -9,7 +9,6 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://mit-license.org/)
 [![CMake version](https://img.shields.io/badge/CMake-3.17+-064F8C?logo=cmake)](https://www.qt.io)
 [![C++ version](https://img.shields.io/badge/C++-17-00599C?logo=++)](https://www.qt.io)
-[![Qt5 version](https://img.shields.io/badge/Qt-5.15.2+-41CD52?logo=qt)](https://www.qt.io)
 [![Qt6 version](https://img.shields.io/badge/Qt-6.0.0+-41CD52?logo=qt)](https://www.qt.io)
 
 |  Branch  | Build                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -17,7 +16,7 @@
 | `master` | [![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg?branch=master)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml) [![Windows](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml/badge.svg?branch=master)](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml) [![MacOS](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml/badge.svg?branch=master)](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml) |
 |  `dev`   | [![Linux](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml/badge.svg?branch=dev)](https://github.com/oclero/qlementine-icons/actions/workflows/linux.yml) [![Windows](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml/badge.svg?branch=dev)](https://github.com/oclero/qlementine-icons/actions/workflows/windows.yml) [![MacOS](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml/badge.svg?branch=dev)](https://github.com/oclero/qlementine-icons/actions/workflows/macos.yml)          |
 
-Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons on the [project's website](https://oclero.github.io/qlementine-icons).
+Vector icon set for modern desktop Qt6 applications. Browse the 350+ icons on the [project's website](https://oclero.github.io/qlementine-icons).
 
 > **Need more icons?** Commissions for new icons (free or commercial) are possible. See below.
 
@@ -79,7 +78,6 @@ Vector icon set for modern desktop Qt5/Qt6 applications. Browse the 350+ icons o
    ```
 
 5. When you want to retrieve an icon, you can use one of these methods:
-
    1. With `QIcon::fromTheme()`, by using the icon name.
 
       ```c++
@@ -129,12 +127,11 @@ update.py
 This script will update the various files that depend on the icon list:
 
 - **Qt files**
-
-  1. The script creates the `.qrc` files based on the folder structure.
-  2. In `sources/CMakeLists.txt`, cmake uses the `glob` function to get all the `.qrc` files, and will generate the appropriate C++ lines in `sources/src/icons/QlementineIcons.cpp`.
+  - The script updates the C++ icon enum headers based on the folder structure.
+  - The script updates the Freedesktop mapping in `sources/src/icons/QlementineIcons.cpp`.
+  - The SVG resources are embedded directly by CMake with `qt_add_resources()`.
 
 - **Hugo files**
-
   - The script keeps up-to-date the `docs/data/icons.yml` metadata file.
   - This file is used to generate at compile-time the HTML table.
 

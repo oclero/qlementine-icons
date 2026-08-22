@@ -14,16 +14,13 @@ def this_dir_path():
 ICONS_DIR = 'sources/resources/icons'
 
 CPP_FILEPATH = 'sources/src/icons/QlementineIcons.cpp'
-CPP_REGEXP_QRC = r'(\/\/ ---QRC.*)\s+((?:.*\n)*)\s+(\/\/ ---QRC)'
 CPP_REGEXP_MAP = r'(\/\/ ---MAP.*)\s+((?:.*\n)*)\s+(\/\/ ---MAP)'
 
 HPP_ENUM_DIR = 'sources/include/oclero/qlementine/icons/'
 HPP_ENUM_NAME_REGEX = r'(.*\/)(.*\.svg)'
 HPP_ENUM_TEMPLATE_FILEPATH = this_dir_path() + '/resources/Template.hpp'
 
-QRC_TEMPLATE_FILEPATH = this_dir_path() + '/resources/Template.qrc'
-
-QRC_PREFIX = '/qlementine/icons'
+RESOURCE_PREFIX = '/qlementine/icons'
 
 FREEDESKTOP_MAPPING_PATH = 'sources/FreeDesktopMappings.json'
 
@@ -76,30 +73,7 @@ def build_icon_lists(icons_dir: str) -> dict[str, list[str]]:
   return icon_lists
 
 
-def write_qrc_file(icons_dir: str, category: str, items: list[str], qrc_prefix: str) -> str:
-
-  qrc_items = map(lambda x: f'<file>{category}/{x}</file>', items)
-  qrc_items_str = '\n    '.join(qrc_items)
-
-  dir_name = pathlib.Path(icons_dir).name
-  qrc_prefix = qrc_prefix + '/' + dir_name
-
-  # Write file using the template.
-  file_content = get_template(QRC_TEMPLATE_FILEPATH).substitute(
-    qrc_prefix=qrc_prefix,
-    qrc_items=qrc_items_str,
-  )
-  file_name = qrc_prefix.replace(
-    '/', '_').lower()[1:] + '_' + category + '.qrc'
-  file_path = os.path.join(icons_dir, file_name)
-
-  with open(file_path, 'w') as f:
-    f.write(file_content)
-
-  return file_path
-
-
-def write_enum_hpp_file(icon_lists: dict[str, list[str]], enum_name: str, output_filepath: str, qrc_path_base: str) -> None:
+def write_enum_hpp_file(icon_lists: dict[str, list[str]], enum_name: str, output_filepath: str, resource_path_base: str) -> None:
   # Prepare data for the template.
   enum_count = 1  # 'None' is already added in the template.
   enum_keys = []
@@ -108,7 +82,7 @@ def write_enum_hpp_file(icon_lists: dict[str, list[str]], enum_name: str, output
     for item in items:
       enum_count += 1
       enum_keys.append(get_enum_key(f'{category}/{item}'))
-      array_items.append(f'":{qrc_path_base}/{category}/{item}"')
+      array_items.append(f'":{resource_path_base}/{category}/{item}"')
 
   # Write file using the template.
   template_result = get_template(HPP_ENUM_TEMPLATE_FILEPATH).substitute(
@@ -138,17 +112,13 @@ def get_freedesktop_map_lines(mapping_filepath: str) -> list[str]:
   return map_lines
 
 
-def modify_cpp_file(qrc_init_lines: list[str], map_lines: list[str], cpp_filepath: str) -> None:
+def modify_cpp_file(map_lines: list[str], cpp_filepath: str) -> None:
   with open(cpp_filepath, 'r') as f:
     cpp_content = f.read()
 
-  # qrc
-  replacement_qrc = r'\1\n  {}\n  \3'.format('\n  '.join(qrc_init_lines))
-  new_cpp_content = re.sub(CPP_REGEXP_QRC, replacement_qrc, cpp_content)
-
   # map
   replacement_map = r'\1\n  {}\n  \3'.format('\n  '.join(map_lines))
-  new_cpp_content = re.sub(CPP_REGEXP_MAP, replacement_map, new_cpp_content)
+  new_cpp_content = re.sub(CPP_REGEXP_MAP, replacement_map, cpp_content)
 
   with open(cpp_filepath, 'w') as f:
     f.write(new_cpp_content)
@@ -157,7 +127,6 @@ def modify_cpp_file(qrc_init_lines: list[str], map_lines: list[str], cpp_filepat
 def update():
   print(f'Updating Qt file(s)...')
 
-  qrc_init_lines: list[str] = []
   map_lines = get_freedesktop_map_lines(FREEDESKTOP_MAPPING_PATH)
 
   dirs = [f for f in os.scandir(ICONS_DIR) if f.is_dir()]
@@ -168,25 +137,16 @@ def update():
     # Get lists of files from disk.
     icon_lists = build_icon_lists(dir_path)
 
-    # Modify QRC files.
-    for category, items in icon_lists.items():
-      file_path = write_qrc_file(dir_path, category, items, QRC_PREFIX)
-      print(f'Updated {file_path}')
-
-      # Line to be added to cpp file.
-      qrc_init_func_name = pathlib.Path(file_path).name.split('.')[0]
-      qrc_init_lines.append(f'Q_INIT_RESOURCE({qrc_init_func_name});')
-
     # Modify HPP file that contains the C++ enum.
     enum_name = 'Icons' + dir.name
     hpp_filepath = HPP_ENUM_DIR + enum_name + '.hpp'
-    qrc_path_base = QRC_PREFIX + '/' + dir.name
-    write_enum_hpp_file(icon_lists, enum_name, hpp_filepath, qrc_path_base)
+    resource_path_base = RESOURCE_PREFIX + '/' + dir.name
+    write_enum_hpp_file(icon_lists, enum_name,
+                        hpp_filepath, resource_path_base)
     print(f'Updated {hpp_filepath}')
 
   # Modify CPP file.
-  # NB: CMake file doesn't need modification as it globs all .qrc files.
-  modify_cpp_file(qrc_init_lines, map_lines, CPP_FILEPATH)
+  modify_cpp_file(map_lines, CPP_FILEPATH)
   print(f'Updated {CPP_FILEPATH}')
 
   print(f'Done updating Qt file(s).\n')

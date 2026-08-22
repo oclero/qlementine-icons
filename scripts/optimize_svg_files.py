@@ -86,7 +86,7 @@ def get_icons_dir() -> str:
 
 if __name__ == '__main__':
   print('Optimizing SVG files...')
-  icons_dir = get_icons_dir()
+  icons_dir = "/Users/oclero/Downloads/icons"  # get_icons_dir()
   new_color = DEFAULT_COLOR
   count = process_svg_folder(
     icons_dir, overwrite=True, change_color=True, new_color=new_color)

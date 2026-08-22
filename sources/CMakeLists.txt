@@ -2,7 +2,7 @@
 add_library(${PROJECT_NAME} STATIC)
 include(CMakePackageConfigHelpers)
 
-file(GLOB_RECURSE QRC_FILES "resources/icons/*.qrc")
+file(GLOB_RECURSE ICON_SVG_FILES CONFIGURE_DEPENDS "resources/icons/*.svg")
 file(GLOB_RECURSE HPP_FILES "include/oclero/qlementine/icons/*.hpp")
 file(GLOB_RECURSE CPP_FILES "src/icons/*.cpp")
 
@@ -10,7 +10,13 @@ target_sources(${PROJECT_NAME}
   PRIVATE
     ${HPP_FILES}
     ${CPP_FILES}
-    ${QRC_FILES}
+)
+
+qt_add_resources(${PROJECT_NAME} qlementine_icons
+  PREFIX "/qlementine/icons"
+  BASE "${CMAKE_CURRENT_SOURCE_DIR}/resources/icons"
+  FILES ${ICON_SVG_FILES}
+  OUTPUT_TARGETS RESOURCE_TARGETS
 )
 
 target_include_directories(${PROJECT_NAME}
@@ -30,7 +36,6 @@ target_link_libraries(${PROJECT_NAME}
 set_target_properties(${PROJECT_NAME} PROPERTIES
   LINKER_LANGUAGE CXX
   AUTOMOC ON
-  AUTORCC ON
   OUTPUT_NAME     ${PROJECT_NAME}
   PROJECT_LABEL   ${PROJECT_NAME}
   SOVERSION       ${PROJECT_VERSION_MAJOR}
@@ -49,7 +54,7 @@ write_basic_package_version_file("${CMAKE_BINARY_DIR}/cmake/${PROJECT_NAME}Confi
   VERSION "${PROJECT_VERSION}"
   COMPATIBILITY AnyNewerVersion)
 
-install(TARGETS ${PROJECT_NAME}
+install(TARGETS ${PROJECT_NAME} ${RESOURCE_TARGETS}
   EXPORT "${PROJECT_NAME}Targets"
   LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}"
   ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
