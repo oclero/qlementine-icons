@@ -18,6 +18,8 @@
 
 - Update the Cmake code to use Qt6's CMake functions, instead of using homemade functions.
 
+- Update FreeDesktop mapping.
+
 ## v1.15.0
 
 17 new icons!
