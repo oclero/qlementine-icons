@@ -4674,6 +4674,30 @@ icons:
   - outline
   - status
   - window
+- name: ui-panel-left-collapse
+  path: 16/navigation/ui-panel-left-collapse.svg
+  tags:
+  - chevron
+  - close
+  - collapse
+  - hide
+  - interface
+  - navigation
+  - outline
+  - sidebar
+  - window
+- name: ui-panel-left-expand
+  path: 16/navigation/ui-panel-left-expand.svg
+  tags:
+  - chevron
+  - expand
+  - interface
+  - navigation
+  - open
+  - outline
+  - show
+  - sidebar
+  - window
 - name: ui-panel-right
   path: 16/navigation/ui-panel-right.svg
   tags:
@@ -4682,6 +4706,30 @@ icons:
   - interface
   - navigation
   - outline
+  - window
+- name: ui-panel-right-collapse
+  path: 16/navigation/ui-panel-right-collapse.svg
+  tags:
+  - chevron
+  - close
+  - collapse
+  - hide
+  - interface
+  - navigation
+  - outline
+  - sidebar
+  - window
+- name: ui-panel-right-expand
+  path: 16/navigation/ui-panel-right-expand.svg
+  tags:
+  - chevron
+  - expand
+  - interface
+  - navigation
+  - open
+  - outline
+  - show
+  - sidebar
   - window
 - name: ui-panel-top
   path: 16/navigation/ui-panel-top.svg
