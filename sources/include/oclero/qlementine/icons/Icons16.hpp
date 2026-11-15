@@ -588,7 +588,11 @@ enum class Icons16 {
   Navigation_StepOut,
   Navigation_UiPanelBottom,
   Navigation_UiPanelLeft,
+  Navigation_UiPanelLeftCollapse,
+  Navigation_UiPanelLeftExpand,
   Navigation_UiPanelRight,
+  Navigation_UiPanelRightCollapse,
+  Navigation_UiPanelRightExpand,
   Navigation_UiPanelTop,
   Navigation_UiPanelsAll,
   Navigation_UiPanelsBottom,
@@ -724,7 +728,7 @@ enum class Icons16 {
 };
 
 inline const char* iconPath(Icons16 id) {
-  static constexpr std::array<const char*, 711> icons{
+  static constexpr std::array<const char*, 715> icons{
     "",
     ":/qlementine/icons/16/action/add-file.svg",
     ":/qlementine/icons/16/action/add-folder.svg",
@@ -1303,7 +1307,11 @@ inline const char* iconPath(Icons16 id) {
     ":/qlementine/icons/16/navigation/step-out.svg",
     ":/qlementine/icons/16/navigation/ui-panel-bottom.svg",
     ":/qlementine/icons/16/navigation/ui-panel-left.svg",
+    ":/qlementine/icons/16/navigation/ui-panel-left-collapse.svg",
+    ":/qlementine/icons/16/navigation/ui-panel-left-expand.svg",
     ":/qlementine/icons/16/navigation/ui-panel-right.svg",
+    ":/qlementine/icons/16/navigation/ui-panel-right-collapse.svg",
+    ":/qlementine/icons/16/navigation/ui-panel-right-expand.svg",
     ":/qlementine/icons/16/navigation/ui-panel-top.svg",
     ":/qlementine/icons/16/navigation/ui-panels-all.svg",
     ":/qlementine/icons/16/navigation/ui-panels-bottom.svg",
